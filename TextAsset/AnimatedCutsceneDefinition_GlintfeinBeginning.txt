@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AnimatedCutsceneDefinition Id="GlintfeinBeginning" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="AnimatedCutsceneDefinition.xsd">
+   
+   <Slide Id="Slide_SchadenFreude">
+      <ChangeMusic ClipAssetName="Music_Introduction_Placeholder"/>
+
+      <!--ANIM : Commander-->
+     <NextAnimation>
+       <!--<WaitForClipDuration/>-->
+     </NextAnimation>
+     <!--SOUND-->
+     <PlaySound ClipAssetName="Slide_01_Commander">
+     <Delay>0</Delay>
+     </PlaySound>
+     <!-- TEXT: The Commander has always been wary of the Twin's intents. -->
+     <AppendNextText/>
+
+     <!--ANIM : Twins-->
+     <NextAnimation>
+       <!--<WaitForClipDuration/>-->
+     </NextAnimation>
+     <!--SOUND-->
+     <PlaySound ClipAssetName="Slide_01_Gods">
+     <Delay>0</Delay>
+     </PlaySound>
+     <!-- TEXT: He knew they would use him, as much as he would use them. -->
+     <AppendNextText/>
+     <!-- TEXT: But they have to be stopped before the could overpower him and take control. -->
+     <AppendNextText/>
+     <NextAnimation>
+       <WaitForClipDuration/>
+     </NextAnimation>
+   </Slide>
+
+   <Slide Id="Slide_Glintfein">
+     <!--ANIM : Glintfein-->
+     <NextAnimation>
+       <WaitForClipDuration/>
+     </NextAnimation>
+     <!--SOUND-->
+     <PlaySound ClipAssetName="Slide_02_Commander">
+     <Delay>0</Delay>
+     </PlaySound>
+     <!-- TEXT: While they were slowly seeping out of the Oraculum, permeating his will, -->
+     <AppendNextText/>
+     <!--SOUND-->
+     <PlaySound ClipAssetName="Slide_02_Landscape">
+     <Delay>0</Delay>
+     </PlaySound>
+
+     
+     <NextAnimation>
+       <!--<WaitForClipDuration/>-->
+     </NextAnimation>
+     <!-- TEXT: He devised a new ritual to counter their ever-growing lust for chaos and domination. -->
+     <AppendNextText/>
+     <!-- TEXT: He lured them in the ruins of Glintfein, where everything had started, and shall end. -->
+     <AppendNextText/>
+     <NextAnimation>
+       <WaitForClipDuration/>
+     </NextAnimation>
+   </Slide>
+  
+</AnimatedCutsceneDefinition>

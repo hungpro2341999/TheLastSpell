@@ -1,0 +1,8 @@
+﻿<PathfindingDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="PathfindingDefinition.xsd">
+
+   <EnemyAISpreadFactor Value="1.35"/>
+
+   <NodeWeightFogMultiplier Value="3"/>
+
+</PathfindingDefinition>

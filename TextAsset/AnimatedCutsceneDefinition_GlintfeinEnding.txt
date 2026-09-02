@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AnimatedCutsceneDefinition Id="GlintfeinEnding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="AnimatedCutsceneDefinition.xsd">
+  
+  <Slide Id="Slide_CommanderEyeShine">
+     <!--SOUND-->
+     <PlaySound ClipAssetName="Slide_01_Commander">
+     <Delay>0.6</Delay>
+     </PlaySound>
+     <NextAnimation>
+       <WaitForClipDuration/>
+        <!--ANIM : The Commander's silhouette appears-->
+     </NextAnimation>
+
+    <NextAnimation>
+       <!--ANIM : The Commander's eye is Shining-->
+    </NextAnimation>
+     <!--SOUND-->
+     <PlaySound ClipAssetName="Slide_01_Eye">
+     <Delay>0</Delay>
+     </PlaySound>
+       <!--TEXT : His unearthly ritual had turned Teller's own flesh into a walking sarcophagus.-->
+    <AppendNextText/>
+
+    <!--SOUND-->
+     <PlaySound ClipAssetName="Slide_01_Tree">
+     <Delay>0.2</Delay>
+     </PlaySound>
+
+    <NextAnimation>
+      <WaitForClipDuration/>
+      <!--ANIM : The corruption spread in the commander's body-->
+    </NextAnimation>
+    <!--TEXT : The Twins, and all magic, are now forever entombed into his engraved skull. And so he bears his inner hell into eternity, dripping corrupted arcana and divine awe.-->
+    <AppendNextText/>
+    <ClearText></ClearText>
+
+    <NextAnimation>
+
+      <!--ANIM : Zoom out in the sky-->
+    </NextAnimation>
+    <!--SOUND-->
+     <PlaySound ClipAssetName="Slide_02_ZoomOut">
+     <Delay>0</Delay>
+     </PlaySound>
+      <!--TEXT : Through his quest for redemption, he had become an Aeon's chosen.-->
+    <AppendNextText/>
+    
+    <NextAnimation>
+       <WaitForClipDuration/>
+       <!--ANIM : Eye of the Law-->
+    </NextAnimation>
+    <!--TEXT : Anointed by the Eye of Law, he is bound to fix the infinite echoes of his mistakes.-->
+    <AppendNextText/>
+    <ClearText></ClearText>
+
+     <!--SOUND-->
+     <PlaySound ClipAssetName="Slide_03_EyeClosing">
+     <Delay>0</Delay>
+     </PlaySound>
+    
+    <NextAnimation>
+       <WaitForClipDuration/>
+       <!--ANIM : the eye closes -->
+    </NextAnimation>
+    <!--TEXT : But his daughters were chosen by the Maws of Chaos. And they struggle to break free...-->
+     <AppendNextText/>
+
+  </Slide>
+  
+</AnimatedCutsceneDefinition>

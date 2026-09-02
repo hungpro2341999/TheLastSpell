@@ -1,0 +1,27 @@
+﻿<UnitLevelUpDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="UnitLevelUpDefinition.xsd">
+
+   <RaritiesList Id="LevelUp">
+      <Probability Weight="100">1</Probability>
+      <Probability Weight="20">2</Probability>
+      <Probability Weight="10">3</Probability>
+      <!-- /!\ Rarity above 3 isn't supported ! /!\ -->
+   </RaritiesList>
+
+   <MaxAmountOfReroll>2</MaxAmountOfReroll>
+   
+   <!--Amount of main attributes to chose from per reroll (starting at 0 reroll)-->
+   <MainStatDraws>
+      <Draw>5</Draw>
+      <Draw>3</Draw>
+      <Draw>2</Draw>
+   </MainStatDraws>
+
+   <!--Amount of secondary attributes to chose from per reroll (starting at 0 reroll)-->
+   <SecondaryStatDraws>
+      <Draw>5</Draw>
+      <Draw>3</Draw>
+      <Draw>2</Draw>
+   </SecondaryStatDraws>
+
+</UnitLevelUpDefinition>

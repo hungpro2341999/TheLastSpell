@@ -1,0 +1,35 @@
+﻿<BuildingDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../BuildingDefinition.xsd"  Id="RuinsA">
+   <Blueprint>
+      <Tiles OriginX="0" OriginY="0">
+         B
+      </Tiles>
+      <BuildingHUDOffset X="-26" Y="50"/>
+   </Blueprint>
+
+   <Construction>
+      <IsDemolishable>true</IsDemolishable>
+      <GroundCategories>
+         <GroundCategory>City</GroundCategory>
+         <GroundCategory>Outside</GroundCategory>
+      </GroundCategories>
+      <IsDestroyable/>
+   </Construction>
+
+   <Damageable>
+      <HealthTotal>50</HealthTotal>
+      <TotalPanicValue>1</TotalPanicValue>
+      <FlameAnchorPoints>
+         <FlameAnchorPoint PositionX="-0.65" PositionY="0.6"/>
+         <FlameAnchorPoint PositionX="-0.46" PositionY="1.19"/>
+         <FlameAnchorPoint PositionX="0.28" PositionY="0.85"/>
+      </FlameAnchorPoints>
+      <FlameCount>1</FlameCount>
+   </Damageable>
+
+   <Production>
+      <BuildingActionDefinitions>
+         <BuildingActionDefinition Id="ScavengeGold"/>
+         <BuildingActionDefinition Id="ScavengeMaterials"/>
+      </BuildingActionDefinitions>
+   </Production>
+</BuildingDefinition>

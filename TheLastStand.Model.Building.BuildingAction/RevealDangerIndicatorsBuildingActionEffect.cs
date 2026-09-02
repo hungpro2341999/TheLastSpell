@@ -1,0 +1,17 @@
+using TheLastStand.Controller.Building.BuildingAction;
+using TheLastStand.Definition.Building.BuildingAction;
+using TheLastStand.Model.Building.Module;
+
+namespace TheLastStand.Model.Building.BuildingAction;
+
+public class RevealDangerIndicatorsBuildingActionEffect : BuildingActionEffect
+{
+	public RevealDangerIndicatorsBuildingActionEffectController RevealWaveEnemiesRatioBuildingActionEffectController => base.BuildingActionEffectController as RevealDangerIndicatorsBuildingActionEffectController;
+
+	public RevealDangerIndicatorsBuildingActionEffectDefinition RevealWaveEnemiesRatioBuildingActionEffectDefinition => base.BuildingActionEffectDefinition as RevealDangerIndicatorsBuildingActionEffectDefinition;
+
+	public RevealDangerIndicatorsBuildingActionEffect(RevealDangerIndicatorsBuildingActionEffectDefinition definition, RevealDangerIndicatorsBuildingActionEffectController controller, ProductionModule productionBuilding)
+		: base(definition, controller, productionBuilding)
+	{
+	}
+}

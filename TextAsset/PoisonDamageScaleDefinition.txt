@@ -1,0 +1,16 @@
+﻿<PoisonDamageScaleDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="PoisonDamageScaleDefinition.xsd">
+
+   <Multiplier Level="0">1</Multiplier>
+   <Multiplier Level="1">1.2</Multiplier>
+   <Multiplier Level="2">1.4</Multiplier>
+   <Multiplier Level="3">1.6</Multiplier>
+   <Multiplier Level="4">1.8</Multiplier>
+   <Multiplier Level="5">2</Multiplier>
+   <Multiplier Level="6">2.1</Multiplier>
+   <Multiplier Level="7">2.4</Multiplier>
+   <Multiplier Level="8">2.7</Multiplier>
+   <Multiplier Level="9">3</Multiplier>
+   <Multiplier Level="10">3.1</Multiplier>
+
+</PoisonDamageScaleDefinition>

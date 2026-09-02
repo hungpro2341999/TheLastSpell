@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AnimatedCutsceneDefinition Id="GlintfeinPostPillar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="AnimatedCutsceneDefinition.xsd">
+   
+   <Slide Id="Slide_SchadenFreude">
+    <!--SOUND-->
+     <PlaySound ClipAssetName="Slide_01_Commander">
+     <Delay>0.6</Delay>
+     </PlaySound>
+     <!--ANIM : Commander-->
+     <NextAnimation>
+       <WaitForClipDuration/>
+     </NextAnimation>
+     <!-- TEXT: The Twins believed they could get reborn in the blink of an eye, until victorious. -->
+     <AppendNextText/>
+     
+     <!--ANIM : Schaden and Freude getting closer-->
+     <NextAnimation>
+       <!--<WaitForClipDuration/>-->
+     </NextAnimation>
+     <!--SOUND-->
+     <PlaySound ClipAssetName="Slide_01_Gods">
+     <Delay>0</Delay>
+     </PlaySound>
+     <!-- TEXT: They thought it was only a matter of time before he would surrender to their will. -->
+     <AppendNextText/>
+     <ClearText/>
+    
+     <!--ANIM : Commander's transformation-->
+     <NextAnimation>
+       <!--<WaitForClipDuration/>-->
+     </NextAnimation>
+     <!--SOUND-->
+     <PlaySound ClipAssetName="Slide_01_FeuerFrei">
+     <Delay>0</Delay>
+     </PlaySound>
+     <!-- TEXT: Yet the fallen Archmage had a surprise for them... -->
+     <AppendNextText/>
+     <NextAnimation>
+       <WaitForClipDuration/>
+     </NextAnimation>
+     
+     <!-- Hack to replace the commander into its "eye of the law" form before the fade out. -->
+     <ReplaceCommanderView/>
+   </Slide>
+</AnimatedCutsceneDefinition>

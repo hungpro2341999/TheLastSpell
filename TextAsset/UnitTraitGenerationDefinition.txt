@@ -1,0 +1,6 @@
+﻿<UnitTraitGenerationDefinition>
+   <!--Value post meta = 6 -->
+   <StartTraitTotalPoints Value="0"/>
+   <!--Value post meta Min="1" Max="3"-->
+   <UnitTraitPointsBoundaries Min="-1" Max="1"/>
+</UnitTraitGenerationDefinition>

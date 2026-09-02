@@ -1,0 +1,8 @@
+﻿<StartInventoryItemDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="StartInventoryItemDefinitions.xsd">
+   <CreateItem>
+      <ItemsList Id="ItemList_InventoryBaseContent"/>
+      <ItemRaritiesList Id="AlwaysCommon"/>
+      <Count>0</Count>
+   </CreateItem>
+</StartInventoryItemDefinitions>

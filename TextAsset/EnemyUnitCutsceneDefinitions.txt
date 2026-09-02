@@ -1,0 +1,139 @@
+<CutsceneDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="CutsceneDefinitions.xsd">
+   
+   <!-- GUARDIANS -->
+   <UnitCutsceneDefinition Id="UnnamedSpawn" ShouldHideHUD="false" ShouldSetState="false">
+      <PlayFX WaitForFXDuration="true">
+         <SpawnFXs TotalDuration="1.5">
+            <SpawnVisualEffect>
+               <Path>Enemy Boss/Monarch/UnnamedSpawn/UnnamedSpawn_TargetBefore</Path>
+               <Delay>1.5</Delay>
+               <SortingDepth>Before</SortingDepth>
+            </SpawnVisualEffect>
+			
+			<SpawnVisualEffect>
+               <Path>Enemy Boss/Monarch/UnnamedSpawn/UnnamedSpawn_TargetBehind</Path>
+               <Delay>1.5</Delay>
+               <SortingDepth>Behind</SortingDepth>
+            </SpawnVisualEffect>
+
+             <SoundEffect> 
+                <Path>Unnamed/SFX_Enemy_Soulbound_Spawn_01</Path> 
+                <Delay>1.5</Delay> 
+             </SoundEffect> 
+
+            <CamShake>
+               <Id>Hard Hit-CamShake</Id>
+               <Delay>1.5</Delay>
+            </CamShake>
+
+            <!-- <CamShake> -->
+               <!-- <Id>MegaStompPropagation-CamShake</Id> -->
+               <!-- <Delay>1</Delay> -->
+            <!-- </CamShake> -->
+
+         </SpawnFXs>
+      </PlayFX>
+	  
+      <!-- <InstantiateParticles> -->
+         <!-- <Folder>Prefab/Boss/SpawnerBoss/</Folder> -->
+         <!-- <Id>SpawnFxBossSpawner</Id> -->
+      <!-- </InstantiateParticles> -->
+	  
+	  <Wait>0.4</Wait>
+	  
+      <InitUnitVisuals/>
+   </UnitCutsceneDefinition>
+   
+   <UnitCutsceneDefinition Id="UnnamedSpawnBoss" ShouldHideHUD="false" ShouldSetState="false">
+      <PlayFX WaitForFXDuration="false">
+         <SpawnFXs TotalDuration="2.5">
+            <SpawnVisualEffect>
+               <Path>Enemy Boss/Monarch/UnnamedSpawnBoss/UnnamedSpawnBoss_TargetBefore</Path>
+               <Delay>0</Delay>
+               <SortingDepth>Before</SortingDepth>
+            </SpawnVisualEffect>
+			
+			<SpawnVisualEffect>
+               <Path>Enemy Boss/Monarch/UnnamedSpawnBoss/UnnamedSpawnBoss_TargetBehind</Path>
+               <Delay>0</Delay>
+               <SortingDepth>Behind</SortingDepth>
+            </SpawnVisualEffect>
+
+            <SoundEffect>
+               <Path>Unnamed/SFX_Enemy_Soulbound_Spawn_01</Path>
+               <Delay>0</Delay>
+            </SoundEffect>
+            
+            <CamShake>
+               <Id>Hard Hit-CamShake</Id>
+               <Delay>0</Delay>
+            </CamShake>
+
+            <!-- <CamShake> -->
+               <!-- <Id>MegaStompPropagation-CamShake</Id> -->
+               <!-- <Delay>1</Delay> -->
+            <!-- </CamShake> -->
+
+         </SpawnFXs>
+      </PlayFX>
+	  
+      <!-- <InstantiateParticles> -->
+         <!-- <Folder>Prefab/Boss/SpawnerBoss/</Folder> -->
+         <!-- <Id>SpawnFxBossSpawner</Id> -->
+      <!-- </InstantiateParticles> -->
+	  
+	  <Wait>0.4</Wait>
+	  
+      <InitUnitVisuals/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="ShadowScytheSpawn" ShouldHideHUD="false" ShouldSetState="false">
+      <PlayFX WaitForFXDuration="false">
+         <SpawnFXs>
+            <SoundEffect>
+               <Path>ShadowScythe/SFX_ShadowScythe_Spawn</Path>
+               <Delay>0</Delay>
+            </SoundEffect>
+         </SpawnFXs>
+      </PlayFX>
+      <InitUnitVisuals/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="ShiningSwordSpawn" ShouldHideHUD="false" ShouldSetState="false">
+      <PlayFX WaitForFXDuration="false">
+         <SpawnFXs>
+            <SoundEffect>
+               <Path>ShiningSword/SFX_ShiningSword_Spawn</Path>
+               <Delay>0</Delay>
+            </SoundEffect>
+         </SpawnFXs>
+      </PlayFX>
+      <InitUnitVisuals/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="DamnedBombSpawn" ShouldHideHUD="false" ShouldSetState="false">
+      <PlayFX WaitForFXDuration="false">
+         <SpawnFXs>
+            <SoundEffect>
+               <Path>DamnedBomb/SFX_DamnedBomb_Spawn</Path>
+               <Delay>0</Delay>
+            </SoundEffect>
+         </SpawnFXs>
+      </PlayFX>
+      <InitUnitVisuals/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="MovingDamnedBombSpawn" ShouldHideHUD="false" ShouldSetState="false">
+      <PlayFX WaitForFXDuration="false">
+         <SpawnFXs>
+            <SoundEffect>
+               <Path>MovingDamnedBomb/SFX_DamnedBomb_Spawn</Path>
+               <Delay>0</Delay>
+            </SoundEffect>
+         </SpawnFXs>
+      </PlayFX>
+      <InitUnitVisuals/>
+   </UnitCutsceneDefinition>
+   
+</CutsceneDefinitions> 

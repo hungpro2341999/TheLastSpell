@@ -1,0 +1,61 @@
+﻿<ApocalypseDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                       xsi:noNamespaceSchemaLocation="ApocalypseDefinitions.xsd">
+
+   <ApocalypseDefinition Id="0">
+      <Effects/>
+   </ApocalypseDefinition>
+
+   <ApocalypseDefinition Id="1">
+      <Effects>
+         <EnemiesStatModifier Stat="HealthTotal" Value="20">
+            <TriggeredList>AllEnemies</TriggeredList>
+         </EnemiesStatModifier>
+      </Effects>
+   </ApocalypseDefinition>
+
+   <ApocalypseDefinition Id="2">
+      <Effects>
+         <!-- +30% pour chaque type d'ennemis -->
+         <IncreaseEnemiesNumber Value="30"/>
+      </Effects>
+   </ApocalypseDefinition>
+
+   <ApocalypseDefinition Id="3">
+      <Effects>
+         <GenerateFogSpawners/>
+      </Effects>
+   </ApocalypseDefinition>
+
+   <ApocalypseDefinition Id="4">
+      <Effects>
+         <IncreasePrices Type="All" Value="20"/>
+      </Effects>
+   </ApocalypseDefinition>
+
+   <ApocalypseDefinition Id="5">
+      <Effects>
+         <EnemiesStatModifier Stat="MovePointsTotal" Value="1">
+            <TriggeredList>ApocalypseMoveSpeed_SmallIncrease</TriggeredList>
+         </EnemiesStatModifier>
+         <EnemiesStatModifier Stat="MovePointsTotal" Value="2">
+            <TriggeredList>ApocalypseMoveSpeed_BigIncrease</TriggeredList>
+         </EnemiesStatModifier>
+      </Effects>
+   </ApocalypseDefinition>
+
+   <!-- Old Apocalypse : the fog is closer and progress every days
+    <ApocalypseDefinition Id="4">
+       <Effects>
+          <IncreaseStartingFogDensity Value="2"/>
+          <IncreaseDailyFogUpdateFrequency Value="1"/>
+       </Effects>
+    </ApocalypseDefinition>
+    -->
+
+   <ApocalypseDefinition Id="6">
+      <Effects>
+         <GenerateMalusAffixes/>
+      </Effects>
+   </ApocalypseDefinition>
+
+</ApocalypseDefinitions>

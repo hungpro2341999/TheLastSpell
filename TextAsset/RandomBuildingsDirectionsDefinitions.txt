@@ -1,0 +1,708 @@
+﻿<RandomBuildingsDirectionsDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                      xsi:noNamespaceSchemaLocation="RandomBuildingsDirectionsDefinitions.xsd">
+
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <!-- TEST -->
+   <!-- ███████████████████████████████████████████████████████████████ -->
+
+   <RandomBuildingsDirectionsDefinition Id="DirectionTest">
+      <Top>Empty</Top>
+      <Bottom>Empty</Bottom>
+      <Left>3Barricades</Left>
+      <Right>3Barricades</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="DirectionTest2">
+      <Top>Empty</Top>
+      <Bottom>10ManaWells</Bottom>
+      <Left>10ManaWells</Left>
+      <Right>Empty</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <!--Used to test boss spawns-->
+   <RandomBuildingsDirectionsDefinition Id="DebugBossSpawns">
+      <Top>FullofPillars</Top>
+      <Bottom>FullofPillars</Bottom>
+      <Left>FullofPillars</Left>
+      <Right>Empty</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+
+   <!-- Used to test various setups for Glintfein -->
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_00_Test_0">
+      <Top>Glintfein_04_FreudeHighwayThrone</Top>
+      <Bottom>Glintfein_02_SchadenSidesProtected</Bottom>
+      <Left>Glintfein_04_FreudeGridStaggeredRows</Left>
+      <Right>Glintfein_02_SchadenSidesProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_00_Test_1">
+      <Top>Glintfein_04_FreudeAlley</Top>
+      <Bottom>Glintfein_02_SchadenCenterProtected</Bottom>
+      <Left>Glintfein_04_FreudeGrid</Left>
+      <Right>Glintfein_02_SchadenCenterProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_00_Test_2">
+      <Top>Glintfein_04_FreudeHighwayMageStatuesAndThrone</Top>
+      <Bottom>Glintfein_02_SchadenCenterProtected</Bottom>
+      <Left>Glintfein_04_FreudeAlley</Left>
+      <Right>Glintfein_02_SchadenCenterProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_00_Test_3"> <!--REVOIR-->
+      <Top>Glintfein_04_FreudeAlley</Top>
+      <Bottom>Glintfein_02_SchadenSidesProtected</Bottom>
+      <Left>Glintfein_04_FreudeHighwaySplit</Left>
+      <Right>Glintfein_02_SchadenCenterProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_00_Test_4">
+      <Top>Glintfein_04_FreudeAlley</Top>
+      <Bottom>Glintfein_02_SchadenSidesProtected</Bottom>
+      <Left>Glintfein_04_FreudeHighwayMageStatuesAndThrone</Left>
+      <Right>Glintfein_02_SchadenSidesProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_00_Test_5">
+      <Top>Glintfein_04_FreudeAlley</Top>
+      <Bottom>Glintfein_02_SchadenSidesProtected</Bottom>
+      <Left>Glintfein_04_FreudeAlley</Left>
+      <Right>Glintfein_02_SchadenSidesProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <!-- END TESTS -->
+   <!-- ███████████████████████████████████████████████████████████████ -->
+
+
+	<!-- ███████████████████████████████████████████████████████████████ -->
+	<!-- GLINTFEIN-->
+	<!-- ███████████████████████████████████████████████████████████████ -->
+
+
+
+	<!--Empty generation usable to clear random buildings.-->
+   <RandomBuildingsDirectionsDefinition Id="Empty">
+      <DisableRotation/>
+      <!--Won't change anything as all directions are the same, but avoids a useless random rotation computation.-->
+      <Top>Empty</Top>
+      <Bottom>Empty</Bottom>
+      <Left>Empty</Left>
+      <Right>Empty</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   
+   <!--GLINTFEIN DAY 0-->
+   <!--Comme gen "normale" pour le jour 0, on prend 2 côtés standard, 1 côté - et un côté +-->
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_00_Normal_0">
+      <Top>Glintfein_00_LessBuildings</Top>
+      <Bottom>Glintfein_00_StandardSide</Bottom>
+      <Left>Glintfein_00_MoreBuildings</Left>
+      <Right>Glintfein_00_StandardSide</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_00_Normal_1">
+      <Top>Glintfein_00_LessBuildings</Top>
+      <Bottom>Glintfein_00_MoreBuildings</Bottom>
+      <Left>Glintfein_00_StandardSide</Left>
+      <Right>Glintfein_00_StandardSide</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <!--Gen avec moins de bâtiments-->
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_00_FewBuildings">
+      <Top>Glintfein_00_LessBuildings</Top>
+      <Bottom>Glintfein_00_LessBuildings</Bottom>
+      <Left>Glintfein_00_LessBuildings</Left>
+      <Right>Glintfein_00_StandardSide</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <!--Gen avec plus de bâtiments-->
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_00_ManyBuildings">
+      <Top>Glintfein_00_MoreBuildings</Top>
+      <Bottom>Glintfein_00_MoreBuildings</Bottom>
+      <Left>Glintfein_00_StandardSide</Left>
+      <Right>Glintfein_00_StandardSide</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <!--Gen où un côté a une statue centrée-->
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_00_Statue_0">
+      <Top>Glintfein_00_CenteredStatue</Top>
+      <Bottom>Glintfein_00_StandardSide</Bottom>
+      <Left>Glintfein_00_LessBuildings</Left>
+      <Right>Glintfein_00_StandardSide</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <!--Gen où un côté à des statues alignées/parallèles-->
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_00_Statue_1">
+      <Top>Glintfein_00_ParallelStatues</Top>
+      <Bottom>Glintfein_00_StandardSide</Bottom>
+      <Left>Glintfein_00_LessBuildings</Left>
+      <Right>Glintfein_00_MoreBuildings</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <!--Ici, on utilise les presets de statues pour créer une configuration très marquée : un côté avec une statue centrée, les deux adjacents avec des statues en "couloir" - une structure qui peut rappeler Elderlicht-->
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_00_Statue_2">
+      <Top>Glintfein_00_ParallelStatues</Top>
+      <Bottom>Glintfein_00_ParallelStatues</Bottom>
+      <Left>Glintfein_00_CenteredStatue</Left>
+      <Right>Glintfein_00_StandardSide</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+
+   <!--GLINTFEIN DAY 1-->
+   <!--Pour le moment, j'ai fait les mêmes patterns de variation de base que pour le jour 1 : essayons déjà de jouer sur les variations de RandomBuildingGenerationDefinitions, et pourra creuser l'unicité des directions plus tard-->
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_01_Normal_0">
+      <Top>Glintfein_01_LessBuildings</Top>
+      <Bottom>Glintfein_01_StandardSide</Bottom>
+      <Left>Glintfein_01_MoreBuildings</Left>
+      <Right>Glintfein_01_StandardSide</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_01_Normal_1">
+      <Top>Glintfein_01_LessBuildings</Top>
+      <Bottom>Glintfein_01_MoreBuildings</Bottom>
+      <Left>Glintfein_01_StandardSide</Left>
+      <Right>Glintfein_01_StandardSide</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_01_FewBuildings">
+      <Top>Glintfein_01_LessBuildings</Top>
+      <Bottom>Glintfein_01_StandardSide</Bottom>
+      <Left>Glintfein_01_LessBuildings</Left>
+      <Right>Glintfein_01_StandardSide</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_01_ManyBuildings">
+      <Top>Glintfein_01_MoreBuildings</Top>
+      <Bottom>Glintfein_01_StandardSide</Bottom>
+      <Left>Glintfein_01_StandardSide</Left>
+      <Right>Glintfein_01_StandardSide</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+
+   <!--GLINTFEIN DAY 2 (DarkSchaden)-->
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_02_SidesOpposite">
+      <Top>Glintfein_02_SchadenCenterProtected</Top>
+      <Bottom>Glintfein_02_SchadenNoProtection</Bottom>
+      <Left>Glintfein_02_SchadenSidesProtected</Left>
+      <Right>Glintfein_02_SchadenSidesProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_02_CentersOpposite">
+      <Top>Glintfein_02_SchadenSidesProtected</Top>
+      <Bottom>Glintfein_02_SchadenNoProtection</Bottom>
+      <Left>Glintfein_02_SchadenCenterProtected</Left>
+      <Right>Glintfein_02_SchadenCenterProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_02_SidesAdjacent">
+      <Top>Glintfein_02_SchadenNoProtection</Top>
+      <Bottom>Glintfein_02_SchadenSidesProtected</Bottom>
+      <Left>Glintfein_02_SchadenSidesProtected</Left>
+      <Right>Glintfein_02_SchadenCenterProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_02_CentersAdjacent">
+      <Top>Glintfein_02_SchadenNoProtection</Top>
+      <Bottom>Glintfein_02_SchadenCenterProtected</Bottom>
+      <Left>Glintfein_02_SchadenCenterProtected</Left>
+      <Right>Glintfein_02_SchadenSidesProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_02_SidesOnly">
+      <Top>Glintfein_02_SchadenNoProtection</Top>
+      <Bottom>Glintfein_02_SchadenSidesProtected</Bottom>
+      <Left>Glintfein_02_SchadenSidesProtected</Left>
+      <Right>Glintfein_02_SchadenSidesProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_02_CentersOnly">
+      <Top>Glintfein_02_SchadenNoProtection</Top>
+      <Bottom>Glintfein_02_SchadenCenterProtected</Bottom>
+      <Left>Glintfein_02_SchadenCenterProtected</Left>
+      <Right>Glintfein_02_SchadenCenterProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   
+   <!--GLINTFEIN DAY 4 (LightFreude)-->
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeGridsAndHighways">
+      <Top>Glintfein_04_FreudeGrid</Top>
+      <Bottom>Glintfein_04_FreudeGridStaggeredRows</Bottom>
+      <Left>Glintfein_04_FreudeHighwaySplit</Left>
+      <Right>Glintfein_04_FreudeHighwayMageStatuesAndThrone</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeGridsAndHighways_01">
+      <Top>Glintfein_04_FreudeGrid</Top>
+      <Bottom>Glintfein_04_FreudeGridStaggeredRows</Bottom>
+      <Left>Glintfein_04_FreudeHighwayThrone</Left>
+      <Right>Glintfein_04_FreudeHighwaySplit</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeGridsAndHighways_02">
+      <Top>Glintfein_04_FreudeGridStaggeredRows</Top>
+      <Bottom>Glintfein_04_FreudeGridStaggeredRows</Bottom>
+      <Left>Glintfein_04_FreudeHighwayMageStatuesAndThrone</Left>
+      <Right>Glintfein_04_FreudeHighwayThrone</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeGridsAndAlleys">
+      <Top>Glintfein_04_FreudeGrid</Top>
+      <Bottom>Glintfein_04_FreudeGridStaggeredRows</Bottom>
+      <Left>Glintfein_04_FreudeAlley</Left>
+      <Right>Glintfein_04_FreudeAlley</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeGridsAndAlleys_01">
+      <Top>Glintfein_04_FreudeGrid</Top>
+      <Bottom>Glintfein_04_FreudeGrid</Bottom>
+      <Left>Glintfein_04_FreudeAlley</Left>
+      <Right>Glintfein_04_FreudeAlley</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeGridsAndHighwayAlley">
+      <Top>Glintfein_04_FreudeGrid</Top>
+      <Bottom>Glintfein_04_FreudeGridStaggeredRows</Bottom>
+      <Left>Glintfein_04_FreudeHighwaySplit</Left>
+      <Right>Glintfein_04_FreudeAlley</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeGridsAndHighwayAlley_01">
+      <Top>Glintfein_04_FreudeGrid</Top>
+      <Bottom>Glintfein_04_FreudeGrid</Bottom>
+      <Left>Glintfein_04_FreudeHighwayMageStatuesAndThrone</Left>
+      <Right>Glintfein_04_FreudeAlley</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeGridsAndHighwayAlley_02">
+      <Top>Glintfein_04_FreudeGridStaggeredRows</Top>
+      <Bottom>Glintfein_04_FreudeGridStaggeredRows</Bottom>
+      <Left>Glintfein_04_FreudeHighwaySplit</Left>
+      <Right>Glintfein_04_FreudeAlley</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_04_AdjacentHighways">
+      <Top>Glintfein_04_FreudeGrid</Top>
+      <Bottom>Glintfein_04_FreudeHighwaySplit</Bottom>
+      <Left>Glintfein_04_FreudeHighwayMageStatuesAndThrone</Left>
+      <Right>Glintfein_04_FreudeAlley</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_04_AdjacentHighways_01">
+      <Top>Glintfein_04_FreudeAlley</Top>
+      <Bottom>Glintfein_04_FreudeHighwaySplit</Bottom>
+      <Left>Glintfein_04_FreudeHighwayThrone</Left>
+      <Right>Glintfein_04_FreudeGridStaggeredRows</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_04_AdjacentHighways_02">
+      <Top>Glintfein_04_FreudeAlley</Top>
+      <Bottom>Glintfein_04_FreudeHighwayMageStatuesAndThrone</Bottom>
+      <Left>Glintfein_04_FreudeHighwaySplit</Left>
+      <Right>Glintfein_04_FreudeGridStaggeredRows</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_04_AdjacentAlleys">
+      <Top>Glintfein_04_FreudeGrid</Top>
+      <Bottom>Glintfein_04_FreudeAlley</Bottom>
+      <Left>Glintfein_04_FreudeAlley</Left>
+      <Right>Glintfein_04_FreudeHighwayThrone</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_04_AdjacentAlleys_01">
+      <Top>Glintfein_04_FreudeHighwayMageStatuesAndThrone</Top>
+      <Bottom>Glintfein_04_FreudeAlley</Bottom>
+      <Left>Glintfein_04_FreudeAlley</Left>
+      <Right>Glintfein_04_FreudeGridStaggeredRows</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_04_AdjacentAlleys_02">
+      <Top>Glintfein_04_FreudeGridStaggeredRows</Top>
+      <Bottom>Glintfein_04_FreudeAlley</Bottom>
+      <Left>Glintfein_04_FreudeAlley</Left>
+      <Right>Glintfein_04_FreudeHighwayMageStatuesAndThrone</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeAlleys">
+      <Top>Glintfein_04_FreudeAlley</Top>
+      <Bottom>Glintfein_04_FreudeGrid</Bottom>
+      <Left>Glintfein_04_FreudeAlley</Left>
+      <Right>Glintfein_04_FreudeHighwayMageStatuesAndThrone</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeAlley_01">
+      <Top>Glintfein_04_FreudeAlley</Top>
+      <Bottom>Glintfein_04_FreudeGridStaggeredRows</Bottom>
+      <Left>Glintfein_04_FreudeAlley</Left>
+      <Right>Glintfein_04_FreudeHighwaySplit</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeHighways">
+      <Top>Glintfein_04_FreudeAlley</Top>
+      <Bottom>Glintfein_04_FreudeGrid</Bottom>
+      <Left>Glintfein_04_FreudeHighwaySplit</Left>
+      <Right>Glintfein_04_FreudeHighwayMageStatuesAndThrone</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeHighways_01">
+      <Top>Glintfein_04_FreudeGridStaggeredRows</Top>
+      <Bottom>Glintfein_04_FreudeAlley</Bottom>
+      <Left>Glintfein_04_FreudeHighwaySplit</Left>
+      <Right>Glintfein_04_FreudeHighwayThrone</Right>
+   </RandomBuildingsDirectionsDefinition>
+   
+
+   <!--GLINTFEIN DAY 5-->
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_05_Normal">
+      <DisableRotation/>
+      <Top>Glintfein_05_Filled</Top>
+      <Bottom>Glintfein_05_Filled</Bottom>
+      <Left>Glintfein_05_StandardSide</Left>
+      <Right>Glintfein_05_StandardSide</Right>
+   </RandomBuildingsDirectionsDefinition>
+   
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_05_Throne">
+      <DisableRotation/>
+      <Top>Glintfein_05_Filled</Top>
+      <Bottom>Glintfein_05_Filled</Bottom>
+      <Left>Glintfein_05_Throne</Left>
+      <Right>Glintfein_05_StandardSide</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_05_ThroneFlipped">
+      <DisableRotation/>
+      <Top>Glintfein_05_Filled</Top>
+      <Bottom>Glintfein_05_Filled</Bottom>
+      <Left>Glintfein_05_StandardSide</Left>
+      <Right>Glintfein_05_Throne</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_05_BuildingsOnSides">
+      <DisableRotation/>
+      <Top>Glintfein_05_Filled</Top>
+      <Bottom>Glintfein_05_Filled</Bottom>
+      <Left>Glintfein_05_BuildingsOnSides</Left>
+      <Right>Glintfein_05_BuildingsOnSides</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_05_BuildingsMiddle">
+      <DisableRotation/>
+      <Top>Glintfein_05_FilledNoSides</Top>
+      <Bottom>Glintfein_05_FilledNoSides</Bottom>
+      <Left>Glintfein_05_BuildingsMiddle</Left>
+      <Right>Glintfein_05_BuildingsMiddle</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+
+   <!--GLINTFEIN DAY 6-->
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_06_OppositeHighwaysWithSides">
+      <Top>Glintfein_04_FreudeHighwayMageStatuesAndThrone</Top>
+      <Bottom>Glintfein_04_FreudeHighwaySplit</Bottom>
+      <Left>Glintfein_02_SchadenSidesProtected</Left>
+      <Right>Glintfein_02_SchadenSidesProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_06_OppositeAlleysWithSides">
+      <Top>Glintfein_04_FreudeAlley</Top>
+      <Bottom>Glintfein_04_FreudeAlley</Bottom>
+      <Left>Glintfein_02_SchadenSidesProtected</Left>
+      <Right>Glintfein_02_SchadenSidesProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_06_OppositeAlleysWithCenters">
+      <Top>Glintfein_04_FreudeAlley</Top>
+      <Bottom>Glintfein_04_FreudeAlley</Bottom>
+      <Left>Glintfein_02_SchadenCenterProtected</Left>
+      <Right>Glintfein_02_SchadenCenterProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_06_AdjacentCenters">
+      <Top>Glintfein_04_FreudeAlley</Top>
+      <Bottom>Glintfein_02_SchadenCenterProtected</Bottom>
+      <Left>Glintfein_04_FreudeGrid</Left>
+      <Right>Glintfein_02_SchadenCenterProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_06_AdjacentCenters_01">
+      <Top>Glintfein_04_FreudeGrid</Top>
+      <Bottom>Glintfein_02_SchadenCenterProtected</Bottom>
+      <Left>Glintfein_04_FreudeAlley</Left>
+      <Right>Glintfein_02_SchadenCenterProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_06_AdjacentCenters_02">
+      <Top>Glintfein_04_FreudeHighwayMageStatuesAndThrone</Top>
+      <Bottom>Glintfein_02_SchadenCenterProtected</Bottom>
+      <Left>Glintfein_04_FreudeAlley</Left>
+      <Right>Glintfein_02_SchadenCenterProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_06_AdjacentCenters_03">
+      <Top>Glintfein_04_FreudeAlley</Top>
+      <Bottom>Glintfein_02_SchadenCenterProtected</Bottom>
+      <Left>Glintfein_04_FreudeHighwayThrone</Left>
+      <Right>Glintfein_02_SchadenCenterProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_06_AdjacentSides">
+      <Top>Glintfein_04_FreudeAlley</Top>
+      <Bottom>Glintfein_02_SchadenSidesProtected</Bottom>
+      <Left>Glintfein_04_FreudeHighwayMageStatuesAndThrone</Left>
+      <Right>Glintfein_02_SchadenSidesProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_06_AdjacentSides_01">
+      <Top>Glintfein_04_FreudeHighwaySplit</Top>
+      <Bottom>Glintfein_02_SchadenSidesProtected</Bottom>
+      <Left>Glintfein_04_FreudeAlley</Left>
+      <Right>Glintfein_02_SchadenSidesProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_06_AdjacentSides_02">
+      <Top>Glintfein_04_FreudeAlley</Top>
+      <Bottom>Glintfein_02_SchadenSidesProtected</Bottom>
+      <Left>Glintfein_04_FreudeAlley</Left>
+      <Right>Glintfein_02_SchadenSidesProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_06_AdjacentSides_03">
+      <Top>Glintfein_04_FreudeHighwayThrone</Top>
+      <Bottom>Glintfein_02_SchadenSidesProtected</Bottom>
+      <Left>Glintfein_04_FreudeGridStaggeredRows</Left>
+      <Right>Glintfein_02_SchadenSidesProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_06_AdjacentSides_04">
+      <Top>Glintfein_04_FreudeGridStaggeredRows</Top>
+      <Bottom>Glintfein_02_SchadenSidesProtected</Bottom>
+      <Left>Glintfein_04_FreudeHighwaySplit</Left>
+      <Right>Glintfein_02_SchadenSidesProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_06_FullMixed">
+      <Top>Glintfein_04_FreudeAlley</Top>
+      <Bottom>Glintfein_04_FreudeGrid</Bottom>
+      <Left>Glintfein_02_SchadenCenterProtected</Left>
+      <Right>Glintfein_02_SchadenSidesProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_06_FullMixed_01">
+      <Top>Glintfein_04_FreudeHighwayThrone</Top>
+      <Bottom>Glintfein_04_FreudeAlley</Bottom>
+      <Left>Glintfein_02_SchadenCenterProtected</Left>
+      <Right>Glintfein_02_SchadenSidesProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+   <RandomBuildingsDirectionsDefinition Id="Glintfein_06_FullMixed_02">
+      <Top>Glintfein_04_FreudeAlley</Top>
+      <Bottom>Glintfein_02_SchadenSidesProtected</Bottom>
+      <Left>Glintfein_04_FreudeHighwaySplit</Left>
+      <Right>Glintfein_02_SchadenCenterProtected</Right>
+   </RandomBuildingsDirectionsDefinition>
+
+
+	<!-- ███████████████████████████████████████████████████████████████ -->
+	<!-- Gildenberg Redux-->
+	<!-- ███████████████████████████████████████████████████████████████ -->
+
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L00_L10_L20">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L00_L10_L20</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L00_L10_L21">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L00_L10_L21</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L00_L10_L22">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L00_L10_L22</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L00_L11_L20">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L00_L11_L20</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L00_L11_L21">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L00_L11_L21</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L00_L11_L22">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L00_L11_L22</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L00_L12_L20">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L00_L12_L20</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L00_L12_L21">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L00_L12_L21</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L00_L12_L22">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L00_L12_L22</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L01_L10_L20">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L01_L10_L20</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L01_L10_L21">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L01_L10_L21</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L01_L10_L22">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L01_L10_L22</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L01_L11_L20">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L01_L11_L20</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L01_L11_L21">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L01_L11_L21</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L01_L11_L22">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L01_L11_L22</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L01_L12_L20">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L01_L12_L20</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L01_L12_L21">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L01_L12_L21</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L01_L12_L22">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L01_L12_L22</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L02_L10_L20">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L02_L10_L20</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L02_L10_L21">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L02_L10_L21</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L02_L10_L22">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L02_L10_L22</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L02_L11_L20">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L02_L11_L20</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L02_L11_L21">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L02_L11_L21</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L02_L11_L22">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L02_L11_L22</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L02_L12_L20">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L02_L12_L20</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L02_L12_L21">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L02_L12_L21</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+	<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L02_L12_L22">
+		<DisableRotation/>
+		<Top>GildenbergRedux_MountainSide</Top>
+		<Bottom>GildenbergRedux_Statues_Bridge</Bottom>
+		<Left>GildenbergRedux_L02_L12_L22</Left>
+		<Right>GildenbergRedux_LittleRiftBuildings</Right>
+	</RandomBuildingsDirectionsDefinition>
+
+</RandomBuildingsDirectionsDefinitions>

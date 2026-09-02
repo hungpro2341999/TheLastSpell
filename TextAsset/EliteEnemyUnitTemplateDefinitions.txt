@@ -1,0 +1,481 @@
+<EliteEnemyUnitTemplateDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                              xsi:noNamespaceSchemaLocation="EliteEnemyUnitTemplateDefinitions.xsd">
+   
+   <EliteEnemyUnitTemplateDefinition Id="ClawerElite" Base="Clawer">
+      <ModifiedStat Id="HealthTotal">
+         <PercentageModifier>500</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ArmorTotal">
+         <PercentageModifier>300</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="PhysicalDamage">
+         <FlatModifier>100</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ExperienceGain">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="StunResistance">
+         <FlatModifier>50</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="DamnedSoulsEarned">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="Panic">
+         <FlatModifier>4</FlatModifier>
+      </ModifiedStat>
+   </EliteEnemyUnitTemplateDefinition>
+
+   <EliteEnemyUnitTemplateDefinition Id="FasterClawerElite" Base="FasterClawer">
+      <ModifiedStat Id="HealthTotal">
+         <PercentageModifier>650</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ArmorTotal">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="PhysicalDamage">
+         <FlatModifier>100</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ExperienceGain">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="StunResistance">
+         <FlatModifier>50</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="DamnedSoulsEarned">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="Panic">
+         <FlatModifier>5</FlatModifier>
+      </ModifiedStat> 
+   </EliteEnemyUnitTemplateDefinition>
+
+   <EliteEnemyUnitTemplateDefinition Id="PlatedElite" Base="Plated">
+      <ModifiedStat Id="HealthTotal">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ArmorTotal">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="PhysicalDamage">
+         <FlatModifier>100</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ExperienceGain">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="StunResistance">
+         <FlatModifier>50</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="DamnedSoulsEarned">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="Panic">
+         <FlatModifier>4</FlatModifier>
+      </ModifiedStat>
+   </EliteEnemyUnitTemplateDefinition>
+
+   <EliteEnemyUnitTemplateDefinition Id="DodgyClawerElite" Base="DodgyClawer">
+      <ModifiedStat Id="HealthTotal">
+         <PercentageModifier>500</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ArmorTotal">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="MagicalDamage">
+         <FlatModifier>100</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ExperienceGain">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="StunResistance">
+         <FlatModifier>50</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="DamnedSoulsEarned">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="Panic">
+         <FlatModifier>4</FlatModifier>
+      </ModifiedStat>
+   </EliteEnemyUnitTemplateDefinition>
+
+
+   <EliteEnemyUnitTemplateDefinition Id="GargoyleElite" Base="Gargoyle">
+      <ModifiedStat Id="HealthTotal">
+         <PercentageModifier>500</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ArmorTotal">
+         <PercentageModifier>200</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="PhysicalDamage">
+         <FlatModifier>100</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ExperienceGain">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="StunResistance">
+         <FlatModifier>35</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="DamnedSoulsEarned">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="Panic">
+         <FlatModifier>5</FlatModifier>
+      </ModifiedStat>
+   </EliteEnemyUnitTemplateDefinition>
+
+   <EliteEnemyUnitTemplateDefinition Id="LumberjackElite" Base="Lumberjack">
+      <ModifiedStat Id="HealthTotal">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ArmorTotal">
+         <PercentageModifier>300</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="Block">
+         <PercentageModifier>150</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="PhysicalDamage">
+         <FlatModifier>100</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ExperienceGain">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="StunResistance">
+         <FlatModifier>35</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="DamnedSoulsEarned">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="Panic">
+         <FlatModifier>5</FlatModifier>
+      </ModifiedStat>
+   </EliteEnemyUnitTemplateDefinition>
+
+
+   <EliteEnemyUnitTemplateDefinition Id="ArcherElite" Base="Archer">
+      <ModifiedStat Id="HealthTotal">
+         <PercentageModifier>450</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ArmorTotal">
+         <PercentageModifier>350</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="RangedDamage">
+         <FlatModifier>100</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ExperienceGain">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="StunResistance">
+         <FlatModifier>35</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="DamnedSoulsEarned">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="Panic">
+         <FlatModifier>5</FlatModifier>
+      </ModifiedStat>
+   </EliteEnemyUnitTemplateDefinition>
+
+
+   <EliteEnemyUnitTemplateDefinition Id="BoomerElite" Base="Boomer">
+      <ModifiedStat Id="HealthTotal">
+         <PercentageModifier>350</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="MagicalDamage">
+         <FlatModifier>100</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ExperienceGain">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="StunResistance">
+         <FlatModifier>30</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="DamnedSoulsEarned">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="Panic">
+         <FlatModifier>6</FlatModifier>
+      </ModifiedStat>
+   </EliteEnemyUnitTemplateDefinition>
+
+
+   <EliteEnemyUnitTemplateDefinition Id="GhostElite" Base="Ghost">
+      <ModifiedStat Id="HealthTotal">
+         <PercentageModifier>450</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ArmorTotal">
+         <PercentageModifier>300</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="MagicalDamage">
+         <FlatModifier>100</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ExperienceGain">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="StunResistance">
+         <FlatModifier>30</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="DamnedSoulsEarned">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="Panic">
+         <FlatModifier>6</FlatModifier>
+      </ModifiedStat>
+   </EliteEnemyUnitTemplateDefinition>
+
+
+   <EliteEnemyUnitTemplateDefinition Id="TankyElite" Base="Tanky">
+      <ModifiedStat Id="HealthTotal">
+         <PercentageModifier>450</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ArmorTotal">
+         <PercentageModifier>200</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="Block">
+         <PercentageModifier>150</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="PhysicalDamage">
+         <FlatModifier>75</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="RangedDamage">
+         <FlatModifier>75</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ExperienceGain">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="StunResistance">
+         <FlatModifier>20</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="DamnedSoulsEarned">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="Panic">
+         <FlatModifier>6</FlatModifier>
+      </ModifiedStat>
+   </EliteEnemyUnitTemplateDefinition>
+
+
+   <EliteEnemyUnitTemplateDefinition Id="ArmoredElite" Base="Armored">
+      <ModifiedStat Id="HealthTotal">
+         <PercentageModifier>450</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ArmorTotal">
+         <PercentageModifier>200</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="PhysicalDamage">
+         <FlatModifier>75</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ExperienceGain">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="StunResistance">
+         <FlatModifier>30</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="DamnedSoulsEarned">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="Panic">
+         <FlatModifier>6</FlatModifier>
+      </ModifiedStat>
+   </EliteEnemyUnitTemplateDefinition>
+
+
+   <EliteEnemyUnitTemplateDefinition Id="SpeedyClawerElite" Base="SpeedyClawer">
+      <ModifiedStat Id="HealthTotal">
+         <PercentageModifier>500</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ArmorTotal">
+         <PercentageModifier>300</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="PhysicalDamage">
+         <FlatModifier>75</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ExperienceGain">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="StunResistance">
+         <FlatModifier>30</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="DamnedSoulsEarned">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="Panic">
+         <FlatModifier>6</FlatModifier>
+      </ModifiedStat>
+   </EliteEnemyUnitTemplateDefinition>
+
+
+   <EliteEnemyUnitTemplateDefinition Id="BloodyElite" Base="Bloody">
+      <ModifiedStat Id="HealthTotal">
+         <PercentageModifier>300</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="PhysicalDamage">
+         <FlatModifier>75</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ExperienceGain">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="StunResistance">
+         <FlatModifier>30</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="DamnedSoulsEarned">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="Panic">
+         <FlatModifier>6</FlatModifier>
+      </ModifiedStat>
+   </EliteEnemyUnitTemplateDefinition>
+
+
+   <EliteEnemyUnitTemplateDefinition Id="ShieldmanElite" Base="Shieldman">
+      <ModifiedStat Id="HealthTotal">
+         <PercentageModifier>500</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ArmorTotal">
+         <PercentageModifier>200</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="Block">
+         <PercentageModifier>150</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="MagicalDamage">
+         <FlatModifier>75</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ExperienceGain">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="StunResistance">
+         <FlatModifier>30</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="DamnedSoulsEarned">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="Panic">
+         <FlatModifier>6</FlatModifier>
+      </ModifiedStat>
+   </EliteEnemyUnitTemplateDefinition>
+
+   <EliteEnemyUnitTemplateDefinition Id="BlockerElite" Base="Blocker">
+      <ModifiedStat Id="HealthTotal">
+         <PercentageModifier>500</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ArmorTotal">
+         <PercentageModifier>200</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="Block">
+         <PercentageModifier>150</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="PhysicalDamage">
+         <FlatModifier>100</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ExperienceGain">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="StunResistance">
+         <FlatModifier>50</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="DamnedSoulsEarned">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="Panic">
+         <FlatModifier>4</FlatModifier>
+      </ModifiedStat>
+   </EliteEnemyUnitTemplateDefinition>
+
+
+   <EliteEnemyUnitTemplateDefinition Id="BountyHunterElite" Base="BountyHunter">
+      <ModifiedStat Id="HealthTotal">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ArmorTotal">
+         <PercentageModifier>300</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="RangedDamage">
+         <FlatModifier>100</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ExperienceGain">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="StunResistance">
+         <FlatModifier>35</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="DamnedSoulsEarned">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="Panic">
+         <FlatModifier>5</FlatModifier>
+      </ModifiedStat>
+   </EliteEnemyUnitTemplateDefinition>
+
+  <EliteEnemyUnitTemplateDefinition Id="CorruptedMageElite" Base="CorruptedMage">
+    <ModifiedStat Id="HealthTotal">
+      <PercentageModifier>400</PercentageModifier>
+    </ModifiedStat>
+    <ModifiedStat Id="ArmorTotal">
+      <PercentageModifier>200</PercentageModifier>
+    </ModifiedStat>
+    <ModifiedStat Id="MagicalDamage">
+      <FlatModifier>100</FlatModifier>
+    </ModifiedStat>
+    <ModifiedStat Id="ExperienceGain">
+      <PercentageModifier>400</PercentageModifier>
+    </ModifiedStat>
+    <ModifiedStat Id="StunResistance">
+      <FlatModifier>20</FlatModifier>
+    </ModifiedStat>
+    <ModifiedStat Id="DamnedSoulsEarned">
+      <PercentageModifier>400</PercentageModifier>
+    </ModifiedStat>
+    <ModifiedStat Id="Panic">
+      <FlatModifier>7</FlatModifier>
+    </ModifiedStat>
+  </EliteEnemyUnitTemplateDefinition>
+
+  <EliteEnemyUnitTemplateDefinition Id="PoisonFrogElite" Base="PoisonFrog">
+    <ModifiedStat Id="HealthTotal">
+      <PercentageModifier>500</PercentageModifier>
+    </ModifiedStat>
+    <ModifiedStat Id="ArmorTotal">
+      <PercentageModifier>200</PercentageModifier>
+    </ModifiedStat>
+    <ModifiedStat Id="RangedDamage">
+      <FlatModifier>100</FlatModifier>
+    </ModifiedStat>
+    <ModifiedStat Id="ExperienceGain">
+      <PercentageModifier>400</PercentageModifier>
+    </ModifiedStat>
+    <ModifiedStat Id="StunResistance">
+      <FlatModifier>35</FlatModifier>
+    </ModifiedStat>
+    <ModifiedStat Id="DamnedSoulsEarned">
+      <PercentageModifier>400</PercentageModifier>
+    </ModifiedStat>
+    <ModifiedStat Id="Panic">
+      <FlatModifier>5</FlatModifier>
+    </ModifiedStat>
+  </EliteEnemyUnitTemplateDefinition>
+
+   
+   <EliteEnemyUnitTemplateDefinition Id="ResistClawerElite" Base="ResistClawer">
+      <ModifiedStat Id="HealthTotal">
+         <PercentageModifier>600</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ArmorTotal">
+         <PercentageModifier>200</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="MagicalDamage">
+         <FlatModifier>100</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="ExperienceGain">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="StunResistance">
+         <FlatModifier>50</FlatModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="DamnedSoulsEarned">
+         <PercentageModifier>400</PercentageModifier>
+      </ModifiedStat>
+      <ModifiedStat Id="Panic">
+         <FlatModifier>4</FlatModifier>
+      </ModifiedStat>
+   </EliteEnemyUnitTemplateDefinition>
+   
+   
+</EliteEnemyUnitTemplateDefinitions>

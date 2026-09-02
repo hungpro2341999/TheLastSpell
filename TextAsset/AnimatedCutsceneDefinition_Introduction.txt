@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AnimatedCutsceneDefinition Id="Introduction" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="AnimatedCutsceneDefinition.xsd">
+   
+   <Slide Id="Slide_War">
+      <ChangeMusic ClipAssetName="Music_Introduction_Placeholder"/>
+  
+      <!--ANIM : Earth-->
+            <NextAnimation>
+               <WaitForClipDuration/>
+            </NextAnimation>
+      <!-- TEXT: WAR. -->
+      <!--SOUND-->
+            <PlaySound ClipAssetName="SFX_Introduction_Slide01">
+               <Delay>0</Delay>
+            </PlaySound>
+            <AppendNextText/>
+
+
+      <!--ANIM : Blood-->
+            <NextAnimation/>
+      <!--SOUND-->
+            <PlaySound ClipAssetName="SFX_Introduction_Slide02">
+               <Delay>0</Delay>
+            </PlaySound>
+      <!--TEXT: For centuries the world was engulfed in neverending strife and chaos.-->
+            <AppendNextText/>
+
+      
+      <!--ANIM : Fire-->
+            <NextAnimation>
+               <!--<WaitForClipDuration/>-->
+            </NextAnimation>
+     <!--SOUND-->
+     <PlaySound ClipAssetName="SFX_Introduction_Slide03">
+       <Delay>0</Delay>
+     </PlaySound>
+      <!--TEXT: Elves fighting dwarves. Dwarves fighting men. Orcs fighting... everyone.-->
+            <AppendNextText/>
+
+      
+      <!--TEXT: The common folk was bled dry. Poverty. Famine. Disease.-->
+            <AppendNextText/>
+
+      
+      <ClearText/>
+      <!--ANIM : FadeOut-->
+            <NextAnimation>
+               <WaitForClipDuration/>
+            </NextAnimation>
+      
+   </Slide>
+
+   
+   
+   
+   
+   <Slide Id="Slide_Mage">
+      
+     <!--ANIM: Window-->
+         <NextAnimation>
+            <!--<WaitForClipDuration/>-->
+         </NextAnimation>
+
+     <!--SOUND-->
+     <PlaySound ClipAssetName="SFX_Introduction_Slide04">
+       <Delay>0</Delay>
+     </PlaySound>
+     
+     <!--TEXT: Secluded in his tower, researching forbidden magic secrets-->
+         <AppendNextText/>
+
+      
+     <!--ANIM: Bzzt bzz-->
+         <NextAnimation/>
+         
+      <!--SOUND-->
+     <PlaySound ClipAssetName="SFX_Introduction_Slide05">
+       <Delay>0</Delay>
+     </PlaySound>
+
+     <!--TEXT: The archmage Heronymous Teller made an extraordinary discovery:-->
+         <AppendNextText/>
+
+      
+     <!--ANIM: Spell-->
+         <NextAnimation/>
+     
+     <!--SOUND-->
+     <PlaySound ClipAssetName="SFX_Introduction_Slide06">
+       <Delay>0</Delay>
+     </PlaySound>
+     
+     <!--TEXT: A wild, unknown type of magic with tremendous power!-->
+         <AppendNextText/>
+      
+      
+     <!--TEXT: Spells of mass destruction capable of obliterating any city in one strike!-->
+         <AppendNextText/>
+
+      
+     <ClearText/>
+     <!--ANIM : FadeOut-->
+         <NextAnimation>
+            <WaitForClipDuration/>
+         </NextAnimation>
+   </Slide>
+
+   
+   
+   
+  <Slide Id="Slide_Village">
+
+     <!--ANIM: Village FadeIn-->
+         <NextAnimation>
+            <!--<WaitForClipDuration/>-->
+         </NextAnimation>
+     <!--TEXT: Driven by the hope of ending all wars, he launched the spell on a small village.-->
+         <AppendNextText/>
+
+     
+     <!--ANIM: Fireball FadeIn-->
+         <NextAnimation>
+            <!--<WaitForClipDuration/>-->
+         </NextAnimation>
+
+    <!--SOUND-->
+    <PlaySound ClipAssetName="SFX_Introduction_Slide07">
+      <Delay>0</Delay>
+    </PlaySound>
+
+    <!--TEXT: A gigantic dark ball of purple flames fell from the sky and smashed in the town center,-->
+         <AppendNextText/>
+
+
+    <!--SOUND-->
+    <PlaySound ClipAssetName="SFX_Introduction_Slide08">
+      <Delay>0</Delay>
+    </PlaySound>
+
+     <!--ANIM: WhiteScreen-->
+         <NextAnimation>
+            <WaitForClipDuration/>
+         </NextAnimation>
+    
+     <!--TEXT: Leaving only ruin, lifeless bodies and purple fumes.-->
+         <AppendNextText/>
+
+
+     <ClearText/>
+     
+  </Slide>
+
+   
+   
+   
+  <Slide Id="Slide_King">
+
+     <!--ANIM: King 00-->
+
+    <!--SOUND-->
+    <PlaySound ClipAssetName="SFX_Introduction_Slide09">
+      <Delay>0</Delay>
+    </PlaySound>
+
+     <NextAnimation>
+        <WaitForClipDuration/>
+     </NextAnimation>
+     <!--TEXT: The whole royal family of a neighbouring kingdom was present at that time.-->
+     <AppendNextText/>
+
+      <PlaySound ClipAssetName="SFX_Introduction_Slide10">
+      <Delay>0</Delay>
+    </PlaySound>
+
+
+     <!--ANIM: King 01 > 02 -->
+         <NextAnimation>
+            <WaitForClipDuration/>
+         </NextAnimation>
+         
+    <!--SOUND-->
+    <PlaySound ClipAssetName="SFX_Introduction_Slide11">
+      <Delay>0</Delay>
+    </PlaySound>
+
+     <!--TEXT: They all died.-->
+         <AppendNextText/>
+
+    <!--SOUND-->
+    <PlaySound ClipAssetName="SFX_Introduction_Slide12">
+      <Delay>0</Delay>
+    </PlaySound>
+
+     <!--ANIM: King 03-->
+         <NextAnimation>
+            <WaitForClipDuration/>
+         </NextAnimation>
+
+     <!--TEXT: The king, mad with grief, ordered his mages to research this new magic-->
+         <AppendNextText/>
+
+
+     <ClearText/>
+     <!--ANIM : FadeOut-->
+     <NextAnimation>
+        <WaitForClipDuration/>
+     </NextAnimation>
+     
+     
+  </Slide>
+
+   
+   
+   
+   
+   
+  <Slide Id="Slide_Boom">
+
+
+    <!--ANIM: Distant explosions-->
+         <NextAnimation>
+            <WaitForClipDuration/>
+         </NextAnimation>
+    
+     <!--TEXT: He made his mages unleash hell on the neighbouring capital city.-->
+         <AppendNextText/>
+     
+     <!--SOUND-->
+    <PlaySound ClipAssetName="SFX_Introduction_Slide13">
+      <Delay>0</Delay>
+    </PlaySound>
+     
+     <!--ANIM: BigExplosion-->
+         <NextAnimation>-
+            <WaitForClipDuration/>
+         </NextAnimation>
+     <!--TEXT: Several hundred thousand died.-->
+         <AppendNextText/>
+     
+
+     <!--ANIM: FadeOut-->
+         <NextAnimation>
+            <WaitForClipDuration/>
+         </NextAnimation>
+     <!--TEXT: The tremor shook all the kingdoms. All of them researched the purple magic.-->
+         <AppendNextText/>
+
+
+     <!--ANIM: Distant Explosions-->
+          <NextAnimation>
+            <!--<WaitForClipDuration/>-->
+          </NextAnimation>
+    <!--SOUND-->
+    <PlaySound ClipAssetName="SFX_Introduction_Slide14">
+      <Delay>0.8</Delay>
+    </PlaySound>
+
+     <!--TEXT: The sky was constantly flashing purple bursts. Thundering explosions were heard every hour.-->
+         <AppendNextText/>
+
+     <ClearText/>
+
+  </Slide>
+
+   
+   
+  <Slide Id="Slide_Mist">
+     
+     
+     <!--ANIM: 01-->
+         <NextAnimation>
+            <!--<WaitForClipDuration/>-->
+         </NextAnimation>
+    <!--SOUND-->
+    <PlaySound ClipAssetName="SFX_Introduction_Slide15">
+      <Delay>0</Delay>
+    </PlaySound>
+
+    <!--TEXT: War was no more. Only annihilation. There was no turning back.-->
+         <AppendNextText/>
+
+     <!--ANIM: 02-->
+         <NextAnimation>
+            <!--<WaitForClipDuration/>-->
+         </NextAnimation>
+
+             <!--SOUND-->
+    <PlaySound ClipAssetName="SFX_Introduction_Slide16">
+      <Delay>0.2</Delay>
+    </PlaySound>
+
+    <!--TEXT: At some point, the explosions stopped. A resounding silence.-->
+         <AppendNextText/>
+
+     <!--ANIM: 03-->
+         <NextAnimation>
+            <!--<WaitForClipDuration/>-->
+         </NextAnimation>
+    <!--SOUND-->
+    <PlaySound ClipAssetName="SFX_Introduction_Slide17">
+      <Delay>0.6</Delay>
+    </PlaySound>
+
+    <!--TEXT: A strange mist started to aggregate around the remaining cities.-->
+         <AppendNextText/>
+
+
+     <!--ANIM: FadeOut-->
+         <NextAnimation>
+            <WaitForClipDuration/>
+         </NextAnimation>
+     
+     <ClearText/>
+     
+     
+  </Slide>
+
+   
+   
+  <Slide Id="Slide_Commander">
+    
+
+     <!--ANIM: 01-->
+         <NextAnimation>
+               <!--<WaitForClipDuration/>-->
+         </NextAnimation>
+    <!--SOUND-->
+      <PlaySound ClipAssetName="SFX_Introduction_Slide18">
+      <Delay>0</Delay>
+    </PlaySound>
+     <!--TEXT: Small groups of survivors started to gather.-->
+         <AppendNextText/>
+     
+     
+     <!--ANIM: 01b-->
+         <NextAnimation>
+            <!--<WaitForClipDuration/>-->
+         </NextAnimation>
+
+      <!--SOUND-->
+      <PlaySound ClipAssetName="SFX_Introduction_Slide19">
+      <Delay>0</Delay>
+    </PlaySound>
+
+     <!--TEXT: The mist around them was thickening.-->
+         <AppendNextText/>
+
+
+     <!--ANIM: 01c-->
+         <NextAnimation>
+            <!--<WaitForClipDuration/>-->
+         </NextAnimation>
+
+      <!--SOUND-->
+      <PlaySound ClipAssetName="SFX_Introduction_Slide20">
+      <Delay>0</Delay>
+    </PlaySound>
+
+     <!--TEXT: At night, they had to defend against attacks from strange monsters.-->
+         <AppendNextText/>
+
+     <!--TEXT: They called them Clawers.-->
+         <AppendNextText/>
+     
+     
+     <!--ANIM: 02-->
+         <NextAnimation>
+            <!--<WaitForClipDuration/>-->
+         </NextAnimation>
+      <!--SOUND-->
+      <PlaySound ClipAssetName="SFX_Introduction_Slide21">
+      <Delay>0.2</Delay>
+    </PlaySound>
+
+
+     <!--TEXT: They appointed a leader, the Commander, and started rebuilding roofs and defenses. A new Haven.-->
+         <AppendNextText/>
+
+     
+     <!--ANIM: FadeOut-->
+         <NextAnimation>
+            <WaitForClipDuration/>
+         </NextAnimation>
+
+         <ClearText/>
+   
+     
+  </Slide>
+
+   
+   
+   
+  <Slide Id="Slide_Grimoire">
+
+
+     <!--ANIM: Books FadeIn-->
+     <NextAnimation>
+        <!--<WaitForClipDuration/>-->
+     </NextAnimation>
+      <!--SOUND-->
+      <PlaySound ClipAssetName="SFX_Introduction_Slide22">
+      <Delay>0</Delay>
+    </PlaySound>
+
+
+     <!--TEXT: Most mages were hanged, or worse, in retribution.-->
+     <AppendNextText/>
+
+
+     <!--ANIM: Mages FadeIn-->
+     <NextAnimation>
+        <!--<WaitForClipDuration/>-->
+     </NextAnimation>
+
+      <!--SOUND-->
+      <PlaySound ClipAssetName="SFX_Introduction_Slide23">
+      <Delay>0</Delay>
+    </PlaySound>
+
+     <!--TEXT: Some of them, fearing for their lives, tried to find an answer.-->
+     <AppendNextText/>
+
+          <!--SOUND-->
+      <PlaySound ClipAssetName="SFX_Introduction_Slide24">
+      <Delay>0</Delay>
+    </PlaySound>
+
+     <!--ANIM: Flash into Loop-->
+     <NextAnimation>
+        <!--<WaitForClipDuration/>-->
+     </NextAnimation>
+    <!--TEXT: They found a way...-->
+     <AppendNextText/>
+
+          <!--SOUND-->
+      <PlaySound ClipAssetName="SFX_Introduction_Slide25">
+      <Delay>0.3</Delay>
+    </PlaySound>
+
+     <!--TEXT: A spell. The Last Spell.-->
+     <AppendNextText/>
+
+
+     <!--ANIM: FadeOut-->
+     <NextAnimation>
+        <WaitForClipDuration/>
+     </NextAnimation>
+
+     <ClearText/>
+     
+     
+  </Slide>
+
+   
+   
+   
+  <Slide Id="Slide_MagicCircle">
+
+
+     <!--ANIM: 00-->
+         <NextAnimation>
+            <!--<WaitForClipDuration/>-->
+         </NextAnimation>
+     <!--TEXT: They built a circle of power to channel their combined magic.-->
+         <AppendNextText/>
+
+
+     <!--ANIM: 01-->
+         <NextAnimation>
+             <!--<WaitForClipDuration/>-->
+         </NextAnimation>
+
+   <!--SOUND-->
+      <PlaySound ClipAssetName="SFX_Introduction_Slide26">
+      <Delay>0</Delay>
+    </PlaySound>
+
+
+     <!--TEXT: The goal was simple, yet nearly impossible:-->
+         <AppendNextText/>
+
+
+     <!--ANIM: 02-->
+         <NextAnimation>
+            <!--<WaitForClipDuration/>-->
+         </NextAnimation>
+    <!--SOUND-->
+
+   <!--SOUND-->
+      <PlaySound ClipAssetName="SFX_Introduction_Slide27">
+      <Delay>0</Delay>
+    </PlaySound>
+
+     <!--TEXT: Channel enough energy to summon and break the Seal of Magic.-->
+         <AppendNextText/>
+
+
+     <!--TEXT: And banish all magic from this world, <delay=0.6>f</delay>orever.-->
+         <AppendNextText/>
+
+
+     <!--ANIM: FadeOut-->
+         <NextAnimation>
+            <WaitForClipDuration/>
+         </NextAnimation>
+
+     <ClearText/>
+     
+     
+  </Slide>
+
+   
+   
+   
+  <Slide Id="Slide_MainMenu">
+     
+     <!--ANIM: 00-->
+     <NextAnimation>
+        <!--<WaitForClipDuration/>-->
+     </NextAnimation>
+
+    <!--SOUND-->
+
+
+       <!--SOUND-->
+      <PlaySound ClipAssetName="SFX_Introduction_Slide28">
+      <Delay>0</Delay>
+    </PlaySound>
+
+     <!--TEXT: But when comes the night. Terrifying mutated creatures.-->
+     <AppendNextText/>
+
+
+     <!--ANIM: 01-->
+     <NextAnimation>
+        <!--<WaitForClipDuration/>-->
+     </NextAnimation>
+     <!--TEXT: Come out of the Mist. To kill.-->
+     <AppendNextText/>
+
+
+     <!--ANIM: 02-->
+     <NextAnimation>
+        <!--<WaitForClipDuration/>-->
+     </NextAnimation>
+
+        <!--SOUND-->
+      <PlaySound ClipAssetName="SFX_Introduction_Slide29">
+      <Delay>0</Delay>
+    </PlaySound>
+
+     <!--TEXT: The survivors' only hope is to fight, night after night.-->
+     <AppendNextText/>
+
+
+     <!--TEXT: And protect these mages. At all cost.-->
+     <AppendNextText/>
+
+     <!--ANIM: 02-->
+     <NextAnimation>
+        <!--<WaitForClipDuration/>-->
+     </NextAnimation>
+    
+       <!--SOUND-->
+      <PlaySound ClipAssetName="SFX_Introduction_Slide30">
+      <Delay>0</Delay>
+    </PlaySound>
+
+
+     <!--TEXT: Until <#d260ed>The Last Spell</color> is cast.-->
+     <AppendNextText/>
+     
+
+     <!--ANIM: FadeOut-->
+     <NextAnimation>
+        <WaitForClipDuration/>
+     </NextAnimation>
+
+     <ClearText/>
+     
+    
+     
+  </Slide>
+  
+</AnimatedCutsceneDefinition>

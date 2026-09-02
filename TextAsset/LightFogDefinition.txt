@@ -1,0 +1,295 @@
+﻿<LightFogDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="LightFogDefinition.xsd">
+
+  <Repel>
+    <Range>3</Range>
+    <!--<CheckDiagonals/>-->
+  </Repel>
+   
+   
+   
+  <LightFogSpawnersGenerations>
+     <!-- Global: the impact of current FogDensity over the quantity of LightFogSpawners spawning -->
+    <LightFogSpawnersMultipliers>
+      <!--<LightFogSpawnersMultiplier FogDensity="VeryThin" Multiplier="2"/>
+      <LightFogSpawnersMultiplier FogDensity="Thin" Multiplier="1.5"/>
+      <LightFogSpawnersMultiplier FogDensity="Average" Multiplier="1"/>
+      <LightFogSpawnersMultiplier FogDensity="Dense" Multiplier="0.75"/>
+      <LightFogSpawnersMultiplier FogDensity="VeryDense" Multiplier="0.5"/>-->
+       <LightFogSpawnersMultiplier FogDensity="VeryThin" Multiplier="1.4"/>
+       <LightFogSpawnersMultiplier FogDensity="Thin" Multiplier="1.15"/>
+       <LightFogSpawnersMultiplier FogDensity="Average" Multiplier="1"/>
+       <LightFogSpawnersMultiplier FogDensity="Dense" Multiplier="0.85"/>
+       <LightFogSpawnersMultiplier FogDensity="VeryDense" Multiplier="0.65"/>
+    </LightFogSpawnersMultipliers>
+    
+     
+     <!-- Per city: LightFogSpawners quantity and quality evolution over the run -->
+    <LightFogSpawnersGeneration Id="Lakeburg">
+      <InitialCount Value="9"/>
+      <ScalingCount Value="1" Period="2"/>
+      <LightFogSpawnersToSpawn>
+         <LightFogSpawnerToSpawn DayIndex="0" BuildingId="LightFogSpawner_Alive"/>
+         <LightFogSpawnerToSpawn DayIndex="4" BuildingId="LightFogSpawner_Alive2"/>
+         <LightFogSpawnerToSpawn DayIndex="7" BuildingId="LightFogSpawner_Alive3"/>
+         <LightFogSpawnerToSpawn DayIndex="10" BuildingId="LightFogSpawner_Alive4"/>
+      </LightFogSpawnersToSpawn>
+    </LightFogSpawnersGeneration>
+     
+    <LightFogSpawnersGeneration Id="Felderland">
+      <InitialCount Value="9"/>
+      <ScalingCount Value="1" Period="2"/>
+       <LightFogSpawnersToSpawn>
+          <LightFogSpawnerToSpawn DayIndex="0" BuildingId="LightFogSpawner_Alive"/>
+          <LightFogSpawnerToSpawn DayIndex="4" BuildingId="LightFogSpawner_Alive2"/>
+       </LightFogSpawnersToSpawn>
+    </LightFogSpawnersGeneration>
+     
+    <LightFogSpawnersGeneration Id="Glenwald">
+      <InitialCount Value="7"/>
+      <ScalingCount Value="2" Period="3"/>
+       <LightFogSpawnersToSpawn>
+          <LightFogSpawnerToSpawn DayIndex="0" BuildingId="LightFogSpawner_Alive"/>
+          <LightFogSpawnerToSpawn DayIndex="2" BuildingId="LightFogSpawner_Alive2"/>
+          <LightFogSpawnerToSpawn DayIndex="5" BuildingId="LightFogSpawner_Alive3"/>
+          <LightFogSpawnerToSpawn DayIndex="8" BuildingId="LightFogSpawner_Alive4"/>
+       </LightFogSpawnersToSpawn>
+    </LightFogSpawnersGeneration>
+
+   <LightFogSpawnersGeneration Id="Elderlicht">
+      <InitialCount Value="12"/>
+      <ScalingCount Value="3" Period="3"/>
+      <LightFogSpawnersToSpawn>
+         <LightFogSpawnerToSpawn DayIndex="0" BuildingId="LightFogSpawner_Alive"/>
+         <LightFogSpawnerToSpawn DayIndex="4" BuildingId="LightFogSpawner_Alive2"/>
+         <LightFogSpawnerToSpawn DayIndex="7" BuildingId="LightFogSpawner_Alive3"/>
+         <LightFogSpawnerToSpawn DayIndex="10" BuildingId="LightFogSpawner_Alive4"/>
+      </LightFogSpawnersToSpawn>
+   </LightFogSpawnersGeneration>
+
+     <LightFogSpawnersGeneration Id="GildenbergRedux">
+        <InitialCount Value="8"/>
+        <ScalingCount Value="2" Period="3"/>
+        <LightFogSpawnersToSpawn>
+           <LightFogSpawnerToSpawn DayIndex="0" BuildingId="LightFogSpawner_Alive"/>
+           <LightFogSpawnerToSpawn DayIndex="2" BuildingId="LightFogSpawner_Alive2"/>
+           <LightFogSpawnerToSpawn DayIndex="5" BuildingId="LightFogSpawner_Alive3"/>
+           <LightFogSpawnerToSpawn DayIndex="7" BuildingId="LightFogSpawner_Alive4"/>
+        </LightFogSpawnersToSpawn>
+     </LightFogSpawnersGeneration>
+     
+   </LightFogSpawnersGenerations>
+  
+   
+   
+   <!-- Light fog patterns pool -->
+   <!-- Naming convention : Shape_Rx, where Rx is the "base/approximate radius" -->
+   <Patterns>
+      <!-- ////// Scenario 1 : Big Range / Less Spawner (not close) / Many HP and/or Day before respawn ///////// -->
+      <Pattern Id="Diamond_R3">
+         ___XXX___
+         __XXXXX__
+         _XXXXXXX_
+         XXXXOXXXX
+         _XXXXXXX_
+         __XXXXX__
+         ___XXX___  
+      </Pattern>
+            
+
+     <Pattern Id="Circle_R3">
+       __XXX__
+       _XXXXX_
+       XXXXXXX
+       XXXOXXX
+       XXXXXXX
+       _XXXXX_
+       __XXX__
+     </Pattern>
+
+
+     <Pattern Id="VerticalWavy_R3">
+       _XXX_
+       XXXXX
+       _XXX_
+       XXOXX
+       _XXX_
+       XXXXX
+       _XXX_
+     </Pattern>
+
+     <Pattern Id="HorizontalWavy_R3">
+       _X_X_X_
+       XXXXXXX
+       XXXOXXX
+       XXXXXXX
+       _X_X_X_
+     </Pattern>
+     
+     <Pattern Id="VeticalButterfly_R3">
+       _XX_XX_
+       XXXXXXX
+       XXXOXXX
+       XXXXXXX
+       _XX_XX_
+     </Pattern>
+
+     <Pattern Id="HorizontalButterfly_R3">
+       _XXX_
+       XXXXX
+       XXXXX
+       _XOX_
+       XXXXX
+       XXXXX
+       _XXX_
+     </Pattern>
+     
+          
+     <Pattern Id="VerticalRectangle_R2">
+       _XXX_
+       XXXXX
+       XXXXX
+       XXOXX
+       XXXXX
+       XXXXX
+       _XXX_
+     </Pattern>
+
+     <Pattern Id="HorizontalRectangle_R2">
+       _XXXXX_
+       XXXXXXX 
+       XXXOXXX
+       XXXXXXX
+       _XXXXX_
+     </Pattern>
+
+    
+
+     
+     <!-- ////// Scenario 2 : Little Range / More Spawner (closer) / Less HP and/or Day before respawn ///////// -->
+     <Pattern Id="Circle_R2">
+       _XXX_
+       XXXXX
+       XXOXX
+       XXXXX
+       _XXX_
+     </Pattern>
+     
+
+     <Pattern Id="Diamond_R2">
+       __XXX__
+       _XXXXX_
+       XXXOXXX
+       _XXXXX_
+       __XXX__
+     </Pattern>
+     
+
+     <Pattern Id="VerticalWavy_R2">
+       _XXX_
+       XXXXX
+       _XOX_
+       XXXXX
+       _XXX_
+     </Pattern>
+
+     <Pattern Id="HorizontalWavy_R2">
+       _X_X_
+       XXXXX
+       XXOXX
+       XXXXX
+       _X_X_
+     </Pattern>
+
+     
+     <Pattern Id="VerticalCrescent_R2">
+       __XXX__
+       _XXOXX_
+       XXXXXXX
+       XX___XX
+       X_____X
+     </Pattern>
+
+     <Pattern Id="HorizontalCrescent_R2">
+       __XXX
+       _XXX_
+       XXX__
+       XOX__
+       XXX__
+       _XXX_
+       __XXX
+     </Pattern>
+
+     <Pattern Id="VerticalCrescentFlip_R2">
+       X_____X
+       XX___XX
+       XXXXXXX
+       _XXOXX_
+       __XXX__       
+     </Pattern>
+
+     <Pattern Id="HorizontalCrescentFlip_R2">
+       XXX__
+       _XXX_
+       __XXX
+       __XOX
+       __XXX
+       _XXX_
+       XXX__
+     </Pattern>
+
+     <Pattern Id="HorizontalCross_R2">
+       XXX_XXX
+       _XXXXX_
+       __XOX__
+       _XXXXX_
+       XXX_XXX
+     </Pattern>
+
+     <Pattern Id="VerticalCross_R2">
+       X___X
+       XX_XX
+       XXXXX
+       _XOX_
+       XXXXX
+       XX_XX
+       X___X
+     </Pattern>
+         
+  
+      <Pattern Id="Asymetric1_R2">
+       _XXXX_
+       XXXXX_
+       _XOX__
+       XXXXX_
+       ___XXX
+     </Pattern>
+     
+     <Pattern Id="Asymetric2_R2">
+       _XXXX_
+       _XXXXX
+       __XOX_
+       _XXXXX
+       XXX___
+     </Pattern>
+     
+     <Pattern Id="Asymetric3_R2">
+       _XX__
+       XXXX_
+       _XOXX
+       _XXX_
+       __XXX
+     </Pattern>
+     
+      <Pattern Id="Asymetric4_R2">
+       __XXX
+       _XXX_
+       XXXXX
+       XOXX_
+       XXXX_
+       _XXX_
+     </Pattern>
+  
+   </Patterns>
+
+</LightFogDefinition>

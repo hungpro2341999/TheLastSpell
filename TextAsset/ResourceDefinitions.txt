@@ -1,0 +1,16 @@
+﻿<ResourceDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="ResourceDefinitions.xsd">
+
+   <FirstRunDamnedSoulsGain>200</FirstRunDamnedSoulsGain>
+
+   <ResourceDefinition Id="NoResource">
+      <Gold>0</Gold>
+      <Materials>0</Materials>
+   </ResourceDefinition>
+
+   <ResourceDefinition Id="GlintfeinStartingResources">
+      <Gold>200</Gold>
+      <Materials>450</Materials>
+   </ResourceDefinition>
+
+</ResourceDefinitions>

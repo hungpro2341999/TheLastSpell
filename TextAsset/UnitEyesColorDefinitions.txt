@@ -1,0 +1,164 @@
+<UnitEyesColorDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="UnitHairColorDefinitions.xsd">
+
+   <ColorSwapPalette Id="Grey">
+      <!--EyeColor-->
+      <ColorSwap>
+         <Index>59</Index>
+         <OutputColor>#aeaeae</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>46</Index>
+         <OutputColor>#727272</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>36</Index>
+         <OutputColor>#404040</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>19</Index>
+         <OutputColor>#1f1f1f</OutputColor>
+      </ColorSwap>
+   </ColorSwapPalette>
+
+   <ColorSwapPalette Id="Violet">
+      <!--EyeColor-->
+      <ColorSwap>
+         <Index>59</Index>
+         <OutputColor>#b08bd1</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>46</Index>
+         <OutputColor>#74568f</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>36</Index>
+         <OutputColor>#4a2b55</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>19</Index>
+         <OutputColor>#2a1327</OutputColor>
+      </ColorSwap>
+   </ColorSwapPalette>
+
+   <ColorSwapPalette Id="Blue">
+      <!--EyeColor-->
+      <ColorSwap>
+         <Index>59</Index>
+         <OutputColor>#90ccc7</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>46</Index>
+         <OutputColor>#5a8b87</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>36</Index>
+         <OutputColor>#2e4d52</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>19</Index>
+         <OutputColor>#151f29</OutputColor>
+      </ColorSwap>
+   </ColorSwapPalette>
+
+   <ColorSwapPalette Id="DarkGreen">
+      <!--EyeColor-->
+      <ColorSwap>
+         <Index>59</Index>
+         <OutputColor>#b0d389</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>46</Index>
+         <OutputColor>#749154</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>36</Index>
+         <OutputColor>#375629</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>19</Index>
+         <OutputColor>#122b13</OutputColor>
+      </ColorSwap>
+   </ColorSwapPalette>
+
+   <ColorSwapPalette Id="LightGreen">
+      <!--EyeColor-->
+      <ColorSwap>
+         <Index>59</Index>
+         <OutputColor>#ded37e</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>46</Index>
+         <OutputColor>#9a914b</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>36</Index>
+         <OutputColor>#575d23</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>19</Index>
+         <OutputColor>#212f0f</OutputColor>
+      </ColorSwap>
+   </ColorSwapPalette>
+
+   <ColorSwapPalette Id="LightBrown">
+      <!--EyeColor-->
+      <ColorSwap>
+         <Index>59</Index>
+         <OutputColor>#eccf92</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>46</Index>
+         <OutputColor>#98793f</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>36</Index>
+         <OutputColor>#63471d</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>19</Index>
+         <OutputColor>#32300b</OutputColor>
+      </ColorSwap>
+   </ColorSwapPalette>
+
+   <ColorSwapPalette Id="Red">
+      <!--EyeColor-->
+      <ColorSwap>
+         <Index>59</Index>
+         <OutputColor>#c77b6e</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>46</Index>
+         <OutputColor>#8a4c42</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>36</Index>
+         <OutputColor>#54301d</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>19</Index>
+         <OutputColor>#29210c</OutputColor>
+      </ColorSwap>
+   </ColorSwapPalette>
+
+   <ColorSwapPalette Id="DarkBrown">
+      <!--EyeColor-->
+      <ColorSwap>
+         <Index>59</Index>
+         <OutputColor>#b99780</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>46</Index>
+         <OutputColor>#7e4825</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>36</Index>
+         <OutputColor>#53260e</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>19</Index>
+         <OutputColor>#2a1f03</OutputColor>
+      </ColorSwap>
+   </ColorSwapPalette>
+
+</UnitEyesColorDefinitions>

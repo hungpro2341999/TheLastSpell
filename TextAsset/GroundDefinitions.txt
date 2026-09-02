@@ -1,0 +1,24 @@
+﻿<GroundDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:noNamespaceSchemaLocation="GroundDefinitions.xsd">
+
+   <!--<GroundDefinition Id="Dirt">
+    <GroundCategory>City</GroundCategory>
+    <IsCrossable>true</IsCrossable>
+  </GroundDefinition>-->
+
+   <GroundDefinition Id="Stone">
+      <GroundCategory>City</GroundCategory>
+      <IsCrossable>true</IsCrossable>
+   </GroundDefinition>
+
+   <GroundDefinition Id="Dirt">
+      <GroundCategory>Outside</GroundCategory>
+      <IsCrossable>true</IsCrossable>
+   </GroundDefinition>
+
+   <GroundDefinition Id="Crater">
+      <GroundCategory>NoBuilding</GroundCategory>
+      <IsCrossable>false</IsCrossable>
+   </GroundDefinition>
+
+</GroundDefinitions>

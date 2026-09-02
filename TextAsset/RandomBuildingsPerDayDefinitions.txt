@@ -1,0 +1,159 @@
+﻿<RandomBuildingsPerDayDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                       xsi:noNamespaceSchemaLocation="RandomBuildingsPerDayDefinitions.xsd">
+
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <!-- TEST -->
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   
+   <RandomBuildingsPerDayDefinition Id="GenerationTest">
+      <!--Proc gen on game start.-->
+      <RandomBuildingsDirectionsDefinitions DayNumber="0">
+         <RandomBuildingsDirectionsDefinition Id="DirectionTest2" Weight="1"/>
+      </RandomBuildingsDirectionsDefinitions>
+      <!--Nothing happens on day 1.-->
+      <!--Clear random buildings on day 2 (-> using Empty directions).-->
+      <RandomBuildingsDirectionsDefinitions DayNumber="2">
+         <RandomBuildingsDirectionsDefinition Id="Empty"/>
+      </RandomBuildingsDirectionsDefinitions>
+   </RandomBuildingsPerDayDefinition>
+
+   
+   
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <!-- END TESTS -->
+   <!-- ███████████████████████████████████████████████████████████████ -->
+
+   <RandomBuildingsPerDayDefinition Id="Glintfein">
+      <RandomBuildingsDirectionsDefinitions DayNumber="0">
+         <!--Les générations-->
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_00_Normal_0" Weight="3"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_00_Normal_1" Weight="3"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_00_FewBuildings" Weight="2"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_00_ManyBuildings" Weight="2"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_00_Statue_0" Weight="2"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_00_Statue_1" Weight="2"/>
+         <!--La génération avec les statues étant "moins random", on lui donne une weight plus faible pour éviter que les joueurs remarquent trop facilement les contraintes de gén-->
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_00_Statue_2" Weight="1"/>
+      </RandomBuildingsDirectionsDefinitions>
+
+      
+      <RandomBuildingsDirectionsDefinitions DayNumber="1">
+		  <RandomBuildingsDirectionsDefinition Id="Glintfein_01_Normal_0" Weight="3"/>
+		  <RandomBuildingsDirectionsDefinition Id="Glintfein_01_Normal_1" Weight="3"/>
+		  <RandomBuildingsDirectionsDefinition Id="Glintfein_01_FewBuildings" Weight="2"/>
+		  <RandomBuildingsDirectionsDefinition Id="Glintfein_01_ManyBuildings" Weight="2"/>
+      </RandomBuildingsDirectionsDefinitions>
+
+      
+      <RandomBuildingsDirectionsDefinitions DayNumber="2">
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_02_SidesOpposite" Weight="3"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_02_CentersOpposite" Weight="3"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_02_SidesAdjacent" Weight="3"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_02_CentersAdjacent" Weight="3"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_02_SidesOnly" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_02_CentersOnly" Weight="1"/>
+      </RandomBuildingsDirectionsDefinitions>
+
+      
+      <RandomBuildingsDirectionsDefinitions DayNumber="3">
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_01_Normal_0" Weight="3"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_01_Normal_1" Weight="3"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_01_FewBuildings" Weight="2"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_01_ManyBuildings" Weight="2"/>
+      </RandomBuildingsDirectionsDefinitions>
+
+      
+      <RandomBuildingsDirectionsDefinitions DayNumber="4">
+         <!-- OppositeGridsAndHighways -->
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeGridsAndHighways" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeGridsAndHighways_01" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeGridsAndHighways_02" Weight="1"/>
+         <!-- OppositeGridsAndAlleys -->
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeGridsAndAlleys" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeGridsAndAlleys_01" Weight="1"/>
+         <!-- OppositeGridsAndHighwayAlley -->
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeGridsAndHighwayAlley" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeGridsAndHighwayAlley_01" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeGridsAndHighwayAlley_02" Weight="1"/>
+         <!-- AdjacentHighways -->
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_04_AdjacentHighways" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_04_AdjacentHighways_01" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_04_AdjacentHighways_02" Weight="1"/>
+         <!-- AdjacentAlleys -->
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_04_AdjacentAlleys" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_04_AdjacentAlleys_01" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_04_AdjacentAlleys_02" Weight="1"/>
+         <!-- OppositeAlleys -->
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeAlleys" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeAlley_01" Weight="1"/>
+         <!-- OppositeHighways -->
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeHighways" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_04_OppositeHighways_01" Weight="1"/>
+      </RandomBuildingsDirectionsDefinitions>
+
+      
+      <RandomBuildingsDirectionsDefinitions DayNumber="5">
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_05_Normal" Weight="2"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_05_Throne" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_05_ThroneFlipped" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_05_BuildingsOnSides" Weight="2"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_05_BuildingsMiddle" Weight="2"/>
+      </RandomBuildingsDirectionsDefinitions>
+
+      
+      <RandomBuildingsDirectionsDefinitions DayNumber="6">
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_06_OppositeHighwaysWithSides" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_06_OppositeAlleysWithSides" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_06_OppositeAlleysWithCenters" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_06_AdjacentCenters" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_06_AdjacentCenters_01" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_06_AdjacentCenters_02" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_06_AdjacentCenters_03" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_06_AdjacentSides" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_06_AdjacentSides_01" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_06_AdjacentSides_02" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_06_AdjacentSides_03" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_06_AdjacentSides_04" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_06_FullMixed" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_06_FullMixed_01" Weight="1"/>
+         <RandomBuildingsDirectionsDefinition Id="Glintfein_06_FullMixed_02" Weight="1"/>
+      </RandomBuildingsDirectionsDefinitions>
+   </RandomBuildingsPerDayDefinition>
+
+
+	<!-- ███████████████████████████████████████████████████████████████ -->
+	<!-- Gildenberg Redux -->
+	<!-- ███████████████████████████████████████████████████████████████ -->
+
+	<RandomBuildingsPerDayDefinition Id="GildenbergRedux">
+		<RandomBuildingsDirectionsDefinitions DayNumber="0">
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L00_L10_L20" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L00_L10_L21" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L00_L10_L22" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L00_L11_L20" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L00_L11_L21" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L00_L11_L22" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L00_L12_L20" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L00_L12_L21" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L00_L12_L22" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L01_L10_L20" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L01_L10_L21" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L01_L10_L22" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L01_L11_L20" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L01_L11_L21" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L01_L11_L22" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L01_L12_L20" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L01_L12_L21" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L01_L12_L22" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L02_L10_L20" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L02_L10_L21" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L02_L10_L22" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L02_L11_L20" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L02_L11_L21" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L02_L11_L22" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L02_L12_L20" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L02_L12_L21" Weight="1"/>
+			<RandomBuildingsDirectionsDefinition Id="GildenbergRedux_RSB_L02_L12_L22" Weight="1"/>
+		</RandomBuildingsDirectionsDefinitions>
+	</RandomBuildingsPerDayDefinition>
+</RandomBuildingsPerDayDefinitions>

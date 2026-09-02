@@ -1,0 +1,927 @@
+﻿<CutsceneDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="CutsceneDefinitions.xsd">
+
+   <!-- SPAWNERBOSS -->
+   <UnitCutsceneDefinition Id="SpawnerBoss_Cutscene">
+      <ToggleHUD Display="false"/>
+      <FocusUnit/>
+      <Wait>0.5</Wait>
+      <Wait>0.2</Wait>
+      <PlayFX WaitForFXDuration="false">
+         <SpawnFXs TotalDuration="3.5">
+            <SpawnVisualEffect>
+               <Path>Enemy Boss/SpawnerBoss/Spawn/SpawnerBoss_Spawn_TargetBefore</Path>
+               <Delay>0.5</Delay>
+               <SortingDepth>Before</SortingDepth>
+            </SpawnVisualEffect>
+
+            <SoundEffect>
+               <Path>SpawnerBoss/SFX_Ennemies_Boss_Spawn</Path>
+               <Delay>0</Delay>
+            </SoundEffect>
+
+            <CamShake>
+               <Id>Hard Hit-CamShake</Id>
+               <Delay>0.5</Delay>
+            </CamShake>
+
+            <CamShake>
+               <Id>MegaStompPropagation-CamShake</Id>
+               <Delay>1</Delay>
+            </CamShake>
+
+            <CamShake>
+               <Id>Hard Hit-CamShake</Id>
+               <Delay>3</Delay>
+            </CamShake>
+         </SpawnFXs>
+      </PlayFX>
+      <InstantiateParticles>
+         <Folder>Prefab/Boss/SpawnerBoss/</Folder>
+         <Id>SpawnFxBossSpawner</Id>
+      </InstantiateParticles>
+      <ChangeMusic/>
+      <InitUnitVisuals/>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="SpawnerBoss_DeathCutscene">
+      <ToggleHUD Display="false"/>
+      <StopMusic/>
+      <FocusUnit ZoomIn="true"/>
+      <Wait>2</Wait>
+      <PlayCamShakeEffect DataAnimationCurve="BossDeath_ShakeCurve" DelayBetweenEachShake="0.2" Duration="5"
+                          DurationOfEachShake="0.4" IntensityMultiplier="1" WaitCamShake="true"/>
+      <PlayDeathAnim WaitDeathAnim="false"/>
+      <InvertImage Duration="0.05" Easing="Linear"/>
+      <PlayRippleEffect/>
+      <FadeIn Color="#FFFFFFFF" Duration="1.5"/>
+      <ExileAllEnemies/>
+      <FadeOut Color="#FFFFFFFF" Duration="1.5"/>
+      <Wait>4</Wait>
+      <FocusMagicCircle/>
+   </UnitCutsceneDefinition>
+
+   <!-- HARPY -->
+   <UnitCutsceneDefinition Id="HarpyBoss_Cutscene">
+      <ToggleHUD Display="false"/>
+      <FocusUnit/>
+      <Wait>0.5</Wait>
+      <Wait>0.2</Wait>
+      <PlaySound>
+         <Path></Path>
+      </PlaySound>
+      <PlayFX>
+         <SpawnFXs TotalDuration="3.5">
+            <!--<SpawnVisualEffect>
+               <Path>Enemy Boss/SpawnerBoss/Spawn/SpawnerBoss_Spawn_TargetBefore</Path>
+               <Delay>0.5</Delay>
+               <SortingDepth>Before</SortingDepth>
+            </SpawnVisualEffect>-->
+
+            <SoundEffect>
+               <Path>Harpy/SFX_Enemy_Skill_Harpy_DiveBomb</Path>
+               <Delay>0</Delay>
+            </SoundEffect>
+
+            <CamShake>
+               <Id>MegaStompPropagation-CamShake</Id>
+               <Delay>1.3</Delay>
+            </CamShake>
+
+         </SpawnFXs>
+      </PlayFX>
+      <ChangeMusic/>
+      <InitUnitVisuals WaitSpawnAnim="true"/>
+      <InstantiateParticles>
+         <Folder>Prefab/Boss/Harpy/</Folder>
+         <Id>Feather_Burst_Particles</Id>
+      </InstantiateParticles>
+      <Wait>4</Wait>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="HarpyBossCommander_Cutscene">
+      <ToggleHUD Display="false"/>
+      <FocusUnit/>
+      <Wait>0.3</Wait>
+      <PlayFX>
+         <SpawnFXs>
+            <SoundEffect>
+               <Path>Harpy/SFX_Enemy_Harpy_Spawn</Path>
+               <Delay>0.5</Delay>
+            </SoundEffect>
+         </SpawnFXs>
+      </PlayFX>
+      <InitUnitVisuals/>
+      <Wait>2</Wait>
+      <!--<PlayRippleEffect/>-->
+      <ChangeMusic/>
+      <!--<InvertImage Duration="0.05" Easing="Linear"/>-->
+      <Wait>3</Wait>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="HarpyBoss_DeathCutscene">
+      <StopMusic/>
+      <ToggleHUD Display="false"/>
+      <PlayDeathAnim WaitDeathAnim="false"/>
+      <!--<PlayRippleEffect/>-->
+      <FocusUnit ZoomIn="true"/>
+      <Wait>2.2</Wait>
+      <!--<PlayCamShakeEffect DataAnimationCurve="BossDeath_ShakeCurve" DelayBetweenEachShake="0.2" Duration="5"
+                          DurationOfEachShake="0.4" IntensityMultiplier="1" WaitCamShake="true"/>-->
+
+      <!--<InvertImage Duration="0.05" Easing="Linear"/>-->
+      <!--<PlayRippleEffect/>-->
+      <FadeIn Color="#FFFFFFFF" Duration="0.2"/>
+      <ExileAllEnemies/>
+      <Wait>1.40</Wait>
+      <FadeOut Color="#FFFFFFFF" Duration="0.2"/>
+      <Wait>4</Wait>
+   </UnitCutsceneDefinition>
+
+   <!--<UnitCutsceneDefinition Id="HarpyBoss_DeathCutscene">
+      <ToggleHUD Display="false"/>
+      <StopMusic/>
+      <FocusUnit ZoomIn="true"/>
+      <Wait>2</Wait>
+      <PlayCamShakeEffect DataAnimationCurve="BossDeath_ShakeCurve" DelayBetweenEachShake="0.2" Duration="5"
+                          DurationOfEachShake="0.4" IntensityMultiplier="1" WaitCamShake="true"/>
+      <PlayDeathAnim WaitDeathAnim="false"/>
+      <InvertImage Duration="0.05" Easing="Linear"/>
+      <PlayRippleEffect/>
+      <FadeIn Color="#FFFFFFFF" Duration="1.5"/>
+      <ExileAllEnemies/>
+      <FadeOut Color="#FFFFFFFF" Duration="1.5"/>
+      <Wait>4</Wait>
+      <FocusMagicCircle/>
+   </UnitCutsceneDefinition>-->
+
+   <!-- NESSIE -->
+   <UnitCutsceneDefinition Id="NessieBossHead_Cutscene">
+      <ToggleHUD Display="false"/>
+      <FocusUnit/>
+      <Wait>0.5</Wait>
+      <Wait>0.2</Wait>
+      <PlayFX>
+         <SpawnFXs TotalDuration="2.9">
+            <SpawnVisualEffect>
+               <Path>Enemy Boss/NessieBossHead/NessieBossHead_Spawn</Path>
+               <Delay>0.5</Delay>
+               <SortingDepth>Before</SortingDepth>
+            </SpawnVisualEffect>
+
+            <SoundEffect>
+               <Path>Nessie/SFX_Enemy_Nessy_BossHead_Spawn</Path>
+               <Delay>0.7</Delay>
+            </SoundEffect>
+
+            <CamShake>
+               <Id>Hard Hit-CamShake</Id>
+               <Delay>1.5</Delay>
+            </CamShake>
+
+            <CamShake>
+               <Id>MegaStompPropagation-CamShake</Id>
+               <Delay>0.5</Delay>
+            </CamShake>
+
+            <CamShake>
+               <Id>Hard Hit-CamShake</Id>
+               <Delay>0</Delay>
+            </CamShake>
+         </SpawnFXs>
+      </PlayFX>
+      <InstantiateParticles>
+         <Folder>Prefab/Boss/Nessie/</Folder>
+         <Id>Geyser_Particles</Id>
+      </InstantiateParticles>
+      <ChangeMusic/>
+      <InitUnitVisuals/>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+   
+   <UnitCutsceneDefinition Id="NessieBossHeadArmor_Cutscene">
+      <ToggleHUD Display="false"/>
+      <FocusUnit/>
+      <Wait>0.5</Wait>
+      <Wait>0.2</Wait>
+      <PlayFX>
+         <SpawnFXs TotalDuration="2.9">
+            <SpawnVisualEffect>
+               <Path>Enemy Boss/NessieBossHeadArmor/NessieBossHeadArmor_Spawn</Path>
+               <Delay>0.5</Delay>
+               <SortingDepth>Before</SortingDepth>
+            </SpawnVisualEffect>
+
+            <SoundEffect>
+               <Path>Nessie/SFX_Enemy_Nessy_BossHead_Spawn</Path>
+               <Delay>0.7</Delay>
+            </SoundEffect>
+
+            <CamShake>
+               <Id>Hard Hit-CamShake</Id>
+               <Delay>1.5</Delay>
+            </CamShake>
+
+            <CamShake>
+               <Id>MegaStompPropagation-CamShake</Id>
+               <Delay>0.5</Delay>
+            </CamShake>
+
+            <CamShake>
+               <Id>Hard Hit-CamShake</Id>
+               <Delay>0</Delay>
+            </CamShake>
+         </SpawnFXs>
+      </PlayFX>
+      <InstantiateParticles>
+         <Folder>Prefab/Boss/Nessie/</Folder>
+         <Id>Geyser_Particles</Id>
+      </InstantiateParticles>
+      <ChangeMusic/>
+      <InitUnitVisuals/>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="NessieBossHeadRage_Cutscene">
+      <ToggleHUD Display="false"/>
+      <FocusUnit/>
+      <Wait>0.5</Wait>
+      <Wait>0.2</Wait>
+      <PlayFX>
+         <SpawnFXs TotalDuration="2.9">
+            <SpawnVisualEffect>
+               <Path>Enemy Boss/NessieBossHeadRage/NessieBossHeadRage_Spawn</Path>
+               <Delay>0.5</Delay>
+               <SortingDepth>Before</SortingDepth>
+            </SpawnVisualEffect>
+
+            <SoundEffect>
+               <Path>Nessie/SFX_Enemy_Nessy_BossHeadRage_Spawn</Path>
+               <Delay>0.7</Delay>
+            </SoundEffect>
+
+            <CamShake>
+               <Id>Hard Hit-CamShake</Id>
+               <Delay>1.5</Delay>
+            </CamShake>
+
+            <CamShake>
+               <Id>MegaStompPropagation-CamShake</Id>
+               <Delay>0.5</Delay>
+            </CamShake>
+
+            <CamShake>
+               <Id>Hard Hit-CamShake</Id>
+               <Delay>0</Delay>
+            </CamShake>
+         </SpawnFXs>
+      </PlayFX>
+      <InstantiateParticles>
+         <Folder>Prefab/Boss/Nessie/</Folder>
+         <Id>Geyser_Particles</Id>
+      </InstantiateParticles>
+      <ChangeMusic/>
+      <InitUnitVisuals/>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="NessieBossTail_Cutscene">
+      <ToggleHUD Display="false"/>
+      <FocusUnit/>
+      <Wait>0.5</Wait>
+      <Wait>0.2</Wait>
+      <PlayFX>
+         <SpawnFXs TotalDuration="2.9">
+            <SpawnVisualEffect>
+               <Path>Enemy Boss/NessieBossTail/NessieBossTail_Spawn</Path>
+               <Delay>0.5</Delay>
+               <SortingDepth>Before</SortingDepth>
+            </SpawnVisualEffect>
+
+            <SoundEffect>
+               <Path>Nessie/SFX_Enemy_Nessy_BossTail_Spawn</Path>
+               <Delay>0.4</Delay>
+            </SoundEffect>
+
+            <CamShake>
+               <Id>Hard Hit-CamShake</Id>
+               <Delay>1.5</Delay>
+            </CamShake>
+
+            <CamShake>
+               <Id>MegaStompPropagation-CamShake</Id>
+               <Delay>0.5</Delay>
+            </CamShake>
+
+            <CamShake>
+               <Id>Hard Hit-CamShake</Id>
+               <Delay>0</Delay>
+            </CamShake>
+         </SpawnFXs>
+      </PlayFX>
+      <InstantiateParticles>
+         <Folder>Prefab/Boss/Nessie/</Folder>
+         <Id>Geyser_Particles</Id>
+      </InstantiateParticles>
+      <ChangeMusic/>
+      <InitUnitVisuals/>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="NessieBossTailArmor_Cutscene">
+      <ToggleHUD Display="false"/>
+      <FocusUnit/>
+      <Wait>0.5</Wait>
+      <Wait>0.2</Wait>
+      <PlayFX>
+         <SpawnFXs TotalDuration="3.5">
+            <SpawnVisualEffect>
+               <Path>Enemy Boss/NessieBossTailArmor/NessieBossTailArmor_Spawn</Path>
+               <Delay>0.5</Delay>
+               <SortingDepth>Before</SortingDepth>
+            </SpawnVisualEffect>
+
+            <SoundEffect>
+               <Path>Nessie/SFX_Enemy_Nessy_BossTail_Spawn</Path>
+               <Delay>0.4</Delay>
+            </SoundEffect>
+
+            <CamShake>
+               <Id>Hard Hit-CamShake</Id>
+               <Delay>1.5</Delay>
+            </CamShake>
+
+            <CamShake>
+               <Id>MegaStompPropagation-CamShake</Id>
+               <Delay>0.5</Delay>
+            </CamShake>
+
+            <CamShake>
+               <Id>Hard Hit-CamShake</Id>
+               <Delay>0</Delay>
+            </CamShake>
+         </SpawnFXs>
+      </PlayFX>
+      <InstantiateParticles>
+         <Folder>Prefab/Boss/Nessie/</Folder>
+         <Id>Geyser_Particles</Id>
+      </InstantiateParticles>
+      <ChangeMusic/>
+      <InitUnitVisuals/>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+   
+   <UnitCutsceneDefinition Id="NessieBossHeadRage_DeathCutscene">
+      <ToggleHUD Display="false"/>
+      <StopMusic/>
+      <FocusUnit ZoomIn="true"/>
+      <PlayDeathAnim WaitDeathAnim="false"/>
+      <PlaySound>
+      <Path>Sounds/SFX/Skills SFXs/Nessie/SFX_Enemy_Nessy_Death</Path>
+      <Delay>0.0</Delay>
+      </PlaySound>
+      <PlayCamShakeEffect DataAnimationCurve="BossDeath_ShakeCurve" DelayBetweenEachShake="0.2" Duration="3.8" 
+                          DurationOfEachShake="0.4" IntensityMultiplier="1" WaitCamShake="true"/>
+      <FadeIn Color="#FFFFFFFF" Duration="0.2"/>
+      <ExileAllEnemies/>
+      <Wait>1.6</Wait>
+      <FadeOut Color="#FFFFFFFF" Duration="0.2"/>
+      <Wait>3</Wait>
+      <!--<FocusMagicCircle/>-->
+   </UnitCutsceneDefinition>
+   
+   <!--ELDERLICHT BOSS-->
+   <UnitCutsceneDefinition Id="ThroneTowerBoss_Cutscene">
+      <ToggleHUD Display="false"/>
+      <FocusTile X="59" Y="33"/>
+      <InitUnitVisuals/>
+      <EvolutiveLevelArtSetActiveCurrentStage Value="false"/>
+      <PlaySound>
+         <Path>Sounds/SFX/Spawns SFXs/Monarch/SFX_Enemy_ThroneTowerBoss_Spawn</Path>
+      </PlaySound>
+      <ChangeMusic/>
+      <Wait>5</Wait>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="ThroneTowerBoss_Death_Cutscene">
+      <ToggleHUD Display="false"/>
+      <PlaySound>
+         <Path>Sounds/SFX/Spawns SFXs/Monarch/SFX_Enemy_ThroneTowerBoss_End3rdPhase_Part01</Path>
+      </PlaySound>
+      <InitUnitVisuals/>
+      <FocusTile X="59" Y="33"/>
+      <Wait>5</Wait>
+      <ChangeMusic/>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="ThroneTowerBoss2_Cutscene">
+      <ToggleHUD Display="false"/>
+      <InitUnitVisuals/>
+      <FocusTile X="48" Y="30"/>
+      <PlaySound>
+         <Path>Sounds/SFX/Spawns SFXs/Monarch/SFX_Enemy_ThroneTowerBoss_End3rdPhase_Part02</Path>
+      </PlaySound>
+      <Wait>4</Wait>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="MonarchBoss_Cutscene">
+      <ToggleHUD Display="false"/>
+      <InitUnitVisuals/>
+      <FocusUnit/>
+      <PlaySound>
+         <Path>Sounds/SFX/Spawns SFXs/Monarch/SFX_Enemy_ThroneTowerBoss_End3rdPhase_Part02</Path>
+      </PlaySound>
+      <Wait>4</Wait>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="MonarchBoss_DeathCutscene">
+      <StopMusic/>
+      <ToggleHUD Display="false"/>
+      <PlayDeathAnim WaitDeathAnim="false"/>
+      <!--<PlayRippleEffect/>-->
+      <FocusUnit ZoomIn="true"/>
+      <Wait>3</Wait>
+      <!--<PlayCamShakeEffect DataAnimationCurve="BossDeath_ShakeCurve" DelayBetweenEachShake="0.2" Duration="5"
+                          DurationOfEachShake="0.4" IntensityMultiplier="1" WaitCamShake="true"/>-->
+
+      <!--<InvertImage Duration="0.05" Easing="Linear"/>-->
+      <!--<PlayRippleEffect/>-->
+      <FadeIn Color="#FFFFFFFF" Duration="0.2"/>
+      <ExileAllEnemies/>
+      <Wait>1.4</Wait>
+      <FadeOut Color="#FFFFFFFF" Duration="0.2"/>
+      <Wait>4</Wait>
+   </UnitCutsceneDefinition>
+
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <!-- Schaden & Freude -->
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <!-- ███████████████████████████████████████████████████████████████ -->
+
+   <UnitCutsceneDefinition Id="DarkSchaden_Cutscene">
+      <ToggleHUD Display="false"/>
+      <FocusUnit/>
+      <ChangeMusic/>
+      <InitUnitVisuals/>
+      <PlaySound>
+         <Path>Sounds/SFX/Skills SFXs/Schaden/SFX_DarkSchaden_Spawn</Path>
+      </PlaySound>
+      <Wait>3</Wait>
+      <Bark BarkerType="BossUnit" BarkerId="DarkSchaden" MoveCamera="Always">
+         <BarkDefinition Id="BossGlintfein_Schaden_NightBegin">
+            <Proba>100</Proba>
+            <Sentences Count="6"/>
+         </BarkDefinition>
+      </Bark>
+      <Wait>1</Wait>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="SchadenBoss_Final_DeathCutscene">
+      <StopMusic OnlyIfVictoryTriggered="true"/>
+      <ToggleHUD Display="false" OnlyIfVictoryTriggered="true"/>
+      <Bark BarkerType="CutsceneUnit" MoveCamera="Always">
+         <BarkDefinition Id="BossGlintfein_Schaden_FinalDeath">
+            <Proba>100</Proba>
+            <Sentences Count="5"/>
+         </BarkDefinition>
+      </Bark>
+      <Bark BarkerType="BossUnit" BarkerId="FreudeBoss_Final" MoveCamera="Always">
+         <BarkDefinition Id="BossGlintfein_Freude_WitnessDeath">
+            <Proba>100</Proba>
+            <Sentences Count="5"/>
+         </BarkDefinition>
+      </Bark>
+      <FocusUnit ZoomIn="true"/>
+      <Wait>0.25</Wait>
+
+      <PlayDeathAnim WaitDeathAnim="false"/>
+
+      <Wait>0.25</Wait>
+
+      <InstantiateParticles>
+         <Folder>Prefab/Boss/Freude/</Folder>
+         <Id>Freude_TrueDeath</Id>
+      </InstantiateParticles>
+
+      <PlayCamShakeEffect DataAnimationCurve="BossDeath_ShakeCurve" DelayBetweenEachShake="0.2" Duration="4.7"
+                          DurationOfEachShake="0.4" IntensityMultiplier="2" WaitCamShake="true"/>
+
+      <PlayRippleEffect/>
+
+      <InvertImage Duration="0.05" Easing="Linear"/>
+      <FadeIn Color="#FFFFFF" Duration="0.2"/>
+
+      <ExileAllEnemies OnlyIfVictoryTriggered="true"/>
+      <Wait>1.4</Wait>
+      <FadeOut Color="#FFFFFF" Duration="0.2"/>
+      <Wait>4</Wait>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="FreudeBoss_Final_DeathCutscene">
+      <StopMusic OnlyIfVictoryTriggered="true"/>
+      <ToggleHUD Display="false" OnlyIfVictoryTriggered="true"/>
+      <Bark BarkerType="BossUnit" BarkerId="CutsceneUnit" MoveCamera="Always">
+         <BarkDefinition Id="BossGlintfein_Freude_FinalDeath">
+            <Proba>100</Proba>
+            <Sentences Count="5"/>
+         </BarkDefinition>
+      </Bark>
+      <Bark BarkerType="BossUnit" BarkerId="SchadenBoss_Final" MoveCamera="Always">
+         <BarkDefinition Id="BossGlintfein_Schaden_WitnessDeath">
+            <Proba>100</Proba>
+            <Sentences Count="5"/>
+         </BarkDefinition>
+      </Bark>
+      <FocusUnit ZoomIn="true"/>
+      <Wait>0.25</Wait>
+     
+      <PlayDeathAnim WaitDeathAnim="false"/>
+
+      <Wait>0.25</Wait>
+
+      <InstantiateParticles>
+         <Folder>Prefab/Boss/Freude/</Folder>
+         <Id>Freude_TrueDeath</Id>
+      </InstantiateParticles>
+      
+      <PlayCamShakeEffect DataAnimationCurve="BossDeath_ShakeCurve" DelayBetweenEachShake="0.2" Duration="4.7"
+                          DurationOfEachShake="0.4" IntensityMultiplier="2" WaitCamShake="true"/>
+
+      <PlayRippleEffect/>
+      
+      <InvertImage Duration="0.05" Easing="Linear"/>
+      <FadeIn Color="#FFFFFF" Duration="0.2"/>
+
+      <ExileAllEnemies OnlyIfVictoryTriggered="true"/>
+      <Wait>1.4</Wait>
+      <FadeOut Color="#FFFFFF" Duration="0.2"/>
+      <Wait>4</Wait>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="LightFreude_Cutscene">
+      <ToggleHUD Display="false"/>
+      <FocusUnit/>
+      <ChangeMusic/>
+      <InitUnitVisuals/>
+      <Wait>3</Wait>
+      <PlaySound>
+      <Path>Sounds/SFX/Skills SFXs/Freude/SFX_LightFreude_Spawn</Path>
+      </PlaySound>
+      <Bark BarkerType="BossUnit" BarkerId="LightFreude" MoveCamera="Always">
+         <BarkDefinition Id="BossGlintfein_Freude_NightBegin">
+            <Proba>100</Proba>
+            <Sentences Count="6"/>
+         </BarkDefinition>
+      </Bark>
+      <Wait>1</Wait>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="SchadenBoss_Cutscene">
+      <ToggleHUD Display="false"/>
+      <FocusUnit/>
+      <ChangeMusic/>
+      <InitUnitVisuals/>
+      <PlaySound>
+      <Path>Sounds/SFX/Skills SFXs/Schaden/SFX_Schaden_Spawn</Path>
+      </PlaySound>
+      <Wait>3</Wait>
+      <Bark BarkerType="BossUnit" BarkerId="SchadenBoss" MoveCamera="Always">
+         <BarkDefinition Id="BossGlintfein_Schaden_Phase1Spawn">
+            <Proba>100</Proba>
+            <Sentences Count="6"/>
+         </BarkDefinition>
+      </Bark>
+      <Wait>1</Wait>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="FreudeBoss_Cutscene">
+      <ToggleHUD Display="false"/>
+      <FocusUnit/>
+      <ChangeMusic/>
+      <InitUnitVisuals/>
+      <PlaySound>
+      <Path>Sounds/SFX/Skills SFXs/Freude/SFX_Freude_Spawn</Path>
+      </PlaySound>
+      <Wait>3</Wait>
+      <Bark BarkerType="BossUnit" BarkerId="FreudeBoss" MoveCamera="Always">
+         <BarkDefinition Id="BossGlintfein_Freude_Phase1Spawn">
+            <Proba>100</Proba>
+            <Sentences Count="6"/>
+         </BarkDefinition>
+      </Bark>
+      <Wait>1</Wait>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="BlissnachtBoss_Cutscene">
+      <ToggleHUD Display="false"/>
+      <FocusUnit/>
+      <ChangeMusic/>
+      <InitUnitVisuals/>
+      <PlaySound>
+      <Path>Sounds/SFX/Skills SFXs/Schaden/SFX_Blissnacht_Spawn</Path>
+      </PlaySound>
+      <Wait>5</Wait>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="TendertrostBoss_Cutscene">
+      <ToggleHUD Display="false"/>
+      <FocusUnit/>
+      <ChangeMusic/>
+      <InitUnitVisuals/>
+      <PlaySound>
+      <Path>Sounds/SFX/Skills SFXs/Freude/SFX_Tendertrost_Spawn</Path>
+      </PlaySound>
+      <Wait>5</Wait>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="FreudeBoss_Weaponless_Cutscene">
+      <ToggleHUD Display="false"/>
+      <FocusUnit/>
+      <ChangeMusic/>
+      <InitUnitVisuals/>
+      <PlaySound>
+      <Path>Sounds/SFX/Skills SFXs/Freude/SFX_Freude_Weaponless_Spawn</Path>
+      </PlaySound>
+      <Wait>5</Wait>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="SchadenBoss_Weaponless_Cutscene">
+      <ToggleHUD Display="false"/>
+      <FocusUnit/>
+      <ChangeMusic/>
+      <InitUnitVisuals/>
+      <PlaySound>
+      <Path>Sounds/SFX/Skills SFXs/Schaden/SFX_Schaden_Weaponless_Spawn</Path>
+      </PlaySound>
+      <Wait>5</Wait>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="SchadenBoss_Final_Cutscene">
+      <ToggleHUD Display="false"/>
+      <FocusUnit/>
+      <ChangeMusic/>
+      <InitUnitVisuals/>
+      <PlaySound>
+      <Path>Sounds/SFX/Skills SFXs/Schaden/SFX_Schaden_Final_Spawn</Path>
+      </PlaySound>
+      <Wait>3</Wait>
+      <Bark BarkerType="BossUnit" BarkerId="SchadenBoss_Final" MoveCamera="Always">
+         <BarkDefinition Id="BossGlintfein_Schaden_Phase5Spawn">
+            <Proba>100</Proba>
+            <Sentences Count="5"/>
+         </BarkDefinition>
+      </Bark>
+      <Wait>1</Wait>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="FreudeBoss_Final_Cutscene">
+      <ToggleHUD Display="false"/>
+      <FocusUnit/>
+      <ChangeMusic/>
+      <InitUnitVisuals/>
+      <PlaySound>
+      <Path>Sounds/SFX/Skills SFXs/Freude/SFX_Freude_Final_Spawn</Path>
+      </PlaySound>
+      <Wait>3</Wait>
+      <Bark BarkerType="BossUnit" BarkerId="FreudeBoss_Final" MoveCamera="Always">
+         <BarkDefinition Id="BossGlintfein_Freude_Phase5Spawn">
+            <Proba>100</Proba>
+            <Sentences Count="5"/>
+         </BarkDefinition>
+      </Bark>
+      <Wait>1</Wait>
+      <ToggleHUD Display="true"/>
+   </UnitCutsceneDefinition>
+
+   
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <!-- Gildenberg Redux -->
+   <!-- ███████████████████████████████████████████████████████████████ -->
+
+   <CutsceneDefinition Id="GildenbergRedux_SuperwaveIntroZoomDebug">
+      <ToggleHUD Display="false"/>
+      <Zoom In="true"/>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="GildenbergRedux_SuperwaveIntro0">
+      <ToggleHUD Display="false"/>
+      <Zoom In="true"/>
+      <Wait>0.6</Wait>
+      <Bark BarkerType="Unit" MoveCamera="Always">
+         <LookAt>Barker</LookAt>
+         <BarkDefinition Id="GildenbergRedux_SuperwaveIntro_PlayableUnit0">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <LookAtCircle/>
+      <Bark BarkerType="MagicCircle" MoveCamera="Always">
+         <BarkDefinition Id="GildenbergRedux_SuperwaveIntro_Mages0">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <Bark BarkerType="MagicCircle" MoveCamera="Always">
+         <BarkDefinition Id="GildenbergRedux_SuperwaveIntro_Mages1">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <ChangeMusic/>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="GildenbergRedux_BossAwaken0">
+      <ToggleHUD Display="false"/>
+      <Wait>0.5</Wait>
+      <Zoom In="true"/>
+      <Bark BarkerType="BossUnit" BarkerId="DwarfStatueBoss1"  MoveCamera="Always">
+         <LookAt>Barker</LookAt>
+         <BarkDefinition Id="GildenbergRedux_BossAwaken0_DwarfStatueBoss1">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <Bark BarkerType="Unit"  MoveCamera="Always">
+         <LookAt>Barker</LookAt>
+         <BarkDefinition Id="GildenbergRedux_BossAwaken0_PlayableUnit0">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <Zoom In="false"/>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="GildenbergRedux_Tension0">
+      <ToggleHUD Display="false"/>
+      <Wait>0.5</Wait>
+      <LookAtCircle/>
+      <Bark BarkerType="MagicCircle" MoveCamera="Always">
+         <BarkDefinition Id="GildenbergRedux_Tension0_Mages0">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <Bark BarkerType="Unit" MoveCamera="Always">
+         <LookAt>Barker</LookAt>
+         <BarkDefinition Id="GildenbergRedux_Tension0_PlayableUnit0">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <LookAtCircle/>
+      <Bark BarkerType="MagicCircle" MoveCamera="Always">
+         <BarkDefinition Id="GildenbergRedux_Tension0_Mages1">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="GildenbergRedux_ObjectiveRunestone0">
+      <ToggleHUD Display="false"/>
+      <Wait>0.5</Wait>
+      <LookAtCircle/>
+      <Bark BarkerType="MagicCircle" MoveCamera="Always">
+         <BarkDefinition Id="GildenbergRedux_ObjectiveRunestone0_Mages0">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <Bark BarkerType="Unit" MoveCamera="Always">
+         <LookAt>Barker</LookAt>
+         <BarkDefinition Id="GildenbergRedux_ObjectiveRunestone0_PlayableUnit0">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="GildenbergRedux_BossAwaken1">
+      <ToggleHUD Display="false"/>
+      <Wait>0.5</Wait>
+      <Zoom In="true"/>
+      <Bark BarkerType="BossUnit" BarkerId="DwarfStatueBoss1Vulnerable"  MoveCamera="Always">
+         <LookAt>Barker</LookAt>
+         <BarkDefinition Id="GildenbergRedux_BossAwaken1_DwarfStatueBoss1VulnerableActor">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="GildenbergRedux_ObjectiveRunestone1">
+      <ToggleHUD Display="false"/>
+      <Wait>0.5</Wait>
+      <LookAtCircle/>
+      <Bark BarkerType="MagicCircle" MoveCamera="Always">
+         <BarkDefinition Id="GildenbergRedux_ObjectiveRunestone1_Mages0">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="GildenbergRedux_BossAwaken2">
+      <ToggleHUD Display="false"/>
+      <Wait>0.5</Wait>
+      <Zoom In="true"/>
+      <Bark BarkerType="BossUnit" BarkerId="DwarfStatueBoss1Vulnerable"  MoveCamera="Always">
+         <LookAt>Barker</LookAt>
+         <BarkDefinition Id="GildenbergRedux_BossAwaken2_DwarfStatueBoss1VulnerableActor">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="GildenbergRedux_BossAwaken3">
+      <ToggleHUD Display="false"/>
+      <Wait>0.5</Wait>
+      <Zoom In="true"/>
+      <Bark BarkerType="BossUnit" BarkerId="DwarfStatueBoss2Vulnerable"  MoveCamera="Always">
+         <LookAt>Barker</LookAt>
+         <BarkDefinition Id="GildenbergRedux_BossAwaken3_DwarfStatueBoss2VulnerableActor">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="GildenbergRedux_ObjectiveRunestone2">
+      <ToggleHUD Display="false"/>
+      <Wait>0.5</Wait>
+      <LookAtCircle/>
+      <Bark BarkerType="MagicCircle" MoveCamera="Always">
+         <BarkDefinition Id="GildenbergRedux_ObjectiveRunestone2_Mages0">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <Bark BarkerType="Unit" MoveCamera="Always">
+         <LookAt>Barker</LookAt>
+         <BarkDefinition Id="GildenbergRedux_ObjectiveRunestone2_PlayableUnit0">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="GildenbergRedux_BossAwaken4">
+      <ToggleHUD Display="false"/>
+      <Wait>0.5</Wait>
+      <Zoom In="true"/>
+      <Bark BarkerType="BossUnit" BarkerId="DwarfStatueBoss2VulnerableLast"  MoveCamera="Always">
+         <LookAt>Barker</LookAt>
+         <BarkDefinition Id="GildenbergRedux_BossAwaken4_DwarfStatueBoss2EnergeticVulnerableActor">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>
+
+	<CutsceneDefinition Id="LaunchMusic">
+		<ChangeMusic/>
+	</CutsceneDefinition>
+
+   <UnitCutsceneDefinition Id="DwarfStatue_DeathCutscene">
+      <ToggleHUD Display="false"/>
+      <StopMusic/>
+      <FocusUnit ZoomIn="true"/>
+      <Wait>0.5</Wait>
+      <PlayCamShakeEffect DataAnimationCurve="BossDeath_ShakeCurve" DelayBetweenEachShake="0.2" Duration="3"
+                          DurationOfEachShake="0.4" IntensityMultiplier="1" WaitCamShake="true"/>
+      <PlayDeathAnim WaitDeathAnim="false"/>
+      <InvertImage Duration="0.05" Easing="Linear"/>
+      <FadeIn Color="#FFFFFFFF" Duration="0.9"/>
+      <ExileAllEnemies/>
+      <FadeOut Color="#FFFFFFFF" Duration="1.5"/>
+      <Wait>4</Wait>
+      <FocusMagicCircle/>
+   </UnitCutsceneDefinition>
+	
+</CutsceneDefinitions>

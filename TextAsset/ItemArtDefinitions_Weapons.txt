@@ -1,0 +1,1281 @@
+<ItemArtDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../ItemArtDefinitions.xsd">
+
+   <ItemArtDefinition Id="Sword0">
+      <ArtId>Sword0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Sword0/Generic/Weapon_Sword0</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Sword1">
+      <ArtId>Sword1</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Sword1/Generic/Weapon_Sword1</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Sword2">
+      <ArtId>Sword2</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Sword2/Generic/Weapon_Sword2</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Sword3">
+      <ArtId>Sword3</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Sword3/Generic/Weapon_Sword3</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Sword4">
+      <ArtId>Sword4</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Sword4/Generic/Weapon_Sword4</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Sword5">
+      <ArtId>Sword5</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Sword5/Generic/Weapon_Sword5</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Hammer0">
+      <ArtId>Hammer0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Hammer0/Generic/Weapon_Hammer0</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Hammer1">
+      <ArtId>Hammer1</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Hammer1/Generic/Weapon_Hammer1</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Hammer2">
+      <ArtId>Hammer2</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Hammer2/Generic/Weapon_Hammer2</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Hammer3">
+      <ArtId>Hammer3</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Hammer3/Generic/Weapon_Hammer3</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Hammer4">
+      <ArtId>Hammer4</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Hammer4/Generic/Weapon_Hammer4</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Hammer5">
+      <ArtId>Hammer5</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Hammer5/Generic/Weapon_Hammer5</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Axe0">
+      <ArtId>Axe0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Axe0/Generic/Weapon_Axe0</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Axe1">
+      <ArtId>Axe1</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Axe1/Generic/Weapon_Axe1</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Axe2">
+      <ArtId>Axe2</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Axe2/Generic/Weapon_Axe2</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Axe3">
+      <ArtId>Axe3</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Axe3/Generic/Weapon_Axe3</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Axe4">
+      <ArtId>Axe4</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Axe4/Generic/Weapon_Axe4</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Axe5">
+      <ArtId>Axe5</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Axe5/Generic/Weapon_Axe5</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Dagger0">
+      <ArtId>Dagger0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Dagger0/Generic/Weapon_Behind_Dagger0</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Dagger0/Generic/Weapon_Before_Dagger0</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Dagger1">
+      <ArtId>Dagger1</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Dagger1/Generic/Weapon_Behind_Dagger1</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Dagger1/Generic/Weapon_Before_Dagger1</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Dagger2">
+      <ArtId>Dagger2</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Dagger2/Generic/Weapon_Behind_Dagger2</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Dagger2/Generic/Weapon_Before_Dagger2</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Dagger3">
+      <ArtId>Dagger3</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Dagger3/Generic/Weapon_Behind_Dagger3</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Dagger3/Generic/Weapon_Before_Dagger3</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Dagger4">
+      <ArtId>Dagger4</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Dagger4/Generic/Weapon_Behind_Dagger4</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Dagger4/Generic/Weapon_Before_Dagger4</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Dagger5">
+      <ArtId>Dagger5</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Dagger5/Generic/Weapon_Behind_Dagger5</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Dagger5/Generic/Weapon_Before_Dagger5</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="2HSword0">
+      <ArtId>2HSword0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/2HSword0/Generic/Weapon_2HSword0</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="2HSword1">
+      <ArtId>2HSword1</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/2HSword1/Generic/Weapon_2HSword1</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="2HSword2">
+      <ArtId>2HSword2</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/2HSword2/Generic/Weapon_2HSword2</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="2HSword3">
+      <ArtId>2HSword3</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/2HSword3/Generic/Weapon_2HSword3</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="2HSword4">
+      <ArtId>2HSword4</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/2HSword4/Generic/Weapon_2HSword4</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="2HSword5">
+      <ArtId>2HSword5</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/2HSword5/Generic/Weapon_2HSword5</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="2HHammer0">
+      <ArtId>2HHammer0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/2HHammer0/Generic/Weapon_2HHammer0</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="2HHammer1">
+      <ArtId>2HHammer1</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/2HHammer1/Generic/Weapon_2HHammer1</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="2HHammer2">
+      <ArtId>2HHammer2</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/2HHammer2/Generic/Weapon_2HHammer2</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="2HHammer3">
+      <ArtId>2HHammer3</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/2HHammer3/Generic/Weapon_2HHammer3</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="2HHammer4">
+      <ArtId>2HHammer4</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/2HHammer4/Generic/Weapon_2HHammer4</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="2HHammer5">
+      <ArtId>2HHammer5</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/2HHammer5/Generic/Weapon_2HHammer5</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="2HAxe0">
+      <ArtId>2HAxe0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/2HAxe0/Generic/Weapon_2HAxe0</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="2HAxe1">
+      <ArtId>2HAxe1</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/2HAxe1/Generic/Weapon_2HAxe1</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="2HAxe2">
+      <ArtId>2HAxe2</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/2HAxe2/Generic/Weapon_2HAxe2</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="2HAxe3">
+      <ArtId>2HAxe3</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/2HAxe3/Generic/Weapon_2HAxe3</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="2HAxe4">
+      <ArtId>2HAxe4</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/2HAxe4/Generic/Weapon_2HAxe4</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="2HAxe5">
+      <ArtId>2HAxe5</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/2HAxe5/Generic/Weapon_2HAxe5</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Spear0">
+      <ArtId>Spear0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Spear0/Generic/Weapon_Spear0</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Spear1">
+      <ArtId>Spear1</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Spear1/Generic/Weapon_Spear1</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Spear2">
+      <ArtId>Spear2</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Spear2/Generic/Weapon_Spear2</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Spear3">
+      <ArtId>Spear3</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Spear3/Generic/Weapon_Spear3</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Spear4">
+      <ArtId>Spear4</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Spear4/Generic/Weapon_Spear4</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Spear5">
+      <ArtId>Spear5</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Spear5/Generic/Weapon_Spear5</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="HandCrossbow0">
+      <ArtId>HandCrossbow0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/HandCrossbow0/Generic/Weapon_HandCrossbow0</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="HandCrossbow1">
+      <ArtId>HandCrossbow1</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/HandCrossbow1/Generic/Weapon_HandCrossbow1</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="HandCrossbow2">
+      <ArtId>HandCrossbow2</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/HandCrossbow2/Generic/Weapon_HandCrossbow2</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="HandCrossbow3">
+      <ArtId>HandCrossbow3</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/HandCrossbow3/Generic/Weapon_HandCrossbow3</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="HandCrossbow4">
+      <ArtId>HandCrossbow4</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/HandCrossbow4/Generic/Weapon_HandCrossbow4</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="HandCrossbow5">
+      <ArtId>HandCrossbow5</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/HandCrossbow5/Generic/Weapon_HandCrossbow5</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Pistol0">
+      <ArtId>Pistol0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Pistol0/Generic/Weapon_Behind_Pistol0</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Pistol0/Generic/Weapon_Before_Pistol0</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Pistol1">
+      <ArtId>Pistol1</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Pistol1/Generic/Weapon_Behind_Pistol1</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Pistol1/Generic/Weapon_Before_Pistol1</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Pistol2">
+      <ArtId>Pistol2</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Pistol2/Generic/Weapon_Behind_Pistol2</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Pistol2/Generic/Weapon_Before_Pistol2</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Pistol3">
+      <ArtId>Pistol3</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Pistol3/Generic/Weapon_Behind_Pistol3</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Pistol3/Generic/Weapon_Before_Pistol3</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Pistol4">
+      <ArtId>Pistol4</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Pistol4/Generic/Weapon_Behind_Pistol4</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Pistol4/Generic/Weapon_Before_Pistol4</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Pistol5">
+      <ArtId>Pistol5</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Pistol5/Generic/Weapon_Behind_Pistol5</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Pistol5/Generic/Weapon_Before_Pistol5</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Shortbow0">
+      <ArtId>Shortbow0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/ShortBow0/Generic/Weapon_ShortBow0</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Shortbow1">
+      <ArtId>Shortbow1</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/ShortBow1/Generic/Weapon_ShortBow1</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Shortbow2">
+      <ArtId>Shortbow2</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/ShortBow2/Generic/Weapon_ShortBow2</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Shortbow3">
+      <ArtId>Shortbow3</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/ShortBow3/Generic/Weapon_ShortBow3</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Shortbow4">
+      <ArtId>Shortbow4</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/ShortBow4/Generic/Weapon_ShortBow4</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Shortbow5">
+      <ArtId>Shortbow5</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/ShortBow5/Generic/Weapon_ShortBow5</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Longbow0">
+      <ArtId>Longbow0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/LongBow0/Generic/Weapon_ArrowLongBow0</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/LongBow0/Generic/Weapon_LongBow0</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Longbow1">
+      <ArtId>Longbow1</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/LongBow1/Generic/Weapon_ArrowLongBow1</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/LongBow1/Generic/Weapon_LongBow1</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Longbow2">
+      <ArtId>Longbow2</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/LongBow2/Generic/Weapon_ArrowLongBow2</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/LongBow2/Generic/Weapon_LongBow2</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Longbow3">
+      <ArtId>Longbow3</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/LongBow3/Generic/Weapon_ArrowLongBow3</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/LongBow3/Generic/Weapon_LongBow3</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Longbow4">
+      <ArtId>Longbow4</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/LongBow4/Generic/Weapon_ArrowLongBow4</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/LongBow4/Generic/Weapon_LongBow4</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Longbow5">
+      <ArtId>Longbow5</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/LongBow5/Generic/Weapon_ArrowLongBow5</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/LongBow5/Generic/Weapon_LongBow5</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Crossbow0">
+      <ArtId>Crossbow0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Crossbow0/Generic/Weapon_Crossbow0_BeforeR</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Crossbow0/Generic/Weapon_Crossbow0_BehindR</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Crossbow1">
+      <ArtId>Crossbow1</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Crossbow1/Generic/Weapon_Crossbow1_BeforeR</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Crossbow1/Generic/Weapon_Crossbow1_BehindR</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Crossbow2">
+      <ArtId>Crossbow2</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Crossbow2/Generic/Weapon_Crossbow2_BeforeR</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Crossbow2/Generic/Weapon_Crossbow2_BehindR</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Crossbow3">
+      <ArtId>Crossbow3</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Crossbow3/Generic/Weapon_Crossbow3_BeforeR</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Crossbow3/Generic/Weapon_Crossbow3_BehindR</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Crossbow4">
+      <ArtId>Crossbow4</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Crossbow4/Generic/Weapon_Crossbow4_BeforeR</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Crossbow4/Generic/Weapon_Crossbow4_BehindR</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Crossbow5">
+      <ArtId>Crossbow5</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Crossbow5/Generic/Weapon_Crossbow5_BeforeR</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Crossbow5/Generic/Weapon_Crossbow5_BehindR</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Rifle0">
+      <ArtId>Rifle0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Rifle0/Generic/Weapon_Behind_Rifle0</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Rifle0/Generic/Weapon_Before_Rifle0</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Rifle1">
+      <ArtId>Rifle1</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Rifle1/Generic/Weapon_Behind_Rifle1</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Rifle1/Generic/Weapon_Before_Rifle1</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Rifle2">
+      <ArtId>Rifle2</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Rifle2/Generic/Weapon_Behind_Rifle2</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Rifle2/Generic/Weapon_Before_Rifle2</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Rifle3">
+      <ArtId>Rifle3</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Rifle3/Generic/Weapon_Behind_Rifle3</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Rifle3/Generic/Weapon_Before_Rifle3</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Rifle4">
+      <ArtId>Rifle4</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Rifle4/Generic/Weapon_Behind_Rifle4</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Rifle4/Generic/Weapon_Before_Rifle4</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="Rifle5">
+      <ArtId>Rifle5</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Rifle5/Generic/Weapon_Behind_Rifle5</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Rifle5/Generic/Weapon_Before_Rifle5</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicWand0">
+      <ArtId>MagicWand0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicWand0/Generic/Weapon_MagicWand0</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicWand1">
+      <ArtId>MagicWand1</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicWand1/Generic/Weapon_MagicWand1</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicWand2">
+      <ArtId>MagicWand2</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicWand2/Generic/Weapon_MagicWand2</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicWand3">
+      <ArtId>MagicWand3</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicWand3/Generic/Weapon_MagicWand3</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicWand4">
+      <ArtId>MagicWand4</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicWand4/Generic/Weapon_MagicWand4</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicWand5">
+      <ArtId>MagicWand5</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicWand5/Generic/Weapon_MagicWand5</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicScepter0">
+      <ArtId>MagicScepter0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicScepter0/Generic/Weapon_MagicScepter0</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicScepter1">
+      <ArtId>MagicScepter1</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicScepter1/Generic/Weapon_MagicScepter1</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicScepter2">
+      <ArtId>MagicScepter2</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicScepter2/Generic/Weapon_MagicScepter2</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicScepter3">
+      <ArtId>MagicScepter3</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicScepter3/Generic/Weapon_MagicScepter3</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicScepter4">
+      <ArtId>MagicScepter4</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicScepter4/Generic/Weapon_MagicScepter4</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicScepter5">
+      <ArtId>MagicScepter5</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicScepter5/Generic/Weapon_MagicScepter5</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicOrb0">
+      <ArtId>MagicOrb0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicOrb0/Generic/Weapon_MagicOrb0</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicOrb1">
+      <ArtId>MagicOrb1</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicOrb1/Generic/Weapon_MagicOrb1</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicOrb2">
+      <ArtId>MagicOrb2</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicOrb2/Generic/Weapon_MagicOrb2</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicOrb3">
+      <ArtId>MagicOrb3</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicOrb3/Generic/Weapon_MagicOrb3</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicOrb4">
+      <ArtId>MagicOrb4</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicOrb4/Generic/Weapon_MagicOrb4</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicOrb5">
+      <ArtId>MagicOrb5</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicOrb5/Generic/Weapon_MagicOrb5</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicStaff0">
+      <ArtId>MagicStaff0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicStaff0/Generic/Weapon_MagicStaff0</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicStaff1">
+      <ArtId>MagicStaff1</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicStaff1/Generic/Weapon_MagicStaff1</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicStaff2">
+      <ArtId>MagicStaff2</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicStaff2/Generic/Weapon_MagicStaff2</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicStaff3">
+      <ArtId>MagicStaff3</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicStaff3/Generic/Weapon_MagicStaff3</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicStaff4">
+      <ArtId>MagicStaff4</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicStaff4/Generic/Weapon_MagicStaff4</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MagicStaff5">
+      <ArtId>MagicStaff5</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MagicStaff5/Generic/Weapon_MagicStaff5</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="TomeOfMagic0">
+      <ArtId>TomeOfMagic0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/TomeOfMagic0/Generic/Weapon_TomeOfMagic0</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic" Orientation ="Back">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/TomeOfMagic0/Generic/Weapon_TomeOfMagic0</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="TomeOfMagic1">
+      <ArtId>TomeOfMagic1</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/TomeOfMagic1/Generic/Weapon_TomeOfMagic1</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic" Orientation ="Back">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/TomeOfMagic1/Generic/Weapon_TomeOfMagic1</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="TomeOfMagic2">
+      <ArtId>TomeOfMagic2</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/TomeOfMagic2/Generic/Weapon_TomeOfMagic2</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic" Orientation ="Back">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/TomeOfMagic2/Generic/Weapon_TomeOfMagic2</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="TomeOfMagic3">
+      <ArtId>TomeOfMagic3</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/TomeOfMagic3/Generic/Weapon_TomeOfMagic3</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic" Orientation ="Back">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/TomeOfMagic3/Generic/Weapon_TomeOfMagic3</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="TomeOfMagic4">
+      <ArtId>TomeOfMagic4</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/TomeOfMagic4/Generic/Weapon_TomeOfMagic4</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic" Orientation ="Back">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/TomeOfMagic4/Generic/Weapon_TomeOfMagic4</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="TomeOfMagic5">
+      <ArtId>TomeOfMagic5</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/TomeOfMagic5/Generic/Weapon_TomeOfMagic5</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic" Orientation ="Back">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/TomeOfMagic5/Generic/Weapon_TomeOfMagic5</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="DruidicStaff0">
+      <ArtId>DruidicStaff0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/DruidicStaff0/Generic/Weapon_DruidicStaff0</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="DruidicStaff1">
+      <ArtId>DruidicStaff1</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/DruidicStaff1/Generic/Weapon_DruidicStaff1</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="DruidicStaff2">
+      <ArtId>DruidicStaff2</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/DruidicStaff2/Generic/Weapon_DruidicStaff2</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="DruidicStaff3">
+      <ArtId>DruidicStaff3</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/DruidicStaff3/Generic/Weapon_DruidicStaff3</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="DruidicStaff4">
+      <ArtId>DruidicStaff4</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/DruidicStaff4/Generic/Weapon_DruidicStaff4</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="DruidicStaff5">
+      <ArtId>DruidicStaff5</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Behind_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/DruidicStaff5/Generic/Weapon_DruidicStaff5</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="ParryingDagger0">
+      <ArtId>ParryingDagger0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/ParryingDagger0/Generic/Weapon_ParryingDagger0_BeforeL</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="BattleMageSword0">
+      <ArtId>BattleMageSword0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/BattleMageSword0/Generic/Weapon_BattleMageSword0_BeforeL</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="SwiftAxe0">
+      <ArtId>SwiftAxe0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/SwiftAxe0/Generic/Weapon_SwiftAxe0_BeforeL</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="MysticHammer0">
+      <ArtId>MysticHammer0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/MysticHammer0/Generic/Weapon_MysticHammer0_BeforeL</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="PreciseHandCrossbow0">
+      <ArtId>PreciseHandCrossbow0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_L">
+            <Sprite Constraint="Generic" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/PreciseHandCrossbow0/Generic/Weapon_PreciseHandCrossbow0_BeforeL</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="DuelingPistol0">
+      <ArtId>DuelingPistol0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/DuelingPistol0/Generic/Weapon_DuelingPistol0_BeforeL</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="BattleMageMagicWand0">
+      <ArtId>BattleMageMagicWand0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/BattleMageMagicWand0/Generic/Weapon_BattleMageMagicWand0_BeforeL</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="ReliableMagicScepter0">
+      <ArtId>ReliableMagicScepter0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/ReliableMagicScepter0/Generic/Weapon_ReliableMagicScepter0_BeforeL</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="TransferMagicOrb0">
+      <ArtId>TransferMagicOrb0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/TransferMagicOrb0/Generic/Weapon_TransferMagicOrb0_BeforeL</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="WarpCrystal0">
+      <ArtId>WarpCrystal0</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_L">
+            <Sprite Constraint="Generic" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/WarpCrystal0/Generic/Weapon_WarpCrystal0_BeforeL</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+</ItemArtDefinitions>

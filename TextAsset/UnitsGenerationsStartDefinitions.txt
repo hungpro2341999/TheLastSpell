@@ -1,0 +1,29 @@
+﻿<UnitsGenerationsStartDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="UnitGenerationStartDefinitions.xsd">
+
+   <UnitsGenerationStartDefinitions Id="Lakeburg">
+      
+      <UnitGenerationStartDefinition>
+         <PlayableUnitGenerationDefinitions>
+            <PlayableUnitGenerationDefinition ArchetypeId="Melee"/>
+         </PlayableUnitGenerationDefinitions>
+         <UnitGenerationLevelDefinition Id="Start"/>
+      </UnitGenerationStartDefinition>
+
+      <UnitGenerationStartDefinition>
+         <PlayableUnitGenerationDefinitions>
+            <PlayableUnitGenerationDefinition ArchetypeId="Range"/>
+         </PlayableUnitGenerationDefinitions>
+         <UnitGenerationLevelDefinition Id="Start"/>
+      </UnitGenerationStartDefinition>
+
+      <UnitGenerationStartDefinition>
+         <PlayableUnitGenerationDefinitions>
+            <PlayableUnitGenerationDefinition ArchetypeId="Magic"/>
+         </PlayableUnitGenerationDefinitions>
+         <UnitGenerationLevelDefinition Id="Start"/>
+      </UnitGenerationStartDefinition>
+      
+   </UnitsGenerationStartDefinitions>
+
+</UnitsGenerationsStartDefinitions>

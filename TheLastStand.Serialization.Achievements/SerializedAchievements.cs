@@ -1,0 +1,18 @@
+namespace TheLastStand.Serialization.Achievements;
+
+public class SerializedAchievements
+{
+	public SerializedAchievementUnlocker Stun50EnemiesNightAchievementUnlocker;
+
+	public SerializedAchievementUnlocker Crit20EnemiesTurnAchievementUnlocker;
+
+	public SerializedAchievementUnlocker PerfectWinAchievementUnlocker;
+
+	public SerializedAchievementUnlocker Destroy10CrystalsRunAchievementUnlocker;
+
+	public SerializedAchievementUnlocker Use50BeersRunAchievementUnlocker;
+
+	public SerializedAchievementUnlocker CrystalCorrupt5EnemiesNightAchievementUnlocker;
+
+	public SerializedAchievementUnlocker Drink10CoffeesRunAchievementUnlocker;
+}

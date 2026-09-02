@@ -1,0 +1,7 @@
+<EliteGaugeSizeThresholdsDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                              xsi:noNamespaceSchemaLocation="EliteGaugeSizeThresholdsDefinition.xsd">
+   
+   <Threshold>500</Threshold>
+   <Threshold>800</Threshold>
+   
+</EliteGaugeSizeThresholdsDefinition>

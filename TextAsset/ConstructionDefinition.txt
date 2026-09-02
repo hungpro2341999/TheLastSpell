@@ -1,0 +1,34 @@
+﻿<ConstructionDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="ConstructionDefinition.xsd">
+
+   <RepairCostRatio>50</RepairCostRatio> <!--Percentage-->
+
+   <RepairCategoryButtons>
+      <RepairCategoryButton Id="Structures">
+         <FlagId>Production</FlagId>
+      </RepairCategoryButton> 
+      
+      <RepairCategoryButton Id="Defenses">
+         <FlagId>Defensive</FlagId>
+      </RepairCategoryButton>
+      
+      <RepairCategoryButton Id="Barricades">
+         <FlagId>Barricade</FlagId>
+      </RepairCategoryButton>
+      
+      <RepairCategoryButton Id="GatesWalls">
+         <FlagId>Gate</FlagId>
+         <FlagId>Wall</FlagId>
+      </RepairCategoryButton>
+      
+      <RepairCategoryButton Id="Turrets">
+         <FlagId>Turret</FlagId>
+         <FlagId>HandledDefense</FlagId>
+      </RepairCategoryButton>
+      
+      <RepairCategoryButton Id="Traps">
+         <FlagId>Trap</FlagId>
+      </RepairCategoryButton>
+   </RepairCategoryButtons>
+   
+</ConstructionDefinition>

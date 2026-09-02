@@ -1,0 +1,45 @@
+﻿<TierDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="TierDefinitions.xsd">
+
+   <!-- INFO
+   This defines some data related to enemy units' Tier.
+   At the moment, the only purpose is to define a weight for the "Best Fiend" lifetime stat
+   -->
+
+   <TierDefinition Index="-1">
+      <LifetimeStatsWeight>15</LifetimeStatsWeight>
+   </TierDefinition>
+
+   <TierDefinition Index="1">
+      <LifetimeStatsWeight>1</LifetimeStatsWeight>
+   </TierDefinition>
+
+   <TierDefinition Index="2">
+      <LifetimeStatsWeight>1.5</LifetimeStatsWeight>
+   </TierDefinition>
+
+   <TierDefinition Index="3">
+      <LifetimeStatsWeight>4</LifetimeStatsWeight>
+   </TierDefinition>
+   
+   <TierDefinition Index="4">
+      <LifetimeStatsWeight>30</LifetimeStatsWeight>
+   </TierDefinition>
+
+   <TierDefinition Index="10">
+      <LifetimeStatsWeight>40</LifetimeStatsWeight>
+   </TierDefinition>
+
+   <TierDefinition Index="11">
+      <LifetimeStatsWeight>80</LifetimeStatsWeight>
+   </TierDefinition>
+
+   <TierDefinition Index="12">
+      <LifetimeStatsWeight>25</LifetimeStatsWeight>
+   </TierDefinition>
+
+   <TierDefinition Index="13">
+      <LifetimeStatsWeight>80</LifetimeStatsWeight>
+   </TierDefinition>
+
+</TierDefinitions>

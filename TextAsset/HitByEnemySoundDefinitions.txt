@@ -1,0 +1,33 @@
+﻿<HitByEnemySoundDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HitByEnemySoundDefinitions.xsd">
+
+   <HitByEnemySoundDefinition Target="PlayableUnits">
+      <SoundsPerNumberOfEnemies Min="0" Max="1">
+         <SoundId Value="SFX_Hit_Generic_1"/>
+      </SoundsPerNumberOfEnemies>
+      <SoundsPerNumberOfEnemies Min="2" Max="3">
+         <SoundId Value="SFX_Hit_Generic_2"/>
+      </SoundsPerNumberOfEnemies>
+      <SoundsPerNumberOfEnemies Min="4">
+         <SoundId Value="SFX_Hit_Generic_3"/>
+      </SoundsPerNumberOfEnemies>
+   </HitByEnemySoundDefinition>
+
+   <HitByEnemySoundDefinition Target="Buildings">
+      <SoundsPerNumberOfEnemies Min="0" Max="1">
+         <SoundId Value="SFX_Hit_Generic_1"/>
+      </SoundsPerNumberOfEnemies>
+      <SoundsPerNumberOfEnemies Min="2" Max="3">
+         <SoundId Value="SFX_Hit_Generic_2"/>
+      </SoundsPerNumberOfEnemies>
+      <SoundsPerNumberOfEnemies Min="4">
+         <SoundId Value="SFX_Hit_Generic_3"/>
+      </SoundsPerNumberOfEnemies>
+   </HitByEnemySoundDefinition>
+
+   <HitByEnemySoundDefinition Target="MagicCircle">
+      <SoundsPerNumberOfEnemies Min="0">
+         <SoundId Value="SFX_MagicCircle_Hit"/>
+      </SoundsPerNumberOfEnemies>
+   </HitByEnemySoundDefinition>
+
+</HitByEnemySoundDefinitions>

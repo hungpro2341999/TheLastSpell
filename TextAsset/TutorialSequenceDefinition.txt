@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CutsceneDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                            xsi:noNamespaceSchemaLocation="CutsceneDefinitions.xsd">
+   
+   <CutsceneDefinition Id="TutorialSequence_Step1">
+      <ToggleHUD Display="false"/>
+      <FocusMagicCircle/>
+      <Bark BarkerType="MagicCircle">
+         <BarkDefinition Id="TutorialSequence_MagicCircle0">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="TutorialSequence_Step2">
+      <ToggleHUD Display="false"/>
+      <!--<IncreaseFog Value="1"/>-->
+      <FocusMagicCircle/>
+      <Bark BarkerType="MagicCircle">
+         <BarkDefinition Id="TutorialSequence_MagicCircle1">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <Bark BarkerType="Unit" MoveCamera="Always">
+         <BarkDefinition Id="TutorialSequence_Unit0">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="TutorialSequence_Step3">
+      <ToggleHUD Display="false"/>
+      <!--<IncreaseFog Value="5"/>-->
+      <FocusMagicCircle/>
+      <Bark BarkerType="MagicCircle">
+         <BarkDefinition Id="TutorialSequence_MagicCircle2">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="TutorialSequence_Step4">
+      <ToggleHUD Display="false"/>
+      <FocusMagicCircle/>
+      <PlayMageDeathStep/>
+      <Bark BarkerType="MagicCircle">
+         <BarkDefinition Id="TutorialSequence_MagicCircle3">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <Bark BarkerType="Unit" MoveCamera="Always">
+         <BarkDefinition Id="TutorialSequence_Unit1">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <Bark BarkerType="MagicCircle" MoveCamera="Always">
+         <BarkDefinition Id="TutorialSequence_MagicCircle4">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <PlayMageDeathStep/>
+      <IncreaseFog Value="2"/>
+      <Bark BarkerType="Unit" MoveCamera="Always">
+         <BarkDefinition Id="TutorialSequence_Unit2">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <FocusMagicCircle/>
+      <OverrideCurrentSpawnWave WaveId="Tutorial_Force_Lose2" DirectionsId="Parallel_T50-1_B50-1"/>
+      <PlayEnemyTurn/>
+   </CutsceneDefinition>
+   
+</CutsceneDefinitions>

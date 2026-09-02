@@ -1,0 +1,913 @@
+<ItemArtDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../ItemArtDefinitions.xsd">
+
+  <ItemArtDefinition Id="ClothArmor0">
+    <ArtId>ClothArmor0</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor0/Female/Armor_ClothArmor0_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor0/Male/Armor_ClothArmor0_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor0/Female/Armor_ClothArmor0_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor0/Male/Armor_ClothArmor0_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor0/Female/Armor_ClothArmor0_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor0/Male/Armor_ClothArmor0_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="ClothArmor1">
+    <ArtId>ClothArmor1</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor1/Female/Armor_ClothArmor1_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor1/Male/Armor_ClothArmor1_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor1/Female/Armor_ClothArmor1_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor1/Male/Armor_ClothArmor1_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor1/Female/Armor_ClothArmor1_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor1/Male/Armor_ClothArmor1_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="ClothArmor2">
+    <ArtId>ClothArmor2</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor2/Female/Armor_ClothArmor2_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor2/Male/Armor_ClothArmor2_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor2/Female/Armor_ClothArmor2_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor2/Male/Armor_ClothArmor2_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor2/Female/Armor_ClothArmor2_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor2/Male/Armor_ClothArmor2_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="ClothArmor3">
+    <ArtId>ClothArmor3</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor3/Female/Armor_ClothArmor3_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor3/Male/Armor_ClothArmor3_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor3/Female/Armor_ClothArmor3_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor3/Male/Armor_ClothArmor3_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor3/Female/Armor_ClothArmor3_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor3/Male/Armor_ClothArmor3_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="ClothArmor4">
+    <ArtId>ClothArmor4</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor4/Female/Armor_ClothArmor4_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor4/Male/Armor_ClothArmor4_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor4/Female/Armor_ClothArmor4_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor4/Male/Armor_ClothArmor4_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor4/Female/Armor_ClothArmor4_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor4/Male/Armor_ClothArmor4_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="ClothArmor5">
+    <ArtId>ClothArmor5</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor5/Female/Armor_ClothArmor5_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor5/Male/Armor_ClothArmor5_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor5/Female/Armor_ClothArmor5_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor5/Male/Armor_ClothArmor5_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor5/Female/Armor_ClothArmor5_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor5/Male/Armor_ClothArmor5_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="LightArmor0">
+    <ArtId>LightArmor0</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor0/Female/Armor_LightArmor0_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor0/Male/Armor_LightArmor0_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor0/Female/Armor_LightArmor0_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor0/Male/Armor_LightArmor0_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor0/Female/Armor_LightArmor0_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor0/Male/Armor_LightArmor0_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="LightArmor1">
+    <ArtId>LightArmor1</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor1/Female/Armor_LightArmor1_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor1/Male/Armor_LightArmor1_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor1/Female/Armor_LightArmor1_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor1/Male/Armor_LightArmor1_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor1/Female/Armor_LightArmor1_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor1/Male/Armor_LightArmor1_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="LightArmor2">
+    <ArtId>LightArmor2</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor2/Female/Armor_LightArmor2_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor2/Male/Armor_LightArmor2_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor2/Female/Armor_LightArmor2_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor2/Male/Armor_LightArmor2_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor2/Female/Armor_LightArmor2_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor2/Male/Armor_LightArmor2_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="LightArmor3">
+    <ArtId>LightArmor3</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor3/Female/Armor_LightArmor3_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor3/Male/Armor_LightArmor3_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor3/Female/Armor_LightArmor3_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor3/Male/Armor_LightArmor3_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor3/Female/Armor_LightArmor3_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor3/Male/Armor_LightArmor3_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="LightArmor4">
+    <ArtId>LightArmor4</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor4/Female/Armor_LightArmor4_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor4/Male/Armor_LightArmor4_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor4/Female/Armor_LightArmor4_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor4/Male/Armor_LightArmor4_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor4/Female/Armor_LightArmor4_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor4/Male/Armor_LightArmor4_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="LightArmor5">
+    <ArtId>LightArmor5</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor5/Generic/Armor_LightArmor5_ArmL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor5/Generic/Armor_LightArmor5_ArmR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor5/Female/Armor_LightArmor5_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LightArmor5/Male/Armor_LightArmor5_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="MediumArmor0">
+    <ArtId>MediumArmor0</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor0/Female/Armor_MediumArmor0_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor0/Male/Armor_MediumArmor0_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor0/Female/Armor_MediumArmor0_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor0/Male/Armor_MediumArmor0_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor0/Female/Armor_MediumArmor0_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor0/Male/Armor_MediumArmor0_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="MediumArmor1">
+    <ArtId>MediumArmor1</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor1/Female/Armor_MediumArmor1_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor1/Male/Armor_MediumArmor1_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor1/Female/Armor_MediumArmor1_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor1/Male/Armor_MediumArmor1_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor1/Female/Armor_MediumArmor1_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor1/Male/Armor_MediumArmor1_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="MediumArmor2">
+    <ArtId>MediumArmor2</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor2/Female/Armor_MediumArmor2_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor2/Male/Armor_MediumArmor2_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor2/Female/Armor_MediumArmor2_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor2/Male/Armor_MediumArmor2_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor2/Female/Armor_MediumArmor2_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor2/Male/Armor_MediumArmor2_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="MediumArmor3">
+    <ArtId>MediumArmor3</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor3/Female/Armor_MediumArmor3_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor3/Male/Armor_MediumArmor3_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor3/Female/Armor_MediumArmor3_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor3/Male/Armor_MediumArmor3_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor3/Female/Armor_MediumArmor3_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor3/Male/Armor_MediumArmor3_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="MediumArmor4">
+    <ArtId>MediumArmor4</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor4/Generic/Armor_MediumArmor4_ArmL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor4/Generic/Armor_MediumArmor4_ArmR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor4/Generic/Armor_MediumArmor4_Torso_Generic</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="MediumArmor5">
+    <ArtId>MediumArmor5</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor5/Generic/Armor_MediumArmor5_ArmL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor5/Generic/Armor_MediumArmor5_ArmR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor5/Generic/Armor_MediumArmor5_ShoulderL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor5/Generic/Armor_MediumArmor5_ShoulderR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor5/Female/Armor_MediumArmor5_Torso_Female</Sprite>
+        <Sprite Constraint="Generic" Orientation="Back">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor5/Generic/Armor_MediumArmor5_Torso_Generic</Sprite>
+        <Sprite Constraint="Gender" Id="Male" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MediumArmor5/Male/Armor_MediumArmor5_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="HeavyArmor0">
+    <ArtId>HeavyArmor0</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor0/Generic/Armor_HeavyArmor0_ArmL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor0/Generic/Armor_HeavyArmor0_ArmR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor0/Generic/Armor_HeavyArmor0_Torso_Generic</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="HeavyArmor1">
+    <ArtId>HeavyArmor1</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor1/Generic/Armor_HeavyArmor1_ArmL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor1/Generic/Armor_HeavyArmor1_ArmR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor1/Generic/Armor_HeavyArmor1_Torso_Generic</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="HeavyArmor2">
+    <ArtId>HeavyArmor2</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor2/Generic/Armor_HeavyArmor2_ArmL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor2/Generic/Armor_HeavyArmor2_ArmR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor2/Generic/Armor_HeavyArmor2_Torso_Generic</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="HeavyArmor3">
+    <ArtId>HeavyArmor3</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor3/Generic/Armor_HeavyArmor3_ArmL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor3/Generic/Armor_HeavyArmor3_ArmR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor3/Generic/Armor_HeavyArmor3_Torso_Generic</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="HeavyArmor4">
+    <ArtId>HeavyArmor4</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor4/Generic/Armor_HeavyArmor4_ArmL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor4/Generic/Armor_HeavyArmor4_ArmR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor4/Generic/Armor_HeavyArmor4_ShoulderL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor4/Generic/Armor_HeavyArmor4_ShoulderR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor4/Female/Armor_HeavyArmor4_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor4/Male/Armor_HeavyArmor4_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="HeavyArmor5">
+    <ArtId>HeavyArmor5</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor5/Generic/Armor_HeavyArmor5_ArmL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor5/Generic/Armor_HeavyArmor5_ArmR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Cape">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor5/Generic/Armor_HeavyArmor5_Cape_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor5/Generic/Armor_HeavyArmor5_ShoulderL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor5/Generic/Armor_HeavyArmor5_ShoulderR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor5/Female/Armor_HeavyArmor5_Torso_Female</Sprite>
+        <Sprite Constraint="Generic" Orientation="Back">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor5/Generic/Armor_HeavyArmor5_Torso_Generic</Sprite>
+        <Sprite Constraint="Gender" Id="Male" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HeavyArmor5/Male/Armor_HeavyArmor5_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="FallenLordArmor">
+    <ArtId>FallenLordArmor</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/FallenLordArmor/Female/Armor_FallenLordArmor_ArmL_Female</Sprite>
+        <Sprite Constraint="Generic" Orientation="Back">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/FallenLordArmor/Generic/Armor_FallenLordArmor_ArmL_Generic</Sprite>
+        <Sprite Constraint="Gender" Id="Male" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/FallenLordArmor/Male/Armor_FallenLordArmor_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/FallenLordArmor/Female/Armor_FallenLordArmor_ArmR_Female</Sprite>
+        <Sprite Constraint="Generic" Orientation="Back">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/FallenLordArmor/Generic/Armor_FallenLordArmor_ArmR_Generic</Sprite>
+        <Sprite Constraint="Gender" Id="Male" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/FallenLordArmor/Male/Armor_FallenLordArmor_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/FallenLordArmor/Female/Armor_FallenLordArmor_Torso_Female</Sprite>
+        <Sprite Constraint="Generic" Orientation="Back">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/FallenLordArmor/Generic/Armor_FallenLordArmor_Torso_Generic</Sprite>
+        <Sprite Constraint="Gender" Id="Male" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/FallenLordArmor/Male/Armor_FallenLordArmor_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="ChildOfTheForestArmor">
+    <ArtId>ChildOfTheForestArmor</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ChildOfTheForestArmor/Female/Armor_ChildOfTheForestArmor_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ChildOfTheForestArmor/Male/Armor_ChildOfTheForestArmor_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ChildOfTheForestArmor/Female/Armor_ChildOfTheForestArmor_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ChildOfTheForestArmor/Male/Armor_ChildOfTheForestArmor_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ChildOfTheForestArmor/Female/Armor_ChildOfTheForestArmor_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ChildOfTheForestArmor/Male/Armor_ChildOfTheForestArmor_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="TheMountainArmor">
+    <ArtId>TheMountainArmor</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/TheMountainArmor/Generic/Armor_TheMountainArmor_ArmL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/TheMountainArmor/Generic/Armor_TheMountainArmor_ArmR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/TheMountainArmor/Generic/Armor_TheMountainArmor_Torso_Generic</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="LoneWolfArmor">
+    <ArtId>LoneWolfArmor</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LoneWolfArmor/Generic/Armor_LoneWolfArmor_ArmL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LoneWolfArmor/Generic/Armor_LoneWolfArmor_ArmR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Cape">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LoneWolfArmor/Generic/Armor_LoneWolfArmor_Cape_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LoneWolfArmor/Generic/Armor_LoneWolfArmor_ShoulderL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LoneWolfArmor/Generic/Armor_LoneWolfArmor_ShoulderR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LoneWolfArmor/Female/Armor_LoneWolfArmor_Torso_Female</Sprite>
+        <Sprite Constraint="Generic" Orientation="Back">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LoneWolfArmor/Generic/Armor_LoneWolfArmor_Torso_Generic</Sprite>
+        <Sprite Constraint="Gender" Id="Male" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/LoneWolfArmor/Male/Armor_LoneWolfArmor_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="MagicianArmor">
+    <ArtId>MagicianArmor</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MagicianArmor/Female/Armor_MagicianArmor_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MagicianArmor/Male/Armor_MagicianArmor_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MagicianArmor/Female/Armor_MagicianArmor_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MagicianArmor/Male/Armor_MagicianArmor_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MagicianArmor/Female/Armor_MagicianArmor_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MagicianArmor/Male/Armor_MagicianArmor_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="PorkEpicArmor">
+    <ArtId>PorkEpicArmor</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/PorkEpicArmor/Generic/Armor_PorkEpicArmor_ArmL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/PorkEpicArmor/Generic/Armor_PorkEpicArmor_ArmR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/PorkEpicArmor/Generic/Armor_PorkEpicArmor_ShoulderL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/PorkEpicArmor/Generic/Armor_PorkEpicArmor_ShoulderR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/PorkEpicArmor/Generic/Armor_PorkEpicArmor_Torso_Generic</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="ThiefArmor">
+    <ArtId>ThiefArmor</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ThiefArmor/Female/Armor_ThiefArmor_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ThiefArmor/Male/Armor_ThiefArmor_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ThiefArmor/Female/Armor_ThiefArmor_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ThiefArmor/Male/Armor_ThiefArmor_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ThiefArmor/Female/Armor_ThiefArmor_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ThiefArmor/Male/Armor_ThiefArmor_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="PriestArmor">
+    <ArtId>PriestArmor</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/PriestArmor/Female/Armor_PriestArmor_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/PriestArmor/Male/Armor_PriestArmor_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/PriestArmor/Female/Armor_PriestArmor_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/PriestArmor/Male/Armor_PriestArmor_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/PriestArmor/Female/Armor_PriestArmor_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/PriestArmor/Male/Armor_PriestArmor_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="DarknessArmor">
+    <ArtId>DarknessArmor</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/DarknessArmor/Generic/Armor_DarknessArmor_ArmL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/DarknessArmor/Generic/Armor_DarknessArmor_ArmR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/DarknessArmor/Generic/Armor_DarknessArmor_ShoulderL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/DarknessArmor/Generic/Armor_DarknessArmor_ShoulderR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/DarknessArmor/Generic/Armor_DarknessArmor_Torso_Generic</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="BonesArmor">
+    <ArtId>BonesArmor</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/BonesArmor/Female/Armor_BonesArmor_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/BonesArmor/Male/Armor_BonesArmor_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/BonesArmor/Female/Armor_BonesArmor_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/BonesArmor/Male/Armor_BonesArmor_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_R">
+        <Sprite Constraint="Gender" Id="Female" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/BonesArmor/Female/Armor_BonesArmor_ShoulderR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/BonesArmor/Male/Armor_BonesArmor_ShoulderR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/BonesArmor/Female/Armor_BonesArmor_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/BonesArmor/Male/Armor_BonesArmor_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="CommanderArmor">
+    <ArtId>CommanderArmor</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CommanderArmor/Female/Armor_CommanderArmor_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CommanderArmor/Male/Armor_CommanderArmor_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CommanderArmor/Female/Armor_CommanderArmor_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CommanderArmor/Male/Armor_CommanderArmor_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Cape">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CommanderArmor/Generic/Armor_CommanderArmor_Cape_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CommanderArmor/Generic/Armor_CommanderArmor_ShoulderL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CommanderArmor/Generic/Armor_CommanderArmor_ShoulderR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CommanderArmor/Female/Armor_CommanderArmor_Torso_Female</Sprite>
+        <Sprite Constraint="Generic" Orientation="Back">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CommanderArmor/Generic/Armor_CommanderArmor_Torso_Generic</Sprite>
+        <Sprite Constraint="Gender" Id="Male" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CommanderArmor/Male/Armor_CommanderArmor_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="ArcherArmor">
+    <ArtId>ArcherArmor</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ArcherArmor/Female/Armor_ArcherArmor_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ArcherArmor/Male/Armor_ArcherArmor_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ArcherArmor/Female/Armor_ArcherArmor_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ArcherArmor/Male/Armor_ArcherArmor_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ArcherArmor/Female/Armor_ArcherArmor_ShoulderR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ArcherArmor/Male/Armor_ArcherArmor_ShoulderR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ArcherArmor/Female/Armor_ArcherArmor_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ArcherArmor/Male/Armor_ArcherArmor_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="CoatArmor">
+    <ArtId>CoatArmor</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CoatArmor/Female/Armor_CoatArmor_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CoatArmor/Male/Armor_CoatArmor_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CoatArmor/Female/Armor_CoatArmor_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CoatArmor/Male/Armor_CoatArmor_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CoatArmor/Female/Armor_CoatArmor_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CoatArmor/Male/Armor_CoatArmor_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="BarbarianArmor">
+    <ArtId>BarbarianArmor</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/BarbarianArmor/Female/Armor_BarbarianArmor_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/BarbarianArmor/Male/Armor_BarbarianArmor_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/BarbarianArmor/Female/Armor_BarbarianArmor_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/BarbarianArmor/Male/Armor_BarbarianArmor_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Cape">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/BarbarianArmor/Female/Armor_BarbarianArmor_Cape_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/BarbarianArmor/Male/Armor_BarbarianArmor_Cape_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/BarbarianArmor/Female/Armor_BarbarianArmor_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/BarbarianArmor/Male/Armor_BarbarianArmor_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="RedSkirtArmor">
+    <ArtId>RedSkirtArmor</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/RedSkirtArmor/Female/Armor_RedSkirtArmor_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/RedSkirtArmor/Male/Armor_RedSkirtArmor_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/RedSkirtArmor/Female/Armor_RedSkirtArmor_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/RedSkirtArmor/Male/Armor_RedSkirtArmor_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/RedSkirtArmor/Female/Armor_RedSkirtArmor_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/RedSkirtArmor/Male/Armor_RedSkirtArmor_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="MurdererArmor">
+    <ArtId>MurdererArmor</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MurdererArmor/Female/Armor_MurdererArmor_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MurdererArmor/Male/Armor_MurdererArmor_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MurdererArmor/Female/Armor_MurdererArmor_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MurdererArmor/Male/Armor_MurdererArmor_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MurdererArmor/Female/Armor_MurdererArmor_ShoulderL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MurdererArmor/Male/Armor_MurdererArmor_ShoulderL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MurdererArmor/Female/Armor_MurdererArmor_ShoulderR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MurdererArmor/Male/Armor_MurdererArmor_ShoulderR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MurdererArmor/Female/Armor_MurdererArmor_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/MurdererArmor/Male/Armor_MurdererArmor_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="WarArmor">
+      <ArtId>WarArmor</ArtId>
+      <BodyParts>
+        <BodyPartDefinition Id="Arm_L">
+          <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/WarArmor/Female/Armor_WarArmor_ArmL_Female</Sprite>
+          <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/WarArmor/Male/Armor_WarArmor_ArmL_Male</Sprite>
+        </BodyPartDefinition>
+        <BodyPartDefinition Id="Arm_R">
+          <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/WarArmor/Female/Armor_WarArmor_ArmR_Female</Sprite>
+          <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/WarArmor/Male/Armor_WarArmor_ArmR_Male</Sprite>
+        </BodyPartDefinition>
+        <BodyPartDefinition Id="Torso">
+          <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/WarArmor/Female/Armor_WarArmor_Torso_Female</Sprite>
+          <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/WarArmor/Male/Armor_WarArmor_Torso_Male</Sprite>
+        </BodyPartDefinition>
+      </BodyParts>
+    </ItemArtDefinition>
+
+  <ItemArtDefinition Id="CrowArmor">
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CrowArmor/Female/Armor_CrowArmor_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CrowArmor/Male/Armor_CrowArmor_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CrowArmor/Female/Armor_CrowArmor_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CrowArmor/Male/Armor_CrowArmor_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Cape">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CrowArmor/Generic/Armor_CrowArmor_Cape_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CrowArmor/Generic/Armor_CrowArmor_ShoulderL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CrowArmor/Generic/Armor_CrowArmor_ShoulderR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CrowArmor/Female/Armor_CrowArmor_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/CrowArmor/Male/Armor_CrowArmor_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="FrostArmor">
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/FrostArmor/Generic/Armor_FrostArmor_ArmL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/FrostArmor/Generic/Armor_FrostArmor_ArmR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Cape">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/FrostArmor/Generic/Armor_FrostArmor_Cape_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/FrostArmor/Generic/Armor_FrostArmor_ShoulderR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/FrostArmor/Generic/Armor_FrostArmor_Torso_Generic</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="HoodArmor">
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HoodArmor/Generic/Armor_HoodArmor_ArmL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HoodArmor/Generic/Armor_HoodArmor_ArmR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Cape">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HoodArmor/Generic/Armor_HoodArmor_Cape_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HoodArmor/Generic/Armor_HoodArmor_ShoulderL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HoodArmor/Generic/Armor_HoodArmor_Torso_Generic</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="HunterArmor">
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HunterArmor/Female/Armor_HunterArmor_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HunterArmor/Male/Armor_HunterArmor_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HunterArmor/Female/Armor_HunterArmor_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HunterArmor/Male/Armor_HunterArmor_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HunterArmor/Female/Armor_HunterArmor_ShoulderR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HunterArmor/Male/Armor_HunterArmor_ShoulderR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HunterArmor/Female/Armor_HunterArmor_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/HunterArmor/Male/Armor_HunterArmor_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="NecromancerArmor">
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/NecromancerArmor/Generic/Armor_NecromancerArmor_ArmL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/NecromancerArmor/Generic/Armor_NecromancerArmor_ArmR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/NecromancerArmor/Generic/Armor_NecromancerArmor_ShoulderL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Shoulder_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/NecromancerArmor/Generic/Armor_NecromancerArmor_ShoulderR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/NecromancerArmor/Generic/Armor_NecromancerArmor_Torso_Generic</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="WhiteMonkArmor">
+    <BodyParts>
+      <BodyPartDefinition Id="Arm_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/WhiteMonkArmor/Female/Armor_WhiteMonkArmor_ArmL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/WhiteMonkArmor/Male/Armor_WhiteMonkArmor_ArmL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/WhiteMonkArmor/Female/Armor_WhiteMonkArmor_ArmR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/WhiteMonkArmor/Male/Armor_WhiteMonkArmor_ArmR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Torso">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/WhiteMonkArmor/Female/Armor_WhiteMonkArmor_Torso_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/WhiteMonkArmor/Male/Armor_WhiteMonkArmor_Torso_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+</ItemArtDefinitions>

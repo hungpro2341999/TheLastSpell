@@ -1,0 +1,247 @@
+﻿<TutorialDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TutorialDefinitions.xsd">
+   
+   <TutorialDefinition Id="Start0">
+      <Category>General</Category>
+      <Trigger>OnGameStart</Trigger>
+      <Conditions>
+         <InCity CityId="TutorialMap"/>
+      </Conditions>
+   </TutorialDefinition>
+
+   <TutorialDefinition Id="Start1">
+      <Category>General</Category>
+      <Trigger>OnGameStart</Trigger>
+      <Conditions>
+         <InCity CityId="TutorialMap"/>
+      </Conditions>
+   </TutorialDefinition>
+
+   <TutorialDefinition Id="Start2">
+      <Category>Deployment</Category>
+      <Trigger>OnGameStart</Trigger>
+      <Conditions>
+         <InCity CityId="TutorialMap"/>
+      </Conditions>
+      <Actions>
+         <Action Id="CamVertical" Index="2"/>
+         <Action Id="CamVertical" Index="3"/>
+         <Action Id="CamHorizontal" Index="2"/>
+         <Action Id="CamHorizontal" Index="3"/>
+         <Action Id="Pan" Index="0"/>
+      </Actions>
+   </TutorialDefinition>
+
+   <TutorialDefinition Id="Start3">
+      <Category>Deployment</Category>
+      <Trigger>OnGameStart</Trigger>
+      <Conditions>
+         <InCity CityId="TutorialMap"/>
+      </Conditions>
+   </TutorialDefinition>
+
+   <TutorialDefinition Id="Fight">
+      <Category>Night</Category>
+      <Trigger>OnPlayableUnitTurn</Trigger>
+      <Conditions>
+         <DuringNight/>
+         <InCity CityId="TutorialMap"/>
+      </Conditions>
+   </TutorialDefinition>
+   
+   <TutorialDefinition Id="HeroSkills">
+      <Category>Heroes</Category>
+      <Trigger>OnPlayableUnitTurn</Trigger>
+      <Conditions>
+         <DuringNight/>
+         <InCity CityId="TutorialMap"/>
+      </Conditions>
+      <Actions>
+         <Action Id="SkillWeapon1" Index="0"/>
+         <Action Id="SkillWeapon2" Index="0"/>
+         <Action Id="SkillWeapon3" Index="0"/>
+      </Actions>
+   </TutorialDefinition>
+   
+   <TutorialDefinition Id="EndTurn">
+      <Category>Night</Category>
+      <Trigger>OnSkillExecutionOver</Trigger>
+      <Conditions>
+         <TotalActionPointsSpent Value="10"/>
+         <InCity CityId="TutorialMap"/>
+      </Conditions>
+   </TutorialDefinition>
+
+   <TutorialDefinition Id="HealthMana">
+      <Category>Heroes</Category>
+      <Trigger>OnPlayableUnitTurn</Trigger>
+      <Conditions>
+         <InCity CityId="TutorialMap"/>
+         <CurrentNightHour NightHour="2"/>
+      </Conditions>
+   </TutorialDefinition>
+
+   <TutorialDefinition Id="Wounds">
+      <Category>Night</Category>
+      <Trigger>OnPlayableUnitTurn</Trigger>
+      <!--TODO: Also add OnEnemyUnitSelected trigger.-->
+      <Conditions>
+         <InCity CityId="TutorialMap"/>
+         <CurrentNightHour NightHour="2"/>
+      </Conditions>
+   </TutorialDefinition>
+
+   <TutorialDefinition Id="UndoMove">
+      <Category>Night</Category>
+      <Trigger>OnPlayableUnitMovement</Trigger>
+      <Conditions>
+         <DuringNight/>
+         <InCity CityId="TutorialMap"/>
+      </Conditions>
+   </TutorialDefinition>
+   
+   <TutorialDefinition Id="ShowEnemyMovement">
+      <Category>Night</Category>
+      <Trigger>OnPlayableUnitTurn</Trigger>
+      <Conditions>
+         <InCity CityId="TutorialMap"/>
+         <CurrentNightHour NightHour="3"/>
+      </Conditions>
+      <Actions>
+         <Action Id="ShowEnemiesMoveRange" Index="0"/>
+      </Actions>
+   </TutorialDefinition>
+
+   <TutorialDefinition Id="Panic">
+      <Category>Night</Category>
+      <Trigger>OnPlayableUnitTurn</Trigger>
+      <Conditions>
+         <InCity CityId="TutorialMap"/>
+         <CurrentNightHour NightHour="4"/>
+      </Conditions>
+   </TutorialDefinition>
+
+   <TutorialDefinition Id="Production0">
+      <Category>Production</Category>
+      <Trigger>OnProductionStart</Trigger>
+      <Conditions>
+         <InCity CityId="TutorialMap"/>
+      </Conditions>
+   </TutorialDefinition>
+
+   <TutorialDefinition Id="Production1">
+      <Category>Production</Category>
+      <Trigger>OnProductionStart</Trigger>
+      <Conditions>
+         <InCity CityId="TutorialMap"/>
+      </Conditions>
+   </TutorialDefinition>
+
+   <TutorialDefinition Id="Items">
+      <Category>Production</Category>
+      <Trigger>OnShopOpen</Trigger>
+      <Conditions>
+         <InCity CityId="TutorialMap"/>
+         <DuringDayTurn DayTurn="Production"/>
+      </Conditions>
+   </TutorialDefinition>
+
+   <TutorialDefinition Id="LevelUp">
+      <Category>Heroes</Category>
+      <Trigger>OnCharacterDetailsOpen</Trigger>
+      <Conditions>
+         <InCity CityId="TutorialMap"/>
+         <DuringDayTurn DayTurn="Production"/>
+      </Conditions>
+   </TutorialDefinition>
+
+   <TutorialDefinition Id="Perks">
+      <Category>Heroes</Category>
+      <Trigger>OnPerksOpen</Trigger>
+      <Conditions>
+         <InCity CityId="TutorialMap"/>
+         <DuringDayTurn DayTurn="Production"/>
+      </Conditions>
+   </TutorialDefinition>
+
+   <TutorialDefinition Id="Equip0">
+      <Category>Heroes</Category>
+      <Trigger>OnInventoryOpen</Trigger>
+      <Conditions>
+         <InCity CityId="TutorialMap"/>
+         <DuringDayTurn DayTurn="Production"/>
+      </Conditions>
+      <Actions>
+         <Action Id="ChangeEquipment" Index="0"/>
+      </Actions>
+   </TutorialDefinition>
+
+   <TutorialDefinition Id="Equip1">
+      <Category>Heroes</Category>
+      <Trigger>OnInventoryOpen</Trigger>
+      <Conditions>
+         <InCity CityId="TutorialMap"/>
+         <DuringDayTurn DayTurn="Production"/>
+      </Conditions>
+   </TutorialDefinition>
+
+   <TutorialDefinition Id="Omens0">
+      <Category>Other</Category>
+      <Trigger>OnWorldMapCitySelected</Trigger>
+      <HiddenUntilReadOnce/>
+   </TutorialDefinition>
+
+   <TutorialDefinition Id="Omens1">
+      <Category>Other</Category>
+      <Trigger>OnGlyphsPanelOpen</Trigger>
+      <HiddenUntilReadOnce/>
+   </TutorialDefinition>
+
+   <TutorialDefinition Id="Bonepiles">
+      <Category>Production</Category>
+      <Trigger>OnBonePileSelected</Trigger>
+   </TutorialDefinition>
+
+   <TutorialDefinition Id="Boss0">
+      <Category>Night</Category>
+      <Trigger>OnPlayableUnitTurn</Trigger>
+      <Conditions>
+         <DuringNight BossNightOnly="true"/>
+      </Conditions>
+      <HiddenUntilReadOnce/>
+   </TutorialDefinition>
+
+   <TutorialDefinition Id="Boss1">
+      <Category>Night</Category>
+      <Trigger>OnPlayableUnitTurn</Trigger>
+      <Conditions>
+         <DuringNight BossNightOnly="true"/>
+      </Conditions>
+      <HiddenUntilReadOnce/>
+   </TutorialDefinition>
+
+   <TutorialDefinition Id="Guardians">
+      <Category>Other</Category>
+      <Trigger>OnPlayableUnitSelected</Trigger>
+      <Conditions>
+         <InCity CityId="Elderlicht"/>
+      </Conditions>
+      <HiddenUntilReadOnce/>
+   </TutorialDefinition>
+   
+   <!-- Weapon restrictions -->
+   <TutorialDefinition Id="WeaponPool0">
+      <Category>Other</Category>
+      <Trigger>OnWorldMapOpen</Trigger>
+      <Conditions>
+         <IsWeaponRestrictionAvailable/>
+      </Conditions>
+      <HiddenUntilReadOnce/>
+   </TutorialDefinition>
+   
+   <TutorialDefinition Id="WeaponPool1">
+      <Category>Other</Category>
+      <Trigger>OnWeaponRestrictionsPanelOpen</Trigger>
+      <HiddenUntilReadOnce/>
+   </TutorialDefinition>
+
+</TutorialDefinitions>

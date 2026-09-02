@@ -1,0 +1,749 @@
+﻿<MetaNarrationDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:noNamespaceSchemaLocation="MetaNarrationDefinition.xsd">
+   <Dark>
+
+      <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+      <NameRevealDialogueId>D_GLE_03</NameRevealDialogueId>
+
+      <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+      <ShopGreetings>
+         <ShopGreeting>ShopGreeting_01</ShopGreeting>
+      </ShopGreetings>
+
+      <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+      <DialogueGreetings>
+         <DialogueGreeting>DialogueGreeting_01</DialogueGreeting>
+      </DialogueGreetings>
+
+      <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+      <Replicas>
+
+         <!-- Swampfurt outro ++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+         <Replica Id="D_SWAW_01" AnswersCount="1" Mandatory="true"></Replica>
+         
+         <Replica Id="D_SWAW_01B" AnswersCount="2" Mandatory="true">
+            <Conditions>
+               <UsedReplica>D_SWAW_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_SWAW_01C" AnswersCount="4" Mandatory="true">
+            <Conditions>
+               <UsedReplica>D_SWAW_01B</UsedReplica>
+            </Conditions>
+         </Replica>
+      
+         <!-- Gildenberg +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+      
+         <Replica Id="D_GIL_01" AnswersCount="5">
+            <Conditions>
+               <UsedReplica>D_SWAW_01C</UsedReplica>
+            </Conditions>
+         </Replica>
+         
+         <Replica Id="D_GIL_02" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>D_GIL_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_GIL_03" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>D_GIL_02</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_GIL_04" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>D_GIL_02</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_GIL_04B" AnswersCount="2" Mandatory="true">
+            <Conditions>
+               <UsedReplica>D_GIL_04</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <!-- Gildenberg outro +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+         <Replica Id="D_GILW_01" AnswersCount="5" Mandatory="true">
+            <Conditions>
+               <MetaUpgradeUnlocked>UnlockLakeburgCity</MetaUpgradeUnlocked>
+            </Conditions>
+         </Replica>
+
+         <!-- Lakeburg +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+         <Replica Id="D_LAK_01" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>D_GILW_01</UsedReplica>
+            </Conditions>
+         </Replica>
+          
+         <Replica Id="D_LAK_02" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>D_GILW_01</UsedReplica>
+            </Conditions>
+         </Replica>
+         
+         <Replica Id="D_LAK_03" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>D_GILW_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <!-- Schaden revealed +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+         <Replica Id="D_EVO_01" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>D_LAK_01</UsedReplica>
+               <UsedReplica>D_LAK_02</UsedReplica>
+               <UsedReplica>D_LAK_03</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_EVO_01B" AnswersCount="2" Mandatory="true">
+            <Conditions>
+               <UsedReplica>D_EVO_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <!-- Lakeburg +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+         <Replica Id="D_LAK_04" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>D_EVO_01B</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_LAK_05" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>D_EVO_01B</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_LAK_06" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>D_EVO_01B</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_LAK_07" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>D_LAK_04</UsedReplica>
+               <UsedReplica>D_LAK_05</UsedReplica>
+               <UsedReplica>D_LAK_06</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <!-- Lakeburg outro +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+         <Replica Id="D_LAKW_01" AnswersCount="4" Mandatory="true">
+            <Conditions>
+               <MetaUpgradeUnlocked>UnlockGlenwaldCity</MetaUpgradeUnlocked>
+            </Conditions>
+         </Replica>
+
+         <!-- Glenwald +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+            
+         <Replica Id="D_GLE_01" AnswersCount="4">
+            <Conditions>
+               <UsedReplica>D_LAKW_01</UsedReplica>
+            </Conditions>
+         </Replica>  
+
+         <Replica Id="D_GLE_02" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>L_LAK_01</UsedReplica>
+               <UsedReplica>D_GLE_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_GLE_03" AnswersCount="3">
+            <Conditions>
+            	<UsedReplica>D_EVO_01B</UsedReplica>
+               <UsedReplica>D_GLE_02</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_GLE_04" AnswersCount="4">
+            <Conditions>
+               <UsedReplica>D_GLE_03</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_GLE_05" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>D_GLE_03</UsedReplica>
+               <UsedReplica>D_GLE_04</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_GLE_06" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>D_GLE_03</UsedReplica>
+               <UsedReplica>D_GLE_04</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_GLE_07" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>D_GLE_06</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_GLE_08" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>D_GLE_06</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <!-- Glenwald outro +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+         <Replica Id="D_GLEW_01" AnswersCount="1" Mandatory="true">
+            <Conditions>
+               <MetaUpgradeUnlocked>UnlockElderlichtCity</MetaUpgradeUnlocked>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_GLEW_01B" AnswersCount="1" Mandatory="true">
+            <Conditions>
+               <UsedReplica>D_GLEW_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_GLEW_01C" AnswersCount="1" Mandatory="true">
+            <Conditions>
+               <UsedReplica>D_GLEW_01B</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <!-- Elderlicht +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+         <Replica Id="D_ELD_01" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>D_GLEW_01C</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_ELD_02" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>D_ELD_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_ELD_03" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>D_ELD_02</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_ELD_04" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>D_ELD_03</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_ELD_04B" AnswersCount="3" Mandatory="true">
+            <Conditions>
+               <UsedReplica>D_ELD_04</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_ELD_05" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>D_ELD_04B</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_ELD_05B" AnswersCount="2" Mandatory="true">
+            <Conditions>
+               <UsedReplica>D_ELD_05</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_ELD_06" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>D_ELD_04B</UsedReplica>
+               <UsedReplica>L_GLE_07B</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_ELD_07" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>D_ELD_04B</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_ELD_08" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>D_ELD_07</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_ELD_09" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>D_ELD_08</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <!-- Elderlicht outro +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+         <!-- The next three entries should only show up if Schaden has been talked to
+         first. -->
+
+         <!--<Replica Id="D_ELDW_01" AnswersCount="3" Mandatory="true">
+            <Conditions>
+               <MetaUpgradeUnlocked>UnlockGlintfeinCity</MetaUpgradeUnlocked> GOOD
+               <UsedReplica>D_ELD_09</UsedReplica> BAD (TEMP)
+            </Conditions>
+            <BlockReplicas>
+            	<ReplicaId>L_ELDW_01</ReplicaId>
+            	<ReplicaId>L_ELDW_01B</ReplicaId>
+            	<ReplicaId>L_ELDW_01C</ReplicaId>
+            	<ReplicaId>D_ELDW_02</ReplicaId>
+            	<ReplicaId>D_ELDW_02B</ReplicaId>
+            </BlockReplicas>
+         </Replica>
+
+         <Replica Id="D_ELDW_01B" AnswersCount="3" Mandatory="true">
+            <Conditions>
+               <UsedReplica>D_ELDW_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_ELDW_01C" AnswersCount="3" Mandatory="true">
+            <Conditions>
+               <UsedReplica>D_ELDW_01B</UsedReplica>
+            </Conditions>
+         </Replica>  -->
+
+         <!-- Switch from Freude +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+         <!-- The next two entries should only show up if Freude has been talked to
+         first -->
+
+         <!-- <Replica Id="D_ELDW_02" AnswersCount="2" Mandatory="true">
+            <Conditions>
+               <UsedReplica>L_ELDW_01C</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="D_ELDW_02B" AnswersCount="3" Mandatory="true">
+            <Conditions>
+               <UsedReplica>D_ELDW_02</UsedReplica>
+            </Conditions>
+         </Replica> -->
+
+      </Replicas>
+
+      <!-- Schaden visual evolutions ++++++++++++++++++++++++++++++++++++++++++++ -->
+
+      <VisualEvolutions>
+
+         <VisualEvolution>
+            <Conditions>
+               <UsedReplica>D_EVO_01</UsedReplica>
+            </Conditions>
+         </VisualEvolution>
+
+         <VisualEvolution>
+            <Conditions>
+               <UsedReplica>D_GLE_01</UsedReplica>
+            </Conditions>
+         </VisualEvolution>
+
+         <VisualEvolution>
+            <Conditions>
+               <UsedReplica>D_GLE_07</UsedReplica>
+            </Conditions>
+         </VisualEvolution>
+
+         <VisualEvolution>
+            <Conditions>
+               <UsedReplica>D_ELD_04</UsedReplica>
+            </Conditions>
+         </VisualEvolution>
+
+      </VisualEvolutions>
+
+   </Dark>
+
+   <Light>
+
+   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+      <NameRevealDialogueId>L_GLE_04B</NameRevealDialogueId>
+
+   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+      <ShopGreetings>
+         <ShopGreeting>ShopGreeting_01</ShopGreeting>
+      </ShopGreetings>
+
+   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+      <DialogueGreetings>
+         <DialogueGreeting>DialogueGreeting_01</DialogueGreeting>
+      </DialogueGreetings>
+
+   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+      <Replicas>
+
+         <!-- Swampfurt outro ++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+         <Replica Id="L_SWAW_01" AnswersCount="1" Mandatory="true"></Replica>
+         
+         <Replica Id="L_SWAW_01B" AnswersCount="2" Mandatory="true">
+            <Conditions>
+               <UsedReplica>L_SWAW_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_SWAW_01C" AnswersCount="4" Mandatory="true">
+            <Conditions>
+               <UsedReplica>L_SWAW_01B</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <!-- Gildenberg +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+      
+         <Replica Id="L_GIL_01" AnswersCount="4">
+            <Conditions>
+               <UsedReplica>L_SWAW_01C</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_GIL_02" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>L_GIL_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_GIL_03" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>L_GIL_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_GIL_04" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>L_GIL_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <!-- Gildenberg outro +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+         <Replica Id="L_GILW_01" AnswersCount="4" Mandatory="true">
+            <Conditions>
+               <MetaUpgradeUnlocked>UnlockLakeburgCity</MetaUpgradeUnlocked>
+            </Conditions>
+         </Replica>
+
+         <!-- Freude revealed ++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+         <Replica Id="L_EVO_01" AnswersCount="1">
+            <Conditions>
+               <UsedReplica>L_GILW_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_EVO_01B" AnswersCount="2" Mandatory="true">
+            <Conditions>
+               <UsedReplica>L_EVO_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <!-- Lakeburg +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+         <Replica Id="L_LAK_01" AnswersCount="4">
+            <Conditions>
+               <UsedReplica>L_EVO_01B</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_LAK_02" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>L_LAK_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_LAK_03" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>L_LAK_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_LAK_04" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>L_LAK_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_LAK_05" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>L_LAK_02</UsedReplica>
+               <UsedReplica>L_LAK_03</UsedReplica>
+               <UsedReplica>L_LAK_04</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_LAK_06" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>L_LAK_05</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_LAK_07" AnswersCount="1">
+            <Conditions>
+               <UsedReplica>L_LAK_06</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <!-- Lakeburg outro +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+         <Replica Id="L_LAKW_01" AnswersCount="4" Mandatory="true">
+            <Conditions>
+               <MetaUpgradeUnlocked>UnlockGlenwaldCity</MetaUpgradeUnlocked>
+            </Conditions>
+         </Replica>
+
+         <!-- Glenwald +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+         <Replica Id="L_GLE_01" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>L_LAKW_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_GLE_02" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>L_GLE_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_GLE_03" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>L_GLE_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_GLE_04" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>L_GLE_03</UsedReplica>
+               <UsedReplica>D_GLE_03</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_GLE_04B" AnswersCount="2" Mandatory="true">
+            <Conditions>
+               <UsedReplica>L_GLE_04</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_GLE_05" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>L_GLE_04B</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_GLE_06" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>L_GLE_05</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_GLE_07" AnswersCount="4">
+            <Conditions>
+               <UsedReplica>L_GLE_05</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_GLE_07B" AnswersCount="2" Mandatory="true">
+            <Conditions>
+               <UsedReplica>L_GLE_07</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_GLE_08" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>L_GLE_07B</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <!-- Glenwald outro +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+         <Replica Id="L_GLEW_01" AnswersCount="1" Mandatory="true">
+            <Conditions>
+               <MetaUpgradeUnlocked>UnlockElderlichtCity</MetaUpgradeUnlocked>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_GLEW_01B" AnswersCount="3" Mandatory="true">
+            <Conditions>
+               <UsedReplica>L_GLEW_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <!-- Elderlicht +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+         <Replica Id="L_ELD_01" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>L_GLEW_01B</UsedReplica>
+               <UsedReplica>D_ELD_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_ELD_02" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>L_GLEW_01B</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_ELD_03" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>L_GLEW_01B</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_ELD_03B" AnswersCount="2" Mandatory="true">
+            <Conditions>
+               <UsedReplica>L_ELD_03</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_ELD_04" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>L_ELD_01</UsedReplica>
+               <UsedReplica>L_ELD_02</UsedReplica>
+               <UsedReplica>L_ELD_03B</UsedReplica>
+               <UsedReplica>D_ELD_02</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_ELD_05" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>L_ELD_04</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_ELD_06" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>L_ELD_04</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_ELD_06B" AnswersCount="1" Mandatory="true">
+            <Conditions>
+               <UsedReplica>L_ELD_06</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_ELD_07" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>L_ELD_04</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_ELD_08" AnswersCount="2">
+            <Conditions>
+               <UsedReplica>L_ELD_07</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_ELD_09" AnswersCount="3">
+            <Conditions>
+               <UsedReplica>L_ELD_07</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <!-- Elderlicht outro +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+         <!-- The next three entries should only show up if Freude has been talked to
+         first. -->
+
+         <!-- <Replica Id="L_ELDW_01" AnswersCount="2" Mandatory="true">
+            <Conditions>
+               <MetaUpgradeUnlocked>UnlockGlintfeinCity</MetaUpgradeUnlocked> GOOD
+               <UsedReplica>L_ELD_09</UsedReplica> BAD (TEMP)
+            </Conditions>
+            <BlockReplicas>
+            	<ReplicaId>D_ELDW_01</ReplicaId>
+            	<ReplicaId>D_ELDW_01B</ReplicaId>
+            	<ReplicaId>D_ELDW_01C</ReplicaId>
+            	<ReplicaId>L_ELDW_02</ReplicaId>
+            	<ReplicaId>L_ELDW_02B</ReplicaId>
+            </BlockReplicas>
+         </Replica>
+
+         <Replica Id="L_ELDW_01B" AnswersCount="3" Mandatory="true">
+            <Conditions>
+               <UsedReplica>L_ELDW_01</UsedReplica>
+            </Conditions>
+         </Replica>
+
+         <Replica Id="L_ELDW_01C" AnswersCount="4" Mandatory="true">
+            <Conditions>
+               <UsedReplica>L_ELDW_01B</UsedReplica>
+            </Conditions>
+         </Replica> -->
+
+         <!-- Switch from Schaden ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+         <!-- The next two entries should only show up if Schaden has been talked to
+         first -->
+
+         <!-- <Replica Id="L_ELDW_02" AnswersCount="2" Mandatory="true">
+            <Conditions>
+               <UsedReplica>D_ELDW_01C</UsedReplica>
+            </Conditions>
+         </Replica>
+      
+         <Replica Id="L_ELDW_02B" AnswersCount="4" Mandatory="true">
+            <Conditions>
+               <UsedReplica>L_ELDW_02</UsedReplica>
+            </Conditions>
+         </Replica> -->
+
+      </Replicas> 
+
+      <!-- Freude visual evolutions ++++++++++++++++++++++++++++++++++++++++++++ -->
+
+      <VisualEvolutions>
+
+         <VisualEvolution>
+            <Conditions>
+               <UsedReplica>L_EVO_01</UsedReplica>
+            </Conditions>
+         </VisualEvolution>
+
+         <VisualEvolution>
+            <Conditions>
+               <UsedReplica>L_LAK_04</UsedReplica>
+            </Conditions>
+         </VisualEvolution>
+
+         <VisualEvolution>
+            <Conditions>
+               <UsedReplica>L_GLE_06</UsedReplica>
+            </Conditions>
+         </VisualEvolution>
+
+         <VisualEvolution>
+            <Conditions>
+               <UsedReplica>L_ELD_03</UsedReplica>
+            </Conditions>
+         </VisualEvolution>
+
+      </VisualEvolutions>
+
+   </Light>
+
+</MetaNarrationDefinition>

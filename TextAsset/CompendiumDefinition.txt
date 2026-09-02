@@ -1,0 +1,207 @@
+﻿<CompendiumDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="CompendiumDefinition.xsd">
+
+   <CompendiumEntries>
+      <!-- ███████████████████████████████████████████████████████████████ -->
+      <!-- SKILL EFFECTS -->
+      <!-- ███████████████████████████████████████████████████████████████ -->
+      
+      <SkillEffectEntry Id="SkillEffect_ArmorPiercing">
+         <SkillEffectId>ArmorPiercing</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <!--<SkillEffectEntry Id="ArmorShredding">
+         <SkillEffectId>ArmorShredding</SkillEffectId>
+      </SkillEffectEntry>-->
+      
+      <SkillEffectEntry Id="SkillEffect_IgnoreLineOfSight">
+         <SkillEffectId>IgnoreLineOfSight</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_Inaccurate">
+         <SkillEffectId>Inaccurate</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_Isolated">
+         <SkillEffectId>Isolated</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_Follow">
+         <SkillEffectId>Follow</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_Kill">
+         <SkillEffectId>Kill</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_Maneuver">
+         <SkillEffectId>Maneuver</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_Momentum">
+         <SkillEffectId>Momentum</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_MultiHit">
+         <SkillEffectId>MultiHit</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_NoBlock">
+         <SkillEffectId>NoBlock</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_NoDodge">
+         <SkillEffectId>NoDodge</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_Opportunistic">
+         <SkillEffectId>Opportunistic</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_Poison">
+         <SkillEffectId>Poison</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_Propagation">
+         <SkillEffectId>Propagation</SkillEffectId>
+         <LinkedEntries>
+            <LinkedEntry Id="GameConcept_NegativeAlterations"/>
+         </LinkedEntries>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_RegenStat">
+         <SkillEffectId>RegenStat</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_Stun">
+         <SkillEffectId>Stun</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_Buff">
+         <SkillEffectId>Buff</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_Debuff">
+         <SkillEffectId>Debuff</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_Damage">
+         <SkillEffectId>Damage</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_SurroundingEffect">
+         <SkillEffectId>SurroundingEffect</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_Dispel">
+         <SkillEffectId>Dispel</SkillEffectId>
+         <LinkedEntries>
+            <LinkedEntry Id="GameConcept_NegativeAlterations"/>
+         </LinkedEntries>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_CasterEffect">
+         <SkillEffectId>CasterEffect</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_Charged">
+         <SkillEffectId>Charged</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_Discharge">
+         <SkillEffectId>Discharge</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_Contagion">
+         <SkillEffectId>Contagion</SkillEffectId>
+         <LinkedEntries>
+            <LinkedEntry Id="GameConcept_NegativeAlterations"/>
+         </LinkedEntries>
+      </SkillEffectEntry>
+
+      <SkillEffectEntry Id="SkillEffect_DecreaseStat_Health">
+         <SkillEffectId>DecreaseStat_Health</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_DecreaseStat_Mana">
+         <SkillEffectId>DecreaseStat_Mana</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_NegativeStatusImmunityEffect">
+         <SkillEffectId>NegativeStatusImmunityEffect</SkillEffectId>
+         <LinkedEntries>
+            <LinkedEntry Id="GameConcept_NegativeAlterations"/>
+         </LinkedEntries>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_ResupplySkills">
+         <SkillEffectId>ResupplySkills</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_ResupplyCharges">
+         <SkillEffectId>ResupplyCharges</SkillEffectId>
+      </SkillEffectEntry>
+      
+      <SkillEffectEntry Id="SkillEffect_ResupplyOverallUses">
+         <SkillEffectId>ResupplyOverallUses</SkillEffectId>
+      </SkillEffectEntry>
+
+      <SkillEffectEntry Id="SkillEffect_ExtinguishBrazier">
+         <SkillEffectId>ExtinguishBrazier</SkillEffectId>
+      </SkillEffectEntry>
+
+      <SkillEffectEntry Id="SkillEffect_NoMomentum">
+         <SkillEffectId>NoMomentum</SkillEffectId>
+         <LinkedEntries>
+            <LinkedEntry Id="SkillEffect_Momentum"/>
+         </LinkedEntries>
+      </SkillEffectEntry>
+
+      <!-- ███████████████████████████████████████████████████████████████ -->
+      <!-- DAMAGE TYPES -->
+      <!-- ███████████████████████████████████████████████████████████████ -->
+
+      <AttackTypeEntry Id="DamageType_Physical">
+         <AttackType>Physical</AttackType>
+      </AttackTypeEntry>
+      
+      <AttackTypeEntry Id="DamageType_Magical">
+         <AttackType>Magical</AttackType>
+      </AttackTypeEntry>
+
+      <AttackTypeEntry Id="DamageType_Ranged">
+         <AttackType>Ranged</AttackType>
+      </AttackTypeEntry>
+      
+      <AttackTypeEntry Id="DamageType_Adaptative">
+         <AttackType>Adaptative</AttackType>
+      </AttackTypeEntry>
+
+      
+      <!-- ███████████████████████████████████████████████████████████████ -->
+      <!-- GAME CONCEPTS -->
+      <!-- ███████████████████████████████████████████████████████████████ -->
+      
+      <GameConceptEntry Id="GameConcept_Isolated">
+         <GameConceptId>Isolated</GameConceptId>
+      </GameConceptEntry>
+      
+      <GameConceptEntry Id="GameConcept_NegativeAlterations">
+         <GameConceptId>NegativeAlterations</GameConceptId>
+      </GameConceptEntry>
+
+      <GameConceptEntry Id="GameConcept_PositiveAlterations">
+         <GameConceptId>PositiveAlterations</GameConceptId>
+      </GameConceptEntry>
+
+      <GameConceptEntry Id="GameConcept_Wounds">
+         <GameConceptId>Wounds</GameConceptId>
+      </GameConceptEntry>
+
+      <GameConceptEntry Id="GameConcept_PerkDamage">
+         <GameConceptId>PerkDamage</GameConceptId>
+      </GameConceptEntry>
+      
+   </CompendiumEntries>
+   
+</CompendiumDefinition>

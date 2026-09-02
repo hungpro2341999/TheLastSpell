@@ -1,0 +1,1060 @@
+<LayersDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LayerValuesDefinition LayerType="Face">
+    <LayerItem Id="Face01" Weight="120">
+      <Front>FemaleAssets_Alpha/FaceFront/TLS_PortraitParts_Alpha_Female_FaceFront01</Front>
+      <Back>FemaleAssets_Alpha/FaceBack/TLS_PortraitParts_Alpha_Female_FaceBack01</Back>
+      <Neck Type="Thin" />
+    </LayerItem>
+    <LayerItem Id="Face02" Weight="120">
+      <Front>FemaleAssets_Alpha/FaceFront/TLS_PortraitParts_Alpha_Female_FaceFront02</Front>
+      <Back>FemaleAssets_Alpha/FaceBack/TLS_PortraitParts_Alpha_Female_FaceBack02</Back>
+      <Neck Type="Thin" />
+    </LayerItem>
+    <LayerItem Id="Face03" Weight="10">
+      <Front>FemaleAssets_Alpha/FaceFront/TLS_PortraitParts_Alpha_Female_FaceFront03</Front>
+      <Back>FemaleAssets_Alpha/FaceBack/TLS_PortraitParts_Alpha_Female_FaceBack03</Back>
+      <Neck Type="Thick" />
+    </LayerItem>
+    <LayerItem Id="Face04" Weight="120">
+      <Front>FemaleAssets_Alpha/FaceFront/TLS_PortraitParts_Alpha_Female_FaceFront04</Front>
+      <Back>FemaleAssets_Alpha/FaceBack/TLS_PortraitParts_Alpha_Female_FaceBack01</Back>
+      <Neck Type="Thin" />
+    </LayerItem>
+    <LayerItem Id="Face05" Weight="10">
+      <Front>FemaleAssets_Alpha/FaceFront/TLS_PortraitParts_Alpha_Female_FaceFront05</Front>
+      <Back>FemaleAssets_Alpha/FaceBack/TLS_PortraitParts_Alpha_Female_FaceBack02</Back>
+      <Neck Type="Thin" />
+    </LayerItem>
+    <LayerItem Id="Face06" Weight="20">
+      <Front>FemaleAssets_Alpha/FaceFront/TLS_PortraitParts_Alpha_Female_FaceFront06</Front>
+      <Back>FemaleAssets_Alpha/FaceBack/TLS_PortraitParts_Alpha_Female_FaceBack01</Back>
+      <Neck Type="Thin" />
+    </LayerItem>
+    <LayerItem Id="Face07" Weight="200">
+      <Front>FemaleAssets_Alpha/FaceFront/TLS_PortraitParts_Alpha_Female_FaceFront07</Front>
+      <Back>FemaleAssets_Alpha/FaceBack/TLS_PortraitParts_Alpha_Female_FaceBack02</Back>
+      <Neck Type="Thin" />
+    </LayerItem>
+    <LayerItem Id="Face08" Weight="60">
+      <Front>FemaleAssets_Alpha/FaceFront/TLS_PortraitParts_Alpha_Female_FaceFront08</Front>
+      <Back>FemaleAssets_Alpha/FaceBack/TLS_PortraitParts_Alpha_Female_FaceBack01</Back>
+      <Neck Type="Thin" />
+    </LayerItem>
+  </LayerValuesDefinition>
+  <LayerValuesDefinition LayerType="Hair">
+    <LayerItem Id="Hair01" Weight="10">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront01</Front>
+      <Back>
+      </Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>Boyish</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair02" Weight="10">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront02</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack02</Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>Jackson5</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair03" Weight="50">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront03</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack03</Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>Blodeuwedd</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair04" Weight="50">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront03_0</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack03</Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>Blodeuwedd</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair05" Weight="50">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront03_1</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack03</Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>Blodeuwedd</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair06" Weight="50">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront04</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack04</Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>TankGirl</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair07" Weight="50">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront05</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack05</Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>TankGirl</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair08" Weight="50">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront06</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack06</Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>Blodeuwedd</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair09" Weight="50">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront06_0</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack06</Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>Blodeuwedd</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair10" Weight="50">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront06_1</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack06</Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>Blodeuwedd</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair11" Weight="50">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront07</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack07</Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>Blodeuwedd</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair12" Weight="50">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront07_0</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack07</Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>Blodeuwedd</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair13" Weight="50">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront07_1</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack07</Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>Blodeuwedd</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair14" Weight="10">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront08</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack08</Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>Curly</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair15" Weight="10">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront09</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack09</Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>LongHair</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair16" Weight="50">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront12</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack10</Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>HairBun01</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair17" Weight="50">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront12_0</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack10</Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>HairBun01</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair18" Weight="50">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront13</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack10</Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>HairBun01</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair19" Weight="50">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront13_0</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack10</Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>HairBun01</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair20" Weight="50">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront12</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack10_0</Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>PonyTail</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair21" Weight="50">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront12_0</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack10_0</Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>PonyTail</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair22" Weight="25">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront13</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack10_0</Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>PonyTail</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair23" Weight="25">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront13_0</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack10_0</Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>PonyTail</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair24" Weight="10">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront11</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack11</Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>Curly</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair25" Weight="10">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront14</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack14</Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>Carré</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair26" Weight="20">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront15</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack15</Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>Curly</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair27" Weight="10">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront16</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack16</Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>Carré</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair28" Weight="10">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront17</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack17</Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>Sombra</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair29" Weight="10">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront18</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack18</Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>DoubleBun</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair30" Weight="10">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront19</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack19</Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>China</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair31" Weight="50">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront10</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack10</Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>Blodeuwedd</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair32" Weight="50">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront10_0</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack10</Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>Blodeuwedd</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair33" Weight="50">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront10_1</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack10</Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>Blodeuwedd</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair34" Weight="10">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront20</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack20</Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>Leeloo</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair35" Weight="10">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront21</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack21</Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>Afro</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair36" Weight="10">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront22</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack22</Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>Britney</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair37" Weight="10">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront23</Front>
+      <Back>
+      </Back>
+      <HairConstraintsOnEars Value="NoEars" />
+      <FaceId>Burnt</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair38" Weight="10">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront24</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack24</Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>Kari</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair39" Weight="10">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront24_0</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack24</Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>Kari</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair40" Weight="10">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront25</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack25</Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>LongHair</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair41" Weight="10">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront26</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack26</Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>Amazon</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair42" Weight="10">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront27</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack27</Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>Lara</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair43" Weight="10">
+      <Front>
+      </Front>
+      <Back>
+      </Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>Bald01</FaceId>
+	</LayerItem>
+    <LayerItem Id="Hair44" Weight="10">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront28</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack28</Back>
+      <HairConstraintsOnEars Value="EarsOnBack" />
+      <FaceId>LongHair</FaceId>
+    </LayerItem>
+    <LayerItem Id="Hair45" Weight="10" DLCId="Dwarves">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront29</Front>
+      <Back></Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>DwarfFemale</FaceId>
+      <RestrictedToRaceId>Dwarf</RestrictedToRaceId>
+    </LayerItem>
+    <LayerItem Id="Hair46" Weight="10" DLCId="Dwarves">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront30</Front>
+      <Back></Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>DwarfFemale</FaceId>
+      <RestrictedToRaceId>Dwarf</RestrictedToRaceId>
+    </LayerItem>
+    <LayerItem Id="Hair47" Weight="10" DLCId="Dwarves">
+      <Front>FemaleAssets_Alpha/HairFront/TLS_PortraitParts_Alpha_Female_HairFront31</Front>
+      <Back>FemaleAssets_Alpha/HairBack/TLS_PortraitParts_Alpha_Female_HairBack31</Back>
+      <HairConstraintsOnEars Value="ForceEarsToFront" />
+      <FaceId>DwarfFemale</FaceId>
+      <RestrictedToRaceId>Dwarf</RestrictedToRaceId>
+    </LayerItem>
+  </LayerValuesDefinition>
+  <LayerValuesDefinition LayerType="Eyes">
+    <LayerItem Id="Eyes01" Weight="40">
+      <Front>FemaleAssets_Alpha/Eyes/TLS_PortraitParts_Alpha_Female_Eyes01</Front>
+    </LayerItem>
+    <LayerItem Id="Eyes02" Weight="40">
+      <Front>FemaleAssets_Alpha/Eyes/TLS_PortraitParts_Alpha_Female_Eyes02</Front>
+    </LayerItem>
+    <LayerItem Id="Eyes03" Weight="40">
+      <Front>FemaleAssets_Alpha/Eyes/TLS_PortraitParts_Alpha_Female_Eyes03</Front>
+    </LayerItem>
+    <LayerItem Id="Eyes05" Weight="20">
+      <Front>FemaleAssets_Alpha/Eyes/TLS_PortraitParts_Alpha_Female_Eyes05</Front>
+    </LayerItem>
+    <LayerItem Id="Eyes06" Weight="20">
+      <Front>FemaleAssets_Alpha/Eyes/TLS_PortraitParts_Alpha_Female_Eyes06</Front>
+    </LayerItem>
+    <LayerItem Id="Eyes07" Weight="20">
+      <Front>FemaleAssets_Alpha/Eyes/TLS_PortraitParts_Alpha_Female_Eyes07</Front>
+    </LayerItem>
+    <LayerItem Id="Eyes08" Weight="40">
+      <Front>FemaleAssets_Alpha/Eyes/TLS_PortraitParts_Alpha_Female_Eyes08</Front>
+    </LayerItem>
+    <LayerItem Id="Eyes09" Weight="150">
+      <Front>FemaleAssets_Alpha/Eyes/TLS_PortraitParts_Alpha_Female_Eyes09</Front>
+    </LayerItem>
+    <LayerItem Id="Eyes10" Weight="150">
+      <Front>FemaleAssets_Alpha/Eyes/TLS_PortraitParts_Alpha_Female_Eyes10</Front>
+    </LayerItem>
+    <LayerItem Id="Eyes11" Weight="200">
+      <Front>FemaleAssets_Alpha/Eyes/TLS_PortraitParts_Alpha_Female_Eyes11</Front>
+    </LayerItem>
+    <LayerItem Id="Eyes12" Weight="80">
+      <Front>FemaleAssets_Alpha/Eyes/TLS_PortraitParts_Alpha_Female_Eyes12</Front>
+    </LayerItem>
+    <LayerItem Id="Eyes13" Weight="40">
+      <Front>FemaleAssets_Alpha/Eyes/TLS_PortraitParts_Alpha_Female_Eyes13</Front>
+    </LayerItem>
+    <LayerItem Id="Eyes14" Weight="10">
+      <Front>FemaleAssets_Alpha/Eyes/TLS_PortraitParts_Alpha_Female_Eyes14</Front>
+    </LayerItem>
+    <LayerItem Id="Eyes15" Weight="150">
+      <Front>FemaleAssets_Alpha/Eyes/TLS_PortraitParts_Alpha_Female_Eyes15</Front>
+    </LayerItem>
+    <LayerItem Id="Eyes16" Weight="150">
+      <Front>FemaleAssets_Alpha/Eyes/TLS_PortraitParts_Alpha_Female_Eyes16</Front>
+    </LayerItem>
+	<LayerItem Id="Eyes17" Weight="5">
+	  <Front>FemaleAssets_Alpha/Eyes/TLS_PortraitParts_Alpha_Female_Eyes17</Front>
+	</LayerItem>
+  </LayerValuesDefinition>
+  <LayerValuesDefinition LayerType="Mouth">
+    <LayerItem Id="Mouth01" Weight="200">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth01</Front>
+    </LayerItem>
+    <LayerItem Id="Mouth02" Weight="60">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth02</Front>
+    </LayerItem>
+    <LayerItem Id="Mouth03" Weight="80">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth03</Front>
+    </LayerItem>
+    <LayerItem Id="Mouth04" Weight="60">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth04</Front>
+    </LayerItem>
+    <LayerItem Id="Mouth05" Weight="200">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth05</Front>
+    </LayerItem>
+    <LayerItem Id="Mouth06" Weight="40">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth06</Front>
+    </LayerItem>
+    <LayerItem Id="Mouth07" Weight="200">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth07</Front>
+    </LayerItem>
+    <LayerItem Id="Mouth08" Weight="60">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth08</Front>
+    </LayerItem>
+    <LayerItem Id="Mouth09" Weight="200">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth09</Front>
+    </LayerItem>
+    <LayerItem Id="Mouth10" Weight="40">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth10</Front>
+    </LayerItem>
+    <LayerItem Id="Mouth11" Weight="200">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth11</Front>
+    </LayerItem>
+    <LayerItem Id="Mouth12" Weight="80">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth12</Front>
+    </LayerItem>
+    <LayerItem Id="Mouth13" Weight="80">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth13</Front>
+    </LayerItem>
+    <LayerItem Id="Mouth14" Weight="60">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth14</Front>
+    </LayerItem>
+    <LayerItem Id="Mouth15" Weight="80">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth15</Front>
+    </LayerItem>
+    <LayerItem Id="Mouth16" Weight="80">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth16</Front>
+    </LayerItem>
+    <LayerItem Id="Mouth17" Weight="60">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth17</Front>
+    </LayerItem>
+    <LayerItem Id="Mouth18" Weight="60">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth18</Front>
+    </LayerItem>
+    <LayerItem Id="Mouth19" Weight="60">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth17</Front>
+    </LayerItem>
+    <LayerItem Id="Mouth20" Weight="200">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth20</Front>
+    </LayerItem>
+    <LayerItem Id="Mouth21" Weight="80">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth18</Front>
+    </LayerItem>
+    <LayerItem Id="Mouth22" Weight="20">
+      <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth22</Front>
+    </LayerItem>
+	<LayerItem Id="Mouth23" Weight="20">
+	  <Front>FemaleAssets_Alpha/Mouth/TLS_PortraitParts_Alpha_Female_Mouth23</Front>
+	</LayerItem>
+  </LayerValuesDefinition>
+  <LayerValuesDefinition LayerType="Ears">
+    <LayerItem Id="Ears01" Weight="60">
+      <Front>FemaleAssets_Alpha/EarsFront/TLS_PortraitParts_Alpha_Female_EarsFront01</Front>
+      <IncompatibleWithRaceId>Dwarf</IncompatibleWithRaceId>
+    </LayerItem>
+    <LayerItem Id="Ears02" Weight="40">
+      <Front>FemaleAssets_Alpha/EarsFront/TLS_PortraitParts_Alpha_Female_EarsFront02</Front>
+    </LayerItem>
+    <LayerItem Id="Ears03" Weight="20">
+      <Front>FemaleAssets_Alpha/EarsFront/TLS_PortraitParts_Alpha_Female_EarsFront03</Front>
+    </LayerItem>
+    <LayerItem Id="Ears04" Weight="40">
+      <Front>FemaleAssets_Alpha/EarsFront/TLS_PortraitParts_Alpha_Female_EarsFront04</Front>
+      <IncompatibleWithRaceId>Dwarf</IncompatibleWithRaceId>
+    </LayerItem>
+    <LayerItem Id="Ears05" Weight="40">
+      <Front>FemaleAssets_Alpha/EarsFront/TLS_PortraitParts_Alpha_Female_EarsFront05</Front>
+    </LayerItem>
+    <LayerItem Id="Ears06" Weight="60">
+      <Front>FemaleAssets_Alpha/EarsFront/TLS_PortraitParts_Alpha_Female_EarsFront06</Front>
+      <IncompatibleWithRaceId>Dwarf</IncompatibleWithRaceId>
+    </LayerItem>
+    <LayerItem Id="Ears07" Weight="40">
+      <Front>FemaleAssets_Alpha/EarsFront/TLS_PortraitParts_Alpha_Female_EarsFront07</Front>
+    </LayerItem>
+    <LayerItem Id="Ears08" Weight="40">
+      <Front>FemaleAssets_Alpha/EarsFront/TLS_PortraitParts_Alpha_Female_EarsFront08</Front>
+    </LayerItem>
+    <LayerItem Id="Ears09" Weight="60">
+      <Front>FemaleAssets_Alpha/EarsFront/TLS_PortraitParts_Alpha_Female_EarsFront09</Front>
+    </LayerItem>
+    <LayerItem Id="Ears10" Weight="10">
+      <Front>FemaleAssets_Alpha/EarsFront/TLS_PortraitParts_Alpha_Female_EarsFront10</Front>
+    </LayerItem>
+    <LayerItem Id="Ears11" Weight="40">
+      <Front>FemaleAssets_Alpha/EarsFront/TLS_PortraitParts_Alpha_Female_EarsFront11</Front>
+      <IncompatibleWithRaceId>Dwarf</IncompatibleWithRaceId>
+    </LayerItem>
+    <LayerItem Id="Ears12" Weight="10">
+      <Front>FemaleAssets_Alpha/EarsFront/TLS_PortraitParts_Alpha_Female_EarsFront12</Front>
+    </LayerItem>
+    <LayerItem Id="Ears13" Weight="20">
+      <Front>FemaleAssets_Alpha/EarsFront/TLS_PortraitParts_Alpha_Female_EarsFront13</Front>
+      <IncompatibleWithRaceId>Dwarf</IncompatibleWithRaceId>
+    </LayerItem>
+    <LayerItem Id="Ears14" Weight="40">
+      <Front>FemaleAssets_Alpha/EarsFront/TLS_PortraitParts_Alpha_Female_EarsFront14</Front>
+      <IncompatibleWithRaceId>Dwarf</IncompatibleWithRaceId>
+    </LayerItem>
+    <LayerItem Id="Ears15" Weight="40">
+      <Front>FemaleAssets_Alpha/EarsFront/TLS_PortraitParts_Alpha_Female_EarsFront15</Front>
+      <IncompatibleWithRaceId>Dwarf</IncompatibleWithRaceId>
+    </LayerItem>
+    <LayerItem Id="Ears16" Weight="20">
+      <Front>FemaleAssets_Alpha/EarsFront/TLS_PortraitParts_Alpha_Female_EarsFront16</Front>
+    </LayerItem>
+    <LayerItem Id="Ears17" Weight="20">
+      <Front>FemaleAssets_Alpha/EarsFront/TLS_PortraitParts_Alpha_Female_EarsFront17</Front>
+    </LayerItem>
+	<LayerItem Id="Ears18" Weight="20">
+	  <Front>FemaleAssets_Alpha/EarsFront/TLS_PortraitParts_Alpha_Female_EarsFront18</Front>
+	</LayerItem>
+	<LayerItem Id="Ears19" Weight="20">
+	  <Front>FemaleAssets_Alpha/EarsFront/TLS_PortraitParts_Alpha_Female_EarsFront19</Front>
+	</LayerItem>
+  </LayerValuesDefinition>
+  <LayerValuesDefinition LayerType="Nose">
+    <LayerItem Id="Nose01" Weight="200">
+      <Front>FemaleAssets_Alpha/Nose/TLS_PortraitParts_Alpha_Female_Nose01</Front>
+    </LayerItem>
+    <LayerItem Id="Nose02" Weight="40">
+      <Front>FemaleAssets_Alpha/Nose/TLS_PortraitParts_Alpha_Female_Nose02</Front>
+    </LayerItem>
+    <LayerItem Id="Nose03" Weight="150">
+      <Front>FemaleAssets_Alpha/Nose/TLS_PortraitParts_Alpha_Female_Nose03</Front>
+    </LayerItem>
+    <LayerItem Id="Nose04" Weight="200">
+      <Front>FemaleAssets_Alpha/Nose/TLS_PortraitParts_Alpha_Female_Nose04</Front>
+    </LayerItem>
+    <LayerItem Id="Nose05" Weight="60">
+      <Front>FemaleAssets_Alpha/Nose/TLS_PortraitParts_Alpha_Female_Nose05</Front>
+    </LayerItem>
+    <LayerItem Id="Nose06" Weight="20">
+      <Front>FemaleAssets_Alpha/Nose/TLS_PortraitParts_Alpha_Female_Nose06</Front>
+    </LayerItem>
+    <LayerItem Id="Nose07" Weight="60">
+      <Front>FemaleAssets_Alpha/Nose/TLS_PortraitParts_Alpha_Female_Nose07</Front>
+    </LayerItem>
+    <LayerItem Id="Nose08" Weight="200">
+      <Front>FemaleAssets_Alpha/Nose/TLS_PortraitParts_Alpha_Female_Nose08</Front>
+    </LayerItem>
+    <LayerItem Id="Nose09" Weight="10">
+      <Front>FemaleAssets_Alpha/Nose/TLS_PortraitParts_Alpha_Female_Nose09</Front>
+    </LayerItem>
+    <LayerItem Id="Nose10" Weight="40">
+      <Front>FemaleAssets_Alpha/Nose/TLS_PortraitParts_Alpha_Female_Nose10</Front>
+    </LayerItem>
+    <LayerItem Id="Nose11" Weight="10">
+      <Front>FemaleAssets_Alpha/Nose/TLS_PortraitParts_Alpha_Female_Nose11</Front>
+    </LayerItem>
+    <LayerItem Id="Nose12" Weight="150">
+      <Front>FemaleAssets_Alpha/Nose/TLS_PortraitParts_Alpha_Female_Nose12</Front>
+    </LayerItem>
+    <LayerItem Id="Nose13" Weight="40">
+      <Front>FemaleAssets_Alpha/Nose/TLS_PortraitParts_Alpha_Female_Nose13</Front>
+    </LayerItem>
+	<LayerItem Id="Nose14" Weight="10">
+	  <Front>FemaleAssets_Alpha/Nose/TLS_PortraitParts_Alpha_Female_Nose14</Front>
+	</LayerItem>
+  </LayerValuesDefinition>
+  
+  <LayerValuesDefinition LayerType="Beard">
+    <LayerItem Id="Beard01" Weight="1">
+      <Front>
+      </Front>
+      <FaceIds/>
+    </LayerItem>
+    <LayerItem Id="Beard02" Weight="1" DLCId="Dwarves">
+      <Front>FemaleAssets_Alpha/Beard/TLS_PortraitParts_Alpha_Female_Beard01</Front>
+      <FaceIds>
+        <FaceId>DwarfFemale</FaceId>
+      </FaceIds>
+    </LayerItem>
+    <LayerItem Id="Beard03" Weight="1" DLCId="Dwarves">
+      <Front>FemaleAssets_Alpha/Beard/TLS_PortraitParts_Alpha_Female_Beard02</Front>
+      <FaceIds>
+        <FaceId>DwarfFemale</FaceId>
+      </FaceIds>
+    </LayerItem>
+  </LayerValuesDefinition>
+  
+  <LayerValuesDefinition LayerType="EyeBrows">
+    <LayerItem Id="Eyebrows01" Weight="120">
+      <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows01</Front>
+    </LayerItem>
+    <LayerItem Id="Eyebrows02" Weight="40">
+      <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows02</Front>
+    </LayerItem>
+    <LayerItem Id="Eyebrows03" Weight="80">
+      <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows03</Front>
+    </LayerItem>
+    <LayerItem Id="Eyebrows04" Weight="20">
+      <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows04</Front>
+    </LayerItem>
+    <LayerItem Id="Eyebrows05" Weight="40">
+      <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows05</Front>
+    </LayerItem>
+    <LayerItem Id="Eyebrows06" Weight="20">
+      <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows06</Front>
+    </LayerItem>
+    <LayerItem Id="Eyebrows07" Weight="120">
+      <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows07</Front>
+    </LayerItem>
+    <LayerItem Id="Eyebrows08" Weight="20">
+      <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows08</Front>
+    </LayerItem>
+    <LayerItem Id="Eyebrows09" Weight="40">
+      <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows09</Front>
+    </LayerItem>
+    <LayerItem Id="Eyebrows10" Weight="80">
+      <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows10</Front>
+    </LayerItem>
+    <LayerItem Id="Eyebrows11" Weight="40">
+      <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows11</Front>
+    </LayerItem>
+    <LayerItem Id="Eyebrows12" Weight="20">
+      <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows12</Front>
+    </LayerItem>
+    <LayerItem Id="Eyebrows13" Weight="20">
+      <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows13</Front>
+    </LayerItem>
+    <LayerItem Id="Eyebrows14" Weight="80">
+      <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows14</Front>
+    </LayerItem>
+    <LayerItem Id="Eyebrows15" Weight="20">
+      <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows15</Front>
+    </LayerItem>
+    <LayerItem Id="Eyebrows16" Weight="40">
+      <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows16</Front>
+    </LayerItem>
+    <LayerItem Id="Eyebrows17" Weight="80">
+      <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows17</Front>
+    </LayerItem>
+    <LayerItem Id="Eyebrows18" Weight="120">
+      <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows18</Front>
+    </LayerItem>
+    <LayerItem Id="Eyebrows19" Weight="40">
+      <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows19</Front>
+    </LayerItem>
+	<LayerItem Id="Eyebrows20" Weight="10">
+	  <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows20</Front>
+	</LayerItem>
+	<LayerItem Id="Eyebrows21" Weight="10">
+	  <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows21</Front>
+	</LayerItem>
+	<LayerItem Id="Eyebrows22" Weight="10">
+	  <Front>FemaleAssets_Alpha/Eyebrows/TLS_PortraitParts_Alpha_Female_Eyebrows22</Front>
+	</LayerItem>
+  </LayerValuesDefinition>
+  <LayerValuesDefinition LayerType="Details">
+    <LayerItem Id="Details01" Weight="40">
+      <Front>FemaleAssets_Alpha/Details/TLS_PortraitParts_Alpha_Female_Details01</Front>
+    </LayerItem>
+    <LayerItem Id="Details02" Weight="10">
+      <Front>FemaleAssets_Alpha/Details/TLS_PortraitParts_Alpha_Female_Details02</Front>
+    </LayerItem>
+    <LayerItem Id="Details03" Weight="120">
+      <Front>FemaleAssets_Alpha/Details/TLS_PortraitParts_Alpha_Female_Details03</Front>
+    </LayerItem>
+    <LayerItem Id="Details04" Weight="80">
+      <Front>FemaleAssets_Alpha/Details/TLS_PortraitParts_Alpha_Female_Details04</Front>
+    </LayerItem>
+    <LayerItem Id="Details05" Weight="40">
+      <Front>FemaleAssets_Alpha/Details/TLS_PortraitParts_Alpha_Female_Details05</Front>
+    </LayerItem>
+    <LayerItem Id="Details06" Weight="20">
+      <Front>FemaleAssets_Alpha/Details/TLS_PortraitParts_Alpha_Female_Details06</Front>
+    </LayerItem>
+    <LayerItem Id="Details07" Weight="20">
+      <Front>FemaleAssets_Alpha/Details/TLS_PortraitParts_Alpha_Female_Details07</Front>
+    </LayerItem>
+    <LayerItem Id="Details08" Weight="40">
+      <Front>FemaleAssets_Alpha/Details/TLS_PortraitParts_Alpha_Female_Details08</Front>
+    </LayerItem>
+    <LayerItem Id="Details09" Weight="80">
+      <Front>FemaleAssets_Alpha/Details/TLS_PortraitParts_Alpha_Female_Details09</Front>
+    </LayerItem>
+    <LayerItem Id="Details10" Weight="40">
+      <Front>FemaleAssets_Alpha/Details/TLS_PortraitParts_Alpha_Female_Details10</Front>
+    </LayerItem>
+    <LayerItem Id="Details11" Weight="400">
+      <Front>
+      </Front>
+    </LayerItem>
+	<LayerItem Id="Details12" Weight="40">
+	  <Front>FemaleAssets_Alpha/Details/TLS_PortraitParts_Alpha_Female_Details11</Front>
+	</LayerItem>
+	<LayerItem Id="Details13" Weight="40">
+	  <Front>FemaleAssets_Alpha/Details/TLS_PortraitParts_Alpha_Female_Details12</Front>
+	</LayerItem>
+  </LayerValuesDefinition>
+  <LayerValuesDefinition LayerType="Clothes">
+    <LayerItem Id="Armor01-1" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront01-1</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack01-1</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront01-1</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack01-1</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor01-2" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront01-2</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack01-2</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront01-2</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack01-2</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor01-3" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront01-3</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack01-3</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront01-3</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack01-3</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor01-4" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront01-4</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack01-4</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront01-4</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack01-4</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor02-1" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront02-1</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack02-1</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront02-1</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack02-1</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor02-2" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront02-2</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack02-2</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront02-2</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack02-2</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor02-3" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront02-3</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack02-3</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront02-3</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack02-3</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor02-4" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront02-4</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack02-4</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront02-4</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack02-4</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor03-1" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront03-1</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack03-1</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront03-1</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack03-1</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor03-2" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront03-2</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack03-2</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront03-2</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack03-2</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor03-3" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront03-3</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack03-3</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront03-3</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack03-3</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor03-4" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront03-4</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack03-4</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront03-4</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack03-4</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor04-1" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront04-1</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack04-1</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront04-1</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack04-1</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor04-2" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront04-2</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack04-2</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront04-2</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack04-2</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor04-3" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront04-3</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack04-3</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront04-3</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack04-3</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor04-4" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront04-4</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack04-4</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront04-4</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack04-4</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor05-1" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront05-1</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack05-1</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront05-1</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack05-1</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor05-2" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront05-2</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack05-2</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront05-2</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack05-2</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor05-3" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront05-3</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack05-3</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront05-3</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack05-3</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor05-4" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront05-4</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack05-4</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront05-4</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack05-4</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor06-1" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront06-1</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack06-1</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront06-1</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack06-1</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor06-2" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront06-2</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack06-2</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront06-2</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack06-2</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor06-3" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront06-3</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack06-3</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront06-3</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack06-3</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor06-4" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront06-4</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack06-4</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront06-4</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack06-4</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor07-1" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront07-1</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack07-1</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront07-1</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack07-1</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor07-2" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront07-2</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack07-2</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront07-2</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack07-2</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor07-3" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront07-3</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack07-3</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront07-3</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack07-3</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor07-4" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront07-4</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack07-4</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront07-4</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack07-4</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor08-1" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront08-1</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack08-1</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront08-1</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack08-1</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor08-2" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront08-2</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack08-2</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront08-2</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack08-2</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor08-3" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront08-3</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack08-3</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront08-3</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack08-3</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor08-4" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront08-4</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack08-4</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront08-4</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack08-4</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor09-1" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront09-1</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack09-1</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront09-1</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack09-1</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor09-2" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront09-2</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack09-2</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront09-2</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack09-2</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor09-3" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront09-3</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack09-3</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront09-3</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack09-3</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor09-4" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront09-4</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack09-4</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront09-4</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack09-4</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor10-1" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront10-1</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack10-1</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront10-1</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack10-1</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor10-2" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront10-2</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack10-2</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront10-2</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack10-2</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor10-3" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront10-3</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack10-3</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront10-3</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack10-3</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor10-4" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront10-4</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack10-4</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront10-4</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack10-4</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor11-1" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront11-1</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack11-1</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront11-1</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack11-1</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor11-2" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront11-2</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack11-2</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront11-2</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack11-2</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor11-3" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront11-3</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack11-3</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront11-3</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack11-3</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor11-4" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront11-4</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack11-4</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront11-4</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack11-4</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor12-1" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront12-1</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack12-1</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront12-1</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack12-1</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor12-2" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront12-2</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack12-2</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront12-2</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack12-2</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor12-3" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront12-3</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack12-3</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront12-3</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack12-3</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor12-4" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront12-4</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack12-4</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront12-4</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack12-4</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor13-1" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront13-1</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack13-1</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront13-1</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack13-1</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor13-2" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront13-2</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack13-2</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront13-2</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack13-2</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor13-3" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront13-3</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack13-3</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront13-3</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack13-3</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor13-4" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront13-4</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack13-4</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront13-4</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack13-4</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor14-1" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront14-1</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack14-1</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront14-1</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack14-1</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor14-2" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront14-2</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack14-2</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront14-2</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack14-2</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor14-3" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront14-3</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack14-3</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront14-3</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack14-3</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor14-4" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront14-4</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack14-4</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront14-4</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack14-4</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor15-1" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront15-1</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack15-1</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront15-1</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack15-1</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor15-2" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront15-2</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack15-2</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront15-2</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack15-2</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor15-3" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront15-3</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack15-3</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront15-3</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack15-3</BackThinNeck>
+    </LayerItem>
+    <LayerItem Id="Armor15-4" Weight="1">
+      <Front>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThickNeck_ArmorFront15-4</Front>
+      <Back>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThickNeck_ArmorBack15-4</Back>
+      <FrontThinNeck>MaleAssets_Alpha/ArmorFront/TLS_PortraitParts_Male_ThinNeck_ArmorFront15-4</FrontThinNeck>
+      <BackThinNeck>MaleAssets_Alpha/ArmorBack/TLS_PortraitParts_Male_ThinNeck_ArmorBack15-4</BackThinNeck>
+    </LayerItem>
+  </LayerValuesDefinition>
+
+</LayersDefinitions>

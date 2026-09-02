@@ -1,0 +1,93 @@
+<ItemDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../ItemDefinition.xsd" Id="FakeExampleItem">
+   <Category>BodyArmor</Category>
+   <LevelVariations>
+      <Level Id="0">
+         <MainStatBonus Stat="Dodge">5</MainStatBonus>
+         <BasePrice>15</BasePrice>
+         <BaseStatBonuses>
+            <BaseStatBonus Stat="ArmorTotal">2</BaseStatBonus>
+            <BaseStatBonus Stat="MovePointsTotal">1</BaseStatBonus>
+         </BaseStatBonuses>
+      </Level>
+      <Level Id="1">
+         <MainStatBonus Stat="Dodge">8</MainStatBonus>
+         <BasePrice>20</BasePrice>
+         <BaseStatBonuses>
+            <BaseStatBonus Stat="ArmorTotal">3</BaseStatBonus>
+            <BaseStatBonus Stat="MovePointsTotal">1</BaseStatBonus>
+         </BaseStatBonuses>
+      </Level>
+      <Level Id="2">
+         <MainStatBonus Stat="Dodge">11</MainStatBonus>
+         <BasePrice>25</BasePrice>
+         <BaseStatBonuses>
+            <BaseStatBonus Stat="ArmorTotal">4</BaseStatBonus>
+            <BaseStatBonus Stat="MovePointsTotal">1</BaseStatBonus>
+         </BaseStatBonuses>
+      </Level>
+      <Level Id="3">
+         <MainStatBonus Stat="Dodge">14</MainStatBonus>
+         <BasePrice>30</BasePrice>
+         <BaseStatBonuses>
+            <BaseStatBonus Stat="ArmorTotal">5</BaseStatBonus>
+            <BaseStatBonus Stat="MovePointsTotal">1</BaseStatBonus>
+         </BaseStatBonuses>
+      </Level>
+      <Level Id="4">
+         <MainStatBonus Stat="Dodge">17</MainStatBonus>
+         <BasePrice>35</BasePrice>
+         <BaseStatBonuses>
+            <BaseStatBonus Stat="ArmorTotal">6</BaseStatBonus>
+            <BaseStatBonus Stat="MovePointsTotal">1</BaseStatBonus>
+         </BaseStatBonuses>
+      </Level>
+      <Level Id="5">
+         <MainStatBonus Stat="Dodge">20</MainStatBonus>
+         <BasePrice>40</BasePrice>
+         <BaseStatBonuses>
+            <BaseStatBonus Stat="ArmorTotal">7</BaseStatBonus>
+            <BaseStatBonus Stat="MovePointsTotal">1</BaseStatBonus>
+         </BaseStatBonuses>
+      </Level>
+      <Level Id="6">
+         <MainStatBonus Stat="Dodge">23</MainStatBonus>
+         <BasePrice>45</BasePrice>
+         <BaseStatBonuses>
+            <BaseStatBonus Stat="ArmorTotal">8</BaseStatBonus>
+            <BaseStatBonus Stat="MovePointsTotal">1</BaseStatBonus>
+         </BaseStatBonuses>
+      </Level>
+      <Level Id="7">
+         <MainStatBonus Stat="Dodge">26</MainStatBonus>
+         <BasePrice>50</BasePrice>
+         <BaseStatBonuses>
+            <BaseStatBonus Stat="ArmorTotal">9</BaseStatBonus>
+            <BaseStatBonus Stat="MovePointsTotal">1</BaseStatBonus>
+         </BaseStatBonuses>
+      </Level>
+      <Level Id="8">
+         <MainStatBonus Stat="Dodge">29</MainStatBonus>
+         <BasePrice>55</BasePrice>
+         <BaseStatBonuses>
+            <BaseStatBonus Stat="ArmorTotal">10</BaseStatBonus>
+            <BaseStatBonus Stat="MovePointsTotal">1</BaseStatBonus>
+         </BaseStatBonuses>
+      </Level>
+      <Level Id="9">
+         <MainStatBonus Stat="Dodge">32</MainStatBonus>
+         <BasePrice>60</BasePrice>
+         <BaseStatBonuses>
+            <BaseStatBonus Stat="ArmorTotal">11</BaseStatBonus>
+            <BaseStatBonus Stat="MovePointsTotal">1</BaseStatBonus>
+         </BaseStatBonuses>
+      </Level>
+      <Level Id="10">
+         <MainStatBonus Stat="Dodge">35</MainStatBonus>
+         <BasePrice>65</BasePrice>
+         <BaseStatBonuses>
+            <BaseStatBonus Stat="ArmorTotal">12</BaseStatBonus>
+            <BaseStatBonus Stat="MovePointsTotal">1</BaseStatBonus>
+         </BaseStatBonuses>
+      </Level>
+   </LevelVariations>
+</ItemDefinition>

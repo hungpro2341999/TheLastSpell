@@ -1,0 +1,12 @@
+<ItemArtDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../ItemArtDefinitions.xsd">
+
+   <!--This XML is empty!-->
+   <!--Since Usables don't have associated bodyparts, only <ArtId> would be present here-->
+   <!--But since ArtId defaults to the item Id when not specified, as long as we don't have any item with a mismatching Id/ArtID we don't need anything here-->
+   <!--If you find yourself in need of adding an entry here because of this special case, feel free to do so, there is an example below-->
+
+   <!--<ItemArtDefinition Id="DodgeBoots0">
+		<ArtId>DodgeBoots0</ArtId>
+	</ItemArtDefinition>-->
+
+</ItemArtDefinitions>

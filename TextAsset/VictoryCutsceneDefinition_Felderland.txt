@@ -1,0 +1,94 @@
+﻿<CutsceneDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="CutsceneDefinitions.xsd">
+
+   <CutsceneDefinition Id="Felderland">
+
+      <!--<PlaySound>
+         <Path>Sounds/Music/Trailer v3</Path>
+      </PlaySound>-->
+      
+      <!--<PlaySound>
+         <Path>Sounds/SFX/Victory/BlackHole</Path>
+         --><!--<Delay>0.5</Delay>--><!--
+      </PlaySound>-->
+      
+      <StopMagicCircleIdle/>
+      
+      <Wait>0.5</Wait>
+      <FocusMagicCircle ZoomIn="true"/>
+      <Wait>0.5</Wait>
+      
+      <Bark BarkerType="Unit">
+         <LookAt>Barker</LookAt>
+         <BarkDefinition Id="Victory_GIL_PlayableUnit0">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+            
+      <Bark BarkerType="MagicCircle">
+         <LookAt>Barker</LookAt>
+         <BarkDefinition Id="Victory_GIL_MagesPreExplosion0">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      
+      <PlaySealAnticipation/>
+      <Wait>2</Wait>
+      <LookAtCircle/>
+
+      <Bark BarkerType="MagicCircle">
+         <BarkDefinition Id="Victory_GIL_MagesPreExplosion1">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+
+      <Bark BarkerType="MagicCircle">
+         <BarkDefinition Id="Victory_GIL_MagesPreExplosion2">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      
+      <PlaySealDestruction/>
+
+      
+      <Wait>6</Wait>
+      
+      <PlaySound>
+         <Path>Sounds/Music/Sanctus</Path>
+         <Delay>0.5</Delay>
+      </PlaySound>
+      
+      <PlayPillarsCutscene/>
+      
+      <Wait>1.5</Wait>
+
+      <Bark BarkerType="Unit">
+         <BarkDefinition Id="Victory_GIL_PlayableUnitPostExplosion0">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+
+      <Bark BarkerType="MagicCircle">
+         <BarkDefinition Id="Victory_GIL_MagePostExplosion0">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+
+      <Bark BarkerType="Unit">
+         <BarkDefinition Id="Victory_GIL_PlayableUnitPostExplosion1">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      
+      <!--BLACK FADE (triggered automatically, nothing to specify here).-->
+      
+   </CutsceneDefinition>
+   
+</CutsceneDefinitions>

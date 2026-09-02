@@ -1,0 +1,26 @@
+﻿<UnitFaceIdsDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                       xsi:noNamespaceSchemaLocation="UnitFaceIdsDefinition.xsd">
+
+	<UnitFaceId Weight="20">Bald01</UnitFaceId>
+	<UnitFaceId Weight="200">Blodeuwedd</UnitFaceId>
+	<UnitFaceId Weight="200">Carré</UnitFaceId>
+	<UnitFaceId Weight="200">Curly</UnitFaceId>
+	<UnitFaceId Weight="80">HairBun01</UnitFaceId>
+	<UnitFaceId Weight="60">Kari</UnitFaceId>
+	<UnitFaceId Weight="200">LongHair</UnitFaceId>
+	<UnitFaceId Weight="80">PonyTail</UnitFaceId>
+	<UnitFaceId Weight="10">Burnt</UnitFaceId>
+	<UnitFaceId Weight="20">Jackson5</UnitFaceId>
+	<UnitFaceId Weight="200">Sombra</UnitFaceId>
+	<UnitFaceId Weight="200">Lara</UnitFaceId>
+	<UnitFaceId Weight="60">Amazon</UnitFaceId>
+	<UnitFaceId Weight="20">DoubleBun</UnitFaceId>
+	<UnitFaceId Weight="40">China</UnitFaceId>
+	<UnitFaceId Weight="60">Boyish</UnitFaceId>
+	<UnitFaceId Weight="80">Leeloo</UnitFaceId>
+	<UnitFaceId Weight="60">Afro</UnitFaceId>
+	<UnitFaceId Weight="40">Britney</UnitFaceId>
+	<UnitFaceId Weight="40">TankGirl</UnitFaceId>
+	<UnitFaceId Weight="100" RestrictedToRaceId="Dwarf" DLCId="Dwarves">DwarfFemale</UnitFaceId>
+
+</UnitFaceIdsDefinition>

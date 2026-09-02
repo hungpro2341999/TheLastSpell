@@ -1,0 +1,772 @@
+﻿<RandomBuildingsGenerationsDefinitions
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                       xsi:noNamespaceSchemaLocation="RandomBuildingsGenerationsDefinitions.xsd">
+    <!-- ███████████████████████████████████████████████████████████████ -->
+    <!-- TEST -->
+    <!-- ███████████████████████████████████████████████████████████████ -->
+    <RandomBuildingsGenerationDefinition Id="3Barricades">
+        <Building Id="Barricade" TileFlag="FogSpawner" Count="3"/>
+    </RandomBuildingsGenerationDefinition>
+    <RandomBuildingsGenerationDefinition Id="10ManaWells">
+        <Building Id="ManaWell" TileFlag="FogSpawner" Count="10"/>
+    </RandomBuildingsGenerationDefinition>
+    <!--Used to test boss spawns-->
+    <RandomBuildingsGenerationDefinition Id="FullofPillars">
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_Anywhere" Count="20"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_Sides" Count="20"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_Middle" Count="20"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="20"/>
+    </RandomBuildingsGenerationDefinition>
+    <!-- ███████████████████████████████████████████████████████████████ -->
+    <!-- END TESTS -->
+    <!-- ███████████████████████████████████████████████████████████████ -->
+    <!-- ███████████████████████████████████████████████████████████████ -->
+    <!-- GLINTFEIN -->
+    <!-- ███████████████████████████████████████████████████████████████ -->
+    <!--DAY 0-->
+    <!--Par côté "standard" j'entend "la base de nos intentions pour ce jour précis". Les autres presets seront construits à partir de celui-ci (e.g. le "more" ou "less" buildings sont fait par rapport au standard, pas dans l'absolu. -->
+    <RandomBuildingsGenerationDefinition Id="Glintfein_00_StandardSide">
+        <!--On place volontairement une ironcrate proche pour être gentil avec le joueur-->
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_NearHaven" Count="1"/>
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Anywhere" Count="1"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Anywhere" Count="1"/>
+        <!--Les éléments dans les sides sont plus là pour la déco, vu que cette wave est centrée-->
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Sides" Count="2"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_Sides" Count="2"/>
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_Sides" Count="1"/>
+    </RandomBuildingsGenerationDefinition>
+    <RandomBuildingsGenerationDefinition Id="Glintfein_00_MoreBuildings">
+        <!--Preset avec plus de bâtiments-->
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_NearHaven" Count="1"/>
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Anywhere" Count="2"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Sides" Count="2"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Anywhere" Count="1"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_NearHaven" Count="1"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_Sides" Count="2"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_Anywhere" Count="1"/>
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_Sides" Count="1"/>
+    </RandomBuildingsGenerationDefinition>
+    <RandomBuildingsGenerationDefinition Id="Glintfein_00_LessBuildings">
+        <!--Preset avec moins de bâtiments-->
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_NearHaven" Count="1"/>
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Anywhere" Count="1"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Sides" Count="2"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Anywhere" Count="1"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_Sides" Count="2"/>
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_Sides" Count="1"/>
+    </RandomBuildingsGenerationDefinition>
+    <RandomBuildingsGenerationDefinition Id="Glintfein_00_CenteredStatue">
+        <!--Preset avec une mageStatue centrée. On ne place pas d'autres éléments vers le milieu du côté pour la laisser en évidence.-->
+        <!--Le système génère en premier les éléments en haut de la liste. par précaution, on place la statue en haut vu que c'est l'élément qu'on veut absolument dans la gen.-->
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_CenterOnly" Count="1"/>
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_NearHaven" Count="1"/>
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Sides" Count="2"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Sides" Count="2"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_NearHaven" Count="1"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_ParallelLines" Count="2"/>
+    </RandomBuildingsGenerationDefinition>
+    <RandomBuildingsGenerationDefinition Id="Glintfein_00_ParallelStatues">
+        <!--Pareil ici mais avec des statues parallèles. Je fais ca avec la plupart des générations qui utilisent les statues car, contrairement aux pillars, ca parait étrange quand elles sont placées complètement au pif-->
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_ParallelLines" Count="4"/>
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Sides" Count="2"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Sides" Count="2"/>
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_NearHaven" Count="1"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_Sides" Count="3"/>
+    </RandomBuildingsGenerationDefinition>
+    <!--DAY 1-->
+    <RandomBuildingsGenerationDefinition Id="Glintfein_01_StandardSide">
+        <!--Pour le jour 1, la génération standard a plus de bâtiments : C'est une des intentions de la nuit 2 d'avoir un peu plus de "bazar".-->
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Anywhere" Count="2"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Sides" Count="2"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Middle" Count="2"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="2"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_Middle" Count="1"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="1"/>
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_Anywhere" Count="1"/>
+    </RandomBuildingsGenerationDefinition>
+    <RandomBuildingsGenerationDefinition Id="Glintfein_01_MoreBuildings">
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Anywhere" Count="2"/>
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Middle" Count="2"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Sides" Count="1"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Middle" Count="2"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="4"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_Sides" Count="2"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_NearHaven" Count="1"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="1"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_CenterOnly" Count="1"/>
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="1"/>
+    </RandomBuildingsGenerationDefinition>
+    <RandomBuildingsGenerationDefinition Id="Glintfein_01_LessBuildings">
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Anywhere" Count="1"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Sides" Count="1"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_CenterOnly" Count="1"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="1"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_Sides" Count="1"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_NearHaven" Count="1"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_CenterOnly" Count="1"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_Middle" Count="1"/>
+    </RandomBuildingsGenerationDefinition>
+    <!--DAY 2 (DarkSchaden)-->
+    <RandomBuildingsGenerationDefinition Id="Glintfein_02_SchadenCenterProtected">
+        <!-- Kind of "barrier" close to the Haven. This one is concentrated on the middle, with an opening on both sides -->
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_NearHavenCenter" Count="3"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_NearHavenCenter" Count="3"/>
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_NearHavenCenter" Count="1"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_NearHavenCenter" Count="3"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_NearHavenCenter" Count="3"/>
+        <!-- More chaotic stuff further from the Haven-->
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="1"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="1"/>
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="1"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="2"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="1"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_Sides" Count="1"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Sides" Count="1"/>
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Sides" Count="1"/>
+    </RandomBuildingsGenerationDefinition>
+    <RandomBuildingsGenerationDefinition Id="Glintfein_02_SchadenSidesProtected">
+        <!-- Kind of "barrier" close to the Haven. This one is concentrated on the sides, with an opening in the middle -->
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_NearHavenSides" Count="4"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_NearHavenSides" Count="4"/>
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_NearHavenSides" Count="1"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_NearHavenSides" Count="4"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_NearHavenSides" Count="2"/>
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_NearHavenSides" Count="1"/>
+        <!-- More chaotic stuff further from the Haven-->
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="1"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="1"/>
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="1"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="2"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="1"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_Sides" Count="1"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Sides" Count="1"/>
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Sides" Count="1"/>
+    </RandomBuildingsGenerationDefinition>
+    <RandomBuildingsGenerationDefinition Id="Glintfein_02_SchadenNoProtection">
+        <!-- Quite empty and chaotic near the Haven, to contrast with the more protected directions. -->
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_NearHaven" Count="1"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_NearHaven" Count="1"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_NearHaven" Count="1"/>
+        <!-- More chaotic stuff further from the Haven-->
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="1"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="1"/>
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="1"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="2"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="1"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_Sides" Count="1"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Sides" Count="1"/>
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Sides" Count="1"/>
+    </RandomBuildingsGenerationDefinition>
+    <!--DAY 4 (LightFreude)-->
+    <!-- Highways (= very large alley towards the Haven, with or without some elements near its middle line) -->
+    <RandomBuildingsGenerationDefinition Id="Glintfein_04_FreudeHighwaySplit">
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_ParallelLinesVeryLarge" Count="14"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_MiddleLine" Count="2"/>
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_MiddleLine" Count="2"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_MiddleLine" Count="2"/>
+    </RandomBuildingsGenerationDefinition>
+    <RandomBuildingsGenerationDefinition Id="Glintfein_04_FreudeHighwayThrone">
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_ParallelLinesVeryLarge" Count="14"/>
+        <Building Id="CorruptedThrone" TileFlag="RBSpawn_CenterOnly" Count="1"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_MiddleLine" Count="4"/>
+    </RandomBuildingsGenerationDefinition>
+    <RandomBuildingsGenerationDefinition Id="Glintfein_04_FreudeHighwayMageStatuesAndThrone">
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_ParallelLinesVeryLarge" Count="14"/>
+        <Building Id="CorruptedThrone" TileFlag="RBSpawn_CenterOnly" Count="1"/>
+    </RandomBuildingsGenerationDefinition>
+    <!--<RandomBuildingsGenerationDefinition Id="Glintfein_04_FreudeHighway"><Building Id="CorruptedPillar" TileFlag="RBSpawn_ParallelLinesVeryLarge" Count="12"/><Building Id="CorruptedPillar" TileFlag="RBSpawn_MiddleLine" Count="5"/></RandomBuildingsGenerationDefinition>-->
+    <!-- Alleys (= Medium-large alley towards the Haven) -->
+    <RandomBuildingsGenerationDefinition Id="Glintfein_04_FreudeAlley">
+        <!-- Alley -->
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_ParallelLinesLargeNS" Count="5"/>
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_ParallelLinesLargeEW" Count="5"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_ParallelLinesLargeNS" Count="2"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_ParallelLinesLargeNS" Count="4"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_ParallelLinesLargeEW" Count="2"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_ParallelLinesLargeEW" Count="4"/>
+        <!-- Scenery -->
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_Sides" Count="2"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Sides" Count="1"/>
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Sides" Count="1"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_Sides" Count="3"/>
+    </RandomBuildingsGenerationDefinition>
+    <!--<RandomBuildingsGenerationDefinition Id="Glintfein_04_FreudeAlley2">
+      -->
+    <!-- Alley -->
+    <!--
+      <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_ParallelLinesLargeNS" Count="8"/><Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_ParallelLinesLargeEW" Count="8"/>
+      -->
+    <!-- Scenery -->
+    <!--
+      <Building Id="CorruptedRails" TileFlag="RBSpawn_Sides" Count="2"/><Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Sides" Count="1"/><Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Sides" Count="1"/><Building Id="CorruptedPillar" TileFlag="RBSpawn_Sides" Count="1"/><Building Id="CorruptedMageStatue" TileFlag="RBSpawn_Sides" Count="2"/></RandomBuildingsGenerationDefinition>-->
+    <!-- Grids (= very geometric patterns placed on a regular grid) -->
+    <RandomBuildingsGenerationDefinition Id="Glintfein_04_FreudeGrid">
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_GridAnywhere" Count="18"/>
+    </RandomBuildingsGenerationDefinition>
+    <RandomBuildingsGenerationDefinition Id="Glintfein_04_FreudeGridStaggeredRows">
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_GridAnywhereStaggeredRows" Count="18"/>
+    </RandomBuildingsGenerationDefinition>
+    <!--DAY 5-->
+    <RandomBuildingsGenerationDefinition Id="Glintfein_05_StandardSide">
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_NearHaven" Count="1"/>
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Anywhere" Count="1"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Anywhere" Count="1"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Sides" Count="2"/>
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_Sides" Count="1"/>
+    </RandomBuildingsGenerationDefinition>
+    <RandomBuildingsGenerationDefinition Id="Glintfein_05_Throne">
+        <Building Id="CorruptedThrone" TileFlag="RBSpawn_CenterOnly" Count="1"/>
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Sides" Count="1"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Sides" Count="1"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_Sides" Count="1"/>
+    </RandomBuildingsGenerationDefinition>
+    <RandomBuildingsGenerationDefinition Id="Glintfein_05_BuildingsOnSides">
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Sides" Count="2"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Sides" Count="2"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_Sides" Count="3"/>
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_Sides" Count="2"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_Sides" Count="2"/>
+    </RandomBuildingsGenerationDefinition>
+    <RandomBuildingsGenerationDefinition Id="Glintfein_05_BuildingsMiddle">
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_CenterOnly" Count="1"/>
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Middle" Count="2"/>
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_CenterOnly" Count="1"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_CenterOnly" Count="1"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Middle" Count="2"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_CenterOnly" Count="1"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_Middle" Count="2"/>
+    </RandomBuildingsGenerationDefinition>
+    <RandomBuildingsGenerationDefinition Id="Glintfein_05_Filled">
+        <!--Rails-->
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_Anywhere" Count="1"/>
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_Sides" Count="1"/>
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_Middle" Count="4"/>
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="4"/>
+        <!--Crates-->
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Anywhere" Count="2"/>
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Sides" Count="2"/>
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Middle" Count="5"/>
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="5"/>
+        <!--Tree-->
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Anywhere" Count="2"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Sides" Count="2"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Middle" Count="5"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="5"/>
+        <!--Statue-->
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_Anywhere" Count="1"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_Sides" Count="1"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_Middle" Count="3"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="3"/>
+        <!--Pillars-->
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_Anywhere" Count="3"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_Sides" Count="3"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_Middle" Count="7"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="7"/>
+    </RandomBuildingsGenerationDefinition>
+    <RandomBuildingsGenerationDefinition Id="Glintfein_05_FilledNoSides">
+        <!--Rails-->
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_CenterOnly" Count="1"/>
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_Middle" Count="4"/>
+        <Building Id="CorruptedRails" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="4"/>
+        <!--Crates-->
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_CenterOnly" Count="1"/>
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_Middle" Count="6"/>
+        <Building Id="CorruptedCrate_Iron" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="5"/>
+        <!--Tree-->
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_CenterOnly" Count="1"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_Middle" Count="6"/>
+        <Building Id="CorruptedTreeBreakable" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="5"/>
+        <!--Statue-->
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_CenterOnly" Count="1"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_Middle" Count="3"/>
+        <Building Id="CorruptedMageStatue" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="3"/>
+        <!--Pillars-->
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_CenterOnly" Count="1"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_Middle" Count="8"/>
+        <Building Id="CorruptedPillar" TileFlag="RBSpawn_AnywhereInFogBoundaries" Count="8"/>
+    </RandomBuildingsGenerationDefinition>
+    <RandomBuildingsGenerationDefinition Id="Empty"/>
+    <!--Empty generation usable to fully clear a side.-->
+    <!-- ███████████████████████████████████████████████████████████████ -->
+    <!-- Gildenberg Redux -->
+    <!-- ███████████████████████████████████████████████████████████████ -->
+    <!-- Statue Bridge Side -->
+    <RandomBuildingsGenerationDefinition Id="GildenbergRedux_Statues_Bridge">
+        <Building Id="TempleStatue" TileFlag="RBSpawn_Anywhere" Count="4"/>
+        <Building Id="PillarRubble" TileFlag="RBSpawn_Anywhere" Count="2"/>
+    </RandomBuildingsGenerationDefinition>
+    <!-- Little Rift Side -->
+    <RandomBuildingsGenerationDefinition Id="GildenbergRedux_LittleRiftBuildings">
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Crystal" Count="3"/>
+        <Building Id="MinecartA" TileFlag="RBSpawn_Anywhere" Count="1"/>
+        <Building Id="MinecartB" TileFlag="RBSpawn_Anywhere" Count="2"/>
+        <Building Id="MinecartC" TileFlag="RBSpawn_Anywhere" Count="3"/>
+        <Building Id="Rock_Mine" TileFlag="RBSpawn_Anywhere" Count="1"/>
+    </RandomBuildingsGenerationDefinition>
+    <!-- Mountain Side -->
+    <RandomBuildingsGenerationDefinition Id="GildenbergRedux_MountainSide">
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Crystal" Count="4"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Anywhere" Count="5"/>
+    </RandomBuildingsGenerationDefinition>
+<!--Rock Side-->
+	<!--L00_L10_L20-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L00_L10_L20">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L00_NoVision" Count="10"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L00_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L00_Vision" Count="1"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L00_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L00_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L10_NoVision" Count="28"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L10_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L20_NoVision" Count="20"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L20_Crystal" Count="1"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L00_L10_L21-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L00_L10_L21">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L00_NoVision" Count="10"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L00_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L00_Vision" Count="1"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L00_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L00_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L10_NoVision" Count="28"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L10_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L21_NoVision" Count="15"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L21_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L21_Vision" Count="1"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L21_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L21_Crystal" Count="2"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L00_L10_L22-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L00_L10_L22">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L00_NoVision" Count="10"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L00_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L00_Vision" Count="1"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L00_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L00_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L10_NoVision" Count="28"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L10_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L22_NoVision" Count="11"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L22_Vision" Count="1"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L22_Vision" Count="2"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L22_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L22_Crystal" Count="2"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L00_L11_L20-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L00_L11_L20">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L00_NoVision" Count="10"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L00_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L00_Vision" Count="1"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L00_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L00_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L11_NoVision" Count="24"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L11_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L20_NoVision" Count="20"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L20_Crystal" Count="2"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L00_L11_L21-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L00_L11_L21">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L00_NoVision" Count="10"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L00_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L00_Vision" Count="1"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L00_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L00_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L11_NoVision" Count="24"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L11_Crystal" Count="2"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L21_NoVision" Count="15"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L21_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L21_Vision" Count="1"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L21_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L21_Crystal" Count="1"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L00_L11_L22-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L00_L11_L22">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L00_NoVision" Count="10"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L00_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L00_Vision" Count="1"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L00_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L00_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L11_NoVision" Count="24"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L11_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L22_NoVision" Count="11"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L22_Vision" Count="1"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L22_Vision" Count="2"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L22_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L22_Crystal" Count="1"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L00_L12_L20-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L00_L12_L20">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L00_NoVision" Count="10"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L00_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L00_Vision" Count="1"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L00_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L00_Crystal" Count="2"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L12_NoVision" Count="25"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L12_Vision" Count="3"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L12_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L12_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L12_Crystal" Count="2"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L20_NoVision" Count="20"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L20_Crystal" Count="2"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L00_L12_L21-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L00_L12_L21">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L00_NoVision" Count="10"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L00_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L00_Vision" Count="1"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L00_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L00_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L12_NoVision" Count="25"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L12_Vision" Count="3"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L12_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L12_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L12_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L21_NoVision" Count="15"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L21_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L21_Vision" Count="1"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L21_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L21_Crystal" Count="1"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L00_L12_L22-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L00_L12_L22">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L00_NoVision" Count="10"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L00_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L00_Vision" Count="1"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L00_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L00_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L12_NoVision" Count="25"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L12_Vision" Count="3"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L12_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L12_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L12_Crystal" Count="2"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L22_NoVision" Count="11"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L22_Vision" Count="1"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L22_Vision" Count="2"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L22_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L22_Crystal" Count="2"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L01_L10_L20-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L01_L10_L20">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L01_NoVision" Count="21"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L01_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L01_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L01_Vision" Count="2"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L01_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L10_NoVision" Count="28"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L10_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L20_NoVision" Count="20"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L20_Crystal" Count="2"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L01_L10_L21-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L01_L10_L21">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L01_NoVision" Count="21"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L01_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L01_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L01_Vision" Count="2"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L01_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L10_NoVision" Count="28"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L10_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L21_NoVision" Count="15"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L21_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L21_Vision" Count="1"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L21_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L21_Crystal" Count="2"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L01_L10_L22-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L01_L10_L22">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L01_NoVision" Count="21"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L01_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L01_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L01_Vision" Count="2"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L01_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L10_NoVision" Count="28"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L10_Crystal" Count="2"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L22_NoVision" Count="11"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L22_Vision" Count="1"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L22_Vision" Count="2"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L22_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L22_Crystal" Count="1"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L01_L11_L20-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L01_L11_L20">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L01_NoVision" Count="21"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L01_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L01_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L01_Vision" Count="2"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L01_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L11_NoVision" Count="24"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L11_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L20_NoVision" Count="20"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L20_Crystal" Count="1"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L01_L11_L21-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L01_L11_L21">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L01_NoVision" Count="21"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L01_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L01_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L01_Vision" Count="2"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L01_Crystal" Count="2"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L11_NoVision" Count="24"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L11_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L21_NoVision" Count="15"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L21_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L21_Vision" Count="1"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L21_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L21_Crystal" Count="2"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L01_L11_L22-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L01_L11_L22">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L01_NoVision" Count="21"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L01_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L01_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L01_Vision" Count="2"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L01_Crystal" Count="2"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L11_NoVision" Count="24"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L11_Crystal" Count="2"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L22_NoVision" Count="11"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L22_Vision" Count="1"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L22_Vision" Count="2"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L22_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L22_Crystal" Count="2"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L01_L12_L20-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L01_L12_L20">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L01_NoVision" Count="21"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L01_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L01_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L01_Vision" Count="2"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L01_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L12_NoVision" Count="25"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L12_Vision" Count="3"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L12_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L12_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L12_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L20_NoVision" Count="20"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L20_Crystal" Count="1"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L01_L12_L21-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L01_L12_L21">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L01_NoVision" Count="21"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L01_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L01_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L01_Vision" Count="2"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L01_Crystal" Count="2"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L12_NoVision" Count="25"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L12_Vision" Count="3"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L12_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L12_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L12_Crystal" Count="2"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L21_NoVision" Count="15"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L21_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L21_Vision" Count="1"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L21_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L21_Crystal" Count="1"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L01_L12_L22-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L01_L12_L22">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L01_NoVision" Count="21"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L01_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L01_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L01_Vision" Count="2"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L01_Crystal" Count="2"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L12_NoVision" Count="25"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L12_Vision" Count="3"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L12_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L12_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L12_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L22_NoVision" Count="11"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L22_Vision" Count="1"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L22_Vision" Count="2"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L22_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L22_Crystal" Count="1"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L02_L10_L20-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L02_L10_L20">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L02_NoVision" Count="23"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L02_Vision" Count="3"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L02_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L02_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L02_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L10_NoVision" Count="28"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L10_Crystal" Count="2"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L20_NoVision" Count="20"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L20_Crystal" Count="1"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L02_L10_L21-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L02_L10_L21">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L02_NoVision" Count="23"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L02_Vision" Count="3"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L02_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L02_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L02_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L10_NoVision" Count="28"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L10_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L21_NoVision" Count="15"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L21_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L21_Vision" Count="1"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L21_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L21_Crystal" Count="1"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L02_L10_L22-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L02_L10_L22">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L02_NoVision" Count="23"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L02_Vision" Count="3"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L02_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L02_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L02_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L10_NoVision" Count="28"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L10_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L10_Crystal" Count="2"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L22_NoVision" Count="11"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L22_Vision" Count="1"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L22_Vision" Count="2"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L22_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L22_Crystal" Count="1"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L02_L11_L20-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L02_L11_L20">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L02_NoVision" Count="23"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L02_Vision" Count="3"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L02_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L02_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L02_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L11_NoVision" Count="24"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L11_Crystal" Count="2"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L20_NoVision" Count="20"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L20_Crystal" Count="2"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L02_L11_L21-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L02_L11_L21">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L02_NoVision" Count="23"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L02_Vision" Count="3"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L02_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L02_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L02_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L11_NoVision" Count="24"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L11_Crystal" Count="2"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L21_NoVision" Count="15"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L21_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L21_Vision" Count="1"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L21_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L21_Crystal" Count="1"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L02_L11_L22-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L02_L11_L22">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L02_NoVision" Count="23"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L02_Vision" Count="3"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L02_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L02_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L02_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L11_NoVision" Count="24"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L11_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L11_Crystal" Count="2"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L22_NoVision" Count="11"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L22_Vision" Count="1"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L22_Vision" Count="2"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L22_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L22_Crystal" Count="2"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L02_L12_L20-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L02_L12_L20">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L02_NoVision" Count="23"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L02_Vision" Count="3"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L02_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L02_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L02_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L12_NoVision" Count="25"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L12_Vision" Count="3"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L12_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L12_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L12_Crystal" Count="1"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L20_NoVision" Count="20"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L20_Crystal" Count="1"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L02_L12_L21-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L02_L12_L21">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L02_NoVision" Count="23"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L02_Vision" Count="3"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L02_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L02_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L02_Crystal" Count="2"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L12_NoVision" Count="25"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L12_Vision" Count="3"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L12_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L12_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L12_Crystal" Count="2"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L21_NoVision" Count="15"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L21_Vision" Count="2"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L21_Vision" Count="1"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L21_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L21_Crystal" Count="2"/>
+	</RandomBuildingsGenerationDefinition>
+	<!--L02_L12_L22-->
+	<RandomBuildingsGenerationDefinition Id="GildenbergRedux_L02_L12_L22">
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L02_NoVision" Count="23"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L02_Vision" Count="3"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L02_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L02_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L02_Crystal" Count="2"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L12_NoVision" Count="25"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L12_Vision" Count="3"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L12_Vision" Count="3"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L12_Vision" Count="4"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L12_Crystal" Count="2"/>
+		<Building Id="Rock_Mine" TileFlag="RBSpawn_Divided_L22_NoVision" Count="11"/>
+		<Building Id="MinecartA" TileFlag="RBSpawn_Divided_L22_Vision" Count="1"/>
+		<Building Id="MinecartB" TileFlag="RBSpawn_Divided_L22_Vision" Count="2"/>
+		<Building Id="MinecartC" TileFlag="RBSpawn_Divided_L22_Vision" Count="1"/>
+		<Building Id="CrystalNormalOff" TileFlag="RBSpawn_Divided_L22_Crystal" Count="2"/>
+	</RandomBuildingsGenerationDefinition>
+
+</RandomBuildingsGenerationsDefinitions>

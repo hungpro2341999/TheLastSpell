@@ -1,0 +1,50 @@
+<PortraitDataDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <GradientSteps>
+      <GradientData>
+         <Repetition>1</Repetition>
+         <Lerp>0</Lerp>
+         <Color>#FFFFFF</Color>
+      </GradientData>
+      <GradientData>
+         <Repetition>1</Repetition>
+         <Lerp>0,6</Lerp>
+         <Color>#FFFFFF</Color>
+      </GradientData>
+      <GradientData>
+         <Repetition>1</Repetition>
+         <Lerp>0,9</Lerp>
+         <Color>#FFFFFF</Color>
+      </GradientData>
+   </GradientSteps>
+   <FaceIdUnauthorizedBeards>
+      <FaceId>Corrupted</FaceId>
+      <FaceId>Burnt</FaceId>
+   </FaceIdUnauthorizedBeards>
+   <LayersOrder>
+      <LayerKindAndOrderValue Kind="HairBack" Order="0"/>
+      <LayerKindAndOrderValue Kind="ClotheBack" Order="1"/>
+      <LayerKindAndOrderValue Kind="FaceBack" Order="2"/>
+      <LayerKindAndOrderValue Kind="ClotheFront" Order="3"/>
+      <LayerKindAndOrderValue Kind="FaceFront" Order="4"/>
+      <LayerKindAndOrderValue Kind="EarsBack" Order="5"/>
+      <LayerKindAndOrderValue Kind="Detail" Order="6"/>
+      <LayerKindAndOrderValue Kind="Mouth" Order="7"/>
+      <LayerKindAndOrderValue Kind="Beard" Order="8"/>
+      <LayerKindAndOrderValue Kind="Eyes" Order="9"/>
+      <LayerKindAndOrderValue Kind="Nose" Order="10"/>
+      <LayerKindAndOrderValue Kind="EyeBrows" Order="11"/>
+      <LayerKindAndOrderValue Kind="HairFront" Order="12"/>
+      <LayerKindAndOrderValue Kind="EarsFront" Order="13"/>
+   </LayersOrder>
+   <TexturesData>
+      <Width>64</Width>
+      <Height>64</Height>
+      <TextureFormat>RGBA32</TextureFormat>
+      <MipChain>false</MipChain>
+      <Linear>false</Linear>
+      <FilterMode>Point</FilterMode>
+      <TextureWrapMode>Clamp</TextureWrapMode>
+      <PixelPerUnit>28</PixelPerUnit>
+      <PivotPoint X="0,5" Y="0,0"/>
+   </TexturesData>
+</PortraitDataDefinition>

@@ -1,0 +1,56 @@
+﻿<ItemRaritiesListDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="ItemRaritiesListDefinitions.xsd">
+
+   <!-- TESTS -->
+   <!-- END TESTS -->
+
+
+   <ItemRaritiesListDefinition Id="BuildingProduction">
+      <Probability Weight="100">1</Probability>
+      <Probability Weight="30">2</Probability>
+      <Probability Weight="16">3</Probability>
+      <Probability Weight="0">4</Probability> <!-- 0 because this part is unlocked via meta -->
+   </ItemRaritiesListDefinition>
+
+   <ItemRaritiesListDefinition Id="ShopProduction">
+      <Probability Weight="100">1</Probability>
+      <Probability Weight="20">2</Probability>
+      <Probability Weight="12">3</Probability>
+      <Probability Weight="0">4</Probability> <!-- 0 because this part is unlocked via meta -->
+   </ItemRaritiesListDefinition>
+   
+   <ItemRaritiesListDefinition Id="PanicRewardBasic">
+      <Probability Weight="100">1</Probability>
+      <Probability Weight="35">2</Probability>
+      <Probability Weight="12">3</Probability>
+   </ItemRaritiesListDefinition>
+
+   <ItemRaritiesListDefinition Id="PanicRewardHigh">
+      <Probability Weight="100">2</Probability>
+      <Probability Weight="30">3</Probability>
+      <Probability Weight="9">4</Probability>
+   </ItemRaritiesListDefinition>
+
+   <ItemRaritiesListDefinition Id="HeroGeneration">
+      <Probability Weight="100">1</Probability>
+      <Probability Weight="0">2</Probability>
+      <Probability Weight="0">3</Probability>
+      <Probability Weight="0">4</Probability>
+   </ItemRaritiesListDefinition>
+
+   <ItemRaritiesListDefinition Id="BonePile">
+      <Probability Weight="100">1</Probability>
+      <Probability Weight="30">2</Probability>
+      <Probability Weight="16">3</Probability>
+      <Probability Weight="6">4</Probability>
+   </ItemRaritiesListDefinition>
+
+   <ItemRaritiesListDefinition Id="AlwaysCommon">
+      <Probability Weight="100">1</Probability>
+   </ItemRaritiesListDefinition>
+
+   <ItemRaritiesListDefinition Id="AlwaysEpic">
+      <Probability Weight="100">4</Probability>
+   </ItemRaritiesListDefinition>
+
+</ItemRaritiesListDefinitions>

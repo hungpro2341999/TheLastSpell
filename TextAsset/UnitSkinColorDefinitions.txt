@@ -1,0 +1,780 @@
+﻿<UnitSkinColorDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="UnitSkinColorDefinitions.xsd">
+
+   <!-- EBONY -->
+   <ColorSwapPalette Id="Ebony" Weight="20">
+      <!-- SKIN OUTLINE -->
+      <ColorSwap>
+         <Index>12</Index>
+         <OutputColor>#070402</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>21</Index>
+         <OutputColor>#110603</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>28</Index>
+         <OutputColor>#180d05</OutputColor>
+      </ColorSwap>
+      <!-- SKIN  -->
+      <ColorSwap>
+         <Index>41</Index>
+         <OutputColor>#1f100b</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>50</Index>
+         <OutputColor>#241510</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>61</Index>
+         <OutputColor>#2a1b16</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>83</Index>
+         <OutputColor>#3b281a</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>92</Index>
+         <OutputColor>#5a473a</OutputColor>
+      </ColorSwap>
+      <!-- LIPS -->
+      <ColorSwap>
+         <Index>34</Index>
+         <OutputColor>#300010</OutputColor>
+      </ColorSwap>
+      <!-- CHEEKS -->
+      <ColorSwap>
+         <Index>70</Index>
+         <OutputColor>#451606</OutputColor>
+      </ColorSwap>
+   </ColorSwapPalette>  
+  
+   <!-- UMBER -->
+   <ColorSwapPalette Id="Umber" Weight="60">
+      <!-- SKIN OUTLINE -->
+      <ColorSwap>
+         <Index>12</Index>
+         <OutputColor>#170D0CFF</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>21</Index>
+         <OutputColor>#391F18FF</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>28</Index>
+         <OutputColor>#4E301EFF</OutputColor>
+      </ColorSwap>
+      <!-- SKIN  -->
+      <ColorSwap>
+         <Index>41</Index>
+         <OutputColor>#2B1510FF</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>50</Index>
+         <OutputColor>#42241EFF</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>61</Index>
+         <OutputColor>#573022FF</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>83</Index>
+         <OutputColor>#7F452CFF</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>92</Index>
+         <OutputColor>#9C5725FF</OutputColor>
+      </ColorSwap>
+      <!-- LIPS -->
+      <ColorSwap>
+         <Index>34</Index>
+         <OutputColor>#330308FF</OutputColor>
+      </ColorSwap>
+      <!-- CHEEKS -->
+      <ColorSwap>
+         <Index>70</Index>
+         <OutputColor>#924F30FF</OutputColor>
+      </ColorSwap>
+   </ColorSwapPalette>
+  
+   <!-- PALE IVORY -->
+   <ColorSwapPalette Id="PaleIvory" Weight="60">
+      <!-- SKIN OUTLINE -->
+      <ColorSwap>
+         <Index>12</Index>
+         <OutputColor>#1f1714</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>21</Index>
+         <OutputColor>#402f28</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>28</Index>
+         <OutputColor>#5a4538</OutputColor>
+      </ColorSwap>
+      <!-- SKIN  -->
+      <ColorSwap>
+         <Index>41</Index>
+         <OutputColor>#875d50</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>50</Index>
+         <OutputColor>#a2796a</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>61</Index>
+         <OutputColor>#be9685</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>83</Index>
+         <OutputColor>#f5d0ba</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>92</Index>
+         <OutputColor>#ffeade</OutputColor>
+      </ColorSwap>
+      <!-- LIPS -->
+      <ColorSwap>
+         <Index>34</Index>
+         <OutputColor>#8f222d</OutputColor>
+      </ColorSwap>
+      <!-- CHEEKS -->
+      <ColorSwap>
+         <Index>70</Index>
+         <OutputColor>#f59e84</OutputColor>
+      </ColorSwap>
+   </ColorSwapPalette>
+
+   <!-- SAND -->
+   <ColorSwapPalette Id="Sand" Weight="30">
+      <!-- SKIN OUTLINE -->
+      <ColorSwap>
+         <Index>12</Index>
+         <OutputColor>#301c08</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>21</Index>
+         <OutputColor>#4c3019</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>28</Index>
+         <OutputColor>#674a2b</OutputColor>
+      </ColorSwap>
+      <!-- SKIN  -->
+      <ColorSwap>
+         <Index>41</Index>
+         <OutputColor>#805540</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>50</Index>
+         <OutputColor>#c28869</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>61</Index>
+         <OutputColor>#d9af7a</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>83</Index>
+         <OutputColor>#f8d998</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>92</Index>
+         <OutputColor>#fbe1bb</OutputColor>
+      </ColorSwap>
+      <!-- LIPS -->
+      <ColorSwap>
+         <Index>34</Index>
+         <OutputColor>#c47e63</OutputColor>
+      </ColorSwap>
+      <!-- CHEEKS -->
+      <ColorSwap>
+         <Index>70</Index>
+         <OutputColor>#f7bc8e</OutputColor>
+      </ColorSwap>
+   </ColorSwapPalette>
+
+   <!-- LIMESTONE -->
+   <ColorSwapPalette Id="Limestone" Weight="60">
+      <!-- SKIN OUTLINE -->
+      <ColorSwap>
+         <Index>12</Index>
+         <OutputColor>#1c120d</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>21</Index>
+         <OutputColor>#1c120d</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>28</Index>
+         <OutputColor>#4d3729</OutputColor>
+      </ColorSwap>
+      <!-- SKIN  -->
+      <ColorSwap>
+         <Index>41</Index>
+         <OutputColor>#915c37</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>50</Index>
+         <OutputColor>#ad7853</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>61</Index>
+         <OutputColor>#c9946f</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>83</Index>
+         <OutputColor>#ecc091</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>92</Index>
+         <OutputColor>#f5d6b4</OutputColor>
+      </ColorSwap>
+      <!-- LIPS -->
+      <ColorSwap>
+         <Index>34</Index>
+         <OutputColor>#982a15</OutputColor>
+      </ColorSwap>
+      <!-- CHEEKS -->
+      <ColorSwap>
+         <Index>70</Index>
+         <OutputColor>#ebaa8b</OutputColor>
+      </ColorSwap>
+   </ColorSwapPalette>
+
+   <!-- SIENNA -->
+   <ColorSwapPalette Id="Sienna" Weight="60">
+      <!-- SKIN OUTLINE -->
+      <ColorSwap>
+         <Index>12</Index>
+         <OutputColor>#281918</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>21</Index>
+         <OutputColor>#3d2d2c</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>28</Index>
+         <OutputColor>#4a342f</OutputColor>
+      </ColorSwap>
+      <!-- SKIN  -->
+      <ColorSwap>
+         <Index>41</Index>
+         <OutputColor>#945649</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>50</Index>
+         <OutputColor>#a76554</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>61</Index>
+         <OutputColor>#b3735e</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>83</Index>
+         <OutputColor>#d49e7a</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>92</Index>
+         <OutputColor>#deb18c</OutputColor>
+      </ColorSwap>
+      <!-- LIPS -->
+      <ColorSwap>
+         <Index>34</Index>
+         <OutputColor>#c85b5b</OutputColor>
+      </ColorSwap>
+      <!-- CHEEKS -->
+      <ColorSwap>
+         <Index>70</Index>
+         <OutputColor>#ec987f</OutputColor>
+      </ColorSwap>
+   </ColorSwapPalette>
+
+   <!-- BAND -->
+   <ColorSwapPalette Id="Band" Weight="20">
+      <!-- SKIN OUTLINE -->
+      <ColorSwap>
+         <Index>12</Index>
+         <OutputColor>#1a0f04</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>21</Index>
+         <OutputColor>#351e09</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>28</Index>
+         <OutputColor>#472b14</OutputColor>
+      </ColorSwap>
+      <!-- SKIN  -->
+      <ColorSwap>
+         <Index>41</Index>
+         <OutputColor>#613d25</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>50</Index>
+         <OutputColor>#735035</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>61</Index>
+         <OutputColor>#886547</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>83</Index>
+         <OutputColor>#ad8a60</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>92</Index>
+         <OutputColor>#b59c69</OutputColor>
+      </ColorSwap>
+      <!-- LIPS -->
+      <ColorSwap>
+         <Index>34</Index>
+         <OutputColor>#66372c</OutputColor>
+      </ColorSwap>
+      <!-- CHEEKS -->
+      <ColorSwap>
+         <Index>70</Index>
+         <OutputColor>#9d6d4d</OutputColor>
+      </ColorSwap>
+   </ColorSwapPalette>
+
+       <!-- PINKY -->
+   <ColorSwapPalette Id="Pinky" Weight="20">
+      <!-- SKIN OUTLINE -->
+      <ColorSwap>
+         <Index>12</Index>
+         <OutputColor>#1c1616</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>21</Index>
+         <OutputColor>#3a2e2e</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>28</Index>
+         <OutputColor>#514140</OutputColor>
+      </ColorSwap>
+      <!-- SKIN  -->
+      <ColorSwap>
+         <Index>41</Index>
+         <OutputColor>#795d5f</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>50</Index>
+         <OutputColor>#947778</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>61</Index>
+         <OutputColor>#b09394</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>83</Index>
+         <OutputColor>#e6cac8</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>92</Index>
+         <OutputColor>#f7e7e6</OutputColor>
+      </ColorSwap>
+      <!-- LIPS -->
+      <ColorSwap>
+         <Index>34</Index>
+         <OutputColor>#d35b8b</OutputColor>
+      </ColorSwap>
+      <!-- CHEEKS -->
+      <ColorSwap>
+         <Index>70</Index>
+         <OutputColor>#d99fa4</OutputColor>
+      </ColorSwap>
+   </ColorSwapPalette>
+  
+         <!-- Grey -->
+   <ColorSwapPalette Id="Grey" Weight="5">
+      <!-- SKIN OUTLINE -->
+      <ColorSwap>
+         <Index>12</Index>
+         <OutputColor>#1d1a15</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>21</Index>
+         <OutputColor>#3c352b</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>28</Index>
+         <OutputColor>#554e3d</OutputColor>
+      </ColorSwap>
+      <!-- SKIN  -->
+      <ColorSwap>
+         <Index>41</Index>
+         <OutputColor>#7f6d58</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>50</Index>
+         <OutputColor>#998972</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>61</Index>
+         <OutputColor>#b5a68d</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>83</Index>
+         <OutputColor>#ecdfc3</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>92</Index>
+         <OutputColor>#faf3e3</OutputColor>
+      </ColorSwap>
+      <!-- LIPS -->
+      <ColorSwap>
+         <Index>34</Index>
+         <OutputColor>#d69367</OutputColor>
+      </ColorSwap>
+      <!-- CHEEKS -->
+      <ColorSwap>
+         <Index>70</Index>
+         <OutputColor>#e4c095</OutputColor>
+      </ColorSwap>
+   </ColorSwapPalette>
+  
+           <!-- ORC BLUE -->
+   <ColorSwapPalette Id="OrcBlue" Weight="3">
+      <!-- SKIN OUTLINE -->
+      <ColorSwap>
+         <Index>12</Index>
+         <OutputColor>#0d1410</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>21</Index>
+         <OutputColor>#1c2a23</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>28</Index>
+         <OutputColor>#273a32</OutputColor>
+      </ColorSwap>
+      <!-- SKIN  -->
+      <ColorSwap>
+         <Index>41</Index>
+         <OutputColor>#384d58</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>50</Index>
+         <OutputColor>#4a5e6a</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>61</Index>
+         <OutputColor>#5c6e7c</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>83</Index>
+         <OutputColor>#80a193</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>92</Index>
+         <OutputColor>#aebdb6</OutputColor>
+      </ColorSwap>
+      <!-- LIPS -->
+      <ColorSwap>
+         <Index>34</Index>
+         <OutputColor>#138b7e</OutputColor>
+      </ColorSwap>
+      <!-- CHEEKS -->
+      <ColorSwap>
+         <Index>70</Index>
+         <OutputColor>#5e9e7a</OutputColor>
+      </ColorSwap>
+   </ColorSwapPalette>
+
+  <!-- DARK BLUE -->
+  <ColorSwapPalette Id="DarkBlue" Weight="3">
+    <!-- SKIN OUTLINE -->
+    <ColorSwap>
+      <Index>12</Index>
+      <OutputColor>#030a0d</OutputColor>
+    </ColorSwap>
+    <ColorSwap>
+      <Index>21</Index>
+      <OutputColor>#07161b</OutputColor>
+    </ColorSwap>
+    <ColorSwap>
+      <Index>28</Index>
+      <OutputColor>#0a1b25</OutputColor>
+    </ColorSwap>
+    <!-- SKIN  -->
+    <ColorSwap>
+      <Index>41</Index>
+      <OutputColor>#0f2634</OutputColor>
+    </ColorSwap>
+    <ColorSwap>
+      <Index>50</Index>
+      <OutputColor>#162c3e</OutputColor>
+    </ColorSwap>
+    <ColorSwap>
+      <Index>61</Index>
+      <OutputColor>#1f3547</OutputColor>
+    </ColorSwap>
+    <ColorSwap>
+      <Index>83</Index>
+      <OutputColor>#2e4c5d</OutputColor>
+    </ColorSwap>
+    <ColorSwap>
+      <Index>92</Index>
+      <OutputColor>#3b6985</OutputColor>
+    </ColorSwap>
+    <!-- LIPS -->
+    <ColorSwap>
+      <Index>34</Index>
+      <OutputColor>#26003c</OutputColor>
+    </ColorSwap>
+    <!-- CHEEKS -->
+    <ColorSwap>
+      <Index>70</Index>
+      <OutputColor>#0f546a</OutputColor>
+    </ColorSwap>
+  </ColorSwapPalette>
+  
+           <!-- ORC GREEN -->
+   <ColorSwapPalette Id="OrcGreen" Weight="3">
+      <!-- SKIN OUTLINE -->
+      <ColorSwap>
+         <Index>12</Index>
+         <OutputColor>#11150d</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>21</Index>
+         <OutputColor>#232b1b</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>28</Index>
+         <OutputColor>#2f3b26</OutputColor>
+      </ColorSwap>
+      <!-- SKIN  -->
+      <ColorSwap>
+         <Index>41</Index>
+         <OutputColor>#4d5030</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>50</Index>
+         <OutputColor>#5b603f</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>61</Index>
+         <OutputColor>#69704f</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>83</Index>
+         <OutputColor>#8ea37d</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>92</Index>
+         <OutputColor>#b9c0b0</OutputColor>
+      </ColorSwap>
+      <!-- LIPS -->
+      <ColorSwap>
+         <Index>34</Index>
+         <OutputColor>#138b4d</OutputColor>
+      </ColorSwap>
+      <!-- CHEEKS -->
+      <ColorSwap>
+         <Index>70</Index>
+         <OutputColor>#85a35a</OutputColor>
+      </ColorSwap>
+   </ColorSwapPalette>
+
+  <!-- DARK GREEN -->
+  <ColorSwapPalette Id="DarkGreen" Weight="3">
+    <!-- SKIN OUTLINE -->
+    <ColorSwap>
+      <Index>12</Index>
+      <OutputColor>#0b0d03</OutputColor>
+    </ColorSwap>
+    <ColorSwap>
+      <Index>21</Index>
+      <OutputColor>#181b07</OutputColor>
+    </ColorSwap>
+    <ColorSwap>
+      <Index>28</Index>
+      <OutputColor>#1e250a</OutputColor>
+    </ColorSwap>
+    <!-- SKIN  -->
+    <ColorSwap>
+      <Index>41</Index>
+      <OutputColor>#29340f</OutputColor>
+    </ColorSwap>
+    <ColorSwap>
+      <Index>50</Index>
+      <OutputColor>#313e16</OutputColor>
+    </ColorSwap>
+    <ColorSwap>
+      <Index>61</Index>
+      <OutputColor>#3a471f</OutputColor>
+    </ColorSwap>
+    <ColorSwap>
+      <Index>83</Index>
+      <OutputColor>#505d2e</OutputColor>
+    </ColorSwap>
+    <ColorSwap>
+      <Index>92</Index>
+      <OutputColor>#677d2d</OutputColor>
+    </ColorSwap>
+    <!-- LIPS -->
+    <ColorSwap>
+      <Index>34</Index>
+      <OutputColor>#003c21</OutputColor>
+    </ColorSwap>
+    <!-- CHEEKS -->
+    <ColorSwap>
+      <Index>70</Index>
+      <OutputColor>#5c6a0f</OutputColor>
+    </ColorSwap>
+  </ColorSwapPalette>
+  
+           <!-- BLOOD -->
+   <ColorSwapPalette Id="Blood" Weight="3">
+      <!-- SKIN OUTLINE -->
+      <ColorSwap>
+         <Index>12</Index>
+         <OutputColor>#170909</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>21</Index>
+         <OutputColor>#301313</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>28</Index>
+         <OutputColor>#441d19</OutputColor>
+      </ColorSwap>
+      <!-- SKIN  -->
+      <ColorSwap>
+         <Index>41</Index>
+         <OutputColor>#682223</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>50</Index>
+         <OutputColor>#793433</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>61</Index>
+         <OutputColor>#8b4645</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>83</Index>
+         <OutputColor>#b06e66</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>92</Index>
+         <OutputColor>#d49c8e</OutputColor>
+      </ColorSwap>
+      <!-- LIPS -->
+      <ColorSwap>
+         <Index>34</Index>
+         <OutputColor>#9d2d04</OutputColor>
+      </ColorSwap>
+      <!-- CHEEKS -->
+      <ColorSwap>
+         <Index>70</Index>
+         <OutputColor>#c03237</OutputColor>
+      </ColorSwap>
+   </ColorSwapPalette>    
+  
+           <!-- SHADOW -->
+   <ColorSwapPalette Id="Shadow" Weight="3">
+      <!-- SKIN OUTLINE -->
+      <ColorSwap>
+         <Index>12</Index>
+         <OutputColor>#0a0706</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>21</Index>
+         <OutputColor>#16100c</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>28</Index>
+         <OutputColor>#1f1611</OutputColor>
+      </ColorSwap>
+      <!-- SKIN  -->
+      <ColorSwap>
+         <Index>41</Index>
+         <OutputColor>#2f1d18</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>50</Index>
+         <OutputColor>#382620</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>61</Index>
+         <OutputColor>#413129</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>83</Index>
+         <OutputColor>#54443b</OutputColor>
+      </ColorSwap>
+      <ColorSwap>
+         <Index>92</Index>
+         <OutputColor>#71625a</OutputColor>
+      </ColorSwap>
+      <!-- LIPS -->
+      <ColorSwap>
+         <Index>34</Index>
+         <OutputColor>#0c0708</OutputColor>
+      </ColorSwap>
+      <!-- CHEEKS -->
+      <ColorSwap>
+         <Index>70</Index>
+         <OutputColor>#573227</OutputColor>
+      </ColorSwap>
+   </ColorSwapPalette>      
+  
+  
+   <!-- CHOCOLATE -->
+   <!--<ColorSwapPalette Id="Chocolate">
+    -->
+   <!-- SKIN OUTLINE -->
+   <!--
+    <ColorSwap>
+      <Index>12</Index>
+      <OutputColor>#080504</OutputColor>
+    </ColorSwap>
+    <ColorSwap>
+      <Index>21</Index>
+      <OutputColor>#170a07</OutputColor>
+    </ColorSwap>
+    <ColorSwap>
+      <Index>28</Index>
+      <OutputColor>#221109</OutputColor>
+    </ColorSwap>
+    -->
+   <!-- SKIN  -->
+   <!--
+    <ColorSwap>
+      <Index>41</Index>
+      <OutputColor>#1d0c0a</OutputColor>
+    </ColorSwap>
+    <ColorSwap>
+      <Index>50</Index>
+      <OutputColor>#24130e</OutputColor>
+    </ColorSwap>
+    <ColorSwap>
+      <Index>61</Index>
+      <OutputColor>#291612</OutputColor>
+    </ColorSwap>
+    <ColorSwap>
+      <Index>83</Index>
+      <OutputColor>#361e1b</OutputColor>
+    </ColorSwap>
+    <ColorSwap>
+      <Index>92</Index>
+      <OutputColor>#41251f</OutputColor>
+    </ColorSwap>
+    -->
+   <!-- LIPS -->
+   <!--
+    <ColorSwap>
+      <Index>34</Index>
+      <OutputColor>#2b110a</OutputColor>
+    </ColorSwap>
+    -->
+   <!-- CHEEKS -->
+   <!--
+    <ColorSwap>
+      <Index>70</Index>
+      <OutputColor>#45201b</OutputColor>
+    </ColorSwap>
+  </ColorSwapPalette>-->
+</UnitSkinColorDefinitions>

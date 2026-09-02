@@ -1,0 +1,24 @@
+﻿<NightReportRankDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="NightReportRankDefinitions.xsd">
+
+   <NightReportRankDefinition Id="S">
+      <MaxHPsLostRatio>12</MaxHPsLostRatio>
+   </NightReportRankDefinition>
+   
+   <NightReportRankDefinition Id="A">
+      <MaxHPsLostRatio>25</MaxHPsLostRatio>
+   </NightReportRankDefinition>
+   
+   <NightReportRankDefinition Id="B">
+      <MaxHPsLostRatio>37</MaxHPsLostRatio>
+   </NightReportRankDefinition>
+   
+   <NightReportRankDefinition Id="C">
+      <MaxHPsLostRatio>50</MaxHPsLostRatio>
+   </NightReportRankDefinition>
+   
+   <NightReportRankDefinition Id="D">
+      <MaxHPsLostRatio>100</MaxHPsLostRatio>
+   </NightReportRankDefinition>
+
+</NightReportRankDefinitions>

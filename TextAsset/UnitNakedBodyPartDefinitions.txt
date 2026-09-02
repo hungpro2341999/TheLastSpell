@@ -1,0 +1,128 @@
+﻿<UnitNakedBodyPartDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="UnitNakedBodyPartDefinitions.xsd">
+
+  <BodyPartDefinition Id="Shadow">
+    <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Naked/Generic/Shadow_Naked</Sprite>
+  </BodyPartDefinition>
+
+  <BodyPartDefinition Id="Cape">
+    <!--Nothing by default-->
+  </BodyPartDefinition>
+
+  <BodyPartDefinition Id="Hand_Behind_L">
+    <!--Nothing by default-->
+  </BodyPartDefinition>
+
+  <BodyPartDefinition Id="Arm_L">
+    <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Naked/Female/ArmL_NakedArmor_Female</Sprite>
+    <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Naked/Male/ArmL_NakedArmor_Male</Sprite>
+  </BodyPartDefinition>
+
+  <BodyPartDefinition Id="Shoulder_L">
+    <!--Nothing by default-->
+  </BodyPartDefinition>
+
+  <BodyPartDefinition Id="Leg_L">
+    <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Naked/Female/LegL_NakedPants_Female</Sprite>
+    <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Naked/Male/LegL_NakedPants_Male</Sprite>
+  </BodyPartDefinition>
+
+  <BodyPartDefinition Id="Thigh_L">
+    <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Naked/Female/ThighL_NakedPants_Female</Sprite>
+    <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Naked/Male/ThighL_NakedPants_Male</Sprite>
+  </BodyPartDefinition>
+
+  <BodyPartDefinition Id="Leg_R">
+    <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Naked/Female/LegR_NakedPants_Female</Sprite>
+    <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Naked/Male/LegR_NakedPants_Male</Sprite>
+  </BodyPartDefinition>
+
+  <BodyPartDefinition Id="Thigh_R">
+    <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Naked/Female/ThighR_NakedPants_Female</Sprite>
+    <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Naked/Male/ThighR_NakedPants_Male</Sprite>
+  </BodyPartDefinition>
+
+  <BodyPartDefinition Id="Crotch">
+    <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Naked/Female/Crotch_NakedPants_Female</Sprite>
+    <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Naked/Male/Crotch_NakedPants_Male</Sprite>
+  </BodyPartDefinition>
+
+  <BodyPartDefinition Id="Torso">
+    <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Naked/Female/Torso_NakedArmor_Female</Sprite>
+    <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Naked/Male/Torso_NakedArmor_Male</Sprite>
+  </BodyPartDefinition>
+
+  <BodyPartDefinition Id="Head">
+    <!--Tmp generic placeholder since I don't have any other "Back head"! When integrating new "Back heads", remember to remove the Orientation="Front" on the corresponding entry else it won't work-->
+    <Sprite Constraint="Generic" Orientation="Back">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_HairBun01</Sprite>
+
+    <!--Male heads-->
+    <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Male/Head_Naked_Hipster</Sprite>
+    <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Male/Head_Naked_Lamasse</Sprite>
+    <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Male/Head_Naked_Ali</Sprite>
+    <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Male/Head_Naked_Jesus</Sprite>
+    <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Male/Head_Naked_Punk</Sprite>
+    <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Male/Head_Naked_NormanOsborn</Sprite>
+    <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Male/Head_Naked_EdgyBoy</Sprite>
+    <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Male/Head_Naked_Cloud</Sprite>
+    <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Male/Head_Naked_BowlCut</Sprite>
+    <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Male/Head_Naked_BigBoy</Sprite>
+    <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Male/Head_Naked_Rasta</Sprite>
+    <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Male/Head_Naked_Philosopher</Sprite>
+    <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Male/Head_Naked_Corrupted</Sprite>
+    <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Male/Head_Naked_Dandy</Sprite>
+    <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Male/Head_Naked_AfroBoy</Sprite>
+    <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Male/Head_Naked_Drake</Sprite>
+    <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Male/Head_Naked_Biker</Sprite>
+    <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Male/Head_Naked_Braids</Sprite>
+    <Sprite Constraint="FaceId" Id="Aldana">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Male/Head_Naked_Aldana</Sprite>
+    <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Male/Head_Naked_BaldBeard</Sprite>
+    <Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Male/Head_Naked_DwarfMale</Sprite>
+
+    <!--Female heads-->
+    <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_Blodeuwedd</Sprite>
+    <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_Kari</Sprite>
+    <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_HairBun01</Sprite>
+    <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_Bald01</Sprite>
+    <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_Carré</Sprite>
+    <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_PonyTail</Sprite>
+    <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_LongHair</Sprite>
+    <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_Curly</Sprite>
+    <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_Burnt</Sprite>
+    <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_Jackson5</Sprite>
+    <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_Sombra</Sprite>
+    <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_Lara</Sprite>
+    <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_Amazon</Sprite>
+    <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_DoubleBun</Sprite>
+    <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_China</Sprite>
+    <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_Boyish</Sprite>
+    <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_Leeloo</Sprite>
+    <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_Afro</Sprite>
+    <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_Britney</Sprite>
+    <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_TankGirl</Sprite>
+    <Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Naked/FaceId/FaceId_Female/Head_Naked_DwarfFemale</Sprite>
+
+    <!--Add all the possible faces in there!-->
+  </BodyPartDefinition>
+
+  <BodyPartDefinition Id="Hand_Before_L">
+    <!--Nothing by default-->
+  </BodyPartDefinition>
+
+  <BodyPartDefinition Id="Hand_Behind_R">
+    <!--Nothing by default-->
+  </BodyPartDefinition>
+
+  <BodyPartDefinition Id="Arm_R">
+    <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Naked/Female/ArmR_NakedArmor_Female</Sprite>
+    <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Naked/Male/ArmR_NakedArmor_Male</Sprite>
+  </BodyPartDefinition>
+
+  <BodyPartDefinition Id="Shoulder_R">
+    <!--Nothing by default-->
+  </BodyPartDefinition>
+
+  <BodyPartDefinition Id="Hand_Before_R">
+    <!--Nothing by default-->
+  </BodyPartDefinition>
+</UnitNakedBodyPartDefinitions>

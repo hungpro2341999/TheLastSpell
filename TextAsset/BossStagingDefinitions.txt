@@ -1,0 +1,108 @@
+﻿<BossStagingDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                              xsi:noNamespaceSchemaLocation="BossStagingDefinitions.xsd">
+   <BossStagingDefinition BossId="SpawnerBoss">
+      <Duration>(NumberOfSectors * MovementDuration) + (NumberOfSectors * PauseDuration)</Duration>
+      <PauseDuration>0.5</PauseDuration>
+      <MovementDuration>0.2</MovementDuration>
+      <MovementEasing>OutQuad</MovementEasing>
+   </BossStagingDefinition>
+
+   <BossStagingDefinition BossId="HarpyBoss">
+      <Duration>(NumberOfSectors * MovementDuration) + (NumberOfSectors * PauseDuration)</Duration>
+      <PauseDuration>0.5</PauseDuration>
+      <MovementDuration>0.2</MovementDuration>
+      <MovementEasing>OutQuad</MovementEasing>
+   </BossStagingDefinition>
+
+   <BossStagingDefinition BossId="NessieBoss">
+      <Duration>(NumberOfSectors * MovementDuration) + (NumberOfSectors * PauseDuration)</Duration>
+      <PauseDuration>0.5</PauseDuration>
+      <MovementDuration>0.2</MovementDuration>
+      <MovementEasing>OutQuad</MovementEasing>
+   </BossStagingDefinition>
+
+   <BossStagingDefinition BossId="NessieBossHead">
+      <Duration>(NumberOfSectors * MovementDuration) + (NumberOfSectors * PauseDuration)</Duration>
+      <PauseDuration>0.5</PauseDuration>
+      <MovementDuration>0.2</MovementDuration>
+      <MovementEasing>OutQuad</MovementEasing>
+      <SpawnStaging>
+         <MovementDuration>0.25</MovementDuration>
+         <PauseDuration>0.25</PauseDuration>
+         <MovementEasing>OutQuad</MovementEasing>
+         <PauseBetweenEachBoss>1.3</PauseBetweenEachBoss>
+      </SpawnStaging>
+   </BossStagingDefinition>
+
+   <BossStagingDefinition BossId="NessieBossTail">
+      <Duration>(NumberOfSectors * MovementDuration) + (NumberOfSectors * PauseDuration)</Duration>
+      <PauseDuration>0.5</PauseDuration>
+      <MovementDuration>0.2</MovementDuration>
+      <MovementEasing>OutQuad</MovementEasing>
+      <SpawnStaging>
+         <MovementDuration>0.25</MovementDuration>
+         <PauseDuration>0.25</PauseDuration>
+         <MovementEasing>OutQuad</MovementEasing>
+         <PauseBetweenEachBoss>1.3</PauseBetweenEachBoss>
+      </SpawnStaging>
+   </BossStagingDefinition>
+
+   <BossStagingDefinition BossId="ThroneTowerBoss">
+      <Duration>(NumberOfSectors * MovementDuration) + (NumberOfSectors * PauseDuration)</Duration>
+      <PauseDuration>0.5</PauseDuration>
+      <MovementDuration>0.2</MovementDuration>
+      <MovementEasing>OutQuad</MovementEasing>
+   </BossStagingDefinition>
+
+   <BossStagingDefinition BossId="DarkSchaden">
+      <Duration>(NumberOfSectors * MovementDuration) + (NumberOfSectors * PauseDuration)</Duration>
+      <PauseDuration>0.5</PauseDuration>
+      <MovementDuration>0.2</MovementDuration>
+      <MovementEasing>OutQuad</MovementEasing>
+      <SpawnStaging>
+         <MovementDuration>0.25</MovementDuration>
+         <PauseDuration>0.25</PauseDuration>
+         <MovementEasing>OutQuad</MovementEasing>
+         <PauseBetweenEachBoss>1.3</PauseBetweenEachBoss>
+      </SpawnStaging>
+   </BossStagingDefinition>
+
+   <BossStagingDefinition BossId="LightFreude">
+      <Duration>(NumberOfSectors * MovementDuration) + (NumberOfSectors * PauseDuration)</Duration>
+      <PauseDuration>0.5</PauseDuration>
+      <MovementDuration>0.2</MovementDuration>
+      <MovementEasing>OutQuad</MovementEasing>
+      <SpawnStaging>
+         <MovementDuration>0.25</MovementDuration>
+         <PauseDuration>0.25</PauseDuration>
+         <MovementEasing>OutQuad</MovementEasing>
+         <PauseBetweenEachBoss>1.3</PauseBetweenEachBoss>
+      </SpawnStaging>
+   </BossStagingDefinition>
+
+   <BossStagingDefinition BossId="SchadenBoss">
+      <Duration>(NumberOfSectors * MovementDuration) + (NumberOfSectors * PauseDuration)</Duration>
+      <PauseDuration>0.5</PauseDuration>
+      <MovementDuration>0.2</MovementDuration>
+      <MovementEasing>OutQuad</MovementEasing>
+      <SpawnStaging>
+         <MovementDuration>0.25</MovementDuration>
+         <PauseDuration>0.25</PauseDuration>
+         <MovementEasing>OutQuad</MovementEasing>
+         <PauseBetweenEachBoss>1.3</PauseBetweenEachBoss>
+      </SpawnStaging>
+   </BossStagingDefinition>
+
+   <BossStagingDefinition BossId="FreudeBoss">
+      <Duration>(NumberOfSectors * MovementDuration) + (NumberOfSectors * PauseDuration)</Duration>
+      <PauseDuration>0.5</PauseDuration>
+      <MovementDuration>0.2</MovementDuration>
+      <MovementEasing>OutQuad</MovementEasing>
+      <SpawnStaging>
+         <MovementDuration>0.25</MovementDuration>
+         <PauseDuration>0.25</PauseDuration>
+         <MovementEasing>OutQuad</MovementEasing>
+         <PauseBetweenEachBoss>1.3</PauseBetweenEachBoss>
+      </SpawnStaging>
+   </BossStagingDefinition>
+</BossStagingDefinitions>

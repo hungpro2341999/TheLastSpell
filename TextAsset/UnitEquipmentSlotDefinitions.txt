@@ -1,0 +1,12 @@
+﻿<UnitEquipmentSlotDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="UnitEquipmentSlotDefinitions.xsd">
+
+   <UnitEquipmentSlotDefinition Id="RightHand" Min="2" Max="2" Base="2"/>
+   <UnitEquipmentSlotDefinition Id="LeftHand" Min="0" Max="2" Base="2"/>
+   <UnitEquipmentSlotDefinition Id="Head" Min="1" Max="1" Base="1"/>
+   <UnitEquipmentSlotDefinition Id="Body" Min="1" Max="1" Base="1"/>
+   <UnitEquipmentSlotDefinition Id="Foot" Min="1" Max="1" Base="1"/>
+   <UnitEquipmentSlotDefinition Id="Trinket" Min="0" Max="2" Base="1"/>
+   <UnitEquipmentSlotDefinition Id="Usables" Min="1" Max="4" Base="2"/>
+
+</UnitEquipmentSlotDefinitions>

@@ -1,0 +1,183 @@
+<ItemArtDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../ItemArtDefinitions.xsd">
+   
+    <ItemArtDefinition Id="WarShield0">
+       <ArtId>WarShield0</ArtId>
+      <BodyParts>
+        <BodyPartDefinition Id="Hand_Behind_L">
+          <Sprite Constraint="Generic" Orientation="Back" >View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/WarShield0/Generic/Weapon_WarShield0</Sprite>
+        </BodyPartDefinition>
+        <BodyPartDefinition Id="Hand_Before_R">
+          <Sprite Constraint="Generic" Orientation="Front" >View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/WarShield0/Generic/Weapon_WarShield0</Sprite>
+        </BodyPartDefinition>
+      </BodyParts>
+    </ItemArtDefinition>
+
+    <ItemArtDefinition Id="WarShield1">
+       <ArtId>WarShield1</ArtId>
+      <BodyParts>
+        <BodyPartDefinition Id="Hand_Behind_L">
+          <Sprite Constraint="Generic" Orientation="Back" >View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/WarShield1/Generic/Weapon_WarShield1</Sprite>
+        </BodyPartDefinition>
+        <BodyPartDefinition Id="Hand_Before_R">
+          <Sprite Constraint="Generic" Orientation="Front" >View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/WarShield1/Generic/Weapon_WarShield1</Sprite>
+        </BodyPartDefinition>
+      </BodyParts>
+    </ItemArtDefinition>
+
+    <ItemArtDefinition Id="WarShield2">
+       <ArtId>WarShield2</ArtId>
+      <BodyParts>
+		<BodyPartDefinition Id="Hand_Behind_L">
+          <Sprite Constraint="Generic" Orientation="Back" >View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/WarShield2/Generic/Weapon_WarShield2</Sprite>
+        </BodyPartDefinition>
+        <BodyPartDefinition Id="Hand_Before_R">
+          <Sprite Constraint="Generic" Orientation="Front" >View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/WarShield2/Generic/Weapon_WarShield2</Sprite>
+        </BodyPartDefinition>
+      </BodyParts>
+    </ItemArtDefinition>
+
+    <ItemArtDefinition Id="WarShield3">
+       <ArtId>WarShield3</ArtId>
+      <BodyParts>
+        <BodyPartDefinition Id="Hand_Behind_L">
+          <Sprite Constraint="Generic" Orientation="Back" >View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/WarShield3/Generic/Weapon_WarShield3</Sprite>
+        </BodyPartDefinition>
+        <BodyPartDefinition Id="Hand_Before_R">
+          <Sprite Constraint="Generic" Orientation="Front" >View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/WarShield3/Generic/Weapon_WarShield3</Sprite>
+        </BodyPartDefinition>
+      </BodyParts>
+    </ItemArtDefinition>
+
+    <ItemArtDefinition Id="WarShield4">
+       <ArtId>WarShield4</ArtId>
+      <BodyParts>
+        <BodyPartDefinition Id="Hand_Before_R">
+          <Sprite Constraint="Generic" Orientation="Front" >View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/WarShield4/Generic/Weapon_Before_WarShield4</Sprite>
+        </BodyPartDefinition>
+        <BodyPartDefinition Id="Hand_Behind_L">
+          <Sprite Constraint="Generic" Orientation="Back" >View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/WarShield4/Generic/Weapon_Behind_WarShield4</Sprite>
+        </BodyPartDefinition>
+      </BodyParts>
+    </ItemArtDefinition>
+
+    <ItemArtDefinition Id="WarShield5">
+       <ArtId>WarShield5</ArtId>
+      <BodyParts>
+        <BodyPartDefinition Id="Hand_Behind_L">
+          <Sprite Constraint="Generic" Orientation="Back" >View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/WarShield5/Generic/Weapon_WarShield5</Sprite>
+        </BodyPartDefinition>
+        <BodyPartDefinition Id="Hand_Before_R">
+          <Sprite Constraint="Generic" Orientation="Front" >View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/WarShield5/Generic/Weapon_WarShield5</Sprite>
+        </BodyPartDefinition>
+      </BodyParts>
+    </ItemArtDefinition>
+
+    <ItemArtDefinition Id="Cannon0">
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Cannon0/Generic/Weapon_Cannon0_BeforeR</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+    </ItemArtDefinition>
+
+     <ItemArtDefinition Id="Cannon1">
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Cannon1/Generic/Weapon_Cannon1_BeforeR</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+  
+   <ItemArtDefinition Id="Cannon2">
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Cannon2/Generic/Weapon_Cannon2_BeforeR</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+  
+   <ItemArtDefinition Id="Cannon3">
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Cannon3/Generic/Weapon_Cannon3_BeforeR</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+     
+   <ItemArtDefinition Id="Cannon4">
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Cannon4/Generic/Weapon_Cannon4_BeforeR</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+  
+   <ItemArtDefinition Id="Cannon5">
+      <BodyParts>
+         <BodyPartDefinition Id="Hand_Before_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Cannon5/Generic/Weapon_Cannon5_BeforeR</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+  <ItemArtDefinition Id="Gauntlet0">
+    <BodyParts>
+      <BodyPartDefinition Id="Hand_Before_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Gauntlet0/Generic/Weapon_Gauntlet0</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="Gauntlet1">
+    <BodyParts>
+      <BodyPartDefinition Id="Hand_Before_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Gauntlet1/Generic/Weapon_Gauntlet1</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+  
+  <ItemArtDefinition Id="Gauntlet2">
+    <BodyParts>
+      <BodyPartDefinition Id="Hand_Before_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Gauntlet2/Generic/Weapon_Gauntlet2</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+  
+  <ItemArtDefinition Id="Gauntlet3">
+    <BodyParts>
+      <BodyPartDefinition Id="Hand_Before_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Gauntlet3/Generic/Weapon_Gauntlet3</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+  
+  <ItemArtDefinition Id="Gauntlet4">
+    <BodyParts>
+      <BodyPartDefinition Id="Hand_Before_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Gauntlet4/Generic/Weapon_Gauntlet4</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+  
+  <ItemArtDefinition Id="Gauntlet5">
+    <BodyParts>
+      <BodyPartDefinition Id="Hand_Before_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Gauntlet5/Generic/Weapon_Gauntlet5</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+	<ItemArtDefinition Id="GauntletOffhand0">
+		<BodyParts>
+			<BodyPartDefinition Id="Hand_Before_L">
+				<Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/GauntletOffhand0/Generic/Weapon_GauntletOffhand0_BeforeL</Sprite>
+			</BodyPartDefinition>
+			<BodyPartDefinition Id="Hand_Behind_L">
+				<Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/GauntletOffhand0/Generic/Weapon_GauntletOffhand0_BehindL</Sprite>
+			</BodyPartDefinition>
+		</BodyParts>
+	</ItemArtDefinition>
+
+
+</ItemArtDefinitions>

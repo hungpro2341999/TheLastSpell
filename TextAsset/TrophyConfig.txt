@@ -1,0 +1,8 @@
+﻿<TrophyConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <GemsStages>
+      <Gem Id="Common" Min="0" Max="40"/>
+      <Gem Id="Uncommon" Min="41" Max="150"/>
+      <Gem Id="Rare" Min="151" Max="300"/>
+      <Gem Id="Epic" Min="301" Max="500"/>
+   </GemsStages>
+</TrophyConfig>

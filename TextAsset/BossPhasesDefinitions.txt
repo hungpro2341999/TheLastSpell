@@ -1,0 +1,1624 @@
+﻿<BossPhasesDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                       xsi:noNamespaceSchemaLocation="BossPhasesDefinitions.xsd">
+
+	<!-- ███████████████████████████████████████████████████████████████ -->
+	<!-- ███████████████████████████████████████████████████████████████ -->
+	<!-- HARPY BOSS -->
+	<!-- ███████████████████████████████████████████████████████████████ -->
+	<!-- ███████████████████████████████████████████████████████████████ -->
+
+	<BossPhasesDefinition Id="HarpyBossPhases">
+		<Phase Id="Phase1">
+			<ActorsList>
+				<Actor ActorType="Boss" Id="FirstHarpyCommander" UnitId="HarpyBossCommander" TileFlag="HarpyBossCommander"/>
+				<Actor ActorType="Boss" Id="FirstHarpyAssault" UnitId="HarpyBoss" TileFlag="HarpyBoss"/>
+				<Actor ActorType="Boss" Id="SecondHarpyCommander" UnitId="HarpyBossCommander2" TileFlag="HarpyBossCommander1"/>
+				<Actor ActorType="Enemy" Id="HarplingGroupA" UnitId="Harpling" TileFlag="Hole"/>
+				<Actor ActorType="Enemy" Id="HarplingGroupB" UnitId="Harpling" TileFlag="SideHole"/>
+			</ActorsList>
+
+			<PhaseHandler Id="1A">
+				<Actions>
+					<SpawnActor ActorId="FirstHarpyCommander" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="HarplingGroupA" Amount="2" CameraFocus="false" WaitSpawnAnim="false"/>
+					<PlayCutscene Id="HarplingCutscene"/>
+					<SpawnActor ActorId="HarplingGroupB" Amount="1" CameraFocus="false" WaitSpawnAnim="false"/>
+					<PlayCutscene Id="SideHarplingCutscene"/>
+					<SetNightProgression Value="15"/>
+					<PlayCutscene Id="GildenbergBossBark1"/>
+					<SetHandlerLock HandlerId="1A" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="1B">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<DestroyActor CameraFocus="true" Id="FirstHarpyCommander" WaitDeathAnim="true"/>
+					<PlayCutscene Id="FocusMagicCircleCutscene"/>
+					<PlayCutscene Id="GildenbergBossBark2"/>
+					<SetHandlerLock HandlerId="1B" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="1C">
+				<Conditions>
+					<SurviveTurns Value="2"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="FirstHarpyAssault" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="SecondHarpyCommander" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="HarplingGroupA" Amount="2"/>
+					<PlayCutscene Id="HarplingCutscene"/>
+					<SpawnActor ActorId="HarplingGroupB" Amount="1"/>
+					<PlayCutscene Id="SideHarplingCutscene"/>
+					<SetNightProgression Value="45"/>
+					<SetPhase Id="Phase2"/>
+				</Actions>
+			</PhaseHandler>
+		</Phase>
+
+		<Phase Id="Phase2">
+			<ActorsList>
+				<Actor ActorType="Boss" Id="ThirdHarpyCommander" UnitId="HarpyBossCommander3" TileFlag="HarpyBossCommander2"/>
+				<Actor ActorType="Enemy" Id="HarplingGroupA" UnitId="Harpling" TileFlag="Hole"/>
+				<Actor ActorType="Enemy" Id="HarplingGroupB" UnitId="Harpling" TileFlag="SideHole"/>
+			</ActorsList>
+
+			<PhaseHandler Id="2A">
+				<Conditions>
+					<RemainingActors ActorId="FirstHarpyAssault" Amount="0"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="ThirdHarpyCommander" Amount="1"/>
+					<SpawnActor ActorId="HarplingGroupA" Amount="2"/>
+					<PlayCutscene Id="HarplingCutscene"/>
+					<SpawnActor ActorId="HarplingGroupB" Amount="1"/>
+					<PlayCutscene Id="SideHarplingCutscene"/>
+					<SetNightProgression Value="60"/>
+					<SetPhase Id="Phase3"/>
+				</Actions>
+			</PhaseHandler>
+
+		</Phase>
+
+		<Phase Id="Phase3">
+			<ActorsList>
+				<Actor ActorType="Boss" Id="SecondHarpyAssault" UnitId="HarpyBoss2" TileFlag="HarpyBoss"/>
+				<Actor ActorType="Boss" Id="ThirdHarpyAssault" UnitId="HarpyBoss3" TileFlag="HarpyBoss2"/>
+				<Actor ActorType="Enemy" Id="HarplingGroupA" UnitId="Harpling" TileFlag="Hole"/>
+				<Actor ActorType="Enemy" Id="HarplingGroupB" UnitId="Harpling" TileFlag="SideHole"/>
+			</ActorsList>
+
+			<PhaseHandler Id="3A">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<DestroyActor CameraFocus="true" Id="SecondHarpyCommander" WaitDeathAnim="true"/>
+					<PlayCutscene Id="FocusMagicCircleCutscene"/>
+					<SetHandlerLock HandlerId="3B" LockValue="false" Delay="1"/>
+					<SetHandlerLock HandlerId="3A" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="3B" IsLockedByDefault="true">
+				<Actions>
+					<SpawnActor ActorId="SecondHarpyAssault" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="HarplingGroupA" Amount="2"/>
+					<PlayCutscene Id="HarplingCutscene"/>
+					<SpawnActor ActorId="HarplingGroupB" Amount="1"/>
+					<PlayCutscene Id="SideHarplingCutscene"/>
+					<SetNightProgression Value="75"/>
+					<SetHandlerLock HandlerId="3B" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="3C">
+				<Conditions>
+					<RemainingActors ActorId="SecondHarpyAssault" Amount="0"/>
+				</Conditions>
+				<Actions>
+					<SetNightProgression Value="90"/>
+					<DestroyActor CameraFocus="true" Id="ThirdHarpyCommander" WaitDeathAnim="true"/>
+					<PlayCutscene Id="FocusMagicCircleCutscene"/>
+					<SetHandlerLock HandlerId="3D" LockValue="false" Delay="1"/>
+					<SetHandlerLock HandlerId="3C" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="3D" IsLockedByDefault="true">
+				<Actions>
+					<SpawnActor ActorId="ThirdHarpyAssault" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<PlayCutscene Id="GildenbergBossBark3"/>
+					<SpawnActor ActorId="HarplingGroupA" Amount="3"/>
+					<PlayCutscene Id="HarplingCutscene"/>
+					<SpawnActor ActorId="HarplingGroupB" Amount="2"/>
+					<PlayCutscene Id="SideHarplingCutscene"/>
+					<SetNightProgression Value="100"/>
+					<SetPhase Id="Phase4"/>
+				</Actions>
+			</PhaseHandler>
+
+		</Phase>
+
+		<Phase Id="Phase4">
+			<ActorsList>
+				<Actor ActorType="Enemy" Id="HarplingGroupA" UnitId="Harpling" TileFlag="Hole"/>
+				<Actor ActorType="Enemy" Id="HarplingGroupB" UnitId="Harpling" TileFlag="SideHole"/>
+			</ActorsList>
+
+			<VictoryConditions>
+				<KilledActors ActorId="ThirdHarpyAssault" Amount="1"/>
+			</VictoryConditions>
+
+			<PhaseHandler Id="HarplingSpawnInfinite">
+				<Actions>
+					<SpawnActor ActorId="HarplingGroupA" Amount="2"/>
+					<PlayCutscene Id="HarplingCutscene"/>
+					<SpawnActor ActorId="HarplingGroupB" Amount="1"/>
+					<PlayCutscene Id="SideHarplingCutscene"/>
+				</Actions>
+			</PhaseHandler>
+
+		</Phase>
+
+	</BossPhasesDefinition>
+
+	<!-- ███████████████████████████████████████████████████████████████ -->
+	<!-- ███████████████████████████████████████████████████████████████ -->
+	<!-- NESSIE BOSS -->
+	<!-- ███████████████████████████████████████████████████████████████ -->
+	<!-- ███████████████████████████████████████████████████████████████ -->
+
+	<BossPhasesDefinition Id="NessieBossHeadPhases">
+
+		<Phase Id="Phase1">
+
+			<ActorsList>
+				<Actor ActorType="Boss" UnitId="NessieBossHeadArmor" Id="Head_P1" TileFlag="NessieBoss1"/>
+				<Actor ActorType="Boss" UnitId="NessieBossTailArmor" Id="Tail_P1" TileFlag="NessieBoss2"/>
+			</ActorsList>
+
+			<PhaseHandler Id="InitialSpawn_P1">
+				<Actions>
+					<SpawnActor ActorId="Head_P1" Amount="1" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="Tail_P1" Amount="1" WaitSpawnAnim="true"/>
+					<SetNightProgression Value="20"/>
+					<PlayCutscene Id="LakeburgBossBark1"/>
+					<SetHandlerLock HandlerId="NextPhase_P1" LockValue="false"/>
+					<SetHandlerLock HandlerId="RespawnTail_P1" LockValue="false"/>
+					<SetHandlerLock HandlerId="InitialSpawn_P1" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="NextPhase_P1" IsLockedByDefault="true">
+				<Conditions>
+					<RemainingActors ActorId="Head_P1" Amount="0"/>
+					<RemainingActors ActorId="Tail_P1" Amount="0"/>
+				</Conditions>
+				<Actions>
+					<PlayCutscene Id="LakeburgBossBark2"/>
+					<SetPhase Id="Phase2"/>
+					<SetNightProgression Value="40"/>
+					<SetHandlerLock HandlerId="NextPhase_P1" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="RespawnTail_P1" IsLockedByDefault="true">
+				<Conditions>
+					<RemainingActors ActorId="Head_P1" Amount="1"/>
+					<RemainingActors ActorId="Tail_P1" Amount="0"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="Tail_P1" Amount="1" PlaySpawnAnim="true" WaitSpawnAnim="true"/>
+				</Actions>
+			</PhaseHandler>
+
+		</Phase>
+
+		<Phase Id="Phase2">
+
+			<ActorsList>
+				<Actor ActorType="Boss" UnitId="NessieBossHead" Id="Head_P2" TileFlag="NessieBoss3"/>
+				<Actor ActorType="Boss" UnitId="NessieBossTail" Id="Tail_P2" TileFlag="NessieBoss1"/>
+			</ActorsList>
+
+			<PhaseHandler Id="InitialSpawn_P2">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="Head_P2" Amount="1" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="Tail_P2" Amount="1" WaitSpawnAnim="true"/>
+					<SetNightProgression Value="60"/>
+					<SetHandlerLock HandlerId="NextPhase_P2" LockValue="false"/>
+					<SetHandlerLock HandlerId="RespawnTail_P2" LockValue="false"/>
+					<SetHandlerLock HandlerId="InitialSpawn_P2" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="NextPhase_P2" IsLockedByDefault="true">
+				<Conditions>
+					<RemainingActors ActorId="Head_P2" Amount="0"/>
+					<RemainingActors ActorId="Tail_P2" Amount="0"/>
+				</Conditions>
+				<Actions>
+					<SetPhase Id="Phase3"/>
+					<SetNightProgression Value="80"/>
+					<SetHandlerLock HandlerId="NextPhase_P2" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="RespawnTail_P2" IsLockedByDefault="true">
+				<Conditions>
+					<RemainingActors ActorId="Head_P2" Amount="1"/>
+					<RemainingActors ActorId="Tail_P2" Amount="0"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="Tail_P2" Amount="1" WaitSpawnAnim="true"/>
+				</Actions>
+			</PhaseHandler>
+
+		</Phase>
+
+		<Phase Id="Phase3">
+
+			<ActorsList>
+				<Actor ActorType="Boss" UnitId="NessieBossHeadRage" Id="Head_P3" TileFlag="NessieBoss1"/>
+			</ActorsList>
+
+			<VictoryConditions>
+				<KilledActors ActorId="Head_P3" Amount="1"/>
+			</VictoryConditions>
+
+			<PhaseHandler Id="InitialSpawn_P3">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="Head_P3" Amount="1" WaitSpawnAnim="true"/>
+					<PlayCutscene Id="LakeburgBossBark3"/>
+					<SetNightProgression Value="100"/>
+					<SetHandlerLock HandlerId="InitialSpawn_P3" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+		</Phase>
+
+	</BossPhasesDefinition>
+
+	<!-- ███████████████████████████████████████████████████████████████ -->
+	<!-- ███████████████████████████████████████████████████████████████ -->
+	<!-- SPAWNER BOSS -->
+	<!-- ███████████████████████████████████████████████████████████████ -->
+	<!-- ███████████████████████████████████████████████████████████████ -->
+
+	<BossPhasesDefinition Id="SpawnerBossPhases">
+
+		<Phase Id="Phase1">
+
+			<ActorsList>
+				<Actor ActorType="Boss" UnitId="SpawnerBoss" Id="DryadA" TileFlag="SpawnerBoss2"/>
+				<Actor ActorType="Boss" UnitId="SpawnerBoss" Id="DryadB" TileFlag="SpawnerBoss1"/>
+				<Actor ActorType="Boss" UnitId="SpawnerBoss2" Id="DryadC" TileFlag="SpawnerBoss1"/>
+			</ActorsList>
+
+			<PhaseHandler Id="FirstSpawn">
+				<Actions>
+					<SpawnActor ActorId="DryadA" Amount="1" WaitSpawnAnim="true"/>
+					<SetNightProgression Value="5"/>
+					<PlayCutscene Id="GlenwaldBossBark1"/>
+					<SetHandlerLock HandlerId="FirstSpawn" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SecondSpawn">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="DryadB" Amount="2" WaitSpawnAnim="true"/>
+					<SetNightProgression Value="15"/>
+					<SetHandlerLock HandlerId="SecondSpawn" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="ThirdSpawn">
+				<Conditions>
+					<SurviveTurns Value="2"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="DryadA" Amount="2" WaitSpawnAnim="true"/>
+					<PlayCutscene Id="GlenwaldBossBark2"/>
+					<SetNightProgression Value="25"/>
+					<SetHandlerLock HandlerId="FourthSpawn" LockValue="false"/>
+					<SetHandlerLock HandlerId="ThirdSpawn" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="FourthSpawn" IsLockedByDefault="true">
+				<Conditions>
+					<RemainingActors ActorId="DryadA" Amount="0"/>
+					<RemainingActors ActorId="DryadB" Amount="0"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="DryadC" Amount="3" WaitSpawnAnim="true"/>
+					<SetNightProgression Value="65"/>
+					<SetPhase Id="Phase2"/>
+				</Actions>
+			</PhaseHandler>
+
+		</Phase>
+
+		<Phase Id="Phase2">
+
+			<ActorsList>
+				<Actor ActorType="Boss" UnitId="SpawnerBoss2" Id="DryadD" TileFlag="SpawnerBoss2"/>
+				<Actor ActorType="Boss" UnitId="SpawnerBoss3" Id="DryadE" TileFlag="SpawnerBoss1"/>
+			</ActorsList>
+
+			<PhaseHandler Id="FifthSpawn">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="DryadD" Amount="3" WaitSpawnAnim="true"/>
+					<SetNightProgression Value="80"/>
+					<SetHandlerLock HandlerId="SixthSpawn" LockValue="false"/>
+					<SetHandlerLock HandlerId="FifthSpawn" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SixthSpawn" IsLockedByDefault="true">
+				<Conditions>
+					<RemainingActors ActorId="DryadC" Amount="0"/>
+					<RemainingActors ActorId="DryadD" Amount="0"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="DryadE" Amount="1" WaitSpawnAnim="true"/>
+					<PlayCutscene Id="GlenwaldBossBark3"/>
+					<SetNightProgression Value="100"/>
+					<SetPhase Id="Phase3"/>
+					<UnlockSpawnerBossAchievement/>
+				</Actions>
+			</PhaseHandler>
+
+		</Phase>
+
+		<Phase Id="Phase3">
+
+			<VictoryConditions>
+				<KilledActors ActorId="DryadE" Amount="1"/>
+			</VictoryConditions>
+
+
+		</Phase>
+
+	</BossPhasesDefinition>
+
+
+	<!-- ███████████████████████████████████████████████████████████████ -->
+	<!-- ███████████████████████████████████████████████████████████████ -->
+	<!-- THRONE TOWER BOSS -->
+	<!-- ███████████████████████████████████████████████████████████████ -->
+	<!-- ███████████████████████████████████████████████████████████████ -->
+
+	<BossPhasesDefinition Id="ThroneTowerBossPhases">
+
+		<Phase Id="Phase1">
+
+			<ActorsList>
+				<Actor ActorType="Boss" UnitId="ThroneTowerBoss" Id="Throne_P1" TileFlag="ThroneTowerBoss"/>
+				<Actor ActorType="Building" UnitId="BrazierBoss_Lit1" Id="BrazierA_P1"/>
+				<Actor ActorType="Boss" UnitId="ThroneTowerBoss2" Id="Throne_P2" TileFlag="ThroneTowerBoss"/>
+				<Actor ActorType="Building" UnitId="BrazierBoss_Lit2" Id="BrazierA_P2"/>
+			</ActorsList>
+
+			<PhaseHandler Id="InitialSpawn">
+				<Actions>
+					<SpawnActor ActorId="Throne_P1" Amount="1" PlaySpawnCutscene="true"/>
+					<PlayCutscene Id="ElderlichtBossBark1"/>
+					<SpawnActor ActorId="BrazierA_P1" Amount="4"/>
+					<SetNightProgression Value="25"/>
+					<SetHandlerLock HandlerId="InitialSpawn" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="FirstTryWin_P1">
+				<Conditions>
+					<RemainingActors ActorId="BrazierA_P1" Amount="0"/>
+				</Conditions>
+				<Actions>
+					<ReplaceActors ActorId="Throne_P1" ReplacementId="Throne_P2" CastSpawnSkill="false" PlaySpawnAnim="true" WaitSpawnAnim="true"/>
+					<PlayCutscene Id="ThroneTowerBossEnd1stPhase"/>
+					<SpawnActor ActorId="BrazierA_P2" Amount="6"/>
+					<SetHandlerLock HandlerId="Countdown1_P1" LockValue="true"/>
+					<SetHandlerLock HandlerId="Countdown2_P1" LockValue="true"/>
+					<SetHandlerLock HandlerId="Countdown3_P1" LockValue="true"/>
+					<SetHandlerLock HandlerId="Countdown4_P1" LockValue="true"/>
+					<SetHandlerLock HandlerId="Countdown5_P1" LockValue="true"/>
+					<SetHandlerLock HandlerId="Countdown6_P1" LockValue="true"/>
+					<PlayCutscene Id="FocusMagicCircleCountdown1"/>
+					<SetNightProgression Value="50"/>
+					<SetPhase Id="Phase2"/>
+				</Actions>
+			</PhaseHandler>
+
+
+			<PhaseHandler Id="Countdown1_P1" >
+				<Actions>
+					<PlayCutscene Id="FocusMagicCircleCountdown1"/>
+					<SetHandlerLock HandlerId="Countdown2_P1" LockValue="false" Delay="1"/>
+					<SetHandlerLock HandlerId="Countdown1_P1" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="Countdown2_P1" IsLockedByDefault="true">
+				<Actions>
+					<PlayCutscene Id="FocusMagicCircleCountdown2"/>
+					<SetHandlerLock HandlerId="Countdown3_P1" LockValue="false" Delay="1"/>
+					<SetHandlerLock HandlerId="Countdown2_P1" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="Countdown3_P1" IsLockedByDefault="true">
+				<Actions>
+					<PlayCutscene Id="FocusMagicCircleCountdown3"/>
+					<PlayCutscene Id="ElderlichtBossBark2"/>
+					<SetHandlerLock HandlerId="Countdown4_P1" LockValue="false" Delay="2"/>
+					<SetHandlerLock HandlerId="Countdown3_P1" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="Countdown4_P1" IsLockedByDefault="true">
+				<Actions>
+					<PlayCutscene Id="FocusMagicCircleCountdown1"/>
+					<SetHandlerLock HandlerId="Countdown5_P1" LockValue="false" Delay="1"/>
+					<SetHandlerLock HandlerId="Countdown4_P1" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="Countdown5_P1" IsLockedByDefault="true">
+				<Actions>
+					<PlayCutscene Id="FocusMagicCircleCountdown2"/>
+					<SetHandlerLock HandlerId="Countdown6_P1" LockValue="false" Delay="1"/>
+					<SetHandlerLock HandlerId="Countdown5_P1" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="Countdown6_P1" IsLockedByDefault="true">
+				<Conditions>
+					<SurviveTurns Value="6"/>
+				</Conditions>
+				<Actions>
+					<PlayCutscene Id="FocusMagicCircleCountdown3"/>
+					<SetHandlerLock HandlerId="Countdown6_P1" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+		</Phase>
+
+		<Phase Id="Phase2">
+
+			<ActorsList>
+				<Actor ActorType="Boss" UnitId="ThroneTowerBoss3" Id="Throne_P3" TileFlag="ThroneTowerBoss"/>
+				<Actor ActorType="Building" UnitId="BrazierBoss_Lit3" Id="BrazierA_P3"/>
+			</ActorsList>
+
+			<PhaseHandler Id="FirstTryWin_P2">
+				<Conditions>
+					<RemainingActors ActorId="BrazierA_P2" Amount="0"/>
+				</Conditions>
+				<Actions>
+					<ReplaceActors ActorId="Throne_P2" ReplacementId="Throne_P3" CastSpawnSkill="false" PlaySpawnAnim="true" WaitSpawnAnim="true"/>
+					<PlayCutscene Id="ThroneTowerBossEnd2ndPhase"/>
+					<SpawnActor ActorId="BrazierA_P3" Amount="12"/>
+					<SetHandlerLock HandlerId="Countdown2_P2" LockValue="true"/>
+					<SetHandlerLock HandlerId="Countdown3_P2" LockValue="true"/>
+					<SetHandlerLock HandlerId="Countdown4_P2" LockValue="true"/>
+					<SetHandlerLock HandlerId="Countdown5_P2" LockValue="true"/>
+					<SetHandlerLock HandlerId="Countdown6_P2" LockValue="true"/>
+					<PlayCutscene Id="FocusMagicCircleCountdown1"/>
+					<SetNightProgression Value="75"/>
+					<SetPhase Id="Phase3"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="Countdown2_P2">
+				<Actions>
+					<PlayCutscene Id="FocusMagicCircleCountdown2"/>
+					<SetHandlerLock HandlerId="Countdown3_P2" LockValue="false" Delay="1"/>
+					<SetHandlerLock HandlerId="Countdown2_P2" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="Countdown3_P2" IsLockedByDefault="true">
+				<Actions>
+					<PlayCutscene Id="FocusMagicCircleCountdown3"/>
+					<SetHandlerLock HandlerId="Countdown4_P2" LockValue="false" Delay="2"/>
+					<SetHandlerLock HandlerId="Countdown3_P2" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="Countdown4_P2" IsLockedByDefault="true">
+				<Actions>
+					<PlayCutscene Id="FocusMagicCircleCountdown1"/>
+					<SetHandlerLock HandlerId="Countdown5_P2" LockValue="false" Delay="1"/>
+					<SetHandlerLock HandlerId="Countdown4_P2" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="Countdown5_P2" IsLockedByDefault="true">
+				<Actions>
+					<PlayCutscene Id="FocusMagicCircleCountdown2"/>
+					<SetHandlerLock HandlerId="Countdown6_P2" LockValue="false" Delay="1"/>
+					<SetHandlerLock HandlerId="Countdown5_P2" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="Countdown6_P2" IsLockedByDefault="true">
+				<Conditions>
+					<SurviveTurns Value="6"/>
+				</Conditions>
+				<Actions>
+					<PlayCutscene Id="FocusMagicCircleCountdown3"/>
+					<SetHandlerLock HandlerId="Countdown6_P2" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+		</Phase>
+
+		<Phase Id="Phase3">
+
+			<ActorsList>
+				<Actor ActorType="Boss" UnitId="MonarchBoss" Id="Monarch_P4" TileFlag="MonarchBoss"/>
+			</ActorsList>
+
+			<PhaseHandler Id="FirstTryWin_P3">
+				<Conditions>
+					<RemainingActors ActorId="BrazierA_P3" Amount="0"/>
+				</Conditions>
+				<Actions>
+					<DestroyActor Id="Throne_P3"/>
+					<PlayCutscene Id="ThroneTowerBossEnd3rdPhase"/>
+					<SpawnActor ActorId="Monarch_P4" PlaySpawnAnim="true" PlaySpawnCutscene="true"/>
+					<PlayCutscene Id="ElderlichtBossBark3"/>
+					<SetHandlerLock HandlerId="Countdown1_P3" LockValue="true"/>
+					<SetHandlerLock HandlerId="Countdown2_P3" LockValue="true"/>
+					<SetHandlerLock HandlerId="Countdown3_P3" LockValue="true"/>
+					<SetHandlerLock HandlerId="Countdown4_P3" LockValue="true"/>
+					<SetHandlerLock HandlerId="Countdown5_P3" LockValue="true"/>
+					<SetHandlerLock HandlerId="Countdown6_P3" LockValue="true"/>
+					<SetNightProgression Value="100"/>
+					<SetPhase Id="Phase4"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="Countdown2_P3">
+				<Actions>
+					<PlayCutscene Id="FocusMagicCircleCountdown2"/>
+					<SetHandlerLock HandlerId="Countdown3_P3" LockValue="false" Delay="1"/>
+					<SetHandlerLock HandlerId="Countdown2_P3" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="Countdown3_P3" IsLockedByDefault="true">
+				<Actions>
+					<PlayCutscene Id="FocusMagicCircleCountdown3"/>
+					<SetHandlerLock HandlerId="Countdown4_P3" LockValue="false" Delay="2"/>
+					<SetHandlerLock HandlerId="Countdown3_P3" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="Countdown4_P3" IsLockedByDefault="true">
+				<Actions>
+					<PlayCutscene Id="FocusMagicCircleCountdown1"/>
+					<SetHandlerLock HandlerId="Countdown5_P3" LockValue="false" Delay="1"/>
+					<SetHandlerLock HandlerId="Countdown4_P3" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="Countdown5_P3" IsLockedByDefault="true">
+				<Actions>
+					<PlayCutscene Id="FocusMagicCircleCountdown2"/>
+					<SetHandlerLock HandlerId="Countdown6_P3" LockValue="false" Delay="1"/>
+					<SetHandlerLock HandlerId="Countdown5_P3" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="Countdown6_P3" IsLockedByDefault="true">
+				<Conditions>
+					<SurviveTurns Value="6"/>
+				</Conditions>
+				<Actions>
+					<PlayCutscene Id="FocusMagicCircleCountdown3"/>
+					<SetHandlerLock HandlerId="Countdown6_P3" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+		</Phase>
+
+		<Phase Id="Phase4">
+
+			<VictoryConditions>
+				<KilledActors ActorId="Monarch_P4" Amount="1"/>
+			</VictoryConditions>
+
+		</Phase>
+
+	</BossPhasesDefinition>
+
+	<!-- ███████████████████████████████████████████████████████████████ -->
+	<!-- ███████████████████████████████████████████████████████████████ -->
+	<!-- Schaden & Freude -->
+	<!-- ███████████████████████████████████████████████████████████████ -->
+	<!-- ███████████████████████████████████████████████████████████████ -->
+
+	<BossPhasesDefinition Id="DarkSchadenPhases">
+		<Phase Id="SpecialWave">
+			<ActorsList>
+				<Actor ActorType="Boss" UnitId="DarkSchaden" Id="Schaden" TileFlag="SchadenSide1"/>
+				<Actor ActorType="Enemy" UnitId="DamnedBomb" Id="SchadenBombA" TileFlag="DamnedBomb1"/>
+				<Actor ActorType="Enemy" UnitId="DamnedBomb" Id="SchadenBombB" TileFlag="DamnedBomb2"/>
+			</ActorsList>
+
+			<VictoryConditions>
+				<FinishWave/>
+			</VictoryConditions>
+
+			<PhaseHandler Id="SpawnSchaden">
+				<Actions>
+					<SpawnActor ActorId="Schaden" Amount="1" IgnoreFromEnemyUnitsCount="true" WaitSpawnAnim="true"/>
+					<!--<PlayCutscene Id="GlintfeinBossBark_DarkSchadenSpawn"/>-->
+					<SetHandlerLock HandlerId="SpawnSchaden" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnBombAEachTurn">
+				<Conditions>
+					<SurviveTurns Value="2"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="SchadenBombA" Amount="1" IgnoreFromEnemyUnitsCount="true" CameraFocus="true" WaitSpawnAnim="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnBombBWithDelay">
+				<Conditions>
+					<SurviveTurns Value="3"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="SchadenBombB" Amount="1" IgnoreFromEnemyUnitsCount="true" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SetHandlerLock LockValue="true" HandlerId="SpawnBombBWithDelay"/>
+					<SetHandlerLock LockValue="false" HandlerId="SpawnBombBWithDelay" Delay="3"/>
+				</Actions>
+			</PhaseHandler>
+		</Phase>
+	</BossPhasesDefinition>
+
+	<BossPhasesDefinition Id="LightFreudePhases">
+		<Phase Id="SpecialWave">
+			<ActorsList>
+				<Actor ActorType="Boss" UnitId="LightFreude" Id="Freude" TileFlag="FreudeSide1"/>
+				<Actor ActorType="Enemy" UnitId="DamnedBomb" Id="SchadenBombA" TileFlag="DamnedBomb1"/>
+				<Actor ActorType="Enemy" UnitId="DamnedBomb" Id="SchadenBombB" TileFlag="DamnedBomb2"/>
+			</ActorsList>
+
+			<VictoryConditions>
+				<FinishWave/>
+			</VictoryConditions>
+
+			<PhaseHandler Id="SpawnFreude">
+				<Actions>
+					<SpawnActor ActorId="Freude" Amount="1" IgnoreFromEnemyUnitsCount="true" WaitSpawnAnim="true"/>
+					<!--<PlayCutscene Id="GlintfeinBossBark_LightFreudeSpawn"/>-->
+					<SetHandlerLock HandlerId="SpawnFreude" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnBombAEachTurn">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="SchadenBombA" Amount="1" IgnoreFromEnemyUnitsCount="true" CameraFocus="true" WaitSpawnAnim="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnBombAWithDelay">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="SchadenBombA" Amount="1" IgnoreFromEnemyUnitsCount="true" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SetHandlerLock LockValue="true" HandlerId="SpawnBombAWithDelay"/>
+					<SetHandlerLock LockValue="false" HandlerId="SpawnBombAWithDelay" Delay="2"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnBombBWithDelay">
+				<Conditions>
+					<SurviveTurns Value="2"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="SchadenBombB" Amount="1" IgnoreFromEnemyUnitsCount="true" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SetHandlerLock LockValue="true" HandlerId="SpawnBombBWithDelay"/>
+					<SetHandlerLock LockValue="false" HandlerId="SpawnBombBWithDelay" Delay="2"/>
+				</Actions>
+			</PhaseHandler>
+		</Phase>
+	</BossPhasesDefinition>
+
+	<!--Schaden version-->
+	<BossPhasesDefinition Id="SchadenBossPhases">
+		<Phase Id="Phase1">
+			<ActorsList>
+				<Actor ActorType="Boss" UnitId="SchadenBoss" Id="SchadenP1" TileFlag="SchadenSide2"/>
+				<Actor ActorType="Boss" UnitId="FreudeBoss" Id="FreudeP1" TileFlag="FreudeSide2"/>
+				<Actor ActorType="Enemy" UnitId="DamnedBomb" Id="BombA" TileFlag="DamnedBomb1"/>
+				<Actor ActorType="Enemy" UnitId="DamnedBomb" Id="BombB" TileFlag="DamnedBomb2"/>
+				<Actor ActorType="Enemy" UnitId="DamnedBomb" Id="BombC" TileFlag="DamnedBomb3"/>
+			</ActorsList>
+
+			<PhaseHandler Id="Intro">
+				<Actions>
+					<PlayCutscene Id="GlintfeinBossBark_Mage1"/>
+					<SetHandlerLock HandlerId="Intro" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnSchaden">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="SchadenP1" Amount="1" WaitSpawnAnim="true"/>
+					<!--<PlayCutscene Id="GlintfeinBossBark_Schaden1"/>-->
+					<SetHandlerLock HandlerId="SpawnSchaden" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnFreude">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SetNightProgression Value="15"/>
+					<SpawnActor ActorId="FreudeP1" Amount="1" WaitSpawnAnim="true"/>
+					<!--<PlayCutscene Id="GlintfeinBossBark_Freude1"/>-->
+					<PlayCutscene Id="GlintfeinBossBark_Mage2"/>
+					<SetHandlerLock HandlerId="SpawnFreude" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="NextPhase">
+				<Conditions>
+					<RemainingActors ActorId="SchadenP1" Amount="0"/>
+					<RemainingActors ActorId="FreudeP1" Amount="0"/>
+				</Conditions>
+				<Actions>
+					<SetNightProgression Value="25"/>
+					<SpawnActor ActorId="BombA" Amount="2" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="BombB" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="BombC" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SetHandlerLock HandlerId="SpawnBombAEachTurn" LockValue="true"/>
+					<SetHandlerLock HandlerId="SpawnBombAWithDelay" LockValue="true"/>
+					<SetHandlerLock HandlerId="SpawnBombBWithDelay" LockValue="true"/>
+					<SetHandlerLock HandlerId="SpawnBombCWithDelay" LockValue="true"/>
+					<SetPhase Id="Phase2"/>
+				</Actions>
+			</PhaseHandler>
+
+			<!--Spawn Bomb Handlers-->
+			<PhaseHandler Id="SpawnBombAEachTurn">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="BombA" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnBombAWithDelay">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="BombA" Amount="1" IgnoreFromEnemyUnitsCount="true" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SetHandlerLock LockValue="true" HandlerId="SpawnBombAWithDelay"/>
+					<SetHandlerLock LockValue="false" HandlerId="SpawnBombAWithDelay" Delay="2"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnBombBWithDelay">
+				<Conditions>
+					<SurviveTurns Value="2"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="BombB" Amount="1" IgnoreFromEnemyUnitsCount="true" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SetHandlerLock LockValue="true" HandlerId="SpawnBombBWithDelay"/>
+					<SetHandlerLock LockValue="false" HandlerId="SpawnBombBWithDelay" Delay="2"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnBombCWithDelay">
+				<Conditions>
+					<SurviveTurns Value="2"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="BombC" Amount="1" IgnoreFromEnemyUnitsCount="true" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SetHandlerLock LockValue="true" HandlerId="SpawnBombCWithDelay"/>
+					<SetHandlerLock LockValue="false" HandlerId="SpawnBombCWithDelay" Delay="2"/>
+				</Actions>
+			</PhaseHandler>
+		</Phase>
+
+		<Phase Id="Phase2">
+			<ActorsList>
+				<Actor ActorType="Boss" UnitId="SchadenBoss_Weaponless" Id="SchadenP2" TileFlag="FreudeSide2"/>
+				<Actor ActorType="Boss" UnitId="BlissnachtBoss" Id="BlissnachtP2" TileFlag="SchadenSide2"/>
+				<Actor ActorType="Enemy" UnitId="ShadowScythe" Id="Scythe" TileFlag="ScytheSword"/>
+				<Actor ActorType="Boss" UnitId="FreudeBoss_Weaponless" Id="FreudeP2" TileFlag="SchadenSide2"/>
+				<Actor ActorType="Boss" UnitId="TendertrostBoss" Id="TendertrostP2" TileFlag="FreudeSide2"/>
+				<Actor ActorType="Enemy" UnitId="ShiningSword" Id="Sword" TileFlag="ScytheSword"/>
+				<Actor ActorType="Enemy" UnitId="DamnedBomb" Id="BombA" TileFlag="DamnedBomb1"/>
+				<Actor ActorType="Enemy" UnitId="DamnedBomb" Id="BombB" TileFlag="DamnedBomb2"/>
+				<Actor ActorType="Enemy" UnitId="DamnedBomb" Id="BombC" TileFlag="DamnedBomb3"/>
+			</ActorsList>
+
+			<PhaseHandler Id="SpawnSchaden">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="SchadenP2" Amount="1" WaitSpawnAnim="true"/>
+					<SetHandlerLock HandlerId="SpawnSchaden" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnBlissnacht">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SetNightProgression Value="35"/>
+					<SpawnActor ActorId="BlissnachtP2" Amount="1" WaitSpawnAnim="true"/>
+					<SetHandlerLock HandlerId="SpawnBlissnacht" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="NextStep">
+				<Conditions>
+					<RemainingActors ActorId="BlissnachtP2" Amount="0"/>
+				</Conditions>
+				<Actions>
+					<SetNightProgression Value="40"/>
+					<DestroyActor Id="SchadenP2" CameraFocus="true" WaitDeathAnim="true"/>
+					<SpawnActor ActorId="Scythe" Amount="3" CameraFocus="true" WaitSpawnAnim="true"/>
+					<PlayCutscene Id="FocusMagicCircleCutscene"/>
+					<SetHandlerLock HandlerId="SpawnFreude" LockValue="false" Delay="1"/>
+					<SetHandlerLock HandlerId="SpawnTendertrost" LockValue="false" Delay="1"/>
+					<SetHandlerLock HandlerId="NextStep" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnFreude" IsLockedByDefault="true">
+				<Actions>
+					<SpawnActor ActorId="FreudeP2" Amount="1" PlaySpawnCutscene="true"/>
+					<SetHandlerLock HandlerId="SpawnFreude" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnTendertrost" IsLockedByDefault="true">
+				<Actions>
+					<SetNightProgression Value="50"/>
+					<SpawnActor ActorId="TendertrostP2" Amount="1" PlaySpawnCutscene="true"/>
+					<SetHandlerLock HandlerId="SpawnTendertrost" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="NextPhase">
+				<Conditions>
+					<RemainingActors ActorId="TendertrostP2" Amount="0"/>
+				</Conditions>
+				<Actions>
+					<SetNightProgression Value="55"/>
+					<DestroyActor Id="FreudeP2" CameraFocus="true" WaitDeathAnim="true"/>
+					<SpawnActor ActorId="Sword" Amount="3" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="BombA" Amount="2" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="BombB" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="BombC" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SetHandlerLock HandlerId="SpawnBombAEachTurn" LockValue="true"/>
+					<SetHandlerLock HandlerId="SpawnBombAWithDelay" LockValue="true"/>
+					<SetHandlerLock HandlerId="SpawnBombBWithDelay" LockValue="true"/>
+					<SetHandlerLock HandlerId="SpawnBombCWithDelay" LockValue="true"/>
+					<SetPhase Id="Phase3"/>
+				</Actions>
+			</PhaseHandler>
+
+			<!--Spawn Bomb Handlers-->
+			<PhaseHandler Id="SpawnBombAEachTurn">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="BombA" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnBombAWithDelay">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="BombA" Amount="1" IgnoreFromEnemyUnitsCount="true" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SetHandlerLock LockValue="true" HandlerId="SpawnBombAWithDelay"/>
+					<SetHandlerLock LockValue="false" HandlerId="SpawnBombAWithDelay" Delay="2"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnBombBWithDelay">
+				<Conditions>
+					<SurviveTurns Value="2"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="BombB" Amount="1" IgnoreFromEnemyUnitsCount="true" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SetHandlerLock LockValue="true" HandlerId="SpawnBombBWithDelay"/>
+					<SetHandlerLock LockValue="false" HandlerId="SpawnBombBWithDelay" Delay="2"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnBombCWithDelay">
+				<Conditions>
+					<SurviveTurns Value="2"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="BombC" Amount="1" IgnoreFromEnemyUnitsCount="true" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SetHandlerLock LockValue="true" HandlerId="SpawnBombCWithDelay"/>
+					<SetHandlerLock LockValue="false" HandlerId="SpawnBombCWithDelay" Delay="2"/>
+				</Actions>
+			</PhaseHandler>
+		</Phase>
+
+		<Phase Id="Phase3">
+			<ActorsList>
+				<Actor ActorType="Boss" UnitId="SchadenBoss_Weaponless" Id="SchadenP3" TileFlag="SchadenSide2"/>
+				<Actor ActorType="Boss" UnitId="BlissnachtBoss" Id="BlissnachtP3" TileFlag="FreudeSide2"/>
+				<Actor ActorType="Boss" UnitId="FreudeBoss_Weaponless" Id="FreudeP3" TileFlag="FreudeSide2"/>
+				<Actor ActorType="Boss" UnitId="TendertrostBoss" Id="TendertrostP3" TileFlag="SchadenSide2"/>
+				<Actor ActorType="Enemy" UnitId="ShadowScythe" Id="Scythe" TileFlag="ScytheSword"/>
+				<Actor ActorType="Enemy" UnitId="ShiningSword" Id="Sword" TileFlag="ScytheSword"/>
+				<Actor ActorType="Enemy" UnitId="DamnedBomb" Id="BombA" TileFlag="DamnedBomb1"/>
+				<Actor ActorType="Enemy" UnitId="DamnedBomb" Id="BombB" TileFlag="DamnedBomb2"/>
+				<Actor ActorType="Enemy" UnitId="DamnedBomb" Id="BombC" TileFlag="DamnedBomb3"/>
+			</ActorsList>
+
+			<PhaseHandler Id="SpawnSchaden">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="SchadenP3" Amount="1" WaitSpawnAnim="true"/>
+					<SetHandlerLock HandlerId="SpawnSchaden" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnFreude">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="FreudeP3" Amount="1" WaitSpawnAnim="true"/>
+					<SetHandlerLock HandlerId="SpawnFreude" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnBlissnacht">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="BlissnachtP3" Amount="1" WaitSpawnAnim="true"/>
+					<PlayCutscene Id="GlintfeinBossBark_Freude2"/>
+					<SetHandlerLock HandlerId="SpawnBlissnacht" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnTendertrost">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SetNightProgression Value="70"/>
+					<SpawnActor ActorId="TendertrostP3" Amount="1" WaitSpawnAnim="true"/>
+					<PlayCutscene Id="GlintfeinBossBark_Schaden2"/>
+					<SetHandlerLock HandlerId="SpawnTendertrost" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="FirstBlissnachtRespawn">
+				<Conditions>
+					<RemainingActors ActorId="BlissnachtP3" Amount="0"/>
+					<RemainingActors ActorId="TendertrostP3" Amount="1"/>
+				</Conditions>
+				<Actions>
+					<SetHandlerLock HandlerId="HintCutscene" LockValue="false"/>
+					<SetHandlerLock HandlerId="FirstBlissnachtRespawn" LockValue="true"/>
+					<SetHandlerLock HandlerId="FirstTendertrostRespawn" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="RespawnBlissnacht">
+				<Conditions>
+					<RemainingActors ActorId="BlissnachtP3" Amount="0"/>
+					<RemainingActors ActorId="TendertrostP3" Amount="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="BlissnachtP3" Amount="1" WaitSpawnAnim="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="FirstTendertrostRespawn">
+				<Conditions>
+					<RemainingActors ActorId="BlissnachtP3" Amount="1"/>
+					<RemainingActors ActorId="TendertrostP3" Amount="0"/>
+				</Conditions>
+				<Actions>
+					<SetHandlerLock HandlerId="HintCutscene" LockValue="false"/>
+					<SetHandlerLock HandlerId="FirstBlissnachtRespawn" LockValue="true"/>
+					<SetHandlerLock HandlerId="FirstTendertrostRespawn" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="RespawnTendertrost">
+				<Conditions>
+					<RemainingActors ActorId="BlissnachtP3" Amount="1"/>
+					<RemainingActors ActorId="TendertrostP3" Amount="0"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="TendertrostP3" Amount="1" WaitSpawnAnim="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="HintCutscene" IsLockedByDefault="true">
+				<Actions>
+					<PlayCutscene Id="GlintfeinBossBark_Mage3"/>
+					<SetHandlerLock HandlerId="HintCutscene" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="NextPhase">
+				<Conditions>
+					<RemainingActors ActorId="BlissnachtP3" Amount="0"/>
+					<RemainingActors ActorId="TendertrostP3" Amount="0"/>
+				</Conditions>
+				<Actions>
+					<SetNightProgression Value="80"/>
+					<DestroyActor Id="SchadenP3" CameraFocus="true" WaitDeathAnim="true"/>
+					<DestroyActor Id="FreudeP3" CameraFocus="true" WaitDeathAnim="true"/>
+					<SpawnActor ActorId="Scythe" Amount="3" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="Sword" Amount="3" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="BombA" Amount="2" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="BombB" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="BombC" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SetHandlerLock HandlerId="SpawnBombAEachTurn" LockValue="true"/>
+					<SetHandlerLock HandlerId="SpawnBombAWithDelay" LockValue="true"/>
+					<SetHandlerLock HandlerId="SpawnBombBWithDelay" LockValue="true"/>
+					<SetHandlerLock HandlerId="SpawnBombCWithDelay" LockValue="true"/>
+					<SetPhase Id="Phase4"/>
+				</Actions>
+			</PhaseHandler>
+
+			<!--Spawn Bomb Handlers-->
+			<PhaseHandler Id="SpawnBombAEachTurn">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="BombA" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnBombAWithDelay">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="BombA" Amount="1" IgnoreFromEnemyUnitsCount="true" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SetHandlerLock LockValue="true" HandlerId="SpawnBombAWithDelay"/>
+					<SetHandlerLock LockValue="false" HandlerId="SpawnBombAWithDelay" Delay="2"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnBombBWithDelay">
+				<Conditions>
+					<SurviveTurns Value="2"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="BombB" Amount="1" IgnoreFromEnemyUnitsCount="true" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SetHandlerLock LockValue="true" HandlerId="SpawnBombBWithDelay"/>
+					<SetHandlerLock LockValue="false" HandlerId="SpawnBombBWithDelay" Delay="2"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnBombCWithDelay">
+				<Conditions>
+					<SurviveTurns Value="2"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="BombC" Amount="1" IgnoreFromEnemyUnitsCount="true" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SetHandlerLock LockValue="true" HandlerId="SpawnBombCWithDelay"/>
+					<SetHandlerLock LockValue="false" HandlerId="SpawnBombCWithDelay" Delay="2"/>
+				</Actions>
+			</PhaseHandler>
+		</Phase>
+
+		<Phase Id="Phase4">
+			<ActorsList>
+				<Actor ActorType="Boss" UnitId="SchadenBoss_Final" Id="SchadenP4" TileFlag="Schadenfreude2"/>
+				<Actor ActorType="Boss" UnitId="FreudeBoss_Final" Id="FreudeP4" TileFlag="Schadenfreude2"/>
+				<Actor ActorType="Enemy" UnitId="ShadowScythe" Id="Scythe" TileFlag="ScytheSword"/>
+				<Actor ActorType="Enemy" UnitId="ShiningSword" Id="Sword" TileFlag="ScytheSword"/>
+				<Actor ActorType="Enemy" UnitId="DamnedBomb" Id="BombA" TileFlag="DamnedBomb1"/>
+				<Actor ActorType="Enemy" UnitId="DamnedBomb" Id="BombB" TileFlag="DamnedBomb2"/>
+				<Actor ActorType="Enemy" UnitId="DamnedBomb" Id="BombC" TileFlag="DamnedBomb3"/>
+			</ActorsList>
+
+			<VictoryConditions>
+				<RemainingActors ActorId="SchadenP4" Amount="0"/>
+				<RemainingActors ActorId="FreudeP4" Amount="0"/>
+			</VictoryConditions>
+
+			<PhaseHandler Id="SpawnSchaden">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="SchadenP4" Amount="1" WaitSpawnAnim="true"/>
+					<!--<PlayCutscene Id="GlintfeinBossBark_Schaden3"/>-->
+					<SetHandlerLock HandlerId="SpawnSchaden" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnFreude">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SetNightProgression Value="100"/>
+					<SpawnActor ActorId="FreudeP4" Amount="1" WaitSpawnAnim="true"/>
+					<!--<PlayCutscene Id="GlintfeinBossBark_Freude3"/>-->
+					<SetHandlerLock HandlerId="SpawnFreude" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnWeaponOnSchadenDeath">
+				<Conditions>
+					<RemainingActors ActorId="SchadenP4" Amount="0"/>
+					<RemainingActors ActorId="FreudeP4" Amount="1"/>
+				</Conditions>
+				<Actions>
+					<ReplaceActors ActorId="Scythe" ReplacementId="Sword" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="Sword" Amount="3" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SetHandlerLock HandlerId="SpawnWeaponOnSchadenDeath" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnWeaponOnFreudeDeath">
+				<Conditions>
+					<RemainingActors ActorId="SchadenP4" Amount="1"/>
+					<RemainingActors ActorId="FreudeP4" Amount="0"/>
+				</Conditions>
+				<Actions>
+					<ReplaceActors ActorId="Sword" ReplacementId="Scythe" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="Scythe" Amount="3" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SetHandlerLock HandlerId="SpawnWeaponOnFreudeDeath" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<!--Spawn Bomb Handlers-->
+			<PhaseHandler Id="SpawnBombAEachTurn">
+				<Conditions>
+					<SurviveTurns Value="2"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="BombA" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnBombCEachTurn">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="BombC" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnBombAWithDelay">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="BombA" Amount="1" IgnoreFromEnemyUnitsCount="true" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SetHandlerLock LockValue="true" HandlerId="SpawnBombAWithDelay"/>
+					<SetHandlerLock LockValue="false" HandlerId="SpawnBombAWithDelay" Delay="2"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnBombBWithDelay">
+				<Conditions>
+					<SurviveTurns Value="2"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="BombB" Amount="1" IgnoreFromEnemyUnitsCount="true" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SetHandlerLock LockValue="true" HandlerId="SpawnBombBWithDelay"/>
+					<SetHandlerLock LockValue="false" HandlerId="SpawnBombBWithDelay" Delay="2"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="SpawnBombCWithDelay">
+				<Conditions>
+					<SurviveTurns Value="2"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="BombC" Amount="1" IgnoreFromEnemyUnitsCount="true" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SetHandlerLock LockValue="true" HandlerId="SpawnBombCWithDelay"/>
+					<SetHandlerLock LockValue="false" HandlerId="SpawnBombCWithDelay" Delay="2"/>
+				</Actions>
+			</PhaseHandler>
+		</Phase>
+
+	</BossPhasesDefinition>
+
+	<!-- ███████████████████████████████████████████████████████████████ -->
+	<!-- Gildenberg Redux -->
+	<!-- ███████████████████████████████████████████████████████████████ -->
+
+	<BossPhasesDefinition Id="GildenbergRedux_HarplingWaveThreePhases">
+		<Phase Id="WaveThreeSpawnHarpling">
+			<ActorsList>
+				<Actor ActorType="Boss" Id="FirstHarpyCommander" UnitId="HarpyBossCommander" TileFlag="Hole"/>
+				<Actor ActorType="Enemy" Id="HarplingGroupMedium1" UnitId="HarplingVariation" TileFlag="Hole"/>
+			</ActorsList>
+
+			<VictoryConditions>
+				<FinishWave/>
+			</VictoryConditions>
+
+			<PhaseHandler Id="PlayMusic">
+				<Actions>
+					<PlayCutscene Id="LaunchMusic"/>
+					<SetHandlerLock HandlerId="PlayMusic" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="HarplingSpawn2">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="HarplingGroupMedium1" Amount="5" CameraFocus="true" WaitSpawnAnim="true" PrioritizeWaveSide="true"/>
+					<SetHandlerLock HandlerId="HarplingSpawn2" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+		</Phase>
+	</BossPhasesDefinition>
+
+	<BossPhasesDefinition Id="GildenbergRedux_HarplingWaveFivePhases">
+		<Phase Id="WaveFiveSpawnHarpling">
+			<ActorsList>
+				<Actor ActorType="Enemy" Id="HarplingGroupMedium2" UnitId="HarplingVariation" TileFlag="Hole"/>
+			</ActorsList>
+
+			<VictoryConditions>
+				<FinishWave/>
+			</VictoryConditions>
+
+
+			<PhaseHandler Id="PlayMusic">
+				<Actions>
+					<PlayCutscene Id="LaunchMusic"/>
+					<SetHandlerLock HandlerId="PlayMusic" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="HarplingSpawn1">
+				<Actions>
+					<SpawnActor ActorId="HarplingGroupMedium2" Amount="2" CameraFocus="true" WaitSpawnAnim="true" PrioritizeWaveSide="true"/>
+					<SetHandlerLock HandlerId="HarplingSpawn1" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="HarplingSpawn2">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="HarplingGroupMedium2" Amount="3" CameraFocus="true" WaitSpawnAnim="true" PrioritizeWaveSide="true"/>
+					<SetHandlerLock HandlerId="HarplingSpawn2" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="HarplingSpawn3">
+				<Conditions>
+					<SurviveTurns Value="2"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="HarplingGroupMedium2" Amount="4" CameraFocus="true" WaitSpawnAnim="true" PrioritizeWaveSide="true"/>
+					<SetHandlerLock HandlerId="HarplingSpawn3" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+		</Phase>
+	</BossPhasesDefinition>
+
+	<BossPhasesDefinition Id="GildenbergRedux_HarplingWaveSixPhases">
+		<Phase Id="WaveSixSpawnHarpling">
+			<ActorsList>
+				<Actor ActorType="Enemy" Id="HarplingGroupNear" UnitId="HarplingVariation" TileFlag="Hole"/>
+			</ActorsList>
+
+			<VictoryConditions>
+				<FinishWave/>
+			</VictoryConditions>
+
+
+			<PhaseHandler Id="PlayMusic">
+				<Actions>
+					<PlayCutscene Id="LaunchMusic"/>
+					<SetHandlerLock HandlerId="PlayMusic" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="Intro">
+				<Actions>
+					<SetHandlerLock HandlerId="Intro" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="HarplingSpawn1">
+				<Conditions>
+					<SurviveTurns Value="2"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="HarplingGroupNear" Amount="6" CameraFocus="true" WaitSpawnAnim="true" PrioritizeWaveSide="true"/>
+					<SetHandlerLock HandlerId="HarplingSpawn1" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+		</Phase>
+	</BossPhasesDefinition>
+
+	<BossPhasesDefinition Id="GildenbergRedux_HarplingWaveSevenPhases">
+		<Phase Id="WaveSevenSpawnHarpling">
+			<ActorsList>
+				<Actor ActorType="Enemy" Id="HarplingGroupNear" UnitId="HarplingVariation" TileFlag="Hole"/>
+			</ActorsList>
+
+			<VictoryConditions>
+				<FinishWave/>
+			</VictoryConditions>
+
+
+			<PhaseHandler Id="PlayMusic">
+				<Actions>
+					<PlayCutscene Id="LaunchMusic"/>
+					<SetHandlerLock HandlerId="PlayMusic" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="Intro">
+				<Actions>
+					<SetHandlerLock HandlerId="Intro" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="HarplingSpawn1">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="HarplingGroupNear" Amount="5" CameraFocus="true" WaitSpawnAnim="true" PrioritizeWaveSide="true"/>
+					<SetHandlerLock HandlerId="HarplingSpawn1" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="HarplingSpawn2">
+				<Conditions>
+					<SurviveTurns Value="3"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="HarplingGroupNear" Amount="5" CameraFocus="true" WaitSpawnAnim="true" PrioritizeWaveSide="true"/>
+					<SetHandlerLock HandlerId="HarplingSpawn2" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+		</Phase>
+	</BossPhasesDefinition>
+
+	<BossPhasesDefinition Id="DwarfStatueBoss1Phases">
+		<Phase Id="WaveFinalSpawnHarpling">
+			<ActorsList>
+				<Actor ActorType="Enemy" Id="Harplings" UnitId="HarplingVariation" TileFlag="Hole"/>
+				<!-- Statue boss -->
+				<Actor ActorType="Boss" Id="DwarfStatueBoss1Actor" UnitId="DwarfStatueBoss1" TileFlag="Hole"/>
+				<Actor ActorType="Boss" Id="DwarfStatueBoss2Actor" UnitId="DwarfStatueBoss2" TileFlag="Hole"/>
+				<Actor ActorType="Boss" Id="DwarfStatueBoss1VulnerableActor" UnitId="DwarfStatueBoss1Vulnerable" TileFlag="Hole"/>
+				<Actor ActorType="Boss" Id="DwarfStatueBoss2VulnerableActor" UnitId="DwarfStatueBoss2Vulnerable" TileFlag="Hole"/>
+				<Actor ActorType="Boss" Id="DwarfStatueBoss2VulnerableLastActor" UnitId="DwarfStatueBoss2VulnerableLast" TileFlag="Hole"/>
+				<!-- Statue boss inactive -->
+				<Actor ActorType="Building" Id="DwarfStatueBoss1OffActor" UnitId="DwarfStatueAura1Off" TileFlag="Hole"/>
+				<Actor ActorType="Building" Id="DwarfStatueBoss2OffActor" UnitId="DwarfStatueAura2Off" TileFlag="Hole"/>
+				<!-- Crytals actor -->
+				<Actor ActorType="Building" Id="CrystalExplosiveOnActor" UnitId="CrystalExplosiveOn" TileFlag="Hole"/>
+				<Actor ActorType="Building" Id="CrystalFrostOnActor" UnitId="CrystalFrostOn" TileFlag="Hole"/>
+				<Actor ActorType="Building" Id="CrystalPoisonOnActor" UnitId="CrystalPoisonOn" TileFlag="Hole"/>
+				<Actor ActorType="Building" Id="CrystalNormalOffActor" UnitId="CrystalNormalOff" TileFlag="Hole"/>
+				<Actor ActorType="Building" Id="CrystalCorruptedOnActor" UnitId="CrystalCorruptedOn" TileFlag="CorruptedCrystal"/>
+				<Actor ActorType="Building" Id="CrystalCorruptedOffActor" UnitId="CrystalCorruptedOff" TileFlag="CorruptedCrystal"/>
+			</ActorsList>
+
+			<VictoryConditions>
+				<KilledActors ActorId="DwarfStatueBoss2VulnerableLastActor" Amount="1"/>
+			</VictoryConditions>
+
+			<PhaseHandler Id="00_DwarfStatueAura1Awaken">
+				<Actions>
+					<PlayCutscene Id="GildenbergRedux_SuperwaveIntroZoomDebug"/>
+					<SpawnActor ActorId="CrystalCorruptedOnActor" Amount="1" CameraFocus="true" PlaySpawnAnim="true" WaitSpawnAnim="true"/>
+					<PlayCutscene Id="GildenbergRedux_SuperwaveIntro0"/>
+					<ReplaceActors ActorId="DwarfStatueBoss1OffActor" ReplacementId="DwarfStatueBoss1Actor" IncludeNonActor="true" Amount="1" CameraFocus="true" WaitSpawnAnim="true" PlaySpawnAnim="true"/>
+					<PlayCutscene Id="GildenbergRedux_BossAwaken0"/>
+					<SpawnActor ActorId="Harplings" Amount="4"/>
+					<SetHandlerLock HandlerId="00_DwarfStatueAura1Awaken" LockValue="true"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="01_DwarfStatueAura2Awaken">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<ReplaceActors ActorId="DwarfStatueBoss2OffActor" ReplacementId="DwarfStatueBoss2Actor" IncludeNonActor="true" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<ReplaceActors ActorId="DwarfStatueBoss2OffActor" ReplacementId="DwarfStatueBoss2Actor" IncludeNonActor="true" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<ReplaceActors ActorId="CrystalExplosiveOnActor, CrystalFrostOnActor, CrystalPoisonOnActor, CrystalNormalOffActor" ReplacementId="CrystalCorruptedOnActor" IncludeNonActor="true" Amount="1" CameraFocus="true" PlaySpawnAnim="true" WaitDeathAnim="true" WaitSpawnAnim="true"/>
+					<ReplaceActors ActorId="CrystalExplosiveOnActor, CrystalFrostOnActor, CrystalPoisonOnActor, CrystalNormalOffActor" ReplacementId="CrystalCorruptedOnActor" IncludeNonActor="true" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="Harplings" Amount="5"/>
+					<SetHandlerLock HandlerId="01_DwarfStatueAura2Awaken" LockValue="true"/>
+					<SetNightProgression Value="20"/>
+				</Actions>
+			</PhaseHandler>
+
+			<!--<PhaseHandler Id="01_DwarfStatueAura2Awaken">
+				<Conditions>
+					<SurviveTurns Value="1"/>
+				</Conditions>
+				<Actions>
+					<ReplaceActors ActorId="DwarfStatueBoss2OffActor" ReplacementId="DwarfStatueBoss2Actor" IncludeNonActor="true" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<ReplaceActors ActorId="CrystalExplosiveOnActor, CrystalFrostOnActor, CrystalPoisonOnActor, CrystalNormalOffActor" ReplacementId="CrystalCorruptedOnActor" IncludeNonActor="true" Amount="1" CameraFocus="true" PlaySpawnAnim="true" WaitDeathAnim="true" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="Harplings" Amount="3"/>
+					<SetHandlerLock HandlerId="01_DwarfStatueAura2Awaken" LockValue="true"/>
+					<SetNightProgression Value="10"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="02_DwarfStatueAura2Awaken_2">
+            <Conditions>
+               <SurviveTurns Value="2"/>
+            </Conditions>
+				<Actions>
+					<ReplaceActors ActorId="DwarfStatueBoss2OffActor" ReplacementId="DwarfStatueBoss2Actor" IncludeNonActor="true" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<ReplaceActors ActorId="CrystalExplosiveOnActor, CrystalFrostOnActor, CrystalPoisonOnActor, CrystalNormalOffActor" ReplacementId="CrystalCorruptedOnActor" IncludeNonActor="true" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="Harplings" Amount="2"/>
+					<SetHandlerLock HandlerId="02_DwarfStatueAura2Awaken_2" LockValue="true"/>
+					<SetNightProgression Value="20"/>
+				</Actions>
+         </PhaseHandler>-->
+
+			<PhaseHandler Id="03_DwarfStatueAura1Awaken_2">
+				<Conditions>
+					<SurviveTurns Value="2"/>
+				</Conditions>
+				<Actions>
+					<ReplaceActors ActorId="DwarfStatueBoss1OffActor" ReplacementId="DwarfStatueBoss1Actor" IncludeNonActor="true" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="Harplings" Amount="5"/>
+               <PlayCutscene Id="GildenbergRedux_Tension0"/>
+					<SetHandlerLock HandlerId="03_DwarfStatueAura1Awaken_2" LockValue="true"/>
+					<SetNightProgression Value="30"/>
+				</Actions>
+			</PhaseHandler>
+			
+			<PhaseHandler Id="04_RegenCorruptedRunestone1">
+				<Conditions>
+					<SurviveTurns Value="3"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="CrystalCorruptedOnActor" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<ReplaceActors ActorId="CrystalCorruptedOffActor" ReplacementId="CrystalCorruptedOnActor" IncludeNonActor="true"  Amount="99" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="Harplings" Amount="5"/>
+					<PlayCutscene Id="GildenbergRedux_ObjectiveRunestone0"/>
+					<SetHandlerLock HandlerId="04_RegenCorruptedRunestone1" LockValue="true"/>
+					<SetNightProgression Value="40"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="05_DwarfStatueAura1Vulnerable">
+				<Conditions>
+					<RemainingActors ActorId="CrystalCorruptedOnActor" Amount="0"/>
+					<SurviveTurns Value="4"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="Harplings" Amount="5"/>
+					<ReplaceActors ActorId="DwarfStatueBoss1Actor" ReplacementId="DwarfStatueBoss1VulnerableActor" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<PlayCutscene Id="GildenbergRedux_BossAwaken1"/>
+					<SetHandlerLock HandlerId="05_DwarfStatueAura1Vulnerable" LockValue="true"/>
+					<SetNightProgression Value="50"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="06_RegenCorruptedRunestone2">
+				<Conditions>
+					<KilledActors ActorId="DwarfStatueBoss1VulnerableActor" Amount="1"/>
+					<SurviveTurns Value="5"/>
+				</Conditions>
+				<Actions>
+					<ReplaceActors ActorId="CrystalExplosiveOnActor, CrystalFrostOnActor, CrystalPoisonOnActor, CrystalNormalOffActor" ReplacementId="CrystalCorruptedOnActor" IncludeNonActor="true" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<ReplaceActors ActorId="CrystalCorruptedOffActor" ReplacementId="CrystalCorruptedOnActor" IncludeNonActor="true" Amount="99" CameraFocus="true" WaitSpawnAnim="true"/>
+					<SpawnActor ActorId="Harplings" Amount="6"/>
+					<PlayCutscene Id="GildenbergRedux_ObjectiveRunestone1"/>
+					<SetHandlerLock HandlerId="06_RegenCorruptedRunestone2" LockValue="true"/>
+					<SetNightProgression Value="60"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="07_DwarfStatueAura1VulnerableAndDwarfStatueAura2Vulnerable">
+				<Conditions>
+					<RemainingActors ActorId="CrystalCorruptedOnActor" Amount="0"/>
+					<KilledActors ActorId="DwarfStatueBoss1VulnerableActor" Amount="1"/>
+					<SurviveTurns Value="6"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="Harplings" Amount="6"/>
+					<ReplaceActors ActorId="DwarfStatueBoss1Actor" ReplacementId="DwarfStatueBoss1VulnerableActor" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<PlayCutscene Id="GildenbergRedux_BossAwaken2"/>
+					<ReplaceActors ActorId="DwarfStatueBoss2Actor" ReplacementId="DwarfStatueBoss2VulnerableActor" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<PlayCutscene Id="GildenbergRedux_BossAwaken3"/>
+					<SetHandlerLock HandlerId="07_DwarfStatueAura1VulnerableAndDwarfStatueAura2Vulnerable" LockValue="true"/>
+					<SetNightProgression Value="70"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="08_RegenCorruptedRunestone3">
+				<Conditions>
+					<KilledActors ActorId="DwarfStatueBoss1VulnerableActor" Amount="2"/>
+					<KilledActors ActorId="DwarfStatueBoss2VulnerableActor" Amount="1"/>
+					<SurviveTurns Value="7"/>
+				</Conditions>
+				<Actions>
+					<ReplaceActors ActorId="DwarfStatueBoss2Actor" ReplacementId="DwarfStatueBoss2Actor" IncludeNonActor="true" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<ReplaceActors ActorId="CrystalCorruptedOffActor" ReplacementId="CrystalCorruptedOnActor" Amount="99" IncludeNonActor="true" CameraFocus="true" WaitSpawnAnim="true"/>
+					<PlayCutscene Id="GildenbergRedux_ObjectiveRunestone2"/>
+					<SpawnActor ActorId="Harplings" Amount="6"/>
+					<SetHandlerLock HandlerId="08_RegenCorruptedRunestone3" LockValue="true"/>
+					<SetNightProgression Value="90"/>
+				</Actions>
+			</PhaseHandler>
+
+			<PhaseHandler Id="09_DwarfStatueAura2EnergeticVulnerable">
+				<Conditions>
+					<RemainingActors ActorId="CrystalCorruptedOnActor" Amount="0"/>
+					<KilledActors ActorId="DwarfStatueBoss1VulnerableActor" Amount="2"/>
+					<KilledActors ActorId="DwarfStatueBoss2VulnerableActor" Amount="1"/>
+					<SurviveTurns Value="8"/>
+				</Conditions>
+				<Actions>
+					<SpawnActor ActorId="Harplings" Amount="20"/>
+					<ReplaceActors ActorId="DwarfStatueBoss2Actor" ReplacementId="DwarfStatueBoss2VulnerableLastActor" Amount="1" CameraFocus="true" WaitSpawnAnim="true"/>
+					<PlayCutscene Id="GildenbergRedux_BossAwaken4"/>
+					<SetHandlerLock HandlerId="09_DwarfStatueAura2EnergeticVulnerable" LockValue="true"/>
+					<SetNightProgression Value="100"/>
+				</Actions>
+			</PhaseHandler>
+
+		</Phase>
+	</BossPhasesDefinition>
+</BossPhasesDefinitions>

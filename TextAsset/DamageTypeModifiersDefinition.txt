@@ -1,0 +1,19 @@
+﻿<DamageTypeModifiersDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="DamageTypeModifiersDefinition.xsd">
+
+   <Melee>
+      <ArmorShredding>2</ArmorShredding>
+   </Melee>
+
+   <Range>
+      <DodgeMultipliersByDistance>
+         <Multiplier StartingDistance="5" Value="1.5"></Multiplier>
+         <Multiplier StartingDistance="8" Value="1.8"></Multiplier>
+         <Multiplier StartingDistance="11" Value="2"></Multiplier>
+         <Multiplier StartingDistance="14" Value="2.2"></Multiplier>
+         <Multiplier StartingDistance="17" Value="2.35"></Multiplier>
+         <Multiplier StartingDistance="20" Value="2.5"></Multiplier>
+      </DodgeMultipliersByDistance>
+   </Range>
+
+</DamageTypeModifiersDefinition>

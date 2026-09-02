@@ -1,0 +1,27 @@
+﻿<BuildingSkillSoundDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+   <BuildingSkillSoundDefinition>
+      <BuildingTemplateDefinitionId Value="StunTrap"/>
+      <MaximumSimultaneousSounds>3</MaximumSimultaneousSounds>
+      <Sounds Delay="Random(0, 0.5)">
+         <SoundId Value="00_Others/Traps/SFX_Skill_StunTrap"/>
+      </Sounds>
+   </BuildingSkillSoundDefinition>
+
+   <BuildingSkillSoundDefinition>
+      <BuildingTemplateDefinitionId Value="SlowTrap"/>
+      <MaximumSimultaneousSounds>3</MaximumSimultaneousSounds>
+      <Sounds Delay="Random(0, 0.5)">
+         <SoundId Value="00_Others/Traps/SFX_Skill_SlowTrap"/>
+      </Sounds>
+   </BuildingSkillSoundDefinition>
+
+   <BuildingSkillSoundDefinition>
+      <BuildingTemplateDefinitionId Value="DamageTrap"/>
+      <MaximumSimultaneousSounds>3</MaximumSimultaneousSounds>
+      <Sounds Delay="Random(0, 0.5)">
+         <SoundId Value="00_Others/Traps/SFX_Skill_DamageTrap"/>
+      </Sounds>
+   </BuildingSkillSoundDefinition>
+
+</BuildingSkillSoundDefinitions>

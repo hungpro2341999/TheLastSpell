@@ -1,0 +1,132 @@
+﻿<MetaUpgradeDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xsi:noNamespaceSchemaLocation="../MetaUpgradeDefinitions.xsd">
+
+
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <!-- CITY UNLOCKS -->
+   <!-- ███████████████████████████████████████████████████████████████ -->
+
+
+   <!--Unlock Gildenberg-->
+   <MetaUpgradeDefinition Id="UnlockFelderlandCity">
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:TutorialDone" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <ActivationConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:TutorialDone" B="1"/>
+         </ConditionsGroup>
+      </ActivationConditions>
+      <UpgradeEffects>
+         <UnlockCities>
+            <City>Felderland</City>
+         </UnlockCities>
+      </UpgradeEffects>
+      <MandatoryUnlock/>
+   </MetaUpgradeDefinition>
+
+   <!--Unlock Lakeburg-->
+   <MetaUpgradeDefinition Id="UnlockLakeburgCity">
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsCompletedInCity Felderland" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <ActivationConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsCompletedInCity Felderland" B="1"/>
+         </ConditionsGroup>
+      </ActivationConditions>
+      <UpgradeEffects>
+         <UnlockCities>
+            <City>LakeBurg</City>
+         </UnlockCities>
+      </UpgradeEffects>
+      <MandatoryUnlock/>
+   </MetaUpgradeDefinition>
+
+   <!--Unlock Glenwald-->
+   <MetaUpgradeDefinition Id="UnlockGlenwaldCity">
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsCompletedInCity LakeBurg" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <ActivationConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsCompletedInCity LakeBurg" B="1"/>
+         </ConditionsGroup>
+      </ActivationConditions>
+      <UpgradeEffects>
+         <UnlockCities>
+            <City>Glenwald</City>
+         </UnlockCities>
+      </UpgradeEffects>
+      <MandatoryUnlock/>
+   </MetaUpgradeDefinition>
+
+   <!--Unlock Elderlicht-->
+   <MetaUpgradeDefinition Id="UnlockElderlichtCity">
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsCompletedInCity Glenwald" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <ActivationConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsCompletedInCity Glenwald" B="1"/>
+         </ConditionsGroup>
+      </ActivationConditions>
+      <UpgradeEffects>
+         <UnlockCities>
+            <City>Elderlicht</City>
+         </UnlockCities>
+      </UpgradeEffects>
+      <MandatoryUnlock/>
+   </MetaUpgradeDefinition>
+
+   <!--Unlock Glintfein-->
+   <MetaUpgradeDefinition Id="UnlockGlintfeinCity">
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsCompletedInCity Elderlicht" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <ActivationConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsCompletedInCity Elderlicht" B="1"/>
+         </ConditionsGroup>
+      </ActivationConditions>
+      <UpgradeEffects>
+         <UnlockCities>
+            <City>Glintfein</City>
+         </UnlockCities>
+      </UpgradeEffects>
+      <MandatoryUnlock/>
+   </MetaUpgradeDefinition>
+
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <!-- UNLOCK HERO PERK COLLECTIONS -->
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <MetaUpgradeDefinition Id="UnlockSecondaryPerks">
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsCompletedInCity Felderland" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <ActivationConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsCompletedInCity Felderland" B="1"/>
+         </ConditionsGroup>
+      </ActivationConditions>
+      <UpgradeEffects>
+         <UnlockPerkCollectionSlots>
+            <CollectionSlotToUnlock>4</CollectionSlotToUnlock>
+            <CollectionSlotToUnlock>5</CollectionSlotToUnlock>
+         </UnlockPerkCollectionSlots>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+</MetaUpgradeDefinitions>

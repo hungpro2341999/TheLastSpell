@@ -1,0 +1,28 @@
+﻿<UnitStartingRosterRacesDistributionDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="UnitStartingRosterRacesDistributionDefinitions.xsd">
+
+   <UnitStartingRosterRacesDistributionDefinition UnlockedNonHumanRacesNb="0">
+      <RaceDistribution RaceType="Human" Weight="1"/>
+   </UnitStartingRosterRacesDistributionDefinition>
+
+   <UnitStartingRosterRacesDistributionDefinition UnlockedNonHumanRacesNb="1">
+      <RaceDistribution RaceType="Human" Weight="3"/>
+      <RaceDistribution RaceType="NonHuman" Weight="1"/>
+   </UnitStartingRosterRacesDistributionDefinition>
+
+   <UnitStartingRosterRacesDistributionDefinition UnlockedNonHumanRacesNb="2">
+      <RaceDistribution RaceType="Human" Weight="2"/>
+      <RaceDistribution RaceType="NonHuman" Weight="1"/>
+   </UnitStartingRosterRacesDistributionDefinition>
+
+   <UnitStartingRosterRacesDistributionDefinition UnlockedNonHumanRacesNb="3">
+      <RaceDistribution RaceType="Human" Weight="2"/>
+      <RaceDistribution RaceType="NonHuman" Weight="3"/>
+   </UnitStartingRosterRacesDistributionDefinition>
+
+   <UnitStartingRosterRacesDistributionDefinition UnlockedNonHumanRacesNb="4">
+      <RaceDistribution RaceType="Human" Weight="1"/>
+      <RaceDistribution RaceType="NonHuman" Weight="4"/>
+   </UnitStartingRosterRacesDistributionDefinition>
+
+</UnitStartingRosterRacesDistributionDefinitions>

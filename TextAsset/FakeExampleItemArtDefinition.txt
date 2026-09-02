@@ -1,0 +1,17 @@
+<ItemArtDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../ItemArtDefinition.xsd" Id="FakeExampleItem">
+   <ArtId>FakeExampleItem</ArtId>
+   <BodyParts>
+      <BodyPartDefinition Id="Torso">
+         <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor0/Female/Torso_ClothArmor0_Female</Sprite>
+         <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor0/Male/Torso_ClothArmor0_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_L">
+         <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor0/Female/ArmL_ClothArmor0_Female</Sprite>
+         <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor0/Male/ArmL_ClothArmor0_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Arm_R">
+         <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor0/Female/ArmR_ClothArmor0_Female</Sprite>
+         <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Torso/ClothArmor0/Male/ArmR_ClothArmor0_Male</Sprite>
+      </BodyPartDefinition>
+   </BodyParts>
+</ItemArtDefinition>

@@ -1,0 +1,1236 @@
+<ItemArtDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../ItemArtDefinitions.xsd">
+   
+	<ItemArtDefinition Id="Helmet0">
+		<ArtId>Helmet0</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Male/Helmet_Helmet0_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Female/Helmet_Helmet0_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Aldana">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Male/Helmet_Helmet0_Head_Aldana</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Male/Helmet_Helmet0_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Female/Helmet_Helmet0_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Female/Helmet_Helmet0_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Male/Helmet_Helmet0_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Male/Helmet_Helmet0_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Male/Helmet_Helmet0_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Female/Helmet_Helmet0_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Male/Helmet_Helmet0_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Female/Helmet_Helmet0_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Male/Helmet_Helmet0_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Female/Helmet_Helmet0_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Female/Helmet_Helmet0_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Female/Helmet_Helmet0_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Female/Helmet_Helmet0_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Male/Helmet_Helmet0_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Male/Helmet_Helmet0_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Female/Helmet_Helmet0_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Male/Helmet_Helmet0_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Female/Helmet_Helmet0_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Male/Helmet_Helmet0_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Male/Helmet_Helmet0_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Female/Helmet_Helmet0_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Male/Helmet_Helmet0_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Female/Helmet_Helmet0_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Male/Helmet_Helmet0_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Female/Helmet_Helmet0_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Male/Helmet_Helmet0_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Female/Helmet_Helmet0_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Female/Helmet_Helmet0_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Female/Helmet_Helmet0_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Male/Helmet_Helmet0_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Male/Helmet_Helmet0_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Female/Helmet_Helmet0_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Male/Helmet_Helmet0_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Male/Helmet_Helmet0_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Female/Helmet_Helmet0_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Female/Helmet_Helmet0_Head_TankGirl</Sprite>
+			       <Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Female/Helmet_Helmet0_Head_DwarfFemale</Sprite>
+			      <Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet0/FaceId/FaceId_Male/Helmet_Helmet0_Head_DwarfMale</Sprite>
+		 </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="Helmet1">
+		<ArtId>Helmet1</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Male/Helmet_Helmet1_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Female/Helmet_Helmet1_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Aldana">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Male/Helmet_Helmet1_Head_Aldana</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Male/Helmet_Helmet1_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Female/Helmet_Helmet1_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Female/Helmet_Helmet1_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Male/Helmet_Helmet1_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Male/Helmet_Helmet1_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Male/Helmet_Helmet1_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Female/Helmet_Helmet1_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Male/Helmet_Helmet1_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Female/Helmet_Helmet1_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Male/Helmet_Helmet1_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Female/Helmet_Helmet1_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Female/Helmet_Helmet1_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Female/Helmet_Helmet1_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Female/Helmet_Helmet1_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Male/Helmet_Helmet1_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Male/Helmet_Helmet1_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Female/Helmet_Helmet1_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Male/Helmet_Helmet1_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Female/Helmet_Helmet1_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Male/Helmet_Helmet1_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Male/Helmet_Helmet1_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Female/Helmet_Helmet1_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Male/Helmet_Helmet1_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Female/Helmet_Helmet1_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Male/Helmet_Helmet1_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Female/Helmet_Helmet1_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Male/Helmet_Helmet1_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Female/Helmet_Helmet1_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Female/Helmet_Helmet1_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Female/Helmet_Helmet1_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Male/Helmet_Helmet1_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Male/Helmet_Helmet1_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Female/Helmet_Helmet1_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Male/Helmet_Helmet1_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Male/Helmet_Helmet1_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Female/Helmet_Helmet1_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Female/Helmet_Helmet1_Head_TankGirl</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Female/Helmet_Helmet1_Head_DwarfFemale</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet1/FaceId/FaceId_Male/Helmet_Helmet1_Head_DwarfMale</Sprite>
+		 </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="Helmet2">
+		<ArtId></ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Male/Helmet_Helmet2_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Female/Helmet_Helmet2_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Aldana">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Male/Helmet_Helmet2_Head_Aldana</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Male/Helmet_Helmet2_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Female/Helmet_Helmet2_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Female/Helmet_Helmet2_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Male/Helmet_Helmet2_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Male/Helmet_Helmet2_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Male/Helmet_Helmet2_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Female/Helmet_Helmet2_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Male/Helmet_Helmet2_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Female/Helmet_Helmet2_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Male/Helmet_Helmet2_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Female/Helmet_Helmet2_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Female/Helmet_Helmet2_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Female/Helmet_Helmet2_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Female/Helmet_Helmet2_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Male/Helmet_Helmet2_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Male/Helmet_Helmet2_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Female/Helmet_Helmet2_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Male/Helmet_Helmet2_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Female/Helmet_Helmet2_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Male/Helmet_Helmet2_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Male/Helmet_Helmet2_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Female/Helmet_Helmet2_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Male/Helmet_Helmet2_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Female/Helmet_Helmet2_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Male/Helmet_Helmet2_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Female/Helmet_Helmet2_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Male/Helmet_Helmet2_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Female/Helmet_Helmet2_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Female/Helmet_Helmet2_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Female/Helmet_Helmet2_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Male/Helmet_Helmet2_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Male/Helmet_Helmet2_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Female/Helmet_Helmet2_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Male/Helmet_Helmet2_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Male/Helmet_Helmet2_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Female/Helmet_Helmet2_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Female/Helmet_Helmet2_Head_TankGirl</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Female/Helmet_Helmet2_Head_DwarfFemale</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet2/FaceId/FaceId_Male/Helmet_Helmet2_Head_DwarfMale</Sprite>
+		 </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="Helmet3">
+		<ArtId>Helmet3</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Male/Helmet_Helmet3_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Female/Helmet_Helmet3_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Aldana">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Male/Helmet_Helmet3_Head_Aldana</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Male/Helmet_Helmet3_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Female/Helmet_Helmet3_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Female/Helmet_Helmet3_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Male/Helmet_Helmet3_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Male/Helmet_Helmet3_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Male/Helmet_Helmet3_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Female/Helmet_Helmet3_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Male/Helmet_Helmet3_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Female/Helmet_Helmet3_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Male/Helmet_Helmet3_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Female/Helmet_Helmet3_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Female/Helmet_Helmet3_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Female/Helmet_Helmet3_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Female/Helmet_Helmet3_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Male/Helmet_Helmet3_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Male/Helmet_Helmet3_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Female/Helmet_Helmet3_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Male/Helmet_Helmet3_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Female/Helmet_Helmet3_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Male/Helmet_Helmet3_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Male/Helmet_Helmet3_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Female/Helmet_Helmet3_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Male/Helmet_Helmet3_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Female/Helmet_Helmet3_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Male/Helmet_Helmet3_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Female/Helmet_Helmet3_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Male/Helmet_Helmet3_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Female/Helmet_Helmet3_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Female/Helmet_Helmet3_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Female/Helmet_Helmet3_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Male/Helmet_Helmet3_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Male/Helmet_Helmet3_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Female/Helmet_Helmet3_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Male/Helmet_Helmet3_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Male/Helmet_Helmet3_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Female/Helmet_Helmet3_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Female/Helmet_Helmet3_Head_TankGirl</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Female/Helmet_Helmet3_Head_DwarfFemale</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet3/FaceId/FaceId_Male/Helmet_Helmet3_Head_DwarfMale</Sprite>
+		 </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="Helmet4">
+		<ArtId>Helmet4</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Male/Helmet_Helmet4_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Female/Helmet_Helmet4_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Aldana">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Male/Helmet_Helmet4_Head_Aldana</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Male/Helmet_Helmet4_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Female/Helmet_Helmet4_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Female/Helmet_Helmet4_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Male/Helmet_Helmet4_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Male/Helmet_Helmet4_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Male/Helmet_Helmet4_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Female/Helmet_Helmet4_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Male/Helmet_Helmet4_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Female/Helmet_Helmet4_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Male/Helmet_Helmet4_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Female/Helmet_Helmet4_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Female/Helmet_Helmet4_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Female/Helmet_Helmet4_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Female/Helmet_Helmet4_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Male/Helmet_Helmet4_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Male/Helmet_Helmet4_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Female/Helmet_Helmet4_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Male/Helmet_Helmet4_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Female/Helmet_Helmet4_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Male/Helmet_Helmet4_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Male/Helmet_Helmet4_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Female/Helmet_Helmet4_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Male/Helmet_Helmet4_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Female/Helmet_Helmet4_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Male/Helmet_Helmet4_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Female/Helmet_Helmet4_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Male/Helmet_Helmet4_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Female/Helmet_Helmet4_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Female/Helmet_Helmet4_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Female/Helmet_Helmet4_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Male/Helmet_Helmet4_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Male/Helmet_Helmet4_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Female/Helmet_Helmet4_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Male/Helmet_Helmet4_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Male/Helmet_Helmet4_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Female/Helmet_Helmet4_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Female/Helmet_Helmet4_Head_TankGirl</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Female/Helmet_Helmet4_Head_DwarfFemale</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet4/FaceId/FaceId_Male/Helmet_Helmet4_Head_DwarfMale</Sprite>
+		 </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="Helmet5">
+		<ArtId>Helmet5</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Male/Helmet_Helmet5_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Female/Helmet_Helmet5_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Aldana">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Male/Helmet_Helmet5_Head_Aldana</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Male/Helmet_Helmet5_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Female/Helmet_Helmet5_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Female/Helmet_Helmet5_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Male/Helmet_Helmet5_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Male/Helmet_Helmet5_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Male/Helmet_Helmet5_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Female/Helmet_Helmet5_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Male/Helmet_Helmet5_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Female/Helmet_Helmet5_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Male/Helmet_Helmet5_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Female/Helmet_Helmet5_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Female/Helmet_Helmet5_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Female/Helmet_Helmet5_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Female/Helmet_Helmet5_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Male/Helmet_Helmet5_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Male/Helmet_Helmet5_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Female/Helmet_Helmet5_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Male/Helmet_Helmet5_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Female/Helmet_Helmet5_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Male/Helmet_Helmet5_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Male/Helmet_Helmet5_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Female/Helmet_Helmet5_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Male/Helmet_Helmet5_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Female/Helmet_Helmet5_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Male/Helmet_Helmet5_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Female/Helmet_Helmet5_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Male/Helmet_Helmet5_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Female/Helmet_Helmet5_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Female/Helmet_Helmet5_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Female/Helmet_Helmet5_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Male/Helmet_Helmet5_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Male/Helmet_Helmet5_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Female/Helmet_Helmet5_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Male/Helmet_Helmet5_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Male/Helmet_Helmet5_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Female/Helmet_Helmet5_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Female/Helmet_Helmet5_Head_TankGirl</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Female/Helmet_Helmet5_Head_DwarfFemale</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/Helmet5/FaceId/FaceId_Male/Helmet_Helmet5_Head_DwarfMale</Sprite>
+		 </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="MagicianHelmet">
+		<ArtId>MagicianHelmet</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Male/Helmet_MagicianHelmet_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Female/Helmet_MagicianHelmet_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Aldana">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Male/Helmet_MagicianHelmet_Head_Aldana</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Male/Helmet_MagicianHelmet_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Female/Helmet_MagicianHelmet_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Female/Helmet_MagicianHelmet_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Male/Helmet_MagicianHelmet_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Male/Helmet_MagicianHelmet_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Male/Helmet_MagicianHelmet_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Female/Helmet_MagicianHelmet_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Male/Helmet_MagicianHelmet_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Female/Helmet_MagicianHelmet_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Male/Helmet_MagicianHelmet_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Female/Helmet_MagicianHelmet_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Female/Helmet_MagicianHelmet_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Female/Helmet_MagicianHelmet_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Female/Helmet_MagicianHelmet_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Male/Helmet_MagicianHelmet_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Male/Helmet_MagicianHelmet_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Female/Helmet_MagicianHelmet_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Male/Helmet_MagicianHelmet_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Female/Helmet_MagicianHelmet_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Male/Helmet_MagicianHelmet_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Male/Helmet_MagicianHelmet_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Female/Helmet_MagicianHelmet_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Male/Helmet_MagicianHelmet_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Female/Helmet_MagicianHelmet_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Male/Helmet_MagicianHelmet_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Female/Helmet_MagicianHelmet_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Male/Helmet_MagicianHelmet_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Female/Helmet_MagicianHelmet_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Female/Helmet_MagicianHelmet_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Female/Helmet_MagicianHelmet_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Male/Helmet_MagicianHelmet_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Male/Helmet_MagicianHelmet_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Female/Helmet_MagicianHelmet_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Male/Helmet_MagicianHelmet_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Male/Helmet_MagicianHelmet_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Female/Helmet_MagicianHelmet_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Female/Helmet_MagicianHelmet_Head_TankGirl</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Female/Helmet_MagicianHelmet_Head_DwarfFemale</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/MagicianHelmet/FaceId/FaceId_Male/Helmet_MagicianHelmet_Head_DwarfMale</Sprite>
+		 </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="FallenLordHelmet">
+		<ArtId>FallenLordHelmet</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Male/Helmet_FallenLordHelmet_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Female/Helmet_FallenLordHelmet_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Aldana">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Male/Helmet_FallenLordHelmet_Head_Aldana</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Male/Helmet_FallenLordHelmet_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Female/Helmet_FallenLordHelmet_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Female/Helmet_FallenLordHelmet_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Male/Helmet_FallenLordHelmet_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Male/Helmet_FallenLordHelmet_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Male/Helmet_FallenLordHelmet_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Female/Helmet_FallenLordHelmet_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Male/Helmet_FallenLordHelmet_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Female/Helmet_FallenLordHelmet_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Male/Helmet_FallenLordHelmet_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Female/Helmet_FallenLordHelmet_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Female/Helmet_FallenLordHelmet_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Female/Helmet_FallenLordHelmet_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Female/Helmet_FallenLordHelmet_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Male/Helmet_FallenLordHelmet_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Male/Helmet_FallenLordHelmet_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Female/Helmet_FallenLordHelmet_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Male/Helmet_FallenLordHelmet_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Female/Helmet_FallenLordHelmet_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Male/Helmet_FallenLordHelmet_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Male/Helmet_FallenLordHelmet_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Female/Helmet_FallenLordHelmet_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Male/Helmet_FallenLordHelmet_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Female/Helmet_FallenLordHelmet_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Male/Helmet_FallenLordHelmet_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Female/Helmet_FallenLordHelmet_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Male/Helmet_FallenLordHelmet_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Female/Helmet_FallenLordHelmet_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Female/Helmet_FallenLordHelmet_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Female/Helmet_FallenLordHelmet_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Male/Helmet_FallenLordHelmet_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Male/Helmet_FallenLordHelmet_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Female/Helmet_FallenLordHelmet_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Male/Helmet_FallenLordHelmet_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Male/Helmet_FallenLordHelmet_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Female/Helmet_FallenLordHelmet_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Female/Helmet_FallenLordHelmet_Head_TankGirl</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Female/Helmet_FallenLordHelmet_Head_DwarfFemale</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FallenLordHelmet/FaceId/FaceId_Male/Helmet_FallenLordHelmet_Head_DwarfMale</Sprite>
+		 </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="PriestHelmet">
+		<ArtId>PriestHelmet</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Male/Helmet_PriestHelmet_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Female/Helmet_PriestHelmet_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Aldana">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Male/Helmet_PriestHelmet_Head_Aldana</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Male/Helmet_PriestHelmet_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Female/Helmet_PriestHelmet_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Female/Helmet_PriestHelmet_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Male/Helmet_PriestHelmet_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Male/Helmet_PriestHelmet_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Male/Helmet_PriestHelmet_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Female/Helmet_PriestHelmet_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Male/Helmet_PriestHelmet_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Female/Helmet_PriestHelmet_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Male/Helmet_PriestHelmet_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Female/Helmet_PriestHelmet_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Female/Helmet_PriestHelmet_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Female/Helmet_PriestHelmet_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Female/Helmet_PriestHelmet_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Male/Helmet_PriestHelmet_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Male/Helmet_PriestHelmet_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Female/Helmet_PriestHelmet_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Male/Helmet_PriestHelmet_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Female/Helmet_PriestHelmet_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Male/Helmet_PriestHelmet_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Male/Helmet_PriestHelmet_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Female/Helmet_PriestHelmet_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Male/Helmet_PriestHelmet_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Female/Helmet_PriestHelmet_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Male/Helmet_PriestHelmet_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Female/Helmet_PriestHelmet_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Male/Helmet_PriestHelmet_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Female/Helmet_PriestHelmet_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Female/Helmet_PriestHelmet_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Female/Helmet_PriestHelmet_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Male/Helmet_PriestHelmet_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Male/Helmet_PriestHelmet_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Female/Helmet_PriestHelmet_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Male/Helmet_PriestHelmet_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Male/Helmet_PriestHelmet_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Female/Helmet_PriestHelmet_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Female/Helmet_PriestHelmet_Head_TankGirl</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Female/Helmet_PriestHelmet_Head_DwarfFemale</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PriestHelmet/FaceId/FaceId_Male/Helmet_PriestHelmet_Head_DwarfMale</Sprite>
+		 </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="Eyepatch">
+		<ArtId>Eyepatch</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Male/Helmet_EyePatch_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Female/Helmet_EyePatch_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Aldana">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Male/Helmet_EyePatch_Head_Aldana</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Male/Helmet_EyePatch_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Female/Helmet_EyePatch_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Female/Helmet_EyePatch_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Male/Helmet_EyePatch_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Male/Helmet_EyePatch_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Male/Helmet_EyePatch_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Female/Helmet_EyePatch_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Male/Helmet_EyePatch_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Female/Helmet_EyePatch_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Male/Helmet_EyePatch_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Female/Helmet_EyePatch_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Female/Helmet_EyePatch_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Female/Helmet_EyePatch_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Female/Helmet_EyePatch_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Male/Helmet_EyePatch_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Male/Helmet_EyePatch_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Female/Helmet_EyePatch_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Male/Helmet_EyePatch_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Female/Helmet_EyePatch_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Male/Helmet_EyePatch_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Male/Helmet_EyePatch_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Female/Helmet_EyePatch_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Male/Helmet_EyePatch_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Female/Helmet_EyePatch_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Male/Helmet_EyePatch_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Female/Helmet_EyePatch_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Male/Helmet_EyePatch_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Female/Helmet_EyePatch_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Female/Helmet_EyePatch_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Female/Helmet_EyePatch_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Male/Helmet_EyePatch_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Male/Helmet_EyePatch_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Female/Helmet_EyePatch_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Male/Helmet_EyePatch_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Male/Helmet_EyePatch_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Female/Helmet_EyePatch_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Female/Helmet_EyePatch_Head_TankGirl</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Female/Helmet_EyePatch_Head_DwarfFemale</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/EyePatch/FaceId/FaceId_Male/Helmet_EyePatch_Head_DwarfMale</Sprite>
+		 </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="PreciousScarfHelmet">
+		<ArtId>PreciousScarfHelmet</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Male/Helmet_PreciousScarfHelmet_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Female/Helmet_PreciousScarfHelmet_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Aldana">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Male/Helmet_PreciousScarfHelmet_Head_Aldana</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Male/Helmet_PreciousScarfHelmet_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Female/Helmet_PreciousScarfHelmet_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Female/Helmet_PreciousScarfHelmet_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Male/Helmet_PreciousScarfHelmet_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Male/Helmet_PreciousScarfHelmet_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Male/Helmet_PreciousScarfHelmet_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Female/Helmet_PreciousScarfHelmet_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Male/Helmet_PreciousScarfHelmet_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Female/Helmet_PreciousScarfHelmet_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Male/Helmet_PreciousScarfHelmet_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Female/Helmet_PreciousScarfHelmet_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Female/Helmet_PreciousScarfHelmet_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Female/Helmet_PreciousScarfHelmet_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Female/Helmet_PreciousScarfHelmet_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Male/Helmet_PreciousScarfHelmet_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Male/Helmet_PreciousScarfHelmet_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Female/Helmet_PreciousScarfHelmet_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Male/Helmet_PreciousScarfHelmet_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Female/Helmet_PreciousScarfHelmet_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Male/Helmet_PreciousScarfHelmet_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Male/Helmet_PreciousScarfHelmet_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Female/Helmet_PreciousScarfHelmet_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Male/Helmet_PreciousScarfHelmet_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Female/Helmet_PreciousScarfHelmet_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Male/Helmet_PreciousScarfHelmet_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Female/Helmet_PreciousScarfHelmet_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Male/Helmet_PreciousScarfHelmet_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Female/Helmet_PreciousScarfHelmet_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Female/Helmet_PreciousScarfHelmet_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Female/Helmet_PreciousScarfHelmet_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Male/Helmet_PreciousScarfHelmet_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Male/Helmet_PreciousScarfHelmet_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Female/Helmet_PreciousScarfHelmet_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Male/Helmet_PreciousScarfHelmet_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Male/Helmet_PreciousScarfHelmet_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Female/Helmet_PreciousScarfHelmet_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Female/Helmet_PreciousScarfHelmet_Head_TankGirl</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Female/Helmet_PreciousScarfHelmet_Head_DwarfFemale</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PreciousScarfHelmet/FaceId/FaceId_Male/Helmet_PreciousScarfHelmet_Head_DwarfMale</Sprite>
+		 </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="ThiefHelmet">
+		<ArtId>ThiefHelmet</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Male/Helmet_ThiefHelmet_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Female/Helmet_ThiefHelmet_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Aldana">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Male/Helmet_ThiefHelmet_Head_Aldana</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Male/Helmet_ThiefHelmet_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Female/Helmet_ThiefHelmet_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Female/Helmet_ThiefHelmet_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Male/Helmet_ThiefHelmet_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Male/Helmet_ThiefHelmet_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Male/Helmet_ThiefHelmet_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Female/Helmet_ThiefHelmet_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Male/Helmet_ThiefHelmet_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Female/Helmet_ThiefHelmet_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Male/Helmet_ThiefHelmet_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Female/Helmet_ThiefHelmet_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Female/Helmet_ThiefHelmet_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Female/Helmet_ThiefHelmet_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Female/Helmet_ThiefHelmet_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Male/Helmet_ThiefHelmet_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Male/Helmet_ThiefHelmet_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Female/Helmet_ThiefHelmet_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Male/Helmet_ThiefHelmet_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Female/Helmet_ThiefHelmet_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Male/Helmet_ThiefHelmet_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Male/Helmet_ThiefHelmet_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Female/Helmet_ThiefHelmet_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Male/Helmet_ThiefHelmet_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Female/Helmet_ThiefHelmet_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Male/Helmet_ThiefHelmet_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Female/Helmet_ThiefHelmet_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Male/Helmet_ThiefHelmet_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Female/Helmet_ThiefHelmet_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Female/Helmet_ThiefHelmet_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Female/Helmet_ThiefHelmet_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Male/Helmet_ThiefHelmet_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Male/Helmet_ThiefHelmet_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Female/Helmet_ThiefHelmet_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Male/Helmet_ThiefHelmet_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Male/Helmet_ThiefHelmet_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Female/Helmet_ThiefHelmet_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Female/Helmet_ThiefHelmet_Head_TankGirl</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Female/Helmet_ThiefHelmet_Head_DwarfFemale</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ThiefHelmet/FaceId/FaceId_Male/Helmet_ThiefHelmet_Head_DwarfMale</Sprite>
+		 </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="TheShamanHelmet">
+		<ArtId>TheShamanHelmet</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Male/Helmet_TheShamanHelmet_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Female/Helmet_TheShamanHelmet_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Aldana">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Male/Helmet_TheShamanHelmet_Head_Aldana</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Male/Helmet_TheShamanHelmet_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Female/Helmet_TheShamanHelmet_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Female/Helmet_TheShamanHelmet_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Male/Helmet_TheShamanHelmet_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Male/Helmet_TheShamanHelmet_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Male/Helmet_TheShamanHelmet_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Female/Helmet_TheShamanHelmet_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Male/Helmet_TheShamanHelmet_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Female/Helmet_TheShamanHelmet_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Male/Helmet_TheShamanHelmet_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Female/Helmet_TheShamanHelmet_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Female/Helmet_TheShamanHelmet_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Female/Helmet_TheShamanHelmet_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Female/Helmet_TheShamanHelmet_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Male/Helmet_TheShamanHelmet_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Male/Helmet_TheShamanHelmet_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Female/Helmet_TheShamanHelmet_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Male/Helmet_TheShamanHelmet_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Female/Helmet_TheShamanHelmet_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Male/Helmet_TheShamanHelmet_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Male/Helmet_TheShamanHelmet_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Female/Helmet_TheShamanHelmet_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Male/Helmet_TheShamanHelmet_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Female/Helmet_TheShamanHelmet_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Male/Helmet_TheShamanHelmet_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Female/Helmet_TheShamanHelmet_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Male/Helmet_TheShamanHelmet_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Female/Helmet_TheShamanHelmet_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Female/Helmet_TheShamanHelmet_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Female/Helmet_TheShamanHelmet_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Male/Helmet_TheShamanHelmet_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Male/Helmet_TheShamanHelmet_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Female/Helmet_TheShamanHelmet_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Male/Helmet_TheShamanHelmet_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Male/Helmet_TheShamanHelmet_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Female/Helmet_TheShamanHelmet_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Female/Helmet_TheShamanHelmet_Head_TankGirl</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Female/Helmet_TheShamanHelmet_Head_DwarfFemale</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheShamanHelmet/FaceId/FaceId_Male/Helmet_TheShamanHelmet_Head_DwarfMale</Sprite>
+		 </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="ChildOfTheForestHelmet">
+		<ArtId>ChildOfTheForestHelmet</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Male/Helmet_ChildOfTheForestHelmet_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Female/Helmet_ChildOfTheForestHelmet_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Aldana">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Male/Helmet_ChildOfTheForestHelmet_Head_Aldana</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Male/Helmet_ChildOfTheForestHelmet_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Female/Helmet_ChildOfTheForestHelmet_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Female/Helmet_ChildOfTheForestHelmet_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Male/Helmet_ChildOfTheForestHelmet_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Male/Helmet_ChildOfTheForestHelmet_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Male/Helmet_ChildOfTheForestHelmet_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Female/Helmet_ChildOfTheForestHelmet_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Male/Helmet_ChildOfTheForestHelmet_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Female/Helmet_ChildOfTheForestHelmet_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Male/Helmet_ChildOfTheForestHelmet_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Female/Helmet_ChildOfTheForestHelmet_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Female/Helmet_ChildOfTheForestHelmet_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Female/Helmet_ChildOfTheForestHelmet_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Female/Helmet_ChildOfTheForestHelmet_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Male/Helmet_ChildOfTheForestHelmet_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Male/Helmet_ChildOfTheForestHelmet_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Female/Helmet_ChildOfTheForestHelmet_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Male/Helmet_ChildOfTheForestHelmet_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Female/Helmet_ChildOfTheForestHelmet_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Male/Helmet_ChildOfTheForestHelmet_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Male/Helmet_ChildOfTheForestHelmet_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Female/Helmet_ChildOfTheForestHelmet_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Male/Helmet_ChildOfTheForestHelmet_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Female/Helmet_ChildOfTheForestHelmet_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Male/Helmet_ChildOfTheForestHelmet_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Female/Helmet_ChildOfTheForestHelmet_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Male/Helmet_ChildOfTheForestHelmet_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Female/Helmet_ChildOfTheForestHelmet_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Female/Helmet_ChildOfTheForestHelmet_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Female/Helmet_ChildOfTheForestHelmet_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Male/Helmet_ChildOfTheForestHelmet_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Male/Helmet_ChildOfTheForestHelmet_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Female/Helmet_ChildOfTheForestHelmet_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Male/Helmet_ChildOfTheForestHelmet_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Male/Helmet_ChildOfTheForestHelmet_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Female/Helmet_ChildOfTheForestHelmet_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Female/Helmet_ChildOfTheForestHelmet_Head_TankGirl</Sprite>
+            <Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Female/Helmet_ChildOfTheForestHelmet_Head_DwarfFemale</Sprite>
+            <Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/ChildOfTheForestHelmet/FaceId/FaceId_Male/Helmet_ChildOfTheForestHelmet_Head_DwarfMale</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="LoneWolfHelmet">
+		<ArtId>LoneWolfHelmet</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Male/Helmet_LoneWolfHelmet_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Female/Helmet_LoneWolfHelmet_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Aldana">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Male/Helmet_LoneWolfHelmet_Head_Aldana</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Male/Helmet_LoneWolfHelmet_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Female/Helmet_LoneWolfHelmet_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Female/Helmet_LoneWolfHelmet_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Male/Helmet_LoneWolfHelmet_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Male/Helmet_LoneWolfHelmet_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Male/Helmet_LoneWolfHelmet_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Female/Helmet_LoneWolfHelmet_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Male/Helmet_LoneWolfHelmet_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Female/Helmet_LoneWolfHelmet_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Male/Helmet_LoneWolfHelmet_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Female/Helmet_LoneWolfHelmet_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Female/Helmet_LoneWolfHelmet_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Female/Helmet_LoneWolfHelmet_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Female/Helmet_LoneWolfHelmet_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Male/Helmet_LoneWolfHelmet_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Male/Helmet_LoneWolfHelmet_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Female/Helmet_LoneWolfHelmet_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Male/Helmet_LoneWolfHelmet_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Female/Helmet_LoneWolfHelmet_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Male/Helmet_LoneWolfHelmet_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Male/Helmet_LoneWolfHelmet_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Female/Helmet_LoneWolfHelmet_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Male/Helmet_LoneWolfHelmet_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Female/Helmet_LoneWolfHelmet_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Male/Helmet_LoneWolfHelmet_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Female/Helmet_LoneWolfHelmet_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Male/Helmet_LoneWolfHelmet_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Female/Helmet_LoneWolfHelmet_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Female/Helmet_LoneWolfHelmet_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Female/Helmet_LoneWolfHelmet_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Male/Helmet_LoneWolfHelmet_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Male/Helmet_LoneWolfHelmet_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Female/Helmet_LoneWolfHelmet_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Male/Helmet_LoneWolfHelmet_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Male/Helmet_LoneWolfHelmet_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Female/Helmet_LoneWolfHelmet_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Female/Helmet_LoneWolfHelmet_Head_TankGirl</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Female/Helmet_LoneWolfHelmet_Head_DwarfFemale</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/LoneWolfHelmet/FaceId/FaceId_Male/Helmet_LoneWolfHelmet_Head_DwarfMale</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="PorkEpicHelmet">
+		<ArtId>PorkEpicHelmet</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Male/Helmet_PorkEpicHelmet_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Female/Helmet_PorkEpicHelmet_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Aldana">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Male/Helmet_PorkEpicHelmet_Head_Aldana</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Male/Helmet_PorkEpicHelmet_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Female/Helmet_PorkEpicHelmet_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Female/Helmet_PorkEpicHelmet_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Male/Helmet_PorkEpicHelmet_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Male/Helmet_PorkEpicHelmet_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Male/Helmet_PorkEpicHelmet_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Female/Helmet_PorkEpicHelmet_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Male/Helmet_PorkEpicHelmet_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Female/Helmet_PorkEpicHelmet_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Male/Helmet_PorkEpicHelmet_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Female/Helmet_PorkEpicHelmet_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Female/Helmet_PorkEpicHelmet_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Female/Helmet_PorkEpicHelmet_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Female/Helmet_PorkEpicHelmet_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Male/Helmet_PorkEpicHelmet_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Male/Helmet_PorkEpicHelmet_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Female/Helmet_PorkEpicHelmet_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Male/Helmet_PorkEpicHelmet_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Female/Helmet_PorkEpicHelmet_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Male/Helmet_PorkEpicHelmet_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Male/Helmet_PorkEpicHelmet_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Female/Helmet_PorkEpicHelmet_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Male/Helmet_PorkEpicHelmet_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Female/Helmet_PorkEpicHelmet_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Male/Helmet_PorkEpicHelmet_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Female/Helmet_PorkEpicHelmet_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Male/Helmet_PorkEpicHelmet_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Female/Helmet_PorkEpicHelmet_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Female/Helmet_PorkEpicHelmet_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Female/Helmet_PorkEpicHelmet_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Male/Helmet_PorkEpicHelmet_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Male/Helmet_PorkEpicHelmet_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Female/Helmet_PorkEpicHelmet_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Male/Helmet_PorkEpicHelmet_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Male/Helmet_PorkEpicHelmet_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Female/Helmet_PorkEpicHelmet_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Female/Helmet_PorkEpicHelmet_Head_TankGirl</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Female/Helmet_PorkEpicHelmet_Head_DwarfFemale</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/PorkEpicHelmet/FaceId/FaceId_Male/Helmet_PorkEpicHelmet_Head_DwarfMale</Sprite>
+		 </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="DarknessHelmet">
+		<ArtId>DarknessHelmet</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Male/Helmet_DarknessHelmet_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Female/Helmet_DarknessHelmet_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Aldana">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Male/Helmet_DarknessHelmet_Head_Aldana</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Male/Helmet_DarknessHelmet_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Female/Helmet_DarknessHelmet_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Female/Helmet_DarknessHelmet_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Male/Helmet_DarknessHelmet_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Male/Helmet_DarknessHelmet_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Male/Helmet_DarknessHelmet_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Female/Helmet_DarknessHelmet_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Male/Helmet_DarknessHelmet_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Female/Helmet_DarknessHelmet_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Male/Helmet_DarknessHelmet_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Female/Helmet_DarknessHelmet_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Female/Helmet_DarknessHelmet_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Female/Helmet_DarknessHelmet_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Female/Helmet_DarknessHelmet_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Male/Helmet_DarknessHelmet_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Male/Helmet_DarknessHelmet_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Female/Helmet_DarknessHelmet_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Male/Helmet_DarknessHelmet_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Female/Helmet_DarknessHelmet_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Male/Helmet_DarknessHelmet_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Male/Helmet_DarknessHelmet_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Female/Helmet_DarknessHelmet_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Male/Helmet_DarknessHelmet_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Female/Helmet_DarknessHelmet_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Male/Helmet_DarknessHelmet_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Female/Helmet_DarknessHelmet_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Male/Helmet_DarknessHelmet_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Female/Helmet_DarknessHelmet_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Female/Helmet_DarknessHelmet_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Female/Helmet_DarknessHelmet_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Male/Helmet_DarknessHelmet_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Male/Helmet_DarknessHelmet_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Female/Helmet_DarknessHelmet_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Male/Helmet_DarknessHelmet_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Male/Helmet_DarknessHelmet_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Female/Helmet_DarknessHelmet_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Female/Helmet_DarknessHelmet_Head_TankGirl</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Female/Helmet_DarknessHelmet_Head_DwarfFemale</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/DarknessHelmet/FaceId/FaceId_Male/Helmet_DarknessHelmet_Head_DwarfMale</Sprite>
+		 </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="TheMountainHelmet">
+		<ArtId>TheMountainHelmet</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Male/Helmet_TheMountainHelmet_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Female/Helmet_TheMountainHelmet_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Aldana">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Male/Helmet_TheMountainHelmet_Head_Aldana</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Male/Helmet_TheMountainHelmet_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Female/Helmet_TheMountainHelmet_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Female/Helmet_TheMountainHelmet_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Male/Helmet_TheMountainHelmet_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Male/Helmet_TheMountainHelmet_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Male/Helmet_TheMountainHelmet_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Female/Helmet_TheMountainHelmet_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Male/Helmet_TheMountainHelmet_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Female/Helmet_TheMountainHelmet_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Male/Helmet_TheMountainHelmet_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Female/Helmet_TheMountainHelmet_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Female/Helmet_TheMountainHelmet_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Female/Helmet_TheMountainHelmet_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Female/Helmet_TheMountainHelmet_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Male/Helmet_TheMountainHelmet_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Male/Helmet_TheMountainHelmet_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Female/Helmet_TheMountainHelmet_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Male/Helmet_TheMountainHelmet_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Female/Helmet_TheMountainHelmet_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Male/Helmet_TheMountainHelmet_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Male/Helmet_TheMountainHelmet_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Female/Helmet_TheMountainHelmet_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Male/Helmet_TheMountainHelmet_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Female/Helmet_TheMountainHelmet_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Male/Helmet_TheMountainHelmet_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Female/Helmet_TheMountainHelmet_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Male/Helmet_TheMountainHelmet_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Female/Helmet_TheMountainHelmet_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Female/Helmet_TheMountainHelmet_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Female/Helmet_TheMountainHelmet_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Male/Helmet_TheMountainHelmet_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Male/Helmet_TheMountainHelmet_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Female/Helmet_TheMountainHelmet_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Male/Helmet_TheMountainHelmet_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Male/Helmet_TheMountainHelmet_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Female/Helmet_TheMountainHelmet_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Female/Helmet_TheMountainHelmet_Head_TankGirl</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Female/Helmet_TheMountainHelmet_Head_DwarfFemale</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/TheMountainHelmet/FaceId/FaceId_Male/Helmet_TheMountainHelmet_Head_DwarfMale</Sprite>
+		 </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="WingedHelmet">
+		<ArtId>WingedHelmet</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Male/Helmet_WingedHelmet_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Female/Helmet_WingedHelmet_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Aldana">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Male/Helmet_WingedHelmet_Head_Aldana</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Male/Helmet_WingedHelmet_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Female/Helmet_WingedHelmet_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Female/Helmet_WingedHelmet_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Male/Helmet_WingedHelmet_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Male/Helmet_WingedHelmet_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Male/Helmet_WingedHelmet_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Female/Helmet_WingedHelmet_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Male/Helmet_WingedHelmet_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Female/Helmet_WingedHelmet_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Male/Helmet_WingedHelmet_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Female/Helmet_WingedHelmet_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Female/Helmet_WingedHelmet_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Female/Helmet_WingedHelmet_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Female/Helmet_WingedHelmet_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Male/Helmet_WingedHelmet_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Male/Helmet_WingedHelmet_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Female/Helmet_WingedHelmet_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Male/Helmet_WingedHelmet_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Female/Helmet_WingedHelmet_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Male/Helmet_WingedHelmet_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Male/Helmet_WingedHelmet_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Female/Helmet_WingedHelmet_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Male/Helmet_WingedHelmet_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Female/Helmet_WingedHelmet_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Male/Helmet_WingedHelmet_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Female/Helmet_WingedHelmet_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Male/Helmet_WingedHelmet_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Female/Helmet_WingedHelmet_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Female/Helmet_WingedHelmet_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Female/Helmet_WingedHelmet_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Male/Helmet_WingedHelmet_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Male/Helmet_WingedHelmet_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Female/Helmet_WingedHelmet_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Male/Helmet_WingedHelmet_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Male/Helmet_WingedHelmet_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Female/Helmet_WingedHelmet_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Female/Helmet_WingedHelmet_Head_TankGirl</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Female/Helmet_WingedHelmet_Head_DwarfFemale</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WingedHelmet/FaceId/FaceId_Male/Helmet_WingedHelmet_Head_DwarfMale</Sprite>
+		 </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+  
+
+   <ItemArtDefinition Id="NecromancerHelmet">
+      <BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Male/Helmet_NecromancerHelmet_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Female/Helmet_NecromancerHelmet_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Male/Helmet_NecromancerHelmet_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Female/Helmet_NecromancerHelmet_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Female/Helmet_NecromancerHelmet_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Male/Helmet_NecromancerHelmet_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Male/Helmet_NecromancerHelmet_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Male/Helmet_NecromancerHelmet_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Female/Helmet_NecromancerHelmet_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Male/Helmet_NecromancerHelmet_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Female/Helmet_NecromancerHelmet_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Male/Helmet_NecromancerHelmet_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Female/Helmet_NecromancerHelmet_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Female/Helmet_NecromancerHelmet_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Female/Helmet_NecromancerHelmet_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Female/Helmet_NecromancerHelmet_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Male/Helmet_NecromancerHelmet_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Male/Helmet_NecromancerHelmet_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Female/Helmet_NecromancerHelmet_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Male/Helmet_NecromancerHelmet_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Female/Helmet_NecromancerHelmet_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Male/Helmet_NecromancerHelmet_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Male/Helmet_NecromancerHelmet_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Female/Helmet_NecromancerHelmet_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Male/Helmet_NecromancerHelmet_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Female/Helmet_NecromancerHelmet_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Male/Helmet_NecromancerHelmet_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Female/Helmet_NecromancerHelmet_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Male/Helmet_NecromancerHelmet_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Female/Helmet_NecromancerHelmet_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Female/Helmet_NecromancerHelmet_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Female/Helmet_NecromancerHelmet_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Male/Helmet_NecromancerHelmet_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Male/Helmet_NecromancerHelmet_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Female/Helmet_NecromancerHelmet_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Male/Helmet_NecromancerHelmet_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Male/Helmet_NecromancerHelmet_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Female/Helmet_NecromancerHelmet_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/FaceId/FaceId_Female/Helmet_NecromancerHelmet_Head_TankGirl</Sprite>
+			<Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/NecromancerHelmet/Generic/Head_NecromancerHelmet_Generic</Sprite>
+		 </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+   <ItemArtDefinition Id="CrowHelmet">
+      <BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Male/Helmet_CrowHelmet_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Female/Helmet_CrowHelmet_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Male/Helmet_CrowHelmet_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Female/Helmet_CrowHelmet_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Female/Helmet_CrowHelmet_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Male/Helmet_CrowHelmet_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Male/Helmet_CrowHelmet_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Male/Helmet_CrowHelmet_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Female/Helmet_CrowHelmet_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Male/Helmet_CrowHelmet_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Female/Helmet_CrowHelmet_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Male/Helmet_CrowHelmet_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Female/Helmet_CrowHelmet_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Female/Helmet_CrowHelmet_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Female/Helmet_CrowHelmet_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Female/Helmet_CrowHelmet_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Male/Helmet_CrowHelmet_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Male/Helmet_CrowHelmet_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Female/Helmet_CrowHelmet_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Male/Helmet_CrowHelmet_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Female/Helmet_CrowHelmet_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Male/Helmet_CrowHelmet_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Male/Helmet_CrowHelmet_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Female/Helmet_CrowHelmet_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Male/Helmet_CrowHelmet_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Female/Helmet_CrowHelmet_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Male/Helmet_CrowHelmet_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Female/Helmet_CrowHelmet_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Male/Helmet_CrowHelmet_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Female/Helmet_CrowHelmet_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Female/Helmet_CrowHelmet_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Female/Helmet_CrowHelmet_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Male/Helmet_CrowHelmet_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Male/Helmet_CrowHelmet_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Female/Helmet_CrowHelmet_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Male/Helmet_CrowHelmet_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Male/Helmet_CrowHelmet_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Female/Helmet_CrowHelmet_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Female/Helmet_CrowHelmet_Head_TankGirl</Sprite>
+		    <Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Female/Helmet_CrowHelmet_Head_DwarfFemale</Sprite>
+            <Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/CrowHelmet/FaceId/FaceId_Male/Helmet_CrowHelmet_Head_DwarfMale</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+   <ItemArtDefinition Id="WhiteMonkHelmet">
+      <BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Male/Helmet_WhiteMonkHelmet_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Female/Helmet_WhiteMonkHelmet_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Male/Helmet_WhiteMonkHelmet_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Female/Helmet_WhiteMonkHelmet_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Female/Helmet_WhiteMonkHelmet_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Male/Helmet_WhiteMonkHelmet_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Male/Helmet_WhiteMonkHelmet_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Male/Helmet_WhiteMonkHelmet_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Female/Helmet_WhiteMonkHelmet_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Male/Helmet_WhiteMonkHelmet_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Female/Helmet_WhiteMonkHelmet_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Male/Helmet_WhiteMonkHelmet_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Female/Helmet_WhiteMonkHelmet_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Female/Helmet_WhiteMonkHelmet_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Female/Helmet_WhiteMonkHelmet_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Female/Helmet_WhiteMonkHelmet_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Male/Helmet_WhiteMonkHelmet_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Male/Helmet_WhiteMonkHelmet_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Female/Helmet_WhiteMonkHelmet_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Male/Helmet_WhiteMonkHelmet_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Female/Helmet_WhiteMonkHelmet_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Male/Helmet_WhiteMonkHelmet_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Male/Helmet_WhiteMonkHelmet_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Female/Helmet_WhiteMonkHelmet_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Male/Helmet_WhiteMonkHelmet_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Female/Helmet_WhiteMonkHelmet_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Male/Helmet_WhiteMonkHelmet_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Female/Helmet_WhiteMonkHelmet_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Male/Helmet_WhiteMonkHelmet_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Female/Helmet_WhiteMonkHelmet_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Female/Helmet_WhiteMonkHelmet_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Female/Helmet_WhiteMonkHelmet_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Male/Helmet_WhiteMonkHelmet_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Male/Helmet_WhiteMonkHelmet_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Female/Helmet_WhiteMonkHelmet_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Male/Helmet_WhiteMonkHelmet_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Male/Helmet_WhiteMonkHelmet_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Female/Helmet_WhiteMonkHelmet_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Female/Helmet_WhiteMonkHelmet_Head_TankGirl</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Female/Helmet_WhiteMonkHelmet_Head_DwarfFemale</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/WhiteMonkHelmet/FaceId/FaceId_Male/Helmet_WhiteMonkHelmet_Head_DwarfMale</Sprite>
+		 </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>     <ItemArtDefinition Id="HoodHelmet">
+      <BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Male/Helmet_HoodHelmet_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Female/Helmet_HoodHelmet_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Male/Helmet_HoodHelmet_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Female/Helmet_HoodHelmet_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Female/Helmet_HoodHelmet_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Male/Helmet_HoodHelmet_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Male/Helmet_HoodHelmet_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Male/Helmet_HoodHelmet_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Female/Helmet_HoodHelmet_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Male/Helmet_HoodHelmet_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Female/Helmet_HoodHelmet_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Male/Helmet_HoodHelmet_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Female/Helmet_HoodHelmet_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Female/Helmet_HoodHelmet_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Female/Helmet_HoodHelmet_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Female/Helmet_HoodHelmet_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Male/Helmet_HoodHelmet_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Male/Helmet_HoodHelmet_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Female/Helmet_HoodHelmet_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Male/Helmet_HoodHelmet_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Female/Helmet_HoodHelmet_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Male/Helmet_HoodHelmet_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Male/Helmet_HoodHelmet_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Female/Helmet_HoodHelmet_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Male/Helmet_HoodHelmet_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Female/Helmet_HoodHelmet_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Male/Helmet_HoodHelmet_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Female/Helmet_HoodHelmet_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Male/Helmet_HoodHelmet_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Female/Helmet_HoodHelmet_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Female/Helmet_HoodHelmet_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Female/Helmet_HoodHelmet_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Male/Helmet_HoodHelmet_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Male/Helmet_HoodHelmet_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Female/Helmet_HoodHelmet_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Male/Helmet_HoodHelmet_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Male/Helmet_HoodHelmet_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Female/Helmet_HoodHelmet_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Female/Helmet_HoodHelmet_Head_TankGirl</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Female/Helmet_HoodHelmet_Head_DwarfFemale</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HoodHelmet/FaceId/FaceId_Male/Helmet_HoodHelmet_Head_DwarfMale</Sprite>
+		 </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+     <ItemArtDefinition Id="HunterHelmet">
+      <BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Male/Helmet_HunterHelmet_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Female/Helmet_HunterHelmet_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Male/Helmet_HunterHelmet_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Female/Helmet_HunterHelmet_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Female/Helmet_HunterHelmet_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Male/Helmet_HunterHelmet_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Male/Helmet_HunterHelmet_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Male/Helmet_HunterHelmet_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Female/Helmet_HunterHelmet_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Male/Helmet_HunterHelmet_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Female/Helmet_HunterHelmet_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Male/Helmet_HunterHelmet_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Female/Helmet_HunterHelmet_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Female/Helmet_HunterHelmet_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Female/Helmet_HunterHelmet_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Female/Helmet_HunterHelmet_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Male/Helmet_HunterHelmet_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Male/Helmet_HunterHelmet_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Female/Helmet_HunterHelmet_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Male/Helmet_HunterHelmet_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Female/Helmet_HunterHelmet_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Male/Helmet_HunterHelmet_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Male/Helmet_HunterHelmet_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Female/Helmet_HunterHelmet_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Male/Helmet_HunterHelmet_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Female/Helmet_HunterHelmet_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Male/Helmet_HunterHelmet_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Female/Helmet_HunterHelmet_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Male/Helmet_HunterHelmet_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Female/Helmet_HunterHelmet_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Female/Helmet_HunterHelmet_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Female/Helmet_HunterHelmet_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Male/Helmet_HunterHelmet_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Male/Helmet_HunterHelmet_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Female/Helmet_HunterHelmet_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Male/Helmet_HunterHelmet_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Male/Helmet_HunterHelmet_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Female/Helmet_HunterHelmet_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Female/Helmet_HunterHelmet_Head_TankGirl</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Female/Helmet_HunterHelmet_Head_DwarfFemale</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/HunterHelmet/FaceId/FaceId_Male/Helmet_HunterHelmet_Head_DwarfMale</Sprite>
+		 </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+     <ItemArtDefinition Id="FrostHelmet">
+      <BodyParts>
+         <BodyPartDefinition Id="Head">
+            <Sprite Constraint="FaceId" Id="AfroBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Male/Helmet_FrostHelmet_Head_AfroBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Afro">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Female/Helmet_FrostHelmet_Head_Afro</Sprite>
+            <Sprite Constraint="FaceId" Id="Ali">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Male/Helmet_FrostHelmet_Head_Ali</Sprite>
+            <Sprite Constraint="FaceId" Id="Amazon">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Female/Helmet_FrostHelmet_Head_Amazon</Sprite>
+            <Sprite Constraint="FaceId" Id="Bald01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Female/Helmet_FrostHelmet_Head_Bald01</Sprite>
+            <Sprite Constraint="FaceId" Id="BaldBeard">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Male/Helmet_FrostHelmet_Head_BaldBeard</Sprite>
+            <Sprite Constraint="FaceId" Id="BigBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Male/Helmet_FrostHelmet_Head_BigBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="Biker">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Male/Helmet_FrostHelmet_Head_Biker</Sprite>
+            <Sprite Constraint="FaceId" Id="Blodeuwedd">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Female/Helmet_FrostHelmet_Head_Blodeuwedd</Sprite>
+            <Sprite Constraint="FaceId" Id="BowlCut">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Male/Helmet_FrostHelmet_Head_BowlCut</Sprite>
+            <Sprite Constraint="FaceId" Id="Boyish">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Female/Helmet_FrostHelmet_Head_Boyish</Sprite>
+            <Sprite Constraint="FaceId" Id="Braids">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Male/Helmet_FrostHelmet_Head_Braids</Sprite>
+            <Sprite Constraint="FaceId" Id="Britney">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Female/Helmet_FrostHelmet_Head_Britney</Sprite>
+            <Sprite Constraint="FaceId" Id="Burnt">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Female/Helmet_FrostHelmet_Head_Burnt</Sprite>
+            <Sprite Constraint="FaceId" Id="Carré">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Female/Helmet_FrostHelmet_Head_Carré</Sprite>
+            <Sprite Constraint="FaceId" Id="China">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Female/Helmet_FrostHelmet_Head_China</Sprite>
+            <Sprite Constraint="FaceId" Id="Cloud">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Male/Helmet_FrostHelmet_Head_Cloud</Sprite>
+            <Sprite Constraint="FaceId" Id="Corrupted">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Male/Helmet_FrostHelmet_Head_Corrupted</Sprite>
+            <Sprite Constraint="FaceId" Id="Curly">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Female/Helmet_FrostHelmet_Head_Curly</Sprite>
+            <Sprite Constraint="FaceId" Id="Dandy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Male/Helmet_FrostHelmet_Head_Dandy</Sprite>
+            <Sprite Constraint="FaceId" Id="DoubleBun">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Female/Helmet_FrostHelmet_Head_DoubleBun</Sprite>
+            <Sprite Constraint="FaceId" Id="Drake">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Male/Helmet_FrostHelmet_Head_Drake</Sprite>
+            <Sprite Constraint="FaceId" Id="EdgyBoy">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Male/Helmet_FrostHelmet_Head_EdgyBoy</Sprite>
+            <Sprite Constraint="FaceId" Id="HairBun01">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Female/Helmet_FrostHelmet_Head_HairBun01</Sprite>
+            <Sprite Constraint="FaceId" Id="Hipster">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Male/Helmet_FrostHelmet_Head_Hipster</Sprite>
+            <Sprite Constraint="FaceId" Id="Jackson5">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Female/Helmet_FrostHelmet_Head_Jackson5</Sprite>
+            <Sprite Constraint="FaceId" Id="Jesus">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Male/Helmet_FrostHelmet_Head_Jesus</Sprite>
+            <Sprite Constraint="FaceId" Id="Kari">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Female/Helmet_FrostHelmet_Head_Kari</Sprite>
+            <Sprite Constraint="FaceId" Id="Lamasse">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Male/Helmet_FrostHelmet_Head_Lamasse</Sprite>
+            <Sprite Constraint="FaceId" Id="Lara">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Female/Helmet_FrostHelmet_Head_Lara</Sprite>
+            <Sprite Constraint="FaceId" Id="Leeloo">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Female/Helmet_FrostHelmet_Head_Leeloo</Sprite>
+            <Sprite Constraint="FaceId" Id="LongHair">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Female/Helmet_FrostHelmet_Head_LongHair</Sprite>
+            <Sprite Constraint="FaceId" Id="NormanOsborn">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Male/Helmet_FrostHelmet_Head_NormanOsborn</Sprite>
+            <Sprite Constraint="FaceId" Id="Philosopher">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Male/Helmet_FrostHelmet_Head_Philosopher</Sprite>
+            <Sprite Constraint="FaceId" Id="PonyTail">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Female/Helmet_FrostHelmet_Head_PonyTail</Sprite>
+            <Sprite Constraint="FaceId" Id="Punk">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Male/Helmet_FrostHelmet_Head_Punk</Sprite>
+            <Sprite Constraint="FaceId" Id="Rasta">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Male/Helmet_FrostHelmet_Head_Rasta</Sprite>
+            <Sprite Constraint="FaceId" Id="Sombra">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Female/Helmet_FrostHelmet_Head_Sombra</Sprite>
+            <Sprite Constraint="FaceId" Id="TankGirl">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Female/Helmet_FrostHelmet_Head_TankGirl</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfFemale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Female/Helmet_FrostHelmet_Head_DwarfFemale</Sprite>
+			<Sprite Constraint="FaceId" Id="DwarfMale">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Head/FrostHelmet/FaceId/FaceId_Male/Helmet_FrostHelmet_Head_DwarfMale</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+</ItemArtDefinitions>

@@ -1,0 +1,869 @@
+<ItemArtDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../ItemArtDefinitions.xsd">
+
+  <ItemArtDefinition Id="ClothPants0">
+    <ArtId>ClothPants0</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants0/Female/Pants_ClothPants0_Crotch_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants0/Male/Pants_ClothPants0_Crotch_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants0/Female/Pants_ClothPants0_LegL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants0/Male/Pants_ClothPants0_LegL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants0/Female/Pants_ClothPants0_LegR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants0/Male/Pants_ClothPants0_LegR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants0/Female/Pants_ClothPants0_ThighL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants0/Male/Pants_ClothPants0_ThighL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants0/Female/Pants_ClothPants0_ThighR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants0/Male/Pants_ClothPants0_ThighR_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="ClothPants1">
+    <ArtId>ClothPants1</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants1/Female/Pants_ClothPants1_Crotch_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants1/Male/Pants_ClothPants1_Crotch_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants1/Female/Pants_ClothPants1_LegL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants1/Male/Pants_ClothPants1_LegL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants1/Female/Pants_ClothPants1_LegR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants1/Male/Pants_ClothPants1_LegR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants1/Female/Pants_ClothPants1_ThighL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants1/Male/Pants_ClothPants1_ThighL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants1/Female/Pants_ClothPants1_ThighR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants1/Male/Pants_ClothPants1_ThighR_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="ClothPants2">
+    <ArtId>ClothPants2</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants2/Female/Pants_ClothPants2_Crotch_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants2/Male/Pants_ClothPants2_Crotch_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants2/Female/Pants_ClothPants2_LegL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants2/Male/Pants_ClothPants2_LegL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants2/Female/Pants_ClothPants2_LegR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants2/Male/Pants_ClothPants2_LegR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants2/Female/Pants_ClothPants2_ThighL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants2/Male/Pants_ClothPants2_ThighL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants2/Female/Pants_ClothPants2_ThighR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants2/Male/Pants_ClothPants2_ThighR_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="ClothPants3">
+    <ArtId>ClothPants3</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants3/Generic/Pants_ClothPants3_Crotch_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants3/Generic/Pants_ClothPants3_LegL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants3/Generic/Pants_ClothPants3_LegR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants3/Generic/Pants_ClothPants3_ThighL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants3/Generic/Pants_ClothPants3_ThighR_Generic</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="ClothPants4">
+    <ArtId>ClothPants4</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants4/Generic/Pants_ClothPants4_Crotch_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants4/Generic/Pants_ClothPants4_LegL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants4/Generic/Pants_ClothPants4_LegR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants4/Generic/Pants_ClothPants4_ThighL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants4/Generic/Pants_ClothPants4_ThighR_Generic</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="ClothPants5">
+    <ArtId>ClothPants5</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants5/Generic/Pants_ClothPants5_Crotch_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants5/Generic/Pants_ClothPants5_LegL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants5/Generic/Pants_ClothPants5_LegR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants5/Generic/Pants_ClothPants5_ThighL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ClothPants5/Generic/Pants_ClothPants5_ThighR_Generic</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="Pants0">
+    <ArtId>Pants0</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants0/Female/Pants_Pants0_Crotch_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants0/Male/Pants_Pants0_Crotch_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants0/Female/Pants_Pants0_LegL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants0/Male/Pants_Pants0_LegL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants0/Female/Pants_Pants0_LegR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants0/Male/Pants_Pants0_LegR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants0/Female/Pants_Pants0_ThighL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants0/Male/Pants_Pants0_ThighL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants0/Female/Pants_Pants0_ThighR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants0/Male/Pants_Pants0_ThighR_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="Pants1">
+    <ArtId>Pants1</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants1/Female/Pants_Pants1_Crotch_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants1/Male/Pants_Pants1_Crotch_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants1/Female/Pants_Pants1_LegL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants1/Male/Pants_Pants1_LegL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants1/Female/Pants_Pants1_LegR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants1/Male/Pants_Pants1_LegR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants1/Female/Pants_Pants1_ThighL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants1/Male/Pants_Pants1_ThighL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants1/Female/Pants_Pants1_ThighR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants1/Male/Pants_Pants1_ThighR_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="Pants2">
+    <ArtId>Pants2</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants2/Female/Pants_Pants2_Crotch_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants2/Male/Pants_Pants2_Crotch_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants2/Female/Pants_Pants2_LegL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants2/Male/Pants_Pants2_LegL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants2/Female/Pants_Pants2_LegR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants2/Male/Pants_Pants2_LegR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants2/Female/Pants_Pants2_ThighL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants2/Male/Pants_Pants2_ThighL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants2/Female/Pants_Pants2_ThighR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants2/Male/Pants_Pants2_ThighR_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="Pants3">
+    <ArtId>Pants4</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants4/Female/Pants_Pants4_Crotch_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants4/Male/Pants_Pants4_Crotch_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants4/Female/Pants_Pants4_LegL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants4/Male/Pants_Pants4_LegL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants4/Female/Pants_Pants4_LegR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants4/Male/Pants_Pants4_LegR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants4/Female/Pants_Pants4_ThighL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants4/Male/Pants_Pants4_ThighL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants4/Female/Pants_Pants4_ThighR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants4/Male/Pants_Pants4_ThighR_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+  <ItemArtDefinition Id="Pants4">
+    <ArtId>Pants3</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants3/Female/Pants_Pants3_Crotch_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants3/Male/Pants_Pants3_Crotch_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants3/Female/Pants_Pants3_LegL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants3/Male/Pants_Pants3_LegL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants3/Female/Pants_Pants3_LegR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants3/Male/Pants_Pants3_LegR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants3/Female/Pants_Pants3_ThighL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants3/Male/Pants_Pants3_ThighL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants3/Female/Pants_Pants3_ThighR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants3/Male/Pants_Pants3_ThighR_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+
+  <ItemArtDefinition Id="Pants5">
+    <ArtId>Pants5</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants5/Generic/Pants_Pants5_Crotch_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants5/Generic/Pants_Pants5_LegL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants5/Generic/Pants_Pants5_LegR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants5/Generic/Pants_Pants5_ThighL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/Pants5/Generic/Pants_Pants5_ThighR_Generic</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="FallenLordPants">
+    <ArtId>FallenLordPants</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/FallenLordPants/Female/Pants_FallenLordPants_Crotch_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/FallenLordPants/Male/Pants_FallenLordPants_Crotch_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/FallenLordPants/Female/Pants_FallenLordPants_LegL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/FallenLordPants/Male/Pants_FallenLordPants_LegL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/FallenLordPants/Female/Pants_FallenLordPants_LegR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/FallenLordPants/Male/Pants_FallenLordPants_LegR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/FallenLordPants/Female/Pants_FallenLordPants_ThighL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/FallenLordPants/Male/Pants_FallenLordPants_ThighL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/FallenLordPants/Female/Pants_FallenLordPants_ThighR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/FallenLordPants/Male/Pants_FallenLordPants_ThighR_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="ChildOfTheForestPants">
+    <ArtId>ChildOfTheForestPants</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ChildOfTheForestPants/Generic/Pants_ChildOfTheForestPants_Crotch_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ChildOfTheForestPants/Generic/Pants_ChildOfTheForestPants_LegL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ChildOfTheForestPants/Generic/Pants_ChildOfTheForestPants_LegR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ChildOfTheForestPants/Generic/Pants_ChildOfTheForestPants_ThighL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ChildOfTheForestPants/Generic/Pants_ChildOfTheForestPants_ThighR_Generic</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="TheMountainPants">
+    <ArtId>TheMountainPants</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/TheMountainPants/Generic/Pants_TheMountainPants_Crotch_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/TheMountainPants/Generic/Pants_TheMountainPants_LegL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/TheMountainPants/Generic/Pants_TheMountainPants_LegR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/TheMountainPants/Generic/Pants_TheMountainPants_ThighL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/TheMountainPants/Generic/Pants_TheMountainPants_ThighR_Generic</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="LoneWolfPants">
+    <ArtId>LoneWolfPants</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/LoneWolfPants/Generic/Pants_LoneWolfPants_Crotch_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/LoneWolfPants/Generic/Pants_LoneWolfPants_LegL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/LoneWolfPants/Generic/Pants_LoneWolfPants_LegR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/LoneWolfPants/Generic/Pants_LoneWolfPants_ThighL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/LoneWolfPants/Generic/Pants_LoneWolfPants_ThighR_Generic</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="MagicianPants">
+    <ArtId>MagicianPants</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/MagicianPants/Female/Pants_MagicianPants_Crotch_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/MagicianPants/Male/Pants_MagicianPants_Crotch_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/MagicianPants/Female/Pants_MagicianPants_LegL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/MagicianPants/Male/Pants_MagicianPants_LegL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/MagicianPants/Female/Pants_MagicianPants_LegR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/MagicianPants/Male/Pants_MagicianPants_LegR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/MagicianPants/Female/Pants_MagicianPants_ThighL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/MagicianPants/Male/Pants_MagicianPants_ThighL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/MagicianPants/Female/Pants_MagicianPants_ThighR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/MagicianPants/Male/Pants_MagicianPants_ThighR_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="PorkEpicPants">
+    <ArtId>PorkEpicPants</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/PorkEpicPants/Generic/Pants_PorkEpicPants_Crotch_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/PorkEpicPants/Generic/Pants_PorkEpicPants_LegL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/PorkEpicPants/Generic/Pants_PorkEpicPants_LegR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/PorkEpicPants/Generic/Pants_PorkEpicPants_ThighL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/PorkEpicPants/Generic/Pants_PorkEpicPants_ThighR_Generic</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="ThiefPants">
+    <ArtId>ThiefPants</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ThiefPants/Female/Pants_ThiefPants_Crotch_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ThiefPants/Male/Pants_ThiefPants_Crotch_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ThiefPants/Female/Pants_ThiefPants_LegL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ThiefPants/Male/Pants_ThiefPants_LegL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ThiefPants/Female/Pants_ThiefPants_LegR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ThiefPants/Male/Pants_ThiefPants_LegR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ThiefPants/Female/Pants_ThiefPants_ThighL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ThiefPants/Male/Pants_ThiefPants_ThighL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ThiefPants/Female/Pants_ThiefPants_ThighR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ThiefPants/Male/Pants_ThiefPants_ThighR_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="DarknessPants">
+    <ArtId>DarknessPants</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/DarknessPants/Generic/Pants_DarknessPants_Crotch_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/DarknessPants/Generic/Pants_DarknessPants_LegL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/DarknessPants/Generic/Pants_DarknessPants_LegR_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/DarknessPants/Generic/Pants_DarknessPants_ThighL_Generic</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/DarknessPants/Generic/Pants_DarknessPants_ThighR_Generic</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="PriestPants">
+    <ArtId>PriestPants</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/PriestPants/Female/Pants_PriestPants_Crotch_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/PriestPants/Male/Pants_PriestPants_Crotch_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/PriestPants/Female/Pants_PriestPants_LegL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/PriestPants/Male/Pants_PriestPants_LegL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/PriestPants/Female/Pants_PriestPants_LegR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/PriestPants/Male/Pants_PriestPants_LegR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/PriestPants/Female/Pants_PriestPants_ThighL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/PriestPants/Male/Pants_PriestPants_ThighL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/PriestPants/Female/Pants_PriestPants_ThighR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/PriestPants/Male/Pants_PriestPants_ThighR_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="BonesPants">
+    <ArtId>BonesPants</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/BonesPants/Female/Pants_BonesPants_Crotch_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/BonesPants/Male/Pants_BonesPants_Crotch_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/BonesPants/Female/Pants_BonesPants_LegL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/BonesPants/Male/Pants_BonesPants_LegL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/BonesPants/Female/Pants_BonesPants_LegR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/BonesPants/Male/Pants_BonesPants_LegR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/BonesPants/Female/Pants_BonesPants_ThighL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/BonesPants/Male/Pants_BonesPants_ThighL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/BonesPants/Female/Pants_BonesPants_ThighR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/BonesPants/Male/Pants_BonesPants_ThighR_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="CommanderPants">
+		<ArtId>CommanderPants</ArtId>
+		<BodyParts>
+       <BodyPartDefinition Id="Crotch">
+          <Sprite Constraint="Gender" Id="Female" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CommanderPants/Female/Pants_CommanderPants_Crotch_Female</Sprite>
+          <Sprite Constraint="Generic" Orientation="Back">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CommanderPants/Generic/Pants_CommanderPants_Crotch_Generic</Sprite>
+          <Sprite Constraint="Gender" Id="Male" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CommanderPants/Male/Pants_CommanderPants_Crotch_Male</Sprite>
+       </BodyPartDefinition>
+       <BodyPartDefinition Id="Leg_L">
+          <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CommanderPants/Generic/Pants_CommanderPants_LegL_Generic</Sprite>
+       </BodyPartDefinition>
+       <BodyPartDefinition Id="Leg_R">
+          <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CommanderPants/Generic/Pants_CommanderPants_LegR_Generic</Sprite>
+       </BodyPartDefinition>
+       <BodyPartDefinition Id="Thigh_L">
+          <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CommanderPants/Generic/Pants_CommanderPants_ThighL_Generic</Sprite>
+       </BodyPartDefinition>
+       <BodyPartDefinition Id="Thigh_R">
+          <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CommanderPants/Generic/Pants_CommanderPants_ThighR_Generic</Sprite>
+       </BodyPartDefinition>
+    </BodyParts>
+	</ItemArtDefinition>
+
+  <ItemArtDefinition Id="ArcherPants">
+    <ArtId>ArcherPants</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ArcherPants/Female/Pants_ArcherPants_Crotch_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ArcherPants/Male/Pants_ArcherPants_Crotch_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ArcherPants/Female/Pants_ArcherPants_LegL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ArcherPants/Male/Pants_ArcherPants_LegL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ArcherPants/Female/Pants_ArcherPants_LegR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ArcherPants/Male/Pants_ArcherPants_LegR_Male</Sprite>
+        <Sprite Constraint="Gender" Id="Male" Orientation="Back">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ArcherPants/Male/Pants_ArcherPants_LegR_NakedPants_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ArcherPants/Female/Pants_ArcherPants_ThighL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ArcherPants/Male/Pants_ArcherPants_ThighL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ArcherPants/Female/Pants_ArcherPants_ThighR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male" Orientation="Front">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ArcherPants/Male/Pants_ArcherPants_ThighR_Male</Sprite>
+        <Sprite Constraint="Gender" Id="Male" Orientation="Back">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/ArcherPants/Male/Pants_ArcherPants_ThighR_NakedPants_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="CoatPants">
+    <ArtId>CoatPants</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CoatPants/Female/Pants_CoatPants_Crotch_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CoatPants/Male/Pants_CoatPants_Crotch_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CoatPants/Female/Pants_CoatPants_LegL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CoatPants/Male/Pants_CoatPants_LegL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CoatPants/Female/Pants_CoatPants_LegR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CoatPants/Male/Pants_CoatPants_LegR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CoatPants/Female/Pants_CoatPants_ThighL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CoatPants/Male/Pants_CoatPants_ThighL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CoatPants/Female/Pants_CoatPants_ThighR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CoatPants/Male/Pants_CoatPants_ThighR_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="BarbarianPants">
+    <ArtId>BarbarianPants</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/BarbarianPants/Female/Pants_BarbarianPants_Crotch_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/BarbarianPants/Male/Pants_BarbarianPants_Crotch_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/BarbarianPants/Female/Pants_BarbarianPants_LegL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/BarbarianPants/Male/Pants_BarbarianPants_LegL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/BarbarianPants/Female/Pants_BarbarianPants_LegR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/BarbarianPants/Male/Pants_BarbarianPants_LegR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/BarbarianPants/Female/Pants_BarbarianPants_ThighL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/BarbarianPants/Male/Pants_BarbarianPants_ThighL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/BarbarianPants/Female/Pants_BarbarianPants_ThighR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/BarbarianPants/Male/Pants_BarbarianPants_ThighR_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="RedSkirtPants">
+    <ArtId>RedSkirtPants</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/RedSkirtPants/Female/Pants_RedSkirtPants_Crotch_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/RedSkirtPants/Male/Pants_RedSkirtPants_Crotch_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/RedSkirtPants/Female/Pants_RedSkirtPants_LegL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/RedSkirtPants/Male/Pants_RedSkirtPants_LegL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/RedSkirtPants/Female/Pants_RedSkirtPants_LegR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/RedSkirtPants/Male/Pants_RedSkirtPants_LegR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/RedSkirtPants/Female/Pants_RedSkirtPants_ThighL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/RedSkirtPants/Male/Pants_RedSkirtPants_ThighL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/RedSkirtPants/Female/Pants_RedSkirtPants_ThighR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/RedSkirtPants/Male/Pants_RedSkirtPants_ThighR_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="MurdererPants">
+    <ArtId>MurdererPants</ArtId>
+    <BodyParts>
+      <BodyPartDefinition Id="Crotch">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/MurdererPants/Female/Pants_MurdererPants_Crotch_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/MurdererPants/Male/Pants_MurdererPants_Crotch_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/MurdererPants/Female/Pants_MurdererPants_LegL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/MurdererPants/Male/Pants_MurdererPants_LegL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Leg_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/MurdererPants/Female/Pants_MurdererPants_LegR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/MurdererPants/Male/Pants_MurdererPants_LegR_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_L">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/MurdererPants/Female/Pants_MurdererPants_ThighL_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/MurdererPants/Male/Pants_MurdererPants_ThighL_Male</Sprite>
+      </BodyPartDefinition>
+      <BodyPartDefinition Id="Thigh_R">
+        <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/MurdererPants/Female/Pants_MurdererPants_ThighR_Female</Sprite>
+        <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/MurdererPants/Male/Pants_MurdererPants_ThighR_Male</Sprite>
+      </BodyPartDefinition>
+    </BodyParts>
+  </ItemArtDefinition>
+
+
+  <ItemArtDefinition Id="WarPants">
+      <ArtId>WarPants</ArtId>
+      <BodyParts>
+        <BodyPartDefinition Id="Crotch">
+          <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/WarPants/Female/Pants_WarPants_Crotch_Female</Sprite>
+          <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/WarPants/Male/Pants_WarPants_Crotch_Male</Sprite>
+        </BodyPartDefinition>
+        <BodyPartDefinition Id="Leg_L">
+          <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/WarPants/Female/Pants_WarPants_LegL_Female</Sprite>
+          <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/WarPants/Male/Pants_WarPants_LegL_Male</Sprite>
+        </BodyPartDefinition>
+        <BodyPartDefinition Id="Leg_R">
+          <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/WarPants/Female/Pants_WarPants_LegR_Female</Sprite>
+          <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/WarPants/Male/Pants_WarPants_LegR_Male</Sprite>
+        </BodyPartDefinition>
+        <BodyPartDefinition Id="Thigh_L">
+          <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/WarPants/Female/Pants_WarPants_ThighL_Female</Sprite>
+          <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/WarPants/Male/Pants_WarPants_ThighL_Male</Sprite>
+        </BodyPartDefinition>
+        <BodyPartDefinition Id="Thigh_R">
+          <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/WarPants/Female/Pants_WarPants_ThighR_Female</Sprite>
+          <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/WarPants/Male/Pants_WarPants_ThighR_Male</Sprite>
+        </BodyPartDefinition>
+      </BodyParts>
+    </ItemArtDefinition>
+  
+   <ItemArtDefinition Id="NecromancerPants">
+      <ArtId>NecromancerPants</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Crotch">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/NecromancerPants/Generic/Pants_NecromancerPants_Crotch_Generic</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Leg_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/NecromancerPants/Generic/Pants_NecromancerPants_LegL_Generic</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Leg_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/NecromancerPants/Generic/Pants_NecromancerPants_LegR_Generic</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Thigh_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/NecromancerPants/Generic/Pants_NecromancerPants_ThighL_Generic</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Thigh_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/NecromancerPants/Generic/Pants_NecromancerPants_ThighR_Generic</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+   <ItemArtDefinition Id="CrowPants">
+      <ArtId>CrowPants</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Crotch">
+            <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CrowPants/Female/Pants_CrowPants_Crotch_Female</Sprite>
+            <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CrowPants/Male/Pants_CrowPants_Crotch_Male</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Leg_L">
+            <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CrowPants/Female/Pants_CrowPants_LegL_Female</Sprite>
+            <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CrowPants/Male/Pants_CrowPants_LegL_Male</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Leg_R">
+            <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CrowPants/Female/Pants_CrowPants_LegR_Female</Sprite>
+            <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CrowPants/Male/Pants_CrowPants_LegR_Male</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Thigh_L">
+            <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CrowPants/Female/Pants_CrowPants_ThighL_Female</Sprite>
+            <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CrowPants/Male/Pants_CrowPants_ThighL_Male</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Thigh_R">
+            <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CrowPants/Female/Pants_CrowPants_ThighR_Female</Sprite>
+            <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/CrowPants/Male/Pants_CrowPants_ThighR_Male</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+     <ItemArtDefinition Id="WhiteMonkPants">
+      <ArtId>WhiteMonkPants</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Crotch">
+            <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/WhiteMonkPants/Female/Pants_WhiteMonkPants_Crotch_Female</Sprite>
+            <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/WhiteMonkPants/Male/Pants_WhiteMonkPants_Crotch_Male</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Leg_L">
+            <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/WhiteMonkPants/Female/Pants_WhiteMonkPants_LegL_Female</Sprite>
+            <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/WhiteMonkPants/Male/Pants_WhiteMonkPants_LegL_Male</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Leg_R">
+            <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/WhiteMonkPants/Female/Pants_WhiteMonkPants_LegR_Female</Sprite>
+            <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/WhiteMonkPants/Male/Pants_WhiteMonkPants_LegR_Male</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Thigh_L">
+            <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/WhiteMonkPants/Female/Pants_WhiteMonkPants_ThighL_Female</Sprite>
+            <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/WhiteMonkPants/Male/Pants_WhiteMonkPants_ThighL_Male</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Thigh_R">
+            <Sprite Constraint="Gender" Id="Female">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/WhiteMonkPants/Female/Pants_WhiteMonkPants_ThighR_Female</Sprite>
+            <Sprite Constraint="Gender" Id="Male">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/WhiteMonkPants/Male/Pants_WhiteMonkPants_ThighR_Male</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+     <ItemArtDefinition Id="HoodPants">
+      <ArtId>HoodPants</ArtId> 
+      <BodyParts>
+         <BodyPartDefinition Id="Crotch">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/HoodPants/Generic/Pants_HoodPants_Crotch_Generic</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Leg_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/HoodPants/Generic/Pants_HoodPants_LegL_Generic</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Leg_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/HoodPants/Generic/Pants_HoodPants_LegR_Generic</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Thigh_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/HoodPants/Generic/Pants_HoodPants_ThighL_Generic</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Thigh_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/HoodPants/Generic/Pants_HoodPants_ThighR_Generic</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+     <ItemArtDefinition Id="HunterPants">
+      <ArtId>HunterPants</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Crotch">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/HunterPants/Generic/Pants_HunterPants_Crotch_Generic</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Leg_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/HunterPants/Generic/Pants_HunterPants_LegL_Generic</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Leg_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/HunterPants/Generic/Pants_HunterPants_LegR_Generic</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Thigh_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/HunterPants/Generic/Pants_HunterPants_ThighL_Generic</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Thigh_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/HunterPants/Generic/Pants_HunterPants_ThighR_Generic</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+     <ItemArtDefinition Id="FrostPants">
+      <ArtId>FrostPants</ArtId>
+      <BodyParts>
+         <BodyPartDefinition Id="Crotch">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/FrostPants/Generic/Pants_FrostPants_Crotch_Generic</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Leg_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/FrostPants/Generic/Pants_FrostPants_LegL_Generic</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Leg_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/FrostPants/Generic/Pants_FrostPants_LegR_Generic</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Thigh_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/FrostPants/Generic/Pants_FrostPants_ThighL_Generic</Sprite>
+         </BodyPartDefinition>
+         <BodyPartDefinition Id="Thigh_R">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Leg/FrostPants/Generic/Pants_FrostPants_ThighR_Generic</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+   </ItemArtDefinition>
+
+</ItemArtDefinitions>

@@ -1,0 +1,24 @@
+﻿<UnitFaceIdsDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                       xsi:noNamespaceSchemaLocation="UnitFaceIdsDefinition.xsd">
+
+	<UnitFaceId Weight="20">Ali</UnitFaceId>
+	<UnitFaceId Weight="200">Cloud</UnitFaceId>
+	<UnitFaceId Weight="60">EdgyBoy</UnitFaceId>  
+	<UnitFaceId Weight="150">Hipster</UnitFaceId>
+	<UnitFaceId Weight="150">Jesus</UnitFaceId>
+	<UnitFaceId Weight="60">Lamasse</UnitFaceId>
+	<UnitFaceId Weight="150">NormanOsborn</UnitFaceId>
+	<UnitFaceId Weight="60">Punk</UnitFaceId>
+	<UnitFaceId Weight="20">BowlCut</UnitFaceId>
+	<UnitFaceId Weight="10">BigBoy</UnitFaceId>
+	<UnitFaceId Weight="60">Rasta</UnitFaceId>	
+ 	<UnitFaceId Weight="10">Corrupted</UnitFaceId>
+ 	<UnitFaceId Weight="40">Dandy</UnitFaceId>
+ 	<UnitFaceId Weight="80">AfroBoy</UnitFaceId>
+ 	<UnitFaceId Weight="200">Drake</UnitFaceId>
+ 	<UnitFaceId Weight="40">Biker</UnitFaceId>
+ 	<UnitFaceId Weight="80">Braids</UnitFaceId>
+ 	<UnitFaceId Weight="60">BaldBeard</UnitFaceId>
+ 	<UnitFaceId Weight="100" RestrictedToRaceId="Dwarf" DLCId="Dwarves">DwarfMale</UnitFaceId>
+
+</UnitFaceIdsDefinition>

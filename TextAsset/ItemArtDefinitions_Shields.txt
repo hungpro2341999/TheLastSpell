@@ -1,0 +1,57 @@
+<ItemArtDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../ItemArtDefinitions.xsd">
+
+	<ItemArtDefinition Id="Shield0">
+		<ArtId>Shield0</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Hand_Before_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Shield0/Generic/Weapon_Shield0</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="Shield1">
+		<ArtId>Shield1</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Hand_Before_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Shield1/Generic/Weapon_Shield1</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="Shield2">
+		<ArtId>Shield2</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Hand_Before_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Shield2/Generic/Weapon_Shield2</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="Shield3">
+		<ArtId>Shield3</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Hand_Before_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Shield3/Generic/Weapon_Shield3</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="Shield4">
+		<ArtId>Shield4</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Hand_Before_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Shield4/Generic/Weapon_Shield4</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+	<ItemArtDefinition Id="Shield5">
+		<ArtId>Shield5</ArtId>
+		<BodyParts>
+         <BodyPartDefinition Id="Hand_Before_L">
+            <Sprite Constraint="Generic">View/Sprites/Units/PlayableUnits/BodyParts/Gear/Hand/Shield5/Generic/Weapon_Shield5</Sprite>
+         </BodyPartDefinition>
+      </BodyParts>
+	</ItemArtDefinition>
+
+</ItemArtDefinitions>

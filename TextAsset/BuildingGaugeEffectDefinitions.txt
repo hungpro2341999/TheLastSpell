@@ -1,0 +1,30 @@
+﻿<BuildingGaugeEffectDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                xsi:noNamespaceSchemaLocation="BuildingGaugeEffectDefinitions.xsd">
+
+   <BuildingGaugeEffectDefinition Id="CreateItem">
+      <ProductionBoxId Value="CreateItem"/>
+      <FirstGauge>10</FirstGauge>
+   </BuildingGaugeEffectDefinition>
+
+   <BuildingGaugeEffectDefinition Id="GainGold">
+      <ProductionBoxId Value="GainResource"/>
+      <FirstGauge>10</FirstGauge>
+      <Gold>25</Gold>
+   </BuildingGaugeEffectDefinition>
+
+   <BuildingGaugeEffectDefinition Id="GainMaterials">
+      <ProductionBoxId Value="GainResource"/>
+      <FirstGauge>10</FirstGauge>
+      <Materials>40</Materials>
+   </BuildingGaugeEffectDefinition>
+
+   <BuildingGaugeEffectDefinition Id="OpenMagicSeal">
+      <ProductionBoxId Value="OpenMagicSeal"/>
+   </BuildingGaugeEffectDefinition>
+   
+   <BuildingGaugeEffectDefinition Id="GlobalUpgradeStat">
+      <ProductionBoxId Value="GlobalUpgradeStat"/>
+      <FirstGauge>10</FirstGauge>
+   </BuildingGaugeEffectDefinition>
+
+</BuildingGaugeEffectDefinitions>

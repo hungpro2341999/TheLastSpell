@@ -1,0 +1,2603 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically.
+#
+# To exclude from version control, add *.lscache to your .gitignore file.
+#
+# To disable caching, add the following to your VS Code settings:
+#   "dotnet.projectsystem.enableLanguageServiceCache": false
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=TheLastStand
+CommandLineArgsForDesignTimeEvaluation=-langversion:12.0 -define:TRACE
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=TheLastStand
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETFramework
+TargetPath=<PATH>bin/Debug/net40/TheLastStand.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=net40
+
+[commandLineArguments]
+/noconfig
+/unsafe+
+/checked-
+/nowarn:1701,1702,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/warn:4
+/define:TRACE;DEBUG;NETFRAMEWORK;NET40;NET20_OR_GREATER;NET30_OR_GREATER;NET35_OR_GREATER;NET40_OR_GREATER
+/highentropyva-
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\net40\TheLastStand.dll
+/target:library
+/warnaserror-
+/utf8output
+/deterministic+
+/langversion:12.0
+/warnaserror+:NU1605
+
+[sourceFiles]
+CLoggerTest.cs
+Dev/
+ TestAtlasUVs.cs
+ TestPointerEvents.cs
+ TestShaderPosition.cs
+ TestShaderPositionArrayManager.cs
+ TestShaderPositionArrayTarget.cs
+ TextureAlphaPrinter.cs
+GaugeMarkerData.cs
+obj/Debug/net40/.NETFramework,Version=v4.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+RandomIdleDuration.cs
+RewiredConsts/
+ Action.cs
+ Category.cs
+ CustomController.cs
+ Layout.cs
+ LayoutManagerRuleSet.cs
+ MapEnablerRuleSet.cs
+ Player.cs
+ScrollbarButton.cs
+SteamManager.cs
+System.Runtime.CompilerServices/RuntimeHelpers.cs
+System/
+ Index.cs
+ Range.cs
+TestGoddessScaler.cs
+TestTMPIconScaler.cs
+TheLastStand.Controller.Apocalypse.ApocalypseEffects/
+ AApocalypseEffectController.cs
+ AddEnemiesStatModifierFromTurnApocalypseEffectController.cs
+TheLastStand.Controller.Apocalypse/
+ ApocalypseCodeGenerator.cs
+ ApocalypseController.cs
+ ApocalypseRetroCompatibilityController.cs
+TheLastStand.Controller.ApplicationState/
+ AnimatedCutsceneState.cs
+ CreditsState.cs
+ ExitAppState.cs
+ GameLobbyState.cs
+ GameState.cs
+ LevelEditorState.cs
+ LoadGameState.cs
+ LoadMainMenuFromGameState.cs
+ LoadWorldMapState.cs
+ MetaShopsState.cs
+ ModListState.cs
+ NewGameState.cs
+ ReloadGameState.cs
+ SaveSlotsState.cs
+ SettingsState.cs
+ SplashScreen.cs
+ WorldMapState.cs
+TheLastStand.Controller.Building.BuildingAction/
+ BuildingActionController.cs
+ BuildingActionEffectController.cs
+ BuildingActionExecutionController.cs
+ FillGaugeBuildingActionEffectController.cs
+ GainGoldBuildingActionEffectController.cs
+ GainMaterialsBuildingActionEffectController.cs
+ HealBuildingActionEffectController.cs
+ HealManaBuildingActionEffectController.cs
+ RepelFogBuildingActionEffectController.cs
+ RerollWaveBuildingActionEffectController.cs
+ RevealDangerIndicatorsBuildingActionEffectController.cs
+ ScavengeBuildingActionEffectController.cs
+ UpgradeStatBuildingActionEffectController.cs
+TheLastStand.Controller.Building.BuildingGaugeEffect/
+ BuildingGaugeEffectController.cs
+ CreateItemGaugeEffectController.cs
+ GainGoldController.cs
+ GainMaterialsController.cs
+ OpenMagicSealController.cs
+ UpgradeStatGaugeEffectController.cs
+TheLastStand.Controller.Building.BuildingPassive.PassiveTrigger/
+ AfterXNightEndTriggerController.cs
+ AfterXNightTurnsTriggerController.cs
+ AfterXProductionPhasesTriggerController.cs
+ EndOfProductionTriggerController.cs
+ OnConstructionTriggerController.cs
+ OnDeathTriggerController.cs
+ OnExtinguishTriggerController.cs
+ PassiveTriggerController.cs
+ PermanentTriggerController.cs
+ StartOfNightEnemyTurnTriggerController.cs
+ StartOfNightPlayableTurnTriggerController.cs
+ StartOfProductionTriggerController.cs
+TheLastStand.Controller.Building.BuildingPassive/
+ BuildingPassiveController.cs
+ BuildingPassiveEffectController.cs
+ CreateRosterItemController.cs
+ DestroyBuildingController.cs
+ FillEffectGaugeController.cs
+ GainResourcesController.cs
+ GenerateGuardianController.cs
+ GenerateLightFogController.cs
+ GenerateNewItemsRosterController.cs
+ ImproveSpawnWaveInfoController.cs
+ IncreaseWorkersController.cs
+ TransformBuildingController.cs
+ UpdateBonePileLevelController.cs
+ UpdateShopLevelController.cs
+TheLastStand.Controller.Building.BuildingUpgrade/
+ BuildingGlobalUpgradeController.cs
+ BuildingUpgradeController.cs
+ BuildingUpgradeEffectController.cs
+ ImproveGaugeEffectController.cs
+ ImproveGuessWhoController.cs
+ ImproveLevelController.cs
+ ImprovePassiveController.cs
+ ImproveSellRatioController.cs
+ ImproveUnitLimitController.cs
+ IncreasePlaysPerTurnController.cs
+ ReplaceBuildingController.cs
+ SwapActionController.cs
+ SwapSkillController.cs
+ UnlockActionController.cs
+TheLastStand.Controller.Building.Module/
+ BattleModuleController.cs
+ BlueprintModuleController.cs
+ BrazierModuleController.cs
+ BuildingModuleController.cs
+ ConstructionModuleController.cs
+ DamageableModuleController.cs
+ GateBlueprintModuleController.cs
+ PassivesModuleController.cs
+ ProductionModuleController.cs
+ TrapConstructionModuleController.cs
+ TrapDamageableModuleController.cs
+ UpgradeModuleController.cs
+TheLastStand.Controller.Building/
+ BuildingController.cs
+ BuildingInterpreterContext.cs
+ ShopController.cs
+TheLastStand.Controller.CastFx/CastFxController.cs
+TheLastStand.Controller.Cutscene/
+ BarkCutsceneController.cs
+ ChangeMusicCutsceneController.cs
+ CutsceneController.cs
+ EvolutiveLevelArtSetActiveCurrentStageCutsceneController.cs
+ EvolutiveLevelArtSetStageCutsceneController.cs
+ ExileAllEnemiesCutsceneController.cs
+ FadeInCutsceneController.cs
+ FadeOutCutsceneController.cs
+ FocusMagicCircleCutsceneController.cs
+ FocusTileCutsceneController.cs
+ FocusUnitCutsceneController.cs
+ IncreaseFogCutsceneController.cs
+ InitUnitVisualsCutsceneController.cs
+ InstantiateParticlesCutsceneController.cs
+ InvertImageCutsceneController.cs
+ LookAtCircleCutsceneController.cs
+ OverrideCurrentSpawnWaveCutsceneController.cs
+ PlayAnimatedCutsceneController.cs
+ PlayCamShakeEffectCutsceneController.cs
+ PlayCommanderFadeOutAnimCutsceneController.cs
+ PlayDeathAnimCutsceneController.cs
+ PlayEnemyTurnCutsceneController.cs
+ PlayFXCutsceneController.cs
+ PlayMageDeathCutsceneController.cs
+ PlayMageDeathStepCutsceneController.cs
+ PlayPillarsCutsceneController.cs
+ PlayRippleEffectCutsceneController.cs
+ PlaySealAnticipationCutsceneController.cs
+ PlaySealDestructionCutsceneController.cs
+ PlaySoundCutsceneController.cs
+ StopMagicCircleIdleCutsceneController.cs
+ StopMusicCutsceneController.cs
+ ToggleHUDCutsceneController.cs
+ WaitCutsceneController.cs
+ ZoomCutsceneController.cs
+TheLastStand.Controller.Item.ItemRestriction/
+ ItemRestrictionCategoriesCollectionController.cs
+ ItemRestrictionFamilyController.cs
+TheLastStand.Controller.Item/
+ AffixController.cs
+ AffixMalusController.cs
+ EquipmentSlotController.cs
+ InventoryController.cs
+ InventorySlotController.cs
+ ItemController.cs
+ ItemInterpreterContext.cs
+ ItemSlotController.cs
+ ShopInventorySlotController.cs
+ ShopSlotController.cs
+TheLastStand.Controller.Meta/
+ MetaConditionController.cs
+ MetaNarrationConditionController.cs
+ MetaNarrationController.cs
+ MetaNarrationDaysPlayedConditionController.cs
+ MetaNarrationMetaUpgradeUnlockedConditionController.cs
+ MetaReplicaConditionController.cs
+ MetaReplicaController.cs
+ MetaReplicaDaysPlayedConditionController.cs
+ MetaReplicaMetaUpgradeUnlockedConditionController.cs
+ MetaReplicaUsedReplicaConditionController.cs
+ MetaUpgradeController.cs
+ MetaUpgradeEffectsController.cs
+TheLastStand.Controller.Modding.Module/
+ FontModuleController.cs
+ LocalizationModuleController.cs
+ ModuleController.cs
+ PerksModuleController.cs
+TheLastStand.Controller.Modding/ModController.cs
+TheLastStand.Controller.Panic/
+ PanicController.cs
+ PanicRewardController.cs
+TheLastStand.Controller.ProductionReport/
+ ProductionItemController.cs
+ ProductionNightRewardObjectController.cs
+ ProductionObjectController.cs
+ ProductionReportController.cs
+ RewardItemSlotController.cs
+TheLastStand.Controller.Settings/SettingsController.cs
+TheLastStand.Controller.Skill.SkillAction.SkillActionExecution/
+ AttackSkillActionExecutionController.cs
+ BuffSkillActionExecutionController.cs
+ BuildSkillActionExecutionController.cs
+ GenericSkillActionExecutionController.cs
+ GoIntoWatchtowerSkillActionExecutionController.cs
+ QuitWatchtowerSkillActionExecutionController.cs
+ ResupplySkillActionExecutionController.cs
+ SkillActionExecutionController.cs
+ SkillActionResultDatas.cs
+ SkipTurnSkillActionExecutionController.cs
+ SpawnSkillActionExecutionController.cs
+TheLastStand.Controller.Skill.SkillAction/
+ AttackSkillActionController.cs
+ BuildSkillActionController.cs
+ GenericSkillActionController.cs
+ GoIntoWatchtowerSkillActionController.cs
+ IEffectTargetSkillActionController.cs
+ QuitWatchtowerSkillActionController.cs
+ ResupplySkillActionController.cs
+ SkillActionController.cs
+ SkipTurnSkillActionController.cs
+ SpawnSkillActionController.cs
+ UnitsToSpawnBySector.cs
+TheLastStand.Controller.Skill/SkillController.cs
+TheLastStand.Controller.SpawnFx/SpawnFxController.cs
+TheLastStand.Controller.SplashScreen.SplashScreenStates/
+ MainMenuLoadingState.cs
+ ModsLoadingState.cs
+ SettingsLoadingState.cs
+TheLastStand.Controller.SplashScreen/SplashScreenController.cs
+TheLastStand.Controller.Status.Immunity/ImmunityStatusController.cs
+TheLastStand.Controller.Status/
+ BuffStatusController.cs
+ ChargedStatusController.cs
+ ContagionStatusController.cs
+ DebuffStatusController.cs
+ InvulnerableStatusController.cs
+ PoisonStatusController.cs
+ StatModifierStatusController.cs
+ StatusController.cs
+ StatusControllerFactory.cs
+ StunStatusController.cs
+TheLastStand.Controller.TileMap/
+ TileController.cs
+ TileMapController.cs
+TheLastStand.Controller.Trophy.TrophyConditions/
+ ArmoredEnemiesDamagedByArmorShreddingTrophyConditionController.cs
+ BloodyKilledAfterEatingAlliesTrophyConditionController.cs
+ BodyArmorBuffUsedTrophyConditionController.cs
+ BuildingsLostTrophyConditionController.cs
+ CatapultUsedTrophyConditionController.cs
+ CriticalsInflictedSingleTurnTrophyConditionController.cs
+ DamageInflictedSingleAttackTrophyConditionController.cs
+ DamageInflictedTrophyConditionController.cs
+ DefensesLostTrophyConditionController.cs
+ DodgesPerformedTrophyConditionController.cs
+ EnemiesDamagedByBoomerTrophyConditionController.cs
+ EnemiesDamagedTrophyConditionController.cs
+ EnemiesDebuffedSeveralTimesSingleTurnTrophyConditionController.cs
+ EnemiesKilledByIsolatedTrophyConditionController.cs
+ EnemiesKilledByPropagationTrophyConditionController.cs
+ EnemiesKilledFromWatchtowerTrophyConditionController.cs
+ EnemiesKilledSingleAttackTrophyConditionController.cs
+ EnemiesKilledTrophyConditionController.cs
+ EnemiesKilledWithoutAttackTrophyConditionController.cs
+ FriendlyFireTrophyConditionController.cs
+ GhostKilledWithoutDebuffingTrophyConditionController.cs
+ HealthLostTrophyConditionController.cs
+ HealthRemainingAtMostTrophyConditionController.cs
+ HeroDeadTrophyConditionController.cs
+ HeroesTrophyConditionController.cs
+ HeroSurroundedByEnemiesTrophyConditionController.cs
+ JumpOverWallUsedTrophyConditionController.cs
+ ManaSpentTrophyConditionController.cs
+ NightCompletedTrophyConditionController.cs
+ NightCompletedXTurnsAfterSpawnEndConditionController.cs
+ NoDodgeTriggeredTrophyConditionController.cs
+ NoHealthLostTrophyConditionController.cs
+ OpportunismDamageInflictedTrophyConditionController.cs
+ OpportunisticTriggeredTrophyConditionController.cs
+ PerfectPanicTrophyConditionController.cs
+ PunchUsedTrophyConditionController.cs
+ SpeedyKilledWithoutDodgingTrophyConditionController.cs
+ StatusInflictedTrophyConditionController.cs
+ SurviveWithFewWallsTrophyConditionController.cs
+ TilesMovedBeforeMomentumTrophyConditionController.cs
+ TilesMovedUsingSkillsTrophyConditionController.cs
+ TrophyConditionController.cs
+ UsableUsedTrophyConditionController.cs
+ ValueIntHeroesTrophyConditionController.cs
+ ValueIntTrophyConditionController.cs
+TheLastStand.Controller.Trophy/TrophyController.cs
+TheLastStand.Controller.Tutorial/
+ CurrentNightHourTutorialConditionController.cs
+ DuringDayTurnTutorialConditionController.cs
+ DuringNightTutorialConditionController.cs
+ InCityTutorialConditionController.cs
+ IsWeaponRestrictionAvailableTutorialConditionController.cs
+ TotalActionPointsSpentTutorialConditionController.cs
+ TutorialConditionController.cs
+ TutorialMapSkippedTutorialConditionController.cs
+TheLastStand.Controller.Unit.Enemy.Affix/
+ EnemyAffixController.cs
+ EnemyAuraAffixController.cs
+ EnemyBarrierAffixController.cs
+ EnemyEnergeticAffixController.cs
+ EnemyHealthChunksAffixController.cs
+ EnemyHigherPlaneAffixController.cs
+ EnemyMirrorAffixController.cs
+ EnemyMistyAffixController.cs
+ EnemyPurgeAffixController.cs
+ EnemyRegenerativeAffixController.cs
+ EnemyReinforcedAffixController.cs
+ EnemyRevengeAffixController.cs
+TheLastStand.Controller.Unit.Enemy.Boss.PhaseAction/
+ ABossPhaseActionController.cs
+ DestroyActorPhaseActionController.cs
+ EvolutiveLevelArtSetActiveCurrentStagePhaseActionController.cs
+ EvolutiveLevelArtSetStagePhaseActionController.cs
+ PauseWavePhaseActionController.cs
+ PlayCutscenePhaseActionController.cs
+ ReplaceActorsPhaseActionController.cs
+ SetNightProgressionPhaseActionController.cs
+ SetPhaseHandlerLockPhaseActionController.cs
+ SetPhasePhaseActionController.cs
+ SpawnActorPhaseActionController.cs
+ UnlockSpawnerBossAchievementPhaseActionController.cs
+TheLastStand.Controller.Unit.Enemy.Boss.PhaseCondition/
+ ABossPhaseConditionController.cs
+ BossPhaseTurnConditionController.cs
+ FinishWaveBossPhaseConditionController.cs
+ KilledActorsAmountBossPhaseConditionController.cs
+ RemainingActorsBossPhaseConditionController.cs
+ SurviveTurnsBossPhaseConditionController.cs
+TheLastStand.Controller.Unit.Enemy/
+ BossUnitController.cs
+ EliteEnemyUnitController.cs
+ EnemyUnitController.cs
+ GoalController.cs
+ InterpretedTurnConditionContext.cs
+ SpawnWaveController.cs
+TheLastStand.Controller.Unit.Pathfinding/
+ MovePathController.cs
+ PathfindingController.cs
+TheLastStand.Controller.Unit.Perk.PerkAction/
+ APerkActionController.cs
+ DecreaseBufferController.cs
+ ForbidSkillUndoController.cs
+ IncreaseBufferController.cs
+ InstantiateBuffEffectDisplayController.cs
+ InstantiateEffectDisplayController.cs
+ InstantiateRestoreEffectDisplayController.cs
+ InstantiateStatEffectDisplayController.cs
+ LogPerkActionController.cs
+ RefillGaugeController.cs
+ RefreshPerkActivationFeedbackController.cs
+ SetBufferController.cs
+ TriggerEffectsController.cs
+ TriggerEffectsOnAllAttackDataController.cs
+TheLastStand.Controller.Unit.Perk.PerkEffect/
+ AddPerkSkillEffectController.cs
+ AddSkillEffectController.cs
+ AllowDiagonalPropagationEffectController.cs
+ APerkEffectController.cs
+ ApplyStatusEffectController.cs
+ AttackDataModifierEffectController.cs
+ CastSkillEffectController.cs
+ ComputationStatLockerEffectController.cs
+ DealDamageEffectController.cs
+ DynamicStatsModifierEffectController.cs
+ EquipmentSlotModifierEffectController.cs
+ GetAdditionalExperienceEffectController.cs
+ LockSkillEffectController.cs
+ ModifyContextualSkillOverallUsesEffectController.cs
+ ModifyDefensesDamageEffectController.cs
+ MomentumModifierEffectController.cs
+ PermanentBaseStatModifierEffectController.cs
+ ReplaceItemSkillEffectController.cs
+ ReplacePerkEffectController.cs
+ ResetBufferEffectController.cs
+ RestoreStatEffectController.cs
+ RestoreUsesEffectController.cs
+ SkillModifierEffectController.cs
+ StatBoundaryModifierEffectController.cs
+ StatLockerEffectController.cs
+ StatModifierEffectController.cs
+ SwapContextualSkillEffectController.cs
+ UnlockContextualSkillEffectController.cs
+TheLastStand.Controller.Unit.Perk/
+ PerkController.cs
+ PlayableUnitPerksController.cs
+ UnitPerkTierController.cs
+ UnitPerkTreeController.cs
+TheLastStand.Controller.Unit.Stat/
+ BossUnitStatsController.cs
+ EliteEnemyUnitStatsController.cs
+ EnemyUnitStatsController.cs
+ PlayableUnitStatsController.cs
+ UnitStatsController.cs
+TheLastStand.Controller.Unit/
+ LifetimeStatsController.cs
+ LineOfSightController.cs
+ PlayableUnitController.cs
+ RecruitmentController.cs
+ UnitController.cs
+ UnitGenerationController.cs
+ UnitLevelUpController.cs
+TheLastStand.Controller.WorldMap/WorldMapCityController.cs
+TheLastStand.Controller/
+ ApplicationController.cs
+ BarkController.cs
+ CursorController.cs
+ FogController.cs
+ GameController.cs
+ IBehaviorController.cs
+ IDamageableController.cs
+ ISkillCasterController.cs
+ ITileObjectController.cs
+ LevelProbabilitiesTreeController.cs
+ MainMenuSceneLoader.cs
+ NightReportController.cs
+ RarityProbabilitiesTreeController.cs
+ SceneByTypeLoader.cs
+TheLastStand.Database.Building/
+ BuildingDatabase.cs
+ ConstructionDatabase.cs
+ TileBySpriteDictionary.cs
+TheLastStand.Database.Fog/FogDatabase.cs
+TheLastStand.Database.Meta/GlyphDatabase.cs
+TheLastStand.Database.Unit/
+ BossPhasesDatabase.cs
+ BossUnitDatabase.cs
+ EnemyUnitDatabase.cs
+ PlayableUnitDatabase.cs
+ SkillDatabase.cs
+ SpawnWaveDatabase.cs
+ UnitDatabase.cs
+TheLastStand.Database.WorldMap/CityDatabase.cs
+TheLastStand.Database/
+ AnimatedCutsceneDatabase.cs
+ ApocalypseDatabase.cs
+ BarkDatabase.cs
+ BonePileDatabase.cs
+ EasyModeDatabase.cs
+ GameDatabase.cs
+ GenericDatabase.cs
+ ItemDatabase.cs
+ MetaConditionsDatabase.cs
+ MetaDatabase.cs
+ MetaNarrationDatabase.cs
+ PanicDatabase.cs
+ ResourceDatabase.cs
+ SinkDatabase.cs
+ TemplateDemoDatabase.cs
+ TileDatabase.cs
+ TooltipDatabase.cs
+ TrophyDatabase.cs
+ TutorialDatabase.cs
+TheLastStand.Definition.AnimatedCutscene/
+ AnimatedCutsceneDefinition.cs
+ AnimatedCutsceneSlideAppendNextTextDefinition.cs
+ AnimatedCutsceneSlideChangeMusicDefinition.cs
+ AnimatedCutsceneSlideClearTextDefinition.cs
+ AnimatedCutsceneSlideDefinition.cs
+ AnimatedCutsceneSlideDelayDefinition.cs
+ AnimatedCutsceneSlideItemDefinition.cs
+ AnimatedCutsceneSlideNextAnimationDefinition.cs
+ AnimatedCutsceneSlidePlaySoundDefinition.cs
+ AnimatedCutsceneSlideReplaceCommanderViewDefinition.cs
+TheLastStand.Definition.Apocalypse.ApocalypseEffects/
+ AddAffixFlagApocalypseEffectDefinition.cs
+ AddEnemiesStatModifierFromTurnApocalypseEffectDefinition.cs
+ AddSkillProgressionFlagApocalypseEffectDefinition.cs
+ ApocalypseEffectDefinition.cs
+ EnemiesStatBaseValueModifierApocalypseEffectDefinition.cs
+ ForbidBuildingCategoryAroundMagicCircleApocalypseEffectDefinition.cs
+ GenerateFogSpawnersApocalypseEffectDefinition.cs
+ GenerateMalusAffixesApocalypseEffectDefinition.cs
+ IncreaseDailyFogUpdateFrequencyApocalypseEffectDefinition.cs
+ IncreaseEnemiesNumberApocalypseEffectDefinition.cs
+ IncreaseEnemiesProgressionOffsetApocalypseEffectDefinition.cs
+ IncreasePricesApocalypseEffectDefinition.cs
+ IncreaseStartingFogDensityApocalypseEffectDefinition.cs
+ ModifyBuildingsDeadZoneRangeApocalypseEffectDefinition.cs
+ ModifyEnemiesInjuryStageApocalypseEffectDefinition.cs
+ ModifyInnSlotRecruitmentLevelApocalypseEffectDefinition.cs
+ ModifyMagicCircleStartingHealthApocalypseEffectDefinition.cs
+ MultiplyEnemyUnitSpawnWaveWeightApocalypseEffectDefinition.cs
+ MultiplyPanicGainApocalypseEffectDefinition.cs
+ PlayableUnitBlockLineOfSightApocalypseEffectDefinition.cs
+ RemoveStartingPlayableUnitApocalypseEffectDefinition.cs
+ SetBuildingsNotDemolishableApocalypseEffectDefinition.cs
+TheLastStand.Definition.Apocalypse.LightFogSpawner/LightFogSpawnersGenerationDefinition.cs
+TheLastStand.Definition.Apocalypse/
+ ApocalypseConfigurationDefinition.cs
+ ApocalypseDefinition.cs
+ ApocalypseModifierDefinition.cs
+ ApocalypseModifierStepDefinition.cs
+ ApocalypsesDefinition.cs
+ ApocalypseTierDefinition.cs
+ ApocalypseUnlockConditionDefinition.cs
+ RunCompletedInCityConditionDefinition.cs
+TheLastStand.Definition.BonePile/
+ BonePileCountProgressionDefinition.cs
+ BonePileGeneratorDefinition.cs
+ BonePileGeneratorsDefinition.cs
+ BoneZoneDefinition.cs
+ BoneZonesDefinition.cs
+TheLastStand.Definition.Brazier/
+ BrazierDefinition.cs
+ BraziersAmountPerNight.cs
+ BraziersDefinition.cs
+ BrazierToSpawnPerNight.cs
+ GuardiansGroupsToSpawn.cs
+ GuardiansGroupsToSpawnPerNight.cs
+ NightIndexedItem.cs
+TheLastStand.Definition.Building.BuildingAction/
+ BuildingActionDefinition.cs
+ BuildingActionEffectDefinition.cs
+ FillGaugeBuildingActionEffectDefinition.cs
+ GainGoldBuildingActionEffectDefinition.cs
+ GainMaterialsBuildingActionEffectDefinition.cs
+ HealBuildingActionEffectDefinition.cs
+ HealManaBuildingActionEffectDefinition.cs
+ PhaseStates.cs
+ RepelFogBuildingActionEffectDefinition.cs
+ RerollWaveBuildingActionEffectDefinition.cs
+ RevealDangerIndicatorsBuildingActionEffectDefinition.cs
+ ScavengeBuildingActionEffectDefinition.cs
+ UpgradeStatBuildingActionEffectDefinition.cs
+TheLastStand.Definition.Building.BuildingGaugeEffect/
+ BuildingGaugeEffectDefinition.cs
+ CreateItemGaugeEffectDefinition.cs
+ GainGoldDefinition.cs
+ GainMaterialsDefinition.cs
+ OpenMagicSealDefinition.cs
+ UpgradeStatGaugeEffectDefinition.cs
+TheLastStand.Definition.Building.BuildingPassive.PassiveTrigger/
+ AfterXNightEndTriggerDefinition.cs
+ AfterXNightTurnsTriggerDefinition.cs
+ AfterXProductionPhasesTriggerDefinition.cs
+ EndOfProductionTriggerDefinition.cs
+ OnConstructionTriggerDefinition.cs
+ OnDeathTriggerDefinition.cs
+ OnExtinguishTriggerDefinition.cs
+ PassiveTriggerDefinition.cs
+ PermanentTriggerDefinition.cs
+ StartOfNightEnemyTurnTriggerDefinition.cs
+ StartOfNightPlayableTurnTriggerDefinition.cs
+ StartOfProductionTriggerDefinition.cs
+TheLastStand.Definition.Building.BuildingPassive/
+ BuildingPassiveDefinition.cs
+ BuildingPassiveEffectDefinition.cs
+ CreateRosterItemDefinition.cs
+ DestroyBuildingDefinition.cs
+ FillEffectGaugeDefinition.cs
+ GainResourcesDefinition.cs
+ GenerateGuardianDefinition.cs
+ GenerateLightFogDefinition.cs
+ GenerateNewItemsRosterDefinition.cs
+ ImproveSpawnWaveInfoDefinition.cs
+ IncreaseWorkersDefinition.cs
+ TransformBuildingDefinition.cs
+ UpdateBonePileLevelDefinition.cs
+ UpdateShopLevelDefinition.cs
+TheLastStand.Definition.Building.BuildingSlotEffect/
+ BuildingSlotEffectDefinition.cs
+ FillEffectGaugeDefinition.cs
+ GainExperienceDefinition.cs
+ GainManaSlotEffectDefinition.cs
+ HealUnitsDefinition.cs
+TheLastStand.Definition.Building.BuildingUpgrade/
+ BuildingUpgradeDefinition.cs
+ BuildingUpgradeEffectDefinition.cs
+ ImproveGaugeEffectDefinition.cs
+ ImproveGuessWhoDefinition.cs
+ ImproveLevelDefinition.cs
+ ImprovePassiveDefinition.cs
+ ImproveSellRatioDefinition.cs
+ ImproveUnitLimitDefinition.cs
+ IncreasePlaysPerTurnDefinition.cs
+ ReplaceBuildingDefinition.cs
+ SwapActionDefinition.cs
+ SwapSkillDefinition.cs
+ UnlockActionDefinition.cs
+TheLastStand.Definition.Building.Module/
+ BattleModuleDefinition.cs
+ BlueprintModuleDefinition.cs
+ BrazierModuleDefinition.cs
+ BuildingModuleDefinition.cs
+ ConstructionModuleDefinition.cs
+ DamageableModuleDefinition.cs
+ PassivesModuleDefinition.cs
+ ProductionModuleDefinition.cs
+ UpgradeModuleDefinition.cs
+TheLastStand.Definition.Building/
+ BuildingDefinition.cs
+ BuildingLimitGroupDefinition.cs
+ BuildingSkillSoundDefinition.cs
+ ConstructionDefinition.cs
+ MagicCircleDefinition.cs
+ RandomBuildingsDirectionsDefinition.cs
+ RandomBuildingsGenerationDefinition.cs
+ RandomBuildingsPerDayDefinition.cs
+ ShopDefinition.cs
+ ShopEvolutionDefinition.cs
+ StringToRandomBuildingsDirectionsDefinitionIdConverter.cs
+TheLastStand.Definition.CastFx/
+ CastFxDefinition.cs
+ FollowFxDefinition.cs
+ ManeuverFxDefinition.cs
+ PropagationVisualEffectDefinition.cs
+ SkillCastFxDefinition.cs
+ SoundEffectDefinition.cs
+ StandardVisualEffectDefinition.cs
+ VisualEffectDefinition.cs
+TheLastStand.Definition.Cutscene/
+ AFadeCutsceneDefinition.cs
+ BarkCutsceneDefinition.cs
+ ChangeMusicCutsceneDefinition.cs
+ CutsceneDefinition.cs
+ EvolutiveLevelArtSetActiveCurrentStageCutsceneDefinition.cs
+ EvolutiveLevelArtSetStageCutsceneDefinition.cs
+ ExileAllEnemiesCutsceneDefinition.cs
+ FadeInCutsceneDefinition.cs
+ FadeOutCutsceneDefinition.cs
+ FocusMagicCircleCutsceneDefinition.cs
+ FocusTileCutsceneDefinition.cs
+ FocusUnitCutsceneDefinition.cs
+ ICutsceneDefinition.cs
+ IncreaseFogCutsceneDefinition.cs
+ InitUnitVisualsCutsceneDefinition.cs
+ InstantiateParticlesCutsceneDefinition.cs
+ InvertImageCutsceneDefinition.cs
+ LookAtCircleCutsceneDefinition.cs
+ OverrideCurrentSpawnWaveCutsceneDefinition.cs
+ PlayAnimatedCutsceneDefinition.cs
+ PlayCamShakeEffectCutsceneDefinition.cs
+ PlayCommanderFadeOutAnimCutsceneDefinition.cs
+ PlayDeathAnimCutsceneDefinition.cs
+ PlayEnemyTurnCutsceneDefinition.cs
+ PlayFXCutsceneDefinition.cs
+ PlayMageDeathCutsceneDefinition.cs
+ PlayMageDeathStepCutsceneDefinition.cs
+ PlayPillarsCutsceneDefinition.cs
+ PlayRippleEffectCutsceneDefinition.cs
+ PlaySealAnticipationCutsceneDefinition.cs
+ PlaySealDestructionCutsceneDefinition.cs
+ PlaySoundCutsceneDefinition.cs
+ StopMagicCircleIdleCutsceneDefinition.cs
+ StopMusicCutsceneDefinition.cs
+ ToggleHUDCutsceneDefinition.cs
+ WaitCutsceneDefinition.cs
+ ZoomCutsceneDefinition.cs
+TheLastStand.Definition.DLC/
+ DLCDefinition.cs
+ DLCTextAssetDefinition.cs
+TheLastStand.Definition.EasyMode/
+ EasyModeDecreaseEnemiesCountDefinition.cs
+ EasyModeDecreasePricesDefinition.cs
+ EasyModeDefinition.cs
+ EasyModeIncreaseMagicCircleHealthDefinition.cs
+ EasyModeInitResourcesDefinition.cs
+ EasyModeModifierDefinition.cs
+TheLastStand.Definition.Fog/
+ FogDefinition.cs
+ LightFogDefinition.cs
+TheLastStand.Definition.Hazard/HazardDefinition.cs
+TheLastStand.Definition.Item.ItemRestriction/
+ ItemRestrictionCategoriesCollectionDefinition.cs
+ ItemRestrictionCategoryDefinition.cs
+ ItemRestrictionFamilyDefinition.cs
+TheLastStand.Definition.Item/
+ AffixDefinition.cs
+ AffixLevelsDefinition.cs
+ AffixMalusDefinition.cs
+ CreateItemDefinition.cs
+ ItemCategoryExtensions.cs
+ ItemDefinition.cs
+ ItemLevelsListDefinition.cs
+ ItemsListDefinition.cs
+ ItemSlotDefinition.cs
+TheLastStand.Definition.Meta.Glyphs.GlyphEffects/
+ GlyphAddBuildingPassiveEffectDefinition.cs
+ GlyphAdditionalRewardRerollEffectDefinition.cs
+ GlyphAddStartingGearGenerationPriorityEffectDefinition.cs
+ GlyphBonusSellingRatioEffectDefinition.cs
+ GlyphBonusUnitsEffectDefinition.cs
+ GlyphDamnedSoulsPercentageModifierEffectDefinition.cs
+ GlyphDamnedSoulsScavengingPercentageModifierEffectDefinition.cs
+ GlyphDecreaseEnemiesCountEffectDefinition.cs
+ GlyphEffectDefinition.cs
+ GlyphFreeTrapUsageChancesEffectDefinition.cs
+ GlyphGoldScavengingPercentageModifierEffectDefinition.cs
+ GlyphIncreaseBuildingHealthEffectDefinition.cs
+ GlyphIncreaseDefensesDamagesEffectDefinition.cs
+ GlyphIncreaseLevelupRerollsEffectDefinition.cs
+ GlyphIncreaseStartingGearLevelEffectDefinition.cs
+ GlyphIncreaseStartingResourcesEffectDefinition.cs
+ GlyphIntValueBasedEffectDefinition.cs
+ GlyphMaterialScavengingPercentageModifierEffectDefinition.cs
+ GlyphModifyBuildingActionsCostEffectDefinition.cs
+ GlyphModifyBuildLimitEffectDefinition.cs
+ GlyphModifyCostsEffectDefinition.cs
+ GlyphModifyItemRarityEffectDefinition.cs
+ GlyphModifyLevelProbabilityTreeEffectDefinition.cs
+ GlyphModifyPlayableUnitsStatsEffectDefinition.cs
+ GlyphModifyRarityProbabilityTreeEffectDefinition.cs
+ GlyphModifyRewardsCountEffectDefinition.cs
+ GlyphMultiplyItemWeightEffectDefinition.cs
+ GlyphNativePerkEffectDefinition.cs
+ GlyphNativePerkPointsBonusEffectDefinition.cs
+ GlyphSetFogCapEffectDefinition.cs
+ GlyphToggleSkillProgressionFlagEffectDefinition.cs
+TheLastStand.Definition.Meta.Glyphs/GlyphDefinition.cs
+TheLastStand.Definition.Meta/
+ AdditionalInitMagesMetaEffectDefinition.cs
+ AdditionalRerollRewardMetaEffectDefinition.cs
+ BuildingModifierMetaEffectDefinition.cs
+ CreateItemModifierMetaEffectDefinition.cs
+ FogModifierMetaEffectDefinition.cs
+ InitResourcesBonusMetaEffectDefinition.cs
+ ItemLevelProbabilityMetaEffectDefinition.cs
+ ItemRaritiesMetaEffectDefinition.cs
+ LockItemsMetaEffectDefinition.cs
+ MetaConditionDefinition.cs
+ MetaEffectDefinition.cs
+ MetaNarrationConditionsDefinition.cs
+ MetaNarrationDefinition.cs
+ MetaReplicaConditionDefinition.cs
+ MetaReplicaDaysPlayedConditionDefinition.cs
+ MetaReplicaDefinition.cs
+ MetaReplicaMetaUpgradeUnlockedConditionDefinition.cs
+ MetaReplicaUsedReplicaConditionDefinition.cs
+ MetaUpgradeDefinition.cs
+ NewEnemyMetaEffectDefinition.cs
+ TraitsParametersMetaEffectDefinition.cs
+ UnitAttributeModifierMetaEffectDefinition.cs
+ UnlockAffixesMetaEffectDefinition.cs
+ UnlockBuildingActionMetaEffectDefinition.cs
+ UnlockBuildingMetaEffectDefinition.cs
+ UnlockBuildingUpgradeMetaEffectDefinition.cs
+ UnlockCitiesMetaEffectDefinition.cs
+ UnlockEquipmentGenerationMetaEffectDefinition.cs
+ UnlockGlyphsMetaEffectDefinition.cs
+ UnlockItemsMetaEffectDefinition.cs
+ UnlockPerkCollectionSlotsMetaEffectDefinition.cs
+ UnlockRacesMetaEffectDefinition.cs
+ UnlockRerollRewardMetaEffectDefinition.cs
+ UnlockShopRerollMetaEffectDefinition.cs
+ UnlockSinkMetaEffectDefinition.cs
+ UnlockTraitsMetaEffectDefinition.cs
+ UnlockWavesMetaEffectDefinition.cs
+ UpgradeCityMetaEffectDefinition.cs
+ WavesParametersMetaEffectDefinition.cs
+TheLastStand.Definition.Modding.ModuleConfig.Perks/
+ ModdedPerkCollectionsDefinition.cs
+ ModdedPerkCollectionsSetsDefinition.cs
+ ModdedPerksDefinition.cs
+ PerksModuleConfigDefinition.cs
+TheLastStand.Definition.Modding.ModuleConfig/
+ FontConfigDefinition.cs
+ LocalizationConfigDefinition.cs
+ ModuleConfigDefinition.cs
+TheLastStand.Definition.Modding/
+ FontAssemblyDefinition.cs
+ FontAssetsCreationDefinition.cs
+ FontAssetsDefinition.cs
+TheLastStand.Definition.Night/NightReportRankDefinition.cs
+TheLastStand.Definition.Panic/
+ PanicDefinition.cs
+ PanicLevelDefinition.cs
+ PanicRewardDefinition.cs
+TheLastStand.Definition.Skill.SkillAction.BuildLocation/
+ AroundTheCasterBuildLocationDefinition.cs
+ BuildLocationDefinition.cs
+ OnSelfBuildLocationDefinition.cs
+TheLastStand.Definition.Skill.SkillAction/
+ AttackSkillActionDefinition.cs
+ AttackTypeExtensions.cs
+ BuildSkillActionDefinition.cs
+ GenericSkillActionDefinition.cs
+ GoIntoWatchtowerSkillActionDefinition.cs
+ QuitWatchtowerSkillActionDefinition.cs
+ ResupplySkillActionDefinition.cs
+ SkillActionDefinition.cs
+ SkipTurnSkillActionDefinition.cs
+ SpawnSkillActionDefinition.cs
+TheLastStand.Definition.Skill.SkillEffect.SkillSurroundingEffect/DamageSurroundingEffectDefinition.cs
+TheLastStand.Definition.Skill.SkillEffect/
+ AffectingUnitSkillEffectDefinition.cs
+ ArmorPiercingEffectDefinition.cs
+ ArmorShreddingEffectDefinition.cs
+ BuffEffectDefinition.cs
+ CasterEffectDefinition.cs
+ ChargedEffectDefinition.cs
+ ContagionEffectDefinition.cs
+ DebuffEffectDefinition.cs
+ DecreaseStatSkillEffectDefinition.cs
+ ExileCasterEffectDefinition.cs
+ ExtinguishBrazierSkillEffectDefinition.cs
+ FollowSkillEffectDefinition.cs
+ IgnoreLineOfSightEffectDefinition.cs
+ IgnoreLineOfSightInCityTilesEffectDefinition.cs
+ ImmuneToNegativeStatusEffectDefinition.cs
+ InaccurateSkillEffectDefinition.cs
+ IsolatedSkillEffectDefinition.cs
+ KillSkillEffectDefinition.cs
+ ManeuverSkillEffectDefinition.cs
+ ModifyAffectedUnitsEffectDefinition.cs
+ MomentumEffectDefinition.cs
+ MultiHitSkillEffectDefinition.cs
+ NoBlockEffectDefinition.cs
+ NoDodgeEffectDefinition.cs
+ NoMomentumEffectDefinition.cs
+ OpportunisticSkillEffectDefinition.cs
+ PoisonEffectDefinition.cs
+ PropagationSkillEffectDefinition.cs
+ RegenStatSkillEffectDefinition.cs
+ RemoveStatusEffectDefinition.cs
+ ResupplyBuildingsSkillEffectDefinition.cs
+ ResupplyChargesSkillEffectDefinition.cs
+ ResupplyOverallUsesSkillEffectDefinition.cs
+ ResupplySkillsSkillEffectDefinition.cs
+ RiposteSkillEffectDefinition.cs
+ SkillEffectDefinition.cs
+ StatModifierEffectDefinition.cs
+ StatusEffectDefinition.cs
+ StunEffectDefinition.cs
+ SurroundingEffectDefinition.cs
+TheLastStand.Definition.Skill/
+ AreaOfEffectDefinition.cs
+ BuildingExistConditionDefinition.cs
+ InPlayableUnitRangConditionDefinition.cs
+ InWatchtowerConditionDefinition.cs
+ MaxTargetHealthLeftConditionDefinition.cs
+ MinTargetInjuryStageConditionDefinition.cs
+ NextToBuildingConditionDefinition.cs
+ NotInBuildingConditionDefinition.cs
+ OnlyDuringPhaseConditionDefinition.cs
+ OntoBuildingConditionDefinition.cs
+ SkillConditionDefinition.cs
+ SkillDefinition.cs
+ ValidTargets.cs
+TheLastStand.Definition.SpawnFx/
+ SpawnFxDefinition.cs
+ SpawnVisualEffectDefinition.cs
+TheLastStand.Definition.TileMap/
+ TileFlagDefinition.cs
+ TileMapFilterDefinition.cs
+ TileMapFiltersDefinition.cs
+TheLastStand.Definition.Tooltip.Compendium/
+ ACompendiumEntryDefinition.cs
+ AttackTypeEntryDefinition.cs
+ CompendiumDefinition.cs
+ CompendiumEntryDefinition.cs
+ GameConceptEntryDefinition.cs
+ SkillEffectEntryDefinition.cs
+TheLastStand.Definition.Trophy.TrophyCondition/
+ ArmoredEnemiesDamagedByArmorShreddingTrophyDefinition.cs
+ BloodyKilledAfterEatingAlliesTrophyDefinition.cs
+ BodyArmorBuffUsedTrophyDefinition.cs
+ BuildingsLostTrophyDefinition.cs
+ CatapultUsedTrophyDefinition.cs
+ CriticalsInflictedSingleTurnTrophyDefinition.cs
+ DamageInflictedSingleAttackTrophyDefinition.cs
+ DamageInflictedTrophyDefinition.cs
+ DefensesLostTrophyDefinition.cs
+ DodgesPerformedTrophyDefinition.cs
+ EnemiesDamagedByBoomerTrophyDefinition.cs
+ EnemiesDamagedTrophyDefinition.cs
+ EnemiesDebuffedSeveralTimesSingleTurnTrophyDefinition.cs
+ EnemiesKilledByIsolatedTrophyDefinition.cs
+ EnemiesKilledByPropagationTrophyDefinition.cs
+ EnemiesKilledFromWatchtowerTrophyDefinition.cs
+ EnemiesKilledSingleAttackTrophyDefinition.cs
+ EnemiesKilledTrophyDefinition.cs
+ EnemiesKilledWithoutAttackTrophyDefinition.cs
+ FriendlyFireTrophyDefinition.cs
+ GhostKilledWithoutDebuffingTrophyDefinition.cs
+ HealthLostTrophyDefinition.cs
+ HealthRemainingAtMostTrophyDefinition.cs
+ HeroDeadTrophyDefinition.cs
+ HeroesTrophyConditionDefinition.cs
+ HeroSurroundedByEnemiesTrophyDefinition.cs
+ JumpOverWallUsedTrophyDefinition.cs
+ ManaSpentTrophyDefinition.cs
+ NightCompletedTrophyDefinition.cs
+ NightCompletedXTurnsAfterSpawnEndTrophyDefinition.cs
+ NoDodgeTriggeredTrophyDefinition.cs
+ NoHealthLostTrophyDefinition.cs
+ OpportunismDamageInflictedTrophyDefinition.cs
+ OpportunisticTriggeredTrophyDefinition.cs
+ PerfectPanicTrophyDefinition.cs
+ PunchUsedTrophyDefinition.cs
+ SpeedyKilledWithoutDodgingTrophyDefinition.cs
+ StatusInflictedTrophyDefinition.cs
+ SurviveWithFewWallsTrophyDefinition.cs
+ TilesMovedBeforeMomentumTrophyDefinition.cs
+ TilesMovedUsingSkillsTrophyDefinition.cs
+ TrophyConditionDefinition.cs
+ UsableUsedTrophyDefinition.cs
+ ValueIntHeroesTrophyConditionDefinition.cs
+ ValueIntTrophyConditionDefinition.cs
+TheLastStand.Definition.Trophy/
+ DefaultTrophyDefinition.cs
+ TrophyConfigDefinition.cs
+ TrophyDefinition.cs
+TheLastStand.Definition.Tutorial/
+ CurrentNightHourTutorialConditionDefinition.cs
+ DuringDayTurnTutorialConditionDefinition.cs
+ DuringNightTutorialConditionDefinition.cs
+ InCityTutorialConditionDefinition.cs
+ IsWeaponRestrictionAvailableTutorialConditionDefinition.cs
+ TotalActionPointsSpentTutorialConditionDefinition.cs
+ TutorialConditionDefinition.cs
+ TutorialDefinition.cs
+ TutorialMapSkippedTutorialConditionDefinition.cs
+TheLastStand.Definition.Unit.Enemy.Affix/
+ EnemyAffixDefinition.cs
+ EnemyAffixEffectDefinition.cs
+ EnemyAuraAffixEffectDefinition.cs
+ EnemyBarrierAffixEffectDefinition.cs
+ EnemyEnergeticAffixEffectDefinition.cs
+ EnemyHealthChunksAffixEffectDefinition.cs
+ EnemyHigherPlaneAffixEffectDefinition.cs
+ EnemyMirrorAffixEffectDefinition.cs
+ EnemyMistyAffixEffectDefinition.cs
+ EnemyPurgeAffixEffectDefinition.cs
+ EnemyRegenerativeAffixEffectDefinition.cs
+ EnemyReinforcedAffixEffectDefinition.cs
+ EnemyRevengeAffixEffectDefinition.cs
+ EnemyStatusAffixEffectDefinition.cs
+TheLastStand.Definition.Unit.Enemy.Boss.PhaseAction/
+ ABossPhaseActionDefinition.cs
+ ASpawnActorPhaseActionDefinition.cs
+ DestroyActorPhaseActionDefinition.cs
+ EvolutiveLevelArtSetActiveCurrentStagePhaseActionDefinition.cs
+ EvolutiveLevelArtSetStagePhaseActionDefinition.cs
+ PauseWavePhaseActionDefinition.cs
+ PlayCutscenePhaseActionDefinition.cs
+ ReplaceActorsPhaseActionDefinition.cs
+ SetNightProgressionPhaseActionDefinition.cs
+ SetPhaseHandlerLockPhaseActionDefinition.cs
+ SetPhasePhaseActionDefinition.cs
+ SpawnActorPhaseActionDefinition.cs
+ UnlockSpawnerBossAchievementPhaseActionDefinition.cs
+TheLastStand.Definition.Unit.Enemy.Boss.PhaseCondition/
+ BossPhaseConditionsFactory.cs
+ BossPhaseTurnConditionDefinition.cs
+ FinishWaveBossPhaseConditionDefinition.cs
+ IBossPhaseConditionDefinition.cs
+ KilledActorsAmountBossPhaseConditionDefinition.cs
+ RemainingActorsBossPhaseConditionDefinition.cs
+ SurviveTurnsBossPhaseConditionDefinition.cs
+TheLastStand.Definition.Unit.Enemy.Boss/
+ ActorDefinition.cs
+ ActorDefinitionExtension.cs
+ BossPhaseDefinition.cs
+ BossPhaseHandlerDefinition.cs
+ BossPhasesDefinition.cs
+ BossStagingDefinition.cs
+TheLastStand.Definition.Unit.Enemy.GoalCondition.GoalPostcondition/TargetsCountCondition.cs
+TheLastStand.Definition.Unit.Enemy.GoalCondition.GoalPrecondition/
+ ApocalypseSkillProgressionFlagIsToggledConditionDefinition.cs
+ CasterHasStatusConditionDefinition.cs
+ CasterHealthConditionDefinition.cs
+ DamageableAroundConditionDefinition.cs
+ InterpretedTurnCondition.cs
+ NotInAnyFogCondition.cs
+ NotInFogCondition.cs
+ PlayableUnitCloseToCasterConditionDefinition.cs
+ SkillProgressionFlagIsToggledConditionDefinition.cs
+TheLastStand.Definition.Unit.Enemy.GoalCondition.GoalTargetCondition/
+ DamageableCountInAoeConditionDefinition.cs
+ ExcludeDamageableTypeInAoeConditionDefinition.cs
+ FlagTagConditionDefinition.cs
+ GroundCategoryConditionDefinition.cs
+ TargetHasBuildingIdConditionDefinition.cs
+ TargetHealthConditionDefinition.cs
+ TargetIdConditionDefinition.cs
+ TargetInRangeConditionDefinition.cs
+ TargetIsNotEliteConditionDefinition.cs
+ TileHasHazardConditionDefinition.cs
+TheLastStand.Definition.Unit.Enemy.GoalCondition/GoalConditionDefinition.cs
+TheLastStand.Definition.Unit.Enemy.PositioningMethod/
+ ClosestTilePositioningMethod.cs
+ FarthestTilePositioningMethod.cs
+ PositioningMethod.cs
+ StandardPositioningMethod.cs
+TheLastStand.Definition.Unit.Enemy.TargetingMethod/
+ ClosestTargetingMethodDefinition.cs
+ FarthestTargetingMethodDefinition.cs
+ FirstTargetTargetingMethodDefinition.cs
+ OptimalTargetingMethodDefinition.cs
+ RandomTargetingMethodDefinition.cs
+ ScoreTargetingMethodDefinition.cs
+ TargetingMethodDefinition.cs
+ TargetingMethodsContainerDefinition.cs
+TheLastStand.Definition.Unit.Enemy/
+ BehaviorDefinition.cs
+ BossUnitTemplateDefinition.cs
+ BossWaveSettings.cs
+ EliteEnemyUnitTemplateDefinition.cs
+ EnemySkillSoundDefinition.cs
+ EnemyUnitTemplateDefinition.cs
+ GoalDefinition.cs
+ GoalTargetTypeDefinition.cs
+ SeerAdditionalPortraitSettings.cs
+ SpawnDefinition.cs
+ SpawnDirectionsDefinition.cs
+ SpawnWaveDefinition.cs
+ SpawnWaveEnemiesDefinition.cs
+ SubAreaDefinition.cs
+ TierDefinition.cs
+TheLastStand.Definition.Unit.Perk.PerkAction/
+ ABufferPerkActionDefinition.cs
+ APerkActionDefinition.cs
+ DecreaseBufferDefinition.cs
+ ForbidSkillUndoDefinition.cs
+ IncreaseBufferDefinition.cs
+ InstantiateBuffEffectDisplayDefinition.cs
+ InstantiateEffectDisplayDefinition.cs
+ InstantiateRestoreEffectDisplayDefinition.cs
+ InstantiateStatEffectDisplayDefinition.cs
+ LogPerkActionDefinition.cs
+ RefillGaugeDefinition.cs
+ RefreshPerkActivationFeedbackDefinition.cs
+ SetBufferDefinition.cs
+ TriggerEffectsDefinition.cs
+ TriggerEffectsOnAllAttackDataDefinition.cs
+TheLastStand.Definition.Unit.Perk.PerkCondition/
+ APerkConditionDefinition.cs
+ IsFalseConditionDefinition.cs
+ IsTrueConditionDefinition.cs
+TheLastStand.Definition.Unit.Perk.PerkDataCondition/
+ APerkDataConditionDefinition.cs
+ IsFalseDataConditionDefinition.cs
+ IsTrueDataConditionDefinition.cs
+ PerkDataConditionsDefinition.cs
+TheLastStand.Definition.Unit.Perk.PerkEffect/
+ AddPerkSkillEffectDefinition.cs
+ AddSkillEffectDefinition.cs
+ AllowDiagonalPropagationEffectDefinition.cs
+ APerkEffectDefinition.cs
+ ApplyStatusEffectDefinition.cs
+ AttackDataModifierEffectDefinition.cs
+ CastSkillEffectDefinition.cs
+ ComputationStatLockerEffectDefinition.cs
+ DealDamageEffectDefinition.cs
+ DynamicStatsModifierEffectDefinition.cs
+ EquipmentSlotModifierEffectDefinition.cs
+ GetAdditionalExperienceEffectDefinition.cs
+ LockSkillEffectDefinition.cs
+ ModifyContextualSkillOverallUsesEffectDefinition.cs
+ ModifyDefensesDamageEffectDefinition.cs
+ MomentumModifierEffectDefinition.cs
+ PermanentBaseStatModifierEffectDefinition.cs
+ ReplaceItemSkillEffectDefinition.cs
+ ReplacePerkEffectDefinition.cs
+ ResetBufferEffectDefinition.cs
+ RestoreStatEffectDefinition.cs
+ RestoreUsesEffectDefinition.cs
+ SkillModifierEffectDefinition.cs
+ StatBoundaryModifierEffectDefinition.cs
+ StatLockerEffectDefinition.cs
+ StatModifierEffectDefinition.cs
+ SwapContextualSkillEffectDefinition.cs
+ UnlockContextualSkillEffectDefinition.cs
+TheLastStand.Definition.Unit.Perk/
+ APerkModuleDefinition.cs
+ BufferModuleDefinition.cs
+ GaugeModuleDefinition.cs
+ PerkDefinition.cs
+ PerkEventDefinition.cs
+ PerkTargetingDefinition.cs
+ UnitPerkCollectionDefinition.cs
+ UnitPerkCollectionSetDefinition.cs
+ UnitPerkTemplateDefinition.cs
+TheLastStand.Definition.Unit.PlayableUnitGeneration/
+ EquipmentGenerationDefinition.cs
+ PlayableUnitGenerationDefinition.cs
+ StatGenerationDefinition.cs
+TheLastStand.Definition.Unit.Race/RaceDefinition.cs
+TheLastStand.Definition.Unit.Trait/
+ UnitTraitDefinition.cs
+ UnitTraitGenerationDefinition.cs
+ UnitTraitTierDefinition.cs
+TheLastStand.Definition.Unit/
+ BodyPartDefinition.cs
+ ComboDefinition.cs
+ HitByEnemySoundDefinition.cs
+ InjuryDefinition.cs
+ LineOfSightDefinition.cs
+ LinkedHairDefinition.cs
+ PathfindingDefinition.cs
+ PlayableUnitTemplateDefinition.cs
+ RecruitmentDefinition.cs
+ RemoveStatusDefinition.cs
+ SealedUnitGenerationLevelDefinition.cs
+ SkillProgression.cs
+ StatModifierDefinition.cs
+ UnitEquipmentSlotDefinition.cs
+ UnitFaceIdDefinition.cs
+ UnitFaceIdDefinitions.cs
+ UnitGenerationDefinition.cs
+ UnitGenerationLevelDefinition.cs
+ UnitLevelUpDefinition.cs
+ UnitLevelUpStatDefinition.cs
+ UnitLinkHairSkin.cs
+ UnitStartingRosterRacesDistributionDefinition.cs
+ UnitStatDefinition.cs
+ UnitStatExtensions.cs
+ UnitTemplateDefinition.cs
+ UpgradeStatDefinition.cs
+TheLastStand.Definition.WorldMap/CityDefinition.cs
+TheLastStand.Definition/
+ BarkDefinition.cs
+ ColorSwapPaletteDefinition.cs
+ DamageTypeModifiersDefinition.cs
+ FilterDefinition.cs
+ GameDefinition.cs
+ GroundDefinition.cs
+ IdsListDefinition.cs
+ InterpretedBool.cs
+ InterpretedFloat.cs
+ InterpretedInt.cs
+ InterpretedValue.cs
+ ITileObjectDefinition.cs
+ LocalizableDefinition.cs
+ PerkSinkDataDefinition.cs
+ PoisonDamageScaleDefinition.cs
+ ProbabilityTreeEntriesDefinition.cs
+ RangeDefinition.cs
+ ResourceDefinition.cs
+ SinkDataDefinition.cs
+ TemplateDemoDefinition.cs
+TheLastStand.Dev.View/
+ BonePilePercentagesView.cs
+ MetaConditionsDebugView.cs
+ MetaUpgradeDebugConditionLineView.cs
+ MetaUpgradeDebugLineView.cs
+TheLastStand.Dev/
+ ColorSwapHandler.cs
+ ColorSwapHandlerUI.cs
+ EnterSubmitInputField.cs
+ InputBindingButton.cs
+ KMeans.cs
+ KMeansClustersInfo.cs
+ MetaConditionSeparatorDebugView.cs
+ MetaNarrationDebugger.cs
+ MetaNarrationDebuggerReplicaButton.cs
+ MetaNarrationHelpBox.cs
+ MetaUpgradeDebugStateManager.cs
+ TestHashedRandomRange.cs
+ TestRandom.cs
+TheLastStand.DRM.Achievements/
+ AAchievementHandler.cs
+ Achievement.cs
+ AchievementContainer.cs
+ AchievementUnlocker.cs
+ Stat.cs
+ StatContainer.cs
+ SteamAchievementHandler.cs
+TheLastStand.Framework.Serialization/SaverLoader.cs
+TheLastStand.Helpers/
+ CanvasHelper.cs
+ DictionaryHelpers.cs
+ FilterHelpers.cs
+ ListHelpers.cs
+TheLastStand.Manager.Achievements/AchievementManager.cs
+TheLastStand.Manager.Building/
+ BuildingManager.cs
+ ConstructionManager.cs
+TheLastStand.Manager.DLC/DLCManager.cs
+TheLastStand.Manager.Item/
+ InventoryManager.cs
+ ItemManager.cs
+ ItemRestrictionManager.cs
+TheLastStand.Manager.Languages/FontsAndLanguageManager.cs
+TheLastStand.Manager.LevelEditor/
+ BuildingsSettingsManager.cs
+ LevelEditorManager.cs
+TheLastStand.Manager.Meta/
+ GlyphManager.cs
+ MetaConditionManager.cs
+ MetaNarrationsManager.cs
+ MetaUpgradesManager.cs
+TheLastStand.Manager.Modding/
+ ExternalFileLoader.cs
+ LocalModLoader.cs
+ ModLoader.cs
+ ModManager.cs
+ WorkshopItemHandler.cs
+TheLastStand.Manager.SDK/LightningSDKManager.cs
+TheLastStand.Manager.Skill/SkillManager.cs
+TheLastStand.Manager.Sound/SoundManager.cs
+TheLastStand.Manager.SteamWorkshop/SteamModLoader.cs
+TheLastStand.Manager.Trap/
+ TrapManager.cs
+ TrapSoundSkillDelayInterpreterContext.cs
+TheLastStand.Manager.Turret/TurretManager.cs
+TheLastStand.Manager.Unit/
+ BossManager.cs
+ CharacterSheetManager.cs
+ EffectTimeEventManager.cs
+ EnemyUnitManager.cs
+ PathfindingManager.cs
+ PlayableUnitManager.cs
+ SpawnWaveManager.cs
+TheLastStand.Manager.WorldMap/
+ LastRunInfo.cs
+ WorldMapCityManager.cs
+ WorldMapRefsManager.cs
+ WorldMapStateManager.cs
+ WorldMapUIManager.cs
+TheLastStand.Manager/
+ ABuildingBehaviorManager.cs
+ AMetaShopManager.cs
+ AnimatedCutsceneManager.cs
+ ApocalypseManager.cs
+ ApocalypseStateBeforeGameOver.cs
+ ApplicationManager.cs
+ BarkManager.cs
+ BehaviorManager.cs
+ BonePileManager.cs
+ CanvasFadeManager.cs
+ CutsceneManager.cs
+ DarkShopManager.cs
+ EffectManager.cs
+ FogManager.cs
+ GameManager.cs
+ HUDJoystickNavigationManager.cs
+ InputManager.cs
+ KeyRemappingManager.cs
+ LaunchArgumentsManager.cs
+ LightShopManager.cs
+ Manager.cs
+ MetaShopsManager.cs
+ NightTurnsManager.cs
+ PanicManager.cs
+ PooledAudioSourcesManager.cs
+ RandomManager.cs
+ ResourceManager.cs
+ SaveManager.cs
+ ScenesManager.cs
+ SeamlessManagersContainer.cs
+ SectorManager.cs
+ SelectableJoystickTooltipDisplayer.cs
+ SettingsManager.cs
+ ShopManager.cs
+ SinkManager.cs
+ SplashScreenManager.cs
+ SpritesLocalizeManager.cs
+ StringToBarkIdConverter.cs
+ TargetWaitSettings.cs
+ TileMapManager.cs
+ TileObjectSelectionManager.cs
+ TimeManager.cs
+ TrophyManager.cs
+ TurnEndValidationManager.cs
+ TutorialManager.cs
+ UIManager.cs
+TheLastStand.Model.AnalyticsEventsData/
+ AchievementData.cs
+ BossDeathData.cs
+ DeathHeroData.cs
+ DetailedPlayableUnitData.cs
+ EndDayData.cs
+ EndNightData.cs
+ EndRunData.cs
+ GameStartData.cs
+ GoldBuildingData.cs
+ HeroStatLevelUpData.cs
+ MapData.cs
+ MapDayData.cs
+ MapNightData.cs
+ MaterialBuildingData.cs
+ PerkUnlockData.cs
+ PlayableUnitsData.cs
+ PurchaseBuildingData.cs
+ SaleItemData.cs
+ StartRunData.cs
+ VulnerabilityBossData.cs
+TheLastStand.Model.Animation/
+ BiStatusTweenAnimation.cs
+ ColorTweenAnimation.cs
+ FloatTweenAnimation.cs
+ Vector2TweenAnimation.cs
+TheLastStand.Model.Apocalypse.ApocalypseEffects/
+ AApocalypseEffect.cs
+ AddEnemiesStatModifierFromTurnApocalypseEffect.cs
+TheLastStand.Model.Apocalypse/
+ Apocalypse.cs
+ ApocalypseModifierIdAndStepIndex.cs
+ ApocalypseRetroCompatibilityLevelEquivalence.cs
+ ApocalypseUnlockCondition.cs
+ RunCompletedInCityCondition.cs
+TheLastStand.Model.Building.BuildingAction/
+ BuildingAction.cs
+ BuildingActionEffect.cs
+ BuildingActionExecution.cs
+ FillGaugeBuildingActionEffect.cs
+ GainGoldBuildingActionEffect.cs
+ GainMaterialsBuildingActionEffect.cs
+ HealBuildingActionEffect.cs
+ HealManaBuildingActionEffect.cs
+ RepelFogBuildingActionEffect.cs
+ RerollWaveBuildingActionEffect.cs
+ RevealDangerIndicatorsBuildingActionEffect.cs
+ ScavengeBuildingActionEffect.cs
+ UpgradeStatBuildingActionEffect.cs
+TheLastStand.Model.Building.BuildingGaugeEffect/
+ BuildingGaugeEffect.cs
+ CreateItemGaugeEffect.cs
+ GainGold.cs
+ GainMaterials.cs
+ OpenMagicSeal.cs
+ UpgradeStatGaugeEffect.cs
+TheLastStand.Model.Building.BuildingPassive.PassiveTrigger/
+ AfterXNightEndTrigger.cs
+ AfterXNightTurnsTrigger.cs
+ AfterXProductionPhasesTrigger.cs
+ BuildingPassiveTriggerFactory.cs
+ EndOfProductionTrigger.cs
+ OnConstructionTrigger.cs
+ OnDeathTrigger.cs
+ OnExtinguishTrigger.cs
+ PassiveTrigger.cs
+ PermanentTrigger.cs
+ StartOfNightEnemyTurnTrigger.cs
+ StartOfNightPlayableTurnTrigger.cs
+ StartOfProductionTrigger.cs
+TheLastStand.Model.Building.BuildingPassive/
+ BuildingPassive.cs
+ BuildingPassiveEffect.cs
+ BuildingPassiveEffectFactory.cs
+ CreateRosterItem.cs
+ DestroyBuilding.cs
+ FillEffectGauge.cs
+ GainResources.cs
+ GenerateGuardian.cs
+ GenerateLightFog.cs
+ GenerateNewItemsRoster.cs
+ ImproveSpawnWaveInfo.cs
+ IncreaseWorkers.cs
+ TransformBuilding.cs
+ UpdateBonePileLevel.cs
+ UpdateShopLevel.cs
+TheLastStand.Model.Building.BuildingUpgrade/
+ BuildingGlobalUpgrade.cs
+ BuildingUpgrade.cs
+ BuildingUpgradeEffect.cs
+ BuildingUpgradeLevel.cs
+ ImproveGaugeEffect.cs
+ ImproveGuessWho.cs
+ ImproveLevel.cs
+ ImprovePassive.cs
+ ImproveSellRatio.cs
+ ImproveUnitLimit.cs
+ IncreasePlaysPerTurn.cs
+ ReplaceBuilding.cs
+ SwapAction.cs
+ SwapSkill.cs
+ UnlockAction.cs
+TheLastStand.Model.Building.Module/
+ BattleModule.cs
+ BlueprintModule.cs
+ BrazierModule.cs
+ BuildingModule.cs
+ ConstructionModule.cs
+ DamageableModule.cs
+ GateBlueprintModule.cs
+ PassivesModule.cs
+ ProductionModule.cs
+ TrapConstructionModule.cs
+ TrapDamageableModule.cs
+ UpgradeModule.cs
+TheLastStand.Model.Building/
+ Building.cs
+ BuildingToRestore.cs
+ Construction.cs
+ MagicCircle.cs
+ Shop.cs
+TheLastStand.Model.CastFx/
+ CastFx.cs
+ CastFXInterpreterContext.cs
+ SkillCastFXInterpreterContext.cs
+TheLastStand.Model.Cutscene/Cutscene.cs
+TheLastStand.Model.Events/
+ BuildingConstructedEvent.cs
+ BuildingDestroyedEvent.cs
+ GoldChangeEvent.cs
+ MaterialChangeEvent.cs
+ WorkersChangeEvent.cs
+TheLastStand.Model.Extensions/
+ DirectionExtensions.cs
+ E_SkillUnitAffectExtensions.cs
+ TileExtensions.cs
+TheLastStand.Model.Item.ItemRestriction/
+ ItemRestrictionCategoriesCollection.cs
+ ItemRestrictionFamily.cs
+TheLastStand.Model.Item/
+ Affix.cs
+ AffixMalus.cs
+ EquipmentSlot.cs
+ IAffix.cs
+ Inventory.cs
+ InventorySlot.cs
+ Item.cs
+ ItemSlot.cs
+ ShopInventorySlot.cs
+ ShopSlot.cs
+TheLastStand.Model.LaunchArgument/DevArgument.cs
+TheLastStand.Model.LevelEditor.Conversation/
+ ChangeLevelSizeCommand.cs
+ DecreaseLevelSizeCommand.cs
+ DestroyBuildingCommand.cs
+ IncreaseLevelSizeCommand.cs
+ PlaceBuildingCommand.cs
+ PlaceGroundCommand.cs
+ SetGroundColorCommand.cs
+ SetTileFlagCommand.cs
+TheLastStand.Model.Localization/LocalizationKey.cs
+TheLastStand.Model.Meta.Glyphs.GlyphEffects/GlyphModifyBuildingActionsCostEffect.cs
+TheLastStand.Model.Meta/
+ MetaCondition.cs
+ MetaConditionContext.cs
+ MetaConditionGlobalContext.cs
+ MetaConditionSpecificContext.cs
+ MetaNarration.cs
+ MetaReplica.cs
+ MetaUpgrade.cs
+ MetaUpgradesEffects.cs
+TheLastStand.Model.Modding.Module/
+ FontModule.cs
+ LocalizationModule.cs
+ ModdingModule.cs
+ PerksModule.cs
+TheLastStand.Model.Modding/
+ Mod.cs
+ ModdedFontAssembly.cs
+TheLastStand.Model.Panic/
+ Panic.cs
+ PanicEvalContext.cs
+ PanicEvalGoldContext.cs
+ PanicEvalMaterialContext.cs
+ PanicReward.cs
+TheLastStand.Model.ProductionReport/
+ IProductionObject.cs
+ ProductionItems.cs
+ ProductionNightRewardObject.cs
+ ProductionObject.cs
+ ProductionReport.cs
+ RewardItemSlot.cs
+TheLastStand.Model.Settings/Settings.cs
+TheLastStand.Model.Sink/
+ PerkSinkData.cs
+ SinkData.cs
+TheLastStand.Model.Skill.SkillAction.SkillActionExecution.SkillActionExecutionTileData/
+ AttackSkillActionExecutionTileData.cs
+ SkillActionExecutionTileData.cs
+TheLastStand.Model.Skill.SkillAction.SkillActionExecution/
+ AttackSkillActionExecution.cs
+ BuffSkillActionExecution.cs
+ BuildSkillActionExecution.cs
+ GenericSkillActionExecution.cs
+ GoIntoWatchtowerSkillActionExecution.cs
+ QuitWatchtowerSkillActionExecution.cs
+ ResupplySkillActionExecution.cs
+ SkillActionExecution.cs
+ SkipTurnSkillActionExecution.cs
+ SpawnSkillActionExecution.cs
+TheLastStand.Model.Skill.SkillAction/
+ AttackSkillAction.cs
+ BuildSkillAction.cs
+ DamageRangeData.cs
+ EnemySpawnData.cs
+ GenericSkillAction.cs
+ GoIntoWatchtowerSkillAction.cs
+ QuitWatchtowerSkillAction.cs
+ ResupplySkillAction.cs
+ SkillAction.cs
+ SkipTurnSkillAction.cs
+ SpawnSkillAction.cs
+TheLastStand.Model.Skill/
+ GroupTargetingInfo.cs
+ Skill.cs
+ SkillTargetedTileInfo.cs
+TheLastStand.Model.SpawnFx/SpawnFx.cs
+TheLastStand.Model.SplashScreen/SplashScreen.cs
+TheLastStand.Model.Status.Immunity/ImmunityStatus.cs
+TheLastStand.Model.Status/
+ BuffStatus.cs
+ ChargedStatus.cs
+ ContagionStatus.cs
+ DebuffStatus.cs
+ InvulnerableStatus.cs
+ PoisonStatus.cs
+ StatModifierStatus.cs
+ Status.cs
+ StatusCreationInfo.cs
+ StatusExtensions.cs
+ StatusSourceInfo.cs
+ StunStatus.cs
+TheLastStand.Model.TileMap/
+ LineOfSightTiles.cs
+ Tile.cs
+ TileFlag.cs
+ TileMap.cs
+ TilesInRangeInfos.cs
+TheLastStand.Model.Trophy/
+ MultiplierEvalContext.cs
+ Trophy.cs
+TheLastStand.Model.Tutorial/
+ E_TutorialCategory.cs
+ E_TutorialTrigger.cs
+ Tutorial.cs
+ TutorialInfo.cs
+TheLastStand.Model.Unit.Boss/
+ BossPhase.cs
+ BossPhaseHandler.cs
+ BossPhaseTurnConditionContext.cs
+ BossStagingExpressionInterpreter.cs
+TheLastStand.Model.Unit.Enemy.Affix/
+ EnemyAffix.cs
+ EnemyAffixInterpreter.cs
+ EnemyAuraAffix.cs
+ EnemyBarrierAffix.cs
+ EnemyEnergeticAffix.cs
+ EnemyHealthChunksAffix.cs
+ EnemyHigherPlaneAffix.cs
+ EnemyMirrorAffix.cs
+ EnemyMistyAffix.cs
+ EnemyPurgeAffix.cs
+ EnemyRegenerativeAffix.cs
+ EnemyReinforcedAffix.cs
+ EnemyRevengeAffix.cs
+TheLastStand.Model.Unit.Enemy/
+ BossUnit.cs
+ EliteEnemyUnit.cs
+ EnemySkillGroup.cs
+ EnemyUnit.cs
+ Goal.cs
+ GoalInterpreterContext.cs
+ SpawnPointInfo.cs
+ SpawnWave.cs
+ SpawnWaveInfos.cs
+TheLastStand.Model.Unit.Movement/
+ MoveUnitCommand.cs
+ SkillCommand.cs
+ UnitCommand.cs
+TheLastStand.Model.Unit.Pathfinding/
+ AIPathfindingData.cs
+ MovePath.cs
+ Node.cs
+ Pathfinding.cs
+ PathfindingData.cs
+TheLastStand.Model.Unit.Perk.PerkAction/
+ APerkAction.cs
+ DecreaseBuffer.cs
+ ForbidSkillUndo.cs
+ IncreaseBuffer.cs
+ InstantiateBuffEffectDisplay.cs
+ InstantiateEffectDisplay.cs
+ InstantiateRestoreEffectDisplay.cs
+ InstantiateStatEffectDisplay.cs
+ LogPerkAction.cs
+ RefillGauge.cs
+ RefreshPerkActivationFeedback.cs
+ SetBuffer.cs
+ TriggerEffects.cs
+ TriggerEffectsOnAllAttackData.cs
+TheLastStand.Model.Unit.Perk.PerkCondition/
+ APerkCondition.cs
+ IsFalseCondition.cs
+ IsTrueCondition.cs
+TheLastStand.Model.Unit.Perk.PerkDataCondition/
+ APerkDataCondition.cs
+ IsFalseDataCondition.cs
+ IsTrueDataCondition.cs
+ PerkDataConditions.cs
+TheLastStand.Model.Unit.Perk.PerkEffect/
+ AddPerkSkillEffect.cs
+ AddSkillEffect.cs
+ AllowDiagonalPropagationEffect.cs
+ APerkEffect.cs
+ ApplyStatusEffect.cs
+ AttackDataModifierEffect.cs
+ CastSkillEffect.cs
+ ComputationStatLockerEffect.cs
+ DealDamageEffect.cs
+ DynamicStatsModifierEffect.cs
+ EquipmentSlotModifierEffect.cs
+ GetAdditionalExperienceEffect.cs
+ LockSkillEffect.cs
+ ModifyContextualSkillOverallUsesEffect.cs
+ ModifyDefensesDamageEffect.cs
+ MomentumModifierEffect.cs
+ PermanentBaseStatModifierEffect.cs
+ ReplaceItemSkillEffect.cs
+ ReplacePerkEffect.cs
+ ResetBufferEffect.cs
+ RestoreStatEffect.cs
+ RestoreUsesEffect.cs
+ SkillModifierEffect.cs
+ StatBoundaryModifierEffect.cs
+ StatLockerEffect.cs
+ StatModifierEffect.cs
+ SwapContextualSkillEffect.cs
+ UnlockContextualSkillEffect.cs
+TheLastStand.Model.Unit.Perk.PerkEvent/PerkEvent.cs
+TheLastStand.Model.Unit.Perk.PerkModule/
+ APerkModule.cs
+ BufferModule.cs
+ GaugeModule.cs
+ PermanentModule.cs
+ ToggableModule.cs
+TheLastStand.Model.Unit.Perk/
+ Perk.cs
+ PerkDataContainer.cs
+ PerkTargeting.cs
+ PlayableUnitPerks.cs
+ UnitPerkTier.cs
+ UnitPerkTree.cs
+TheLastStand.Model.Unit.Stat/
+ BossUnitStats.cs
+ EliteEnemyUnitStat.cs
+ EliteEnemyUnitStats.cs
+ EnemyUnitStat.cs
+ EnemyUnitStats.cs
+ PlayableUnitStat.cs
+ PlayableUnitStats.cs
+ UnitStat.cs
+ UnitStats.cs
+TheLastStand.Model.Unit/
+ BodyPart.cs
+ Injury.cs
+ LifetimeStats.cs
+ LineOfSight.cs
+ PlayableUnit.cs
+ Recruitment.cs
+ Unit.cs
+ UnitCreationSettings.cs
+ UnitExtensions.cs
+ UnitGeneration.cs
+ UnitLevelUp.cs
+ UnitLevelUpPoint.cs
+TheLastStand.Model.WorldMap/
+ GlyphsConfig.cs
+ StringToCityIdConverter.cs
+ WorldMapCity.cs
+TheLastStand.Model/
+ Application.cs
+ AtlasIcons.cs
+ AttackTypeArgument.cs
+ AudioClips.cs
+ AudioClipsPerId.cs
+ Bark.cs
+ ComputedGoal.cs
+ ControllerType.cs
+ ControllerTypeGuidTable.cs
+ Cursor.cs
+ DamageableType.cs
+ E_EffectTime.cs
+ Fog.cs
+ FormulaInterpreterContext.cs
+ Game.cs
+ IBarker.cs
+ IBehaviorModel.cs
+ IBossPhaseActor.cs
+ IDamageable.cs
+ IEntity.cs
+ IFilterable.cs
+ ILevelOwner.cs
+ ILightFogSupplier.cs
+ IPerkUnlocker.cs
+ ISkillCaster.cs
+ ISkillContainer.cs
+ ITileObject.cs
+ JoystickConfig.cs
+ JoystickCursorConfig.cs
+ JoystickHUDNavigationConfig.cs
+ KillReportData.cs
+ LightFogSupplierMoveDatas.cs
+ LocalizedArgument.cs
+ LocArgument.cs
+ NightReport.cs
+ PoolNames.cs
+ RestoreStatArgument.cs
+ SectorContainer.cs
+ SkillCasterAttackGroup.cs
+ SkillCasterAttackGroups.cs
+ SkillCasterCluster.cs
+ SKillCasterExtensions.cs
+ StatArgument.cs
+ StatusArgument.cs
+TheLastStand.ScriptableObjects/
+ PooledAudioSourceData.cs
+ SkillAreaOfEffectResourcesByGridSize.cs
+ SpritesLocalizedDictionnary.cs
+TheLastStand.Serialization.Achievements/
+ SerializedAchievements.cs
+ SerializedAchievementUnlocker.cs
+TheLastStand.Serialization.Apocalypse/
+ SerializedApocalypse.cs
+ SerializedApocalypseModifierStep.cs
+ SerializedGlobalApocalypse.cs
+TheLastStand.Serialization.Building.BuildingPassive.PassiveEffect/SerializedGenerateLightFog.cs
+TheLastStand.Serialization.Building.BuildingPassive.PassiveTrigger/
+ SerializedAfterXNightEndTrigger.cs
+ SerializedAfterXNightTurnsTrigger.cs
+ SerializedAfterXProductionPhasesTrigger.cs
+TheLastStand.Serialization.Building/
+ SerializedBuilding.cs
+ SerializedBuildingAction.cs
+ SerializedBuildingPassive.cs
+ SerializedBuildings.cs
+ SerializedBuildingToRestore.cs
+ SerializedBuildingUpgradeLevel.cs
+ SerializedConstruction.cs
+ SerializedRandomBuilding.cs
+ SerializedShop.cs
+TheLastStand.Serialization.Item.ItemRestriction/
+ SerializedItemRestrictionCategoriesCollection.cs
+ SerializedItemRestrictionFamily.cs
+ SerializedItemRestrictions.cs
+TheLastStand.Serialization.Item/
+ SerializedItem.cs
+ SerializedItems.cs
+ SerializedItemShopSlot.cs
+ SerializedItemSlot.cs
+TheLastStand.Serialization.LevelEditor/LevelEditorSaverLoader.cs
+TheLastStand.Serialization.Meta/
+ SerializedGlyphData.cs
+ SerializedGlyphsContainer.cs
+ SerializedMaxApoPassed.cs
+ SerializedMetaCondition.cs
+ SerializedMetaConditions.cs
+ SerializedMetaConditionsContext.cs
+ SerializedMetaShops.cs
+ SerializedMetaUpgrade.cs
+ SerializedMetaUpgrades.cs
+ SerializedModifyBuildingActionsCostGlyph.cs
+TheLastStand.Serialization.Perk/
+ SerializedBufferModule.cs
+ SerializedGaugeModule.cs
+ SerializedModule.cs
+ SerializedPerk.cs
+ SerializedPerkCollection.cs
+TheLastStand.Serialization.Sink/
+ SerializedSinkData.cs
+ SerializedSinks.cs
+TheLastStand.Serialization.SpawnWave/
+ SerializedSpawnPointInfo.cs
+ SerializedSpawnWave.cs
+ SerializedSpawnWaveContainer.cs
+TheLastStand.Serialization.Trophy/
+ ASerializedTrophy.cs
+ SerializedEnemiesDamagedTrophy.cs
+ SerializedEnemiesDebuffedSeveralTimesSingleTurnTrophy.cs
+ SerializedNightCompletedTrophy.cs
+ SerializedTrophies.cs
+ SerializedValueIntHeroesTrophy.cs
+ SerializedValueIntTrophy.cs
+TheLastStand.Serialization.Unit/
+ ASerializedEnemyUnit.cs
+ SerializedBonePilesPercentages.cs
+ SerializedBossData.cs
+ SerializedBossPhaseActorsKills.cs
+ SerializedDeadUnit.cs
+ SerializedDelayedBossPhaseAction.cs
+ SerializedEliteEnemyUnit.cs
+ SerializedEliteEnemyUnitStat.cs
+ SerializedEliteEnemyUnitStats.cs
+ SerializedEnemyUnit.cs
+ SerializedEnemyUnits.cs
+ SerializedEnemyUnitStat.cs
+ SerializedEnemyUnitStats.cs
+ SerializedGoal.cs
+ SerializedLevelUpBonuses.cs
+ SerializedLevelUpPoint.cs
+ SerializedLifetimeStats.cs
+ SerializedPlayableUnit.cs
+ SerializedPlayableUnits.cs
+ SerializedUnit.cs
+ SerializedUnitStat.cs
+ SerializedUnitStats.cs
+ SerializedUnitStatus.cs
+TheLastStand.Serialization/
+ E_SaveType.cs
+ KeyRemappingSaverLoader.cs
+ LoadFailedInfos.cs
+ SaveInfo.cs
+ SaveTypeComparer.cs
+ SaveTypeExtension.cs
+ SerializedAffix.cs
+ SerializedAffixMalus.cs
+ SerializedApplicationState.cs
+ SerializedBehavior.cs
+ SerializedBossPhase.cs
+ SerializedBossPhaseHandler.cs
+ SerializedCities.cs
+ SerializedCity.cs
+ SerializedContainer.cs
+ SerializedEasyMode.cs
+ SerializedEquipmentSlot.cs
+ SerializedFog.cs
+ SerializedGame.cs
+ SerializedGameAnalytics.cs
+ SerializedGameState.cs
+ SerializedGaugeEffect.cs
+ SerializedGlobalUpgrade.cs
+ SerializedIntPair.cs
+ SerializedKillReportData.cs
+ SerializedLUT.cs
+ SerializedMagicCicleSettings.cs
+ SerializedNarration.cs
+ SerializedNarrations.cs
+ SerializedNightReport.cs
+ SerializedPanic.cs
+ SerializedPortrait.cs
+ SerializedProducedResource.cs
+ SerializedProductionItems.cs
+ SerializedProductionReport.cs
+ SerializedRandom.cs
+ SerializedRandoms.cs
+ SerializedRecruitment.cs
+ SerializedResources.cs
+ SerializedScreenSettings.cs
+ SerializedSettings.cs
+ SerializedSkill.cs
+ SerializedSoundSettings.cs
+ SerializedUpgrade.cs
+TheLastStand.View.Apocalypse/
+ ApocalypseGameOverUnlockView.cs
+ ApocalypseLevelRewardTooltip.cs
+ ApocalypseMoreInfoPanel.cs
+ ApocalypseMoreInfoPanelModifierDisplay.cs
+ ApocalypseRewardAtLevelTooltipDisplayer.cs
+ ApocalypseRewardTextFormatting.cs
+ ApocalypseView.cs
+TheLastStand.View.Building.BuildingGaugeEffect/
+ BuildingGaugeEffectView.cs
+ CreateItemView.cs
+ GainGoldView.cs
+ GainMaterialsView.cs
+ OpenMagicSealView.cs
+ UpgradeStatView.cs
+TheLastStand.View.Building.Construction/
+ BuildingButton.cs
+ ConstructionAnimationView.cs
+ ConstructionModeButton.cs
+ ConstructionModeTooltip.cs
+ ConstructionStateButton.cs
+ ConstructionView.cs
+ CostPanel.cs
+ DestroyModeButton.cs
+ GamepadInputFeedback.cs
+ RepairCategoryButton.cs
+ RepairModeButton.cs
+TheLastStand.View.Building.UI/
+ BuildingActionIcon.cs
+ BuildingActionTooltip.cs
+ BuildingConstructionTooltip.cs
+ BuildingHUD.cs
+ BuildingIcon.cs
+ BuildingManagementPanelGauge.cs
+ BuildingTooltip.cs
+ BuildingUpgradeIcon.cs
+ BuildingUpgradeTooltip.cs
+ DestroyBuildingFeedback.cs
+ GlyphIcon.cs
+ HandledDefensesHUD.cs
+ MagicCircleHUD.cs
+ ProductionPanel.cs
+ ProductionPanelGauge.cs
+ RepairBuildingFeedback.cs
+ SkillPointsFeedback.cs
+TheLastStand.View.Building/
+ BuildingCorpseView.cs
+ BuildingView.cs
+ DamagedBuildingFlameView.cs
+ DestructionAnimationView.cs
+ MagicCircleBaseView.cs
+ MagicCircleSealView.cs
+ MagicCircleView.cs
+ WatchtowerView.cs
+TheLastStand.View.Camera.ProCam2D/ProCamera2DExtensionPan.cs
+TheLastStand.View.Camera/
+ ACameraView.cs
+ CameraLUTView.cs
+ CameraPOI.cs
+ CameraSnapshot.cs
+ CameraUIMask.cs
+ CameraUIMasksHandler.cs
+ CameraView.cs
+ CameraVisionArea.cs
+ CameraVisualEffects.cs
+ CamSettingsMimicker.cs
+ CamTarget.cs
+ LutMaskGenerator.cs
+ MaskableBehaviour.cs
+ OverrideProCam2DOrthoSize.cs
+ PixelPerfectCam.cs
+ RippleEffect.cs
+TheLastStand.View.CastFX/CastFxView.cs
+TheLastStand.View.CharacterSheet.Inventory/
+ InventorySlotView.cs
+ InventoryView.cs
+TheLastStand.View.CharacterSheet/
+ CharacterDetailsView.cs
+ CharacterSheetPanel.cs
+ EquipmentSlotView.cs
+ HideHelmetView.cs
+ UnitDetailsView.cs
+TheLastStand.View.Cursor/
+ CursorView.cs
+ JoystickCursorView.cs
+ OraculumCursorView.cs
+TheLastStand.View.Cutscene/
+ CutsceneData.cs
+ CutsceneView.cs
+ GenericCutsceneView.cs
+ PillarsAnimatorEventReceiver.cs
+ PillarsCutsceneIdleBehaviour.cs
+ PillarsCutsceneView.cs
+ TutorialSequenceView.cs
+ VictorySequenceView.cs
+TheLastStand.View.Generic/
+ AllowingCursorUI.cs
+ ButtonTooltipDisplayer.cs
+ CameraAreaOfInterest.cs
+ DropdownInputsListener.cs
+ FollowElement.cs
+ GenericBlockingPopup.cs
+ GenericConsent.cs
+ GenericPopUp.cs
+ GenericTitledTooltip.cs
+ GenericTitledTooltipDisplayer.cs
+ GenericTooltip.cs
+ GenericTooltipDisplayer.cs
+ MultipleLocalizationKeyTooltipDisplayer.cs
+ RawTextTooltip.cs
+ RawTextTooltipDisplayer.cs
+ SelectableTooltipDisplayer.cs
+ SliderWithDisplayedValue.cs
+ TextReveal.cs
+ TooltipBase.cs
+ UnitExperienceTooltipDisplayer.cs
+ WorldUiScaler.cs
+TheLastStand.View.HUD.BottomScreenPanel.BuildingManagement/
+ BuildingActionPanel.cs
+ BuildingCapacitiesGroupPanel.cs
+ BuildingCapacitiesPanel.cs
+ BuildingCapacityPanel.cs
+ BuildingManagementPanel.cs
+ BuildingProductionManagementPanel.cs
+ BuildingSkillDestroyPanel.cs
+ BuildingSkillHighlight.cs
+ BuildingSkillPanel.cs
+ BuildingSkillRepairPanel.cs
+ BuildingSkillTooltip.cs
+ BuildingSkillTooltipDisplayer.cs
+ BuildingUpgradePanel.cs
+TheLastStand.View.HUD.BottomScreenPanel.GroundManagement/GroundManagementPanel.cs
+TheLastStand.View.HUD.BottomScreenPanel.UnitManagement/EnemyAffixSeparator.cs
+TheLastStand.View.HUD.BottomScreenPanel/
+ BottomLeftPanel.cs
+ BottomScreenPanel.cs
+ CancelMovementPanel.cs
+TheLastStand.View.HUD.JoystickNavigation/DynamicNavigationMode.cs
+TheLastStand.View.HUD.UnitManagement/
+ ChangeEquipmentBoxView.cs
+ EliteAffixIconDisplay.cs
+ EnemyUnitManagementView.cs
+ EquipmentBoxSlotView.cs
+ GuardianIconDisplay.cs
+ InjuryIconDisplay.cs
+ ModifiersLayoutView.cs
+ ModifiersLayoutViewAllPerksView.cs
+ ModifiersLayoutViewPerksView.cs
+ MomentumIconDisplay.cs
+ PerkIconDisplay.cs
+ PlayableUnitManagementView.cs
+ StatusIconDisplay.cs
+ UnitManagementView.cs
+ UnitModifiersIconDisplay.cs
+ WeaponSetView.cs
+TheLastStand.View.HUD.UnitPortraitPanel/
+ UnitPortraitPanel.cs
+ UnitPortraitsPanel.cs
+ UnitPortraitStatGauge.cs
+TheLastStand.View.HUD/
+ BetterToggleJoystickSelectableTooltipDisplayer.cs
+ CanvasScalerFromSettings.cs
+ E_GamepadButtonType.cs
+ GameAccelerationPanel.cs
+ GamepadButtonsDisplayLayout.cs
+ GamepadButtonsSet.cs
+ GamepadButtonsSetsTable.cs
+ GamepadInputDisplay.cs
+ HUDJoystickDynamicTarget.cs
+ HUDJoystickSimpleTarget.cs
+ HUDJoystickTarget.cs
+ IJoystickSelect.cs
+ IJoystickSkillConfirmHandler.cs
+ JoystickHighlight.cs
+ JoystickHighlighter.cs
+ JoystickHighlighterOnSelect.cs
+ JoystickSelectable.cs
+ JoystickSelectableCanvasScaler.cs
+ JoystickSelectableDynamic.cs
+ JoystickSkillBar.cs
+ LayoutNavigationInitializer.cs
+ PhasePanel.cs
+ ResourceTextDisplay.cs
+ TopScreenPanel.cs
+ TurnMainPanel.cs
+ TurnPanel.cs
+ UnitHealthStatGaugeDisplay.cs
+ UnitStatGaugeDisplay.cs
+TheLastStand.View.Item/
+ DraggedItem.cs
+ ItemCarouselEntryIconDisplay.cs
+ ItemCarouselEntryListDisplay.cs
+ ItemIcon.cs
+ ItemLevelBadgeView.cs
+ ItemSlotView.cs
+ ItemTooltip.cs
+ ItemTooltipSkillCycle.cs
+TheLastStand.View.LevelEditor/
+ BuildingSettingsHealth.cs
+ BuildingSettingsPanel.cs
+ BuildingSettingsUpgradeLevel.cs
+ BuildingSettingsUpgradeLevelButton.cs
+ ColorEvent.cs
+ ColorPicker.cs
+ GroundCounterView.cs
+ LevelEditorButton.cs
+ LevelEditorPanel.cs
+ LevelEditorRemoveButton.cs
+ SelectBuildingPanel.cs
+ SelectGroundPanel.cs
+ SelectTileFlagPanel.cs
+ TileCoordinatesView.cs
+TheLastStand.View.Menus/
+ MainMenuBackground.cs
+ MainMenuChoiceToggle.cs
+ MainMenuDLCDisplay.cs
+ MainMenuDLCPanel.cs
+ MainMenuFeedbackButton.cs
+ MainMenuView.cs
+ OpenURLButton.cs
+TheLastStand.View.Meta/MetaWorldEvolvingView.cs
+TheLastStand.View.MetaNarration/
+ NarrationReplicaView.cs
+ NarrationView.cs
+TheLastStand.View.MetaShops.JoystickNavigation/
+ AFiltersToUpgradeNavigation.cs
+ FiltersToDarkUpgradeNavigation.cs
+ FiltersToLightUpgradeNavigation.cs
+TheLastStand.View.MetaShops/
+ DarkMetaUpgradeLineView.cs
+ FollowMouse.cs
+ GoddessAnimatorEventHandler.cs
+ GoddessSeal.cs
+ GoddessSealButton.cs
+ GoddessView.cs
+ LightMetaUpgradeLineView.cs
+ MetaShopFilter.cs
+ MetaShopFilterLink.cs
+ MetaShopNotifications.cs
+ MetaShopSorter.cs
+ MetaShopTab.cs
+ MetaShopView.cs
+ MetaUpgradeLineTooltipPackage.cs
+ MetaUpgradeLineView.cs
+ OraculumCameraView.cs
+ OraculumHub.cs
+ OraculumUnlockIcon.cs
+ OraculumView.cs
+TheLastStand.View.Modding/
+ ModItemView.cs
+ ModsView.cs
+TheLastStand.View.NightReport/
+ KillReportDisplay.cs
+ NightReportPanel.cs
+ PlayableReportDisplay.cs
+TheLastStand.View.Panic/
+ PanicLevel.cs
+ PanicLevelIndicator.cs
+ PanicPanel.cs
+ PanicRewardIndicator.cs
+ PanicView.cs
+TheLastStand.View.PlayableUnitCustomisation/
+ ACustomizationPopup.cs
+ AppearanceToggle.cs
+ ColorHandler.cs
+ GenderEvent.cs
+ Handler.cs
+ HandlerDropdownItem.cs
+ LayerTextureHandler.cs
+ PlayableUnitCustomisationPanel.cs
+ PortraitCodePanel.cs
+ PortraitCodePopup.cs
+ PortraitPartsDisplay.cs
+ RandomizableCustomizationElement.cs
+ RandomizerCustomizationElement.cs
+ RenameHeader.cs
+ RenamePopup.cs
+TheLastStand.View.ProductionReport/
+ ChooseRewardPanel.cs
+ ChooseRewardShelf.cs
+ ProductionObjectDisplay.cs
+ ProductionReportPanel.cs
+ RewardItemPanel.cs
+ RewardItemSlotView.cs
+TheLastStand.View.Recruitment/
+ RecruitDisplay.cs
+ RecruitmentButton.cs
+ RecruitmentMageDisplay.cs
+ RecruitmentUnitDisplay.cs
+ RecruitmentView.cs
+ RerollButton.cs
+TheLastStand.View.Resource/
+ GoldPanel.cs
+ MaterialsPanel.cs
+ ResourceTooltip.cs
+ ResourceTooltipDisplayer.cs
+ WorkersPanel.cs
+TheLastStand.View.SaveSlots/
+ SaveSlotBox.cs
+ SaveSlotsPanel.cs
+TheLastStand.View.Seer/
+ SeerEnemyPortraitPreview.cs
+ SeerPreviewDisplay.cs
+TheLastStand.View.Settings.KeyRemapping/
+ KeyRemappingBindingLineView.cs
+ KeyRemappingBindingView.cs
+ KeyRemappingCategoryView.cs
+ KeyRemappingView.cs
+ KeyRemappingViewAccessor.cs
+TheLastStand.View.Settings/
+ AllowDataCollectionPanel.cs
+ AlwaysDisplayMaxStatValuePanel.cs
+ AlwaysDisplayUnitPortraitAttribute.cs
+ DropdownPanel.cs
+ EdgePanOverUIPanel.cs
+ EdgePanPanel.cs
+ EndTurnWarningToggle.cs
+ EraseSavePanel.cs
+ FloatSlider.cs
+ FocusCamOnSelectionsPanel.cs
+ FontAssemblyDropdown.cs
+ FrameRateCapPanel.cs
+ HideCompendium.cs
+ InputDeviceTypeDropdownPanel.cs
+ InputDeviceTypePanelItem.cs
+ LanguageDropdownPanel.cs
+ LanguagePanel.cs
+ MonitorIndexDropdownPanel.cs
+ OtherSettingsPanel.cs
+ ResolutionDropdownPanel.cs
+ RestrictedCursorPanel.cs
+ RunInBackgroundPanel.cs
+ ScreenSettingsPanel.cs
+ ScreenShakeSlider.cs
+ ScreenShakesOptionPanel.cs
+ SettingsBottomPanel.cs
+ SettingsFieldPanel.cs
+ SettingsPageView.cs
+ SettingsPanel.cs
+ ShowSkillsHotkeysPanel.cs
+ SmartCastPanel.cs
+ SpeedModePanel.cs
+ SpeedScalePanel.cs
+ TurnEndWarningsOptionPanel.cs
+ TutorialCategoryToggle.cs
+ TutorialsPanel.cs
+ TutorialTextBox.cs
+ UIScalerSlider.cs
+ UISizePanel.cs
+ VolumeSlider.cs
+ VolumesPanel.cs
+ VSyncPanel.cs
+ WindowModeDropdownPanel.cs
+TheLastStand.View.Shop/
+ RerollButtonView.cs
+ ShopCategoryButtonView.cs
+ ShopInventorySlotView.cs
+ ShopInventoryToSlotsNavigation.cs
+ ShopSellRectView.cs
+ ShopSlotView.cs
+ ShopView.cs
+TheLastStand.View.Skill.SkillAction.SkillActionExecution/
+ AttackSkillActionExecutionView.cs
+ BuffSkillActionExecutionView.cs
+ BuildSkillActionExecutionView.cs
+ GenericSkillActionExecutionView.cs
+ GoIntoWatchtowerSkillActionExecutionView.cs
+ GoIntoWatchtowerSkillActionView.cs
+ QuitWatchtowerSkillActionExecutionView.cs
+ ResupplySkillActionExecutionView.cs
+ SkillActionExecutionView.cs
+ SkipTurnSkillActionExecutionView.cs
+ SpawnSkillActionExecutionView.cs
+TheLastStand.View.Skill.SkillAction.UI/
+ AppearingEffectDisplay.cs
+ AttributeOffsetDisplay.cs
+ BuffDisplay.cs
+ CamShake.cs
+ CreateItemDisplay.cs
+ DamageDisplay.cs
+ DebuffDisplay.cs
+ DispelDisplay.cs
+ EffectDisplay.cs
+ GainDamageDisplay.cs
+ GainDamnedSoulsDisplay.cs
+ GainExperienceDisplay.cs
+ GainGoldDisplay.cs
+ GainMaterialDisplay.cs
+ GainOverallUsesDisplay.cs
+ GainUsesDisplay.cs
+ LoseManaDisplay.cs
+ LoseSkillPointsDisplay.cs
+ OpenMagicSealDisplay.cs
+ PerkActivationDisplay.cs
+ RestoreStatDisplay.cs
+ StyledKeyDisplay.cs
+ UpgradeStatDisplay.cs
+ WavyEffectDisplay.cs
+TheLastStand.View.Skill.SkillAction/
+ AttackFeedback.cs
+ ExtinguishBrazierFeedback.cs
+ GainArmorFeedback.cs
+ HealFeedback.cs
+ IDisplayableEffect.cs
+ SpriteSheetFx.cs
+TheLastStand.View.Skill.UI.Effect/SkillEffectDisplay.cs
+TheLastStand.View.Skill.UI/
+ AttackTooltip.cs
+ EnemySkillBar.cs
+ FormatSkillParameterDisplay.cs
+ GenericActionTooltip.cs
+ InvalidSkillDisplay.cs
+ MultiHitTargetHUD.cs
+ PlayableSkillBar.cs
+ RangeSkillParameterDisplay.cs
+ SkillActionTooltip.cs
+ SkillAreaOfEffectGrid.cs
+ SkillBar.cs
+ SkillDisplay.cs
+ SkillDisplayButton.cs
+ SkillEffectFeedback.cs
+ SkillListButtonsDisplay.cs
+ SkillListDisplay.cs
+ SkillParameterDisplay.cs
+ SkillsCycleText.cs
+ SkillTargetingMark.cs
+ SkillTooltip.cs
+ SkillTooltipDisplayer.cs
+ SkillWithoutCompendiumTooltip.cs
+TheLastStand.View.Skill/
+ SkillStatDisplay.cs
+ SkillView.cs
+TheLastStand.View.SoulsReward/SoulsRewardPanel.cs
+TheLastStand.View.Sound/
+ OneShotSound.cs
+ PlayUISound.cs
+TheLastStand.View.SpawnFx/SpawnFxView.cs
+TheLastStand.View.TileMap/
+ TileMapView.cs
+ TileView.cs
+TheLastStand.View.ToDoList/
+ ToDoListActionPointsNotificationView.cs
+ ToDoListGoldNotificationView.cs
+ ToDoListInventoryNotificationView.cs
+ ToDoListLevelUpNotificationView.cs
+ ToDoListMaterialsNotificationView.cs
+ ToDoListMetaShopsNotificationView.cs
+ ToDoListNotificationView.cs
+ ToDoListPositionNotificationView.cs
+ ToDoListProductionNotificationView.cs
+ ToDoListView.cs
+ ToDoListWavesNotificationView.cs
+ ToDoListWorkersNotificationView.cs
+TheLastStand.View.Tooltip.Compendium/AttackTypeTooltip.cs
+TheLastStand.View.Tooltip.Tooltip.Compendium/
+ CompendiumEntryTooltip.cs
+ CompendiumPanel.cs
+ GameConceptTooltip.cs
+ SkillEffectTooltip.cs
+TheLastStand.View.Tooltip/
+ ApocalypseEffectsTooltip.cs
+ ApocalypseEffectsTooltipDisplayer.cs
+ BuildingActionTooltipDisplayer.cs
+ BuildingTooltipDisplayer.cs
+ BuildingUpgradeTooltipDisplayer.cs
+ EmptyTooltip.cs
+ GlyphEffectsTooltip.cs
+ GlyphsTooltipDisplayer.cs
+ GlyphTooltipDisplayer.cs
+ IconTooltipDisplayer.cs
+ ItemPerkTooltipDisplayer.cs
+ ItemTooltipDisplayer.cs
+ ObjectDisableTooltipDisplayer.cs
+ SpriteChangeTooltipDisplayer.cs
+ TooltipDisplayer.cs
+ UnitHUDStatusesAndInjuriesTooltip.cs
+ WeaponRestrictionsTooltip.cs
+ WeaponRestrictionsTooltipCategoryPanel.cs
+ WeaponsRestrictionsTooltipDisplayer.cs
+TheLastStand.View.Trophy/TrophyDisplay.cs
+TheLastStand.View.Tutorial/
+ TutorialPopup.cs
+ TutorialSpritesSet.cs
+ TutorialSpritesSetsTable.cs
+ TutorialView.cs
+TheLastStand.View.Unit.Injury/
+ InjuriedStatDisplay.cs
+ InjuryTooltip.cs
+ UnitInjuriesDisplay.cs
+ UnitInjuryDisplay.cs
+ UnitInjuryEffectDisplay.cs
+ UnitInjuryEffectPanicDisplay.cs
+ UnitInjuryStatusEffectDisplay.cs
+TheLastStand.View.Unit.Pathfinding/MovePathView.cs
+TheLastStand.View.Unit.Perk/
+ IPerkRerollSelectable.cs
+ PerkBookmarkHitbox.cs
+ PerkBookmarkInfo.cs
+ PerkCollectionBannerView.cs
+ PerksDescriptionTooltipDisplay.cs
+ PerkTooltip.cs
+ PerkTooltipDisplayer.cs
+ UnitPerkDisplay.cs
+ UnitPerkRerollTarget.cs
+ UnitPerkTierView.cs
+ UnitPerkTreeView.cs
+TheLastStand.View.Unit.Race/
+ RaceTooltip.cs
+ RaceTooltipDisplayer.cs
+ UnitRaceDisplay.cs
+TheLastStand.View.Unit.Stat/
+ AdditionalUnitStatDisplay.cs
+ AffixStatView.cs
+ LifetimeStatDisplay.cs
+ StatLevelUpDisplay.cs
+ StatTooltip.cs
+ StatTooltipDisplayer.cs
+ UnitHealthStatDisplay.cs
+ UnitStatBreakdownDisplay.cs
+ UnitStatBreakdownPanel.cs
+ UnitStatDisplay.cs
+ UnitStatWithRegenDisplay.cs
+TheLastStand.View.Unit.Trait/
+ TraitTooltip.cs
+ TraitTooltipDisplayer.cs
+ UnitTraitDisplay.cs
+TheLastStand.View.Unit.UI/
+ DismissHeroButton.cs
+ EliteAffixTooltip.cs
+ EliteEnemyUnitTooltip.cs
+ EnemyAffixDisplay.cs
+ EnemyTypeIndicator.cs
+ EnemyUnitHUD.cs
+ EnemyUnitTooltip.cs
+ PlayableUnitHUD.cs
+ PlayableUnitTooltip.cs
+ SkillActionEstimationView.cs
+ UnitDropdownPanel.cs
+ UnitHUD.cs
+ UnitLevelDisplay.cs
+ UnitStatusDisplay.cs
+ UnitTooltip.cs
+TheLastStand.View.Unit/
+ EliteEnemyUnitView.cs
+ EnemyAttackFeedback.cs
+ EnemyHudTypeExtension.cs
+ EnemyPortraitView.cs
+ EnemyUnitDeadBodyView.cs
+ EnemyUnitView.cs
+ PlayableUnitGhostView.cs
+ PlayableUnitView.cs
+ SelectedUnitFeedback.cs
+ SpawnWaveView.cs
+ SpawnWaveViewPreviewFeedback.cs
+ UnitLevelUpStatView.cs
+ UnitLevelUpView.cs
+ UnitPortraitView.cs
+ UnitStateMachine.cs
+ UnitView.cs
+TheLastStand.View.UnitManagement.UI/MovePathCounterHUD.cs
+TheLastStand.View.WorldMap.Apocalypse/
+ ApocalypseCodeSharingView.cs
+ ApocalypseEditCodePopup.cs
+ ApocalypseFlameKindleFeedback.cs
+ ApocalypseGaugeDisplay.cs
+ ApocalypseHeader.cs
+ ApocalypseHeaderSealDisplay.cs
+ ApocalypseMaxLevelCityView.cs
+ ApocalypseModifierDisplay.cs
+ ApocalypseModifierStepPointDisplay.cs
+ ApocalypseModifierStepTooltip.cs
+ ApocalypseSelectionPanel.cs
+ ApocalypseSelectionPanelSorter.cs
+ ApocalypseSelectionPreview.cs
+TheLastStand.View.WorldMap.Glyphs.Feedback/
+ CompletedGlyphFeedback.cs
+ UnlockedGlyphFeedback.cs
+TheLastStand.View.WorldMap.Glyphs/
+ AGlyphDisplay.cs
+ AGlyphDisplayWithCost.cs
+ GlyphDisplay.cs
+ GlyphSelectionPanel.cs
+ GlyphSelectionPreview.cs
+ GlyphsHeader.cs
+ GlyphTooltip.cs
+ PreviewedGlyphDisplay.cs
+ SelectedGlyphDisplay.cs
+TheLastStand.View.WorldMap.ItemRestriction/
+ ItemFamiliesActiveCountDisplay.cs
+ OpenWeaponRestrictionsView.cs
+ WeaponFamiliesCountDisplay.cs
+ WeaponFamilyDisplay.cs
+ WeaponFamilyTooltip.cs
+ WeaponRestrictionsCategoryPanel.cs
+ WeaponRestrictionsPanel.cs
+TheLastStand.View.WorldMap/
+ ApocalypseLevelView.cs
+ CityDifficultyView.cs
+ GameConfigurationsView.cs
+ WorldMapAmbientSound.cs
+ WorldMapApocalypseMaxLevelView.cs
+ WorldMapCameraView.cs
+ WorldMapCityView.cs
+ WorldMapWorldInputsView.cs
+TheLastStand.View/
+ AnimatedCutscenePrefab.cs
+ AnimatedCutsceneStartView.cs
+ AnimatedCutsceneView.cs
+ AnimatedSceneSkipText.cs
+ BarkView.cs
+ BlockingPopupLine.cs
+ BodyPartView.cs
+ CreditsView.cs
+ DisableSelf.cs
+ EvolutiveLevelArtObject.cs
+ FogView.cs
+ GameObjectEnablerOnLocalize.cs
+ GameOverPanel.cs
+ GameView.cs
+ GaugeMarkersDisplayer.cs
+ HyperlinkListener.cs
+ IDamageableHUD.cs
+ IDamageableView.cs
+ ImprovedToggle.cs
+ ISnapshotable.cs
+ ItemView.cs
+ ITileObjectView.cs
+ RendererEventsListener.cs
+ RetryTutorialPanel.cs
+ SaveIndicatorView.cs
+ TabbedPageView.cs
+ WeaponSetDropdown.cs
+ WorldInputsView.cs
+TheLastStand/
+ Analytics.cs
+ AttackEstimationDisplayTest.cs
+ DebugTask.cs
+ GameAnalytics.cs
+ LocalizedLabelWithActions.cs
+ MoveCameraTask.cs
+ MoveObjectTask.cs
+ Random.cs
+ RewiredAction.cs
+ SequenceTesterMovableObject.cs
+ TestProbabilitiesTree.cs
+ TestSix.cs
+
+[metadataReferences]
+../Games/The Last Spell/The Last Spell_Data/Managed/
+ Amplify Color.dll
+ AsusAuraWrapper.dll
+ CoffeeUIParticle.dll
+ com.rlabrecque.steamworks.net.dll
+ DOTween.dll
+ DOTween.Modules.dll
+ Framework.dll
+ NaconAPI.dll
+ Newtonsoft.Json.dll
+ PortraitAPI.dll
+ ProCamera2D.dll
+ RestSharp.dll
+ Rewired.dll
+ Rewired_Core.dll
+ Sirenix.Serialization.dll
+ Sirenix.Utilities.dll
+ TextTyper.dll
+ TheLastStand.Framework.Encryption.dll
+ TPDebug.dll
+ TPLib.dll
+ Unity.2D.PixelPerfect.dll
+ Unity.Postprocessing.Runtime.dll
+ Unity.TextMeshPro.dll
+ UnityEngine.AnimationModule.dll
+ UnityEngine.AudioModule.dll
+ UnityEngine.CoreModule.dll
+ UnityEngine.GridModule.dll
+ UnityEngine.ImageConversionModule.dll
+ UnityEngine.IMGUIModule.dll
+ UnityEngine.InputLegacyModule.dll
+ UnityEngine.ParticleSystemModule.dll
+ UnityEngine.Physics2DModule.dll
+ UnityEngine.TextCoreModule.dll
+ UnityEngine.TextRenderingModule.dll
+ UnityEngine.TilemapModule.dll
+ UnityEngine.UI.dll
+ UnityEngine.UIModule.dll
+<NETFXREF>/v4.0/
+ mscorlib.dll
+ System.Core.dll
+ System.Data.dll
+ System.dll
+ System.Drawing.dll
+ System.Numerics.dll
+ System.Runtime.Serialization.dll
+ System.Xml.dll
+ System.Xml.Linq.dll
+
+[analyzerConfigFiles]
+obj/Debug/net40/TheLastStand.GeneratedMSBuildEditorConfig.editorconfig

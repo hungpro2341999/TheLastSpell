@@ -1,0 +1,938 @@
+﻿<TrophiesDefinitions xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="TrophiesDefinitions.xsd">
+
+   <DefaultTrophyDefinition Id="EnemiesSlain">
+      <BackgroundPath>View/Sprites/UI/Trophy/NightAchievements_EnemiesSlain</BackgroundPath>
+      <DamnedSoulsMultiplier NightTarget="1">1</DamnedSoulsMultiplier>
+      <DamnedSoulsMultiplier NightTarget="2">1</DamnedSoulsMultiplier>
+      <DamnedSoulsMultiplier NightTarget="3">1</DamnedSoulsMultiplier>
+      <DamnedSoulsMultiplier NightTarget="4">1</DamnedSoulsMultiplier>
+      <DamnedSoulsMultiplier NightTarget="5">1</DamnedSoulsMultiplier>
+      <DamnedSoulsMultiplier NightTarget="6">1</DamnedSoulsMultiplier>
+      <DamnedSoulsMultiplier NightTarget="7">1</DamnedSoulsMultiplier>
+      <DamnedSoulsMultiplier NightTarget="8">1</DamnedSoulsMultiplier>
+      <DamnedSoulsMultiplier NightTarget="9">1</DamnedSoulsMultiplier>
+      <DamnedSoulsMultiplier NightTarget="10">1</DamnedSoulsMultiplier>
+      <DamnedSoulsMultiplier NightTarget="11">1</DamnedSoulsMultiplier>
+      <DamnedSoulsMultiplier NightTarget="12">1</DamnedSoulsMultiplier>
+      <DamnedSoulsMultiplier NightTarget="13">1</DamnedSoulsMultiplier>
+      <DamnedSoulsMultiplier NightTarget="14">1</DamnedSoulsMultiplier>
+   </DefaultTrophyDefinition>
+
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <!-- FELDERLAND SURVIVOR -->
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   
+   <TrophyDefinition Id="FelderlandSurvivor" LostOnDefeat="true">
+      <DamnedSoulsEarned>300</DamnedSoulsEarned>
+      <NightCompleted CityId="Felderland">1</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="FelderlandSurvivor2" LostOnDefeat="true">
+      <DamnedSoulsEarned>345</DamnedSoulsEarned>
+      <NightCompleted CityId="Felderland">2</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="FelderlandSurvivor3" LostOnDefeat="true">
+      <DamnedSoulsEarned>390</DamnedSoulsEarned>
+      <NightCompleted CityId="Felderland">3</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="FelderlandSurvivor4" LostOnDefeat="true">
+      <DamnedSoulsEarned>435</DamnedSoulsEarned>
+      <NightCompleted CityId="Felderland">4</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="FelderlandSurvivor5" LostOnDefeat="true">
+      <DamnedSoulsEarned>480</DamnedSoulsEarned>
+      <NightCompleted CityId="Felderland">5</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="FelderlandSurvivor6" LostOnDefeat="true">
+      <DamnedSoulsEarned>525</DamnedSoulsEarned>
+      <NightCompleted CityId="Felderland">6</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="FelderlandSurvivor7" LostOnDefeat="true">
+      <DamnedSoulsEarned>1575</DamnedSoulsEarned>
+      <NightCompleted CityId="Felderland">7</NightCompleted>
+   </TrophyDefinition>
+
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <!-- LAKEBURG SURVIVOR -->
+   <!-- ███████████████████████████████████████████████████████████████ -->
+
+   <TrophyDefinition Id="LakeburgSurvivor" LostOnDefeat="true">
+      <DamnedSoulsEarned>500</DamnedSoulsEarned>
+      <NightCompleted CityId="LakeBurg">1</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="LakeburgSurvivor2" LostOnDefeat="true">
+      <DamnedSoulsEarned>550</DamnedSoulsEarned>
+      <NightCompleted CityId="LakeBurg">2</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="LakeburgSurvivor3" LostOnDefeat="true">
+      <DamnedSoulsEarned>600</DamnedSoulsEarned>
+      <NightCompleted CityId="LakeBurg">3</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="LakeburgSurvivor4" LostOnDefeat="true">
+      <DamnedSoulsEarned>650</DamnedSoulsEarned>
+      <NightCompleted CityId="LakeBurg">4</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="LakeburgSurvivor5" LostOnDefeat="true">
+      <DamnedSoulsEarned>700</DamnedSoulsEarned>
+      <NightCompleted CityId="LakeBurg">5</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="LakeburgSurvivor6" LostOnDefeat="true">
+      <DamnedSoulsEarned>750</DamnedSoulsEarned>
+      <NightCompleted CityId="LakeBurg">6</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="LakeburgSurvivor7" LostOnDefeat="true">
+      <DamnedSoulsEarned>800</DamnedSoulsEarned>
+      <NightCompleted CityId="LakeBurg">7</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="LakeburgSurvivor8" LostOnDefeat="true">
+      <DamnedSoulsEarned>850</DamnedSoulsEarned>
+      <NightCompleted CityId="LakeBurg">8</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="LakeburgSurvivor9" LostOnDefeat="true">
+      <DamnedSoulsEarned>900</DamnedSoulsEarned>
+      <NightCompleted CityId="LakeBurg">9</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="LakeburgSurvivor10" LostOnDefeat="true">
+      <DamnedSoulsEarned>950</DamnedSoulsEarned>
+      <NightCompleted CityId="LakeBurg">10</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="LakeburgSurvivor11" LostOnDefeat="true">
+      <DamnedSoulsEarned>1000</DamnedSoulsEarned>
+      <NightCompleted CityId="LakeBurg">11</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="LakeburgSurvivor12" LostOnDefeat="true">
+      <DamnedSoulsEarned>3000</DamnedSoulsEarned>
+      <NightCompleted CityId="LakeBurg">12</NightCompleted>
+   </TrophyDefinition>
+
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <!-- GLENWALD SURVIVOR -->
+   <!-- ███████████████████████████████████████████████████████████████ -->
+
+   <TrophyDefinition Id="GlenwaldSurvivor" LostOnDefeat="true">
+      <DamnedSoulsEarned>700</DamnedSoulsEarned>
+      <NightCompleted CityId="Glenwald">1</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GlenwaldSurvivor2" LostOnDefeat="true">
+      <DamnedSoulsEarned>770</DamnedSoulsEarned>
+      <NightCompleted CityId="Glenwald">2</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GlenwaldSurvivor3" LostOnDefeat="true">
+      <DamnedSoulsEarned>840</DamnedSoulsEarned>
+      <NightCompleted CityId="Glenwald">3</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GlenwaldSurvivor4" LostOnDefeat="true">
+      <DamnedSoulsEarned>910</DamnedSoulsEarned>
+      <NightCompleted CityId="Glenwald">4</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GlenwaldSurvivor5" LostOnDefeat="true">
+      <DamnedSoulsEarned>980</DamnedSoulsEarned>
+      <NightCompleted CityId="Glenwald">5</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GlenwaldSurvivor6" LostOnDefeat="true">
+      <DamnedSoulsEarned>1050</DamnedSoulsEarned>
+      <NightCompleted CityId="Glenwald">6</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GlenwaldSurvivor7" LostOnDefeat="true">
+      <DamnedSoulsEarned>1120</DamnedSoulsEarned>
+      <NightCompleted CityId="Glenwald">7</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GlenwaldSurvivor8" LostOnDefeat="true">
+      <DamnedSoulsEarned>1190</DamnedSoulsEarned>
+      <NightCompleted CityId="Glenwald">8</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GlenwaldSurvivor9" LostOnDefeat="true">
+      <DamnedSoulsEarned>1260</DamnedSoulsEarned>
+      <NightCompleted CityId="Glenwald">9</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GlenwaldSurvivor10" LostOnDefeat="true">
+      <DamnedSoulsEarned>3780</DamnedSoulsEarned>
+      <NightCompleted CityId="Glenwald">10</NightCompleted>
+   </TrophyDefinition>
+
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <!-- ELDERLICHT SURVIVOR -->
+   <!-- ███████████████████████████████████████████████████████████████ -->
+
+   <TrophyDefinition Id="ElderlichtSurvivor" LostOnDefeat="true">
+      <DamnedSoulsEarned>900</DamnedSoulsEarned>
+      <NightCompleted CityId="Elderlicht">1</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="ElderlichtSurvivor2" LostOnDefeat="true">
+      <DamnedSoulsEarned>990</DamnedSoulsEarned>
+      <NightCompleted CityId="Elderlicht">2</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="ElderlichtSurvivor3" LostOnDefeat="true">
+      <DamnedSoulsEarned>1080</DamnedSoulsEarned>
+      <NightCompleted CityId="Elderlicht">3</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="ElderlichtSurvivor4" LostOnDefeat="true">
+      <DamnedSoulsEarned>1170</DamnedSoulsEarned>
+      <NightCompleted CityId="Elderlicht">4</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="ElderlichtSurvivor5" LostOnDefeat="true">
+      <DamnedSoulsEarned>1260</DamnedSoulsEarned>
+      <NightCompleted CityId="Elderlicht">5</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="ElderlichtSurvivor6" LostOnDefeat="true">
+      <DamnedSoulsEarned>1350</DamnedSoulsEarned>
+      <NightCompleted CityId="Elderlicht">6</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="ElderlichtSurvivor7" LostOnDefeat="true">
+      <DamnedSoulsEarned>1440</DamnedSoulsEarned>
+      <NightCompleted CityId="Elderlicht">7</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="ElderlichtSurvivor8" LostOnDefeat="true">
+      <DamnedSoulsEarned>1530</DamnedSoulsEarned>
+      <NightCompleted CityId="Elderlicht">8</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="ElderlichtSurvivor9" LostOnDefeat="true">
+      <DamnedSoulsEarned>1620</DamnedSoulsEarned>
+      <NightCompleted CityId="Elderlicht">9</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="ElderlichtSurvivor10" LostOnDefeat="true">
+      <DamnedSoulsEarned>1710</DamnedSoulsEarned>
+      <NightCompleted CityId="Elderlicht">10</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="ElderlichtSurvivor11" LostOnDefeat="true">
+      <DamnedSoulsEarned>1800</DamnedSoulsEarned>
+      <NightCompleted CityId="Elderlicht">11</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="ElderlichtSurvivor12" LostOnDefeat="true">
+      <DamnedSoulsEarned>1890</DamnedSoulsEarned>
+      <NightCompleted CityId="Elderlicht">12</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="ElderlichtSurvivor13" LostOnDefeat="true">
+      <DamnedSoulsEarned>1980</DamnedSoulsEarned>
+      <NightCompleted CityId="Elderlicht">13</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="ElderlichtSurvivor14" LostOnDefeat="true">
+      <DamnedSoulsEarned>5940</DamnedSoulsEarned>
+      <NightCompleted CityId="Elderlicht">14</NightCompleted>
+   </TrophyDefinition>
+
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <!-- GLINTFEIN SURVIVOR -->
+   <!-- ███████████████████████████████████████████████████████████████ -->
+
+   <TrophyDefinition Id="GlintfeinSurvivor" LostOnDefeat="true">
+      <DamnedSoulsEarned>1500</DamnedSoulsEarned>
+      <NightCompleted CityId="Glintfein">1</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GlintfeinSurvivor2" LostOnDefeat="true">
+      <DamnedSoulsEarned>1800</DamnedSoulsEarned>
+      <NightCompleted CityId="Glintfein">2</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GlintfeinSurvivor3" LostOnDefeat="true">
+      <DamnedSoulsEarned>3600</DamnedSoulsEarned>
+      <NightCompleted CityId="Glintfein">3</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GlintfeinSurvivor4" LostOnDefeat="true">
+      <DamnedSoulsEarned>2100</DamnedSoulsEarned>
+      <NightCompleted CityId="Glintfein">4</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GlintfeinSurvivor5" LostOnDefeat="true">
+      <DamnedSoulsEarned>4200</DamnedSoulsEarned>
+      <NightCompleted CityId="Glintfein">5</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GlintfeinSurvivor6" LostOnDefeat="true">
+      <DamnedSoulsEarned>2400</DamnedSoulsEarned>
+      <NightCompleted CityId="Glintfein">6</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GlintfeinSurvivor7" LostOnDefeat="true">
+      <DamnedSoulsEarned>7200</DamnedSoulsEarned>
+      <NightCompleted CityId="Glintfein">7</NightCompleted>
+   </TrophyDefinition>
+
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <!-- GILDENBERGREDUX SURVIVOR -->
+   <!-- ███████████████████████████████████████████████████████████████ -->
+
+   <TrophyDefinition Id="GildenbergReduxSurvivor" LostOnDefeat="true">
+      <DamnedSoulsEarned>700</DamnedSoulsEarned>
+      <NightCompleted CityId="GildenbergRedux">1</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GildenbergReduxSurvivor2" LostOnDefeat="true">
+      <DamnedSoulsEarned>770</DamnedSoulsEarned>
+      <NightCompleted CityId="GildenbergRedux">2</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GildenbergReduxSurvivor3" LostOnDefeat="true">
+      <DamnedSoulsEarned>840</DamnedSoulsEarned>
+      <NightCompleted CityId="GildenbergRedux">3</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GildenbergReduxSurvivor4" LostOnDefeat="true">
+      <DamnedSoulsEarned>910</DamnedSoulsEarned>
+      <NightCompleted CityId="GildenbergRedux">4</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GildenbergReduxSurvivor5" LostOnDefeat="true">
+      <DamnedSoulsEarned>980</DamnedSoulsEarned>
+      <NightCompleted CityId="GildenbergRedux">5</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GildenbergReduxSurvivor6" LostOnDefeat="true">
+      <DamnedSoulsEarned>1050</DamnedSoulsEarned>
+      <NightCompleted CityId="GildenbergRedux">6</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GildenbergReduxSurvivor7" LostOnDefeat="true">
+      <DamnedSoulsEarned>1120</DamnedSoulsEarned>
+      <NightCompleted CityId="GildenbergRedux">7</NightCompleted>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GildenbergReduxSurvivor8" LostOnDefeat="true">
+      <DamnedSoulsEarned>3780</DamnedSoulsEarned>
+      <NightCompleted CityId="GildenbergRedux">8</NightCompleted>
+   </TrophyDefinition>
+
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <!-- NORMAL TROPHIES -->
+   <!-- ███████████████████████████████████████████████████████████████ -->
+
+   <TrophyDefinition Id="HealthLost">
+      <DamnedSoulsEarned>10</DamnedSoulsEarned>
+      <HealthLost Target="One">25</HealthLost>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="HealthLost2">
+      <DamnedSoulsEarned>20</DamnedSoulsEarned>
+      <HealthLost Target="One">50</HealthLost>
+      <OverrideTrophy>HealthLost</OverrideTrophy>
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="HealthLost3">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<HealthLost Target="One">100</HealthLost>
+		<OverrideTrophy>HealthLost2</OverrideTrophy>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="HealthLost4">
+		<DamnedSoulsEarned>90</DamnedSoulsEarned>
+		<HealthLost Target="One">200</HealthLost>
+		<OverrideTrophy>HealthLost3</OverrideTrophy>
+	</TrophyDefinition>
+
+    <TrophyDefinition Id="EnemiesDamaged">
+      <DamnedSoulsEarned>45</DamnedSoulsEarned>
+      <EnemiesDamaged Target="One">120</EnemiesDamaged>
+    </TrophyDefinition>
+
+   <TrophyDefinition Id="EnemiesKilled">
+      <DamnedSoulsEarned>10</DamnedSoulsEarned>
+      <EnemiesKilled Target="One">20</EnemiesKilled>
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="EnemiesKilled2">
+		<DamnedSoulsEarned>20</DamnedSoulsEarned>
+		<OverrideTrophy>EnemiesKilled</OverrideTrophy>
+		<EnemiesKilled Target="One">40</EnemiesKilled>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="EnemiesKilled3">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<OverrideTrophy>EnemiesKilled2</OverrideTrophy>
+		<EnemiesKilled Target="One">70</EnemiesKilled>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="EnemiesKilled4">
+		<DamnedSoulsEarned>90</DamnedSoulsEarned>
+		<OverrideTrophy>EnemiesKilled3</OverrideTrophy>
+		<EnemiesKilled Target="One">100</EnemiesKilled>
+	</TrophyDefinition>
+
+   <TrophyDefinition Id="DefensesLost">
+      <DamnedSoulsEarned>10</DamnedSoulsEarned>
+      <DefensesLost>10</DefensesLost>
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="DefensesLost2">
+		<DamnedSoulsEarned>20</DamnedSoulsEarned>
+		<OverrideTrophy>DefensesLost</OverrideTrophy>
+		<DefensesLost>20</DefensesLost>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="DefensesLost3">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<OverrideTrophy>DefensesLost2</OverrideTrophy>
+		<DefensesLost>30</DefensesLost>
+	</TrophyDefinition>
+
+   <TrophyDefinition Id="UsableUsed">
+      <DamnedSoulsEarned>10</DamnedSoulsEarned>
+      <UsableUsed Target="All">5</UsableUsed> <!--Changed for Perks Update-->
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="UsableUsed2">
+		<DamnedSoulsEarned>20</DamnedSoulsEarned>
+		<OverrideTrophy>UsableUsed</OverrideTrophy>
+		<UsableUsed Target="All">10</UsableUsed>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="UsableUsed3">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<OverrideTrophy>UsableUsed2</OverrideTrophy>
+		<UsableUsed Target="All">20</UsableUsed>
+	</TrophyDefinition>
+
+   <TrophyDefinition Id="PoisonStatusInflicted">
+      <DamnedSoulsEarned>10</DamnedSoulsEarned>
+      <StatusInflicted Target="All" Status="Poison">20</StatusInflicted> <!--Changed for Perks Update-->
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="PoisonStatusInflicted2">
+		<DamnedSoulsEarned>20</DamnedSoulsEarned>
+		<OverrideTrophy>PoisonStatusInflicted</OverrideTrophy>
+		<StatusInflicted Target="All" Status="Poison">40</StatusInflicted>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="PoisonStatusInflicted3">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<OverrideTrophy>PoisonStatusInflicted2</OverrideTrophy>
+		<StatusInflicted Target="All" Status="Poison">80</StatusInflicted>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="PoisonStatusInflicted4">
+		<DamnedSoulsEarned>90</DamnedSoulsEarned>
+		<OverrideTrophy>PoisonStatusInflicted3</OverrideTrophy>
+		<StatusInflicted Target="All" Status="Poison">160</StatusInflicted>
+	</TrophyDefinition>
+
+   <TrophyDefinition Id="OpportunisticTriggered">
+      <DamnedSoulsEarned>10</DamnedSoulsEarned>
+      <OpportunismDamageInflicted Target="All">300</OpportunismDamageInflicted> <!--Changed for Perks Update-->
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="OpportunisticTriggered2">
+		<DamnedSoulsEarned>20</DamnedSoulsEarned>
+		<OverrideTrophy>OpportunisticTriggered</OverrideTrophy>
+		<OpportunismDamageInflicted Target="All">600</OpportunismDamageInflicted>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="OpportunisticTriggered3">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<OverrideTrophy>OpportunisticTriggered2</OverrideTrophy>
+		<OpportunismDamageInflicted Target="All">1200</OpportunismDamageInflicted>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="OpportunisticTriggered4">
+		<DamnedSoulsEarned>90</DamnedSoulsEarned>
+		<OverrideTrophy>OpportunisticTriggered3</OverrideTrophy>
+		<OpportunismDamageInflicted Target="All">2400</OpportunismDamageInflicted>
+	</TrophyDefinition>
+
+   <TrophyDefinition Id="NoHealthLost" LostOnDefeat="true">
+      <DamnedSoulsEarned>20</DamnedSoulsEarned>
+      <NoHealthLost Target="One" NightToExceed="5"/>
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="GlobalNoHealthLost" LostOnDefeat="true">
+		<DamnedSoulsEarned>90</DamnedSoulsEarned>
+		<NoHealthLost Target="All" NightToExceed="5"/>
+	</TrophyDefinition>
+
+   <TrophyDefinition Id="BloodyKilledAfterEatingAllies">
+      <DamnedSoulsEarned>20</DamnedSoulsEarned>
+      <BloodyKilledAfterEatingAllies Target="One">3</BloodyKilledAfterEatingAllies>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="HeroSurroundedByEnemies">
+      <DamnedSoulsEarned>45</DamnedSoulsEarned>
+      <HeroSurroundedByEnemies Target="One" NumberOfTurns="2">7</HeroSurroundedByEnemies>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="NightCompletedXTurnsAfterSpawnEnd" LostOnDefeat="true">
+      <DamnedSoulsEarned>45</DamnedSoulsEarned>
+      <NightCompletedXTurnsAfterSpawnEnd>2</NightCompletedXTurnsAfterSpawnEnd>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="PerfectPanic" LostOnDefeat="true">
+      <DamnedSoulsEarned>45</DamnedSoulsEarned>
+      <PerfectPanic>3</PerfectPanic>
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="PerfectPanic2" LostOnDefeat="true">
+		<DamnedSoulsEarned>90</DamnedSoulsEarned>
+		<OverrideTrophy>PerfectPanic</OverrideTrophy>
+		<PerfectPanic>7</PerfectPanic>
+	</TrophyDefinition>
+
+   <TrophyDefinition Id="PunchUsed">
+      <DamnedSoulsEarned>10</DamnedSoulsEarned>
+      <PunchUsed Target="All">5</PunchUsed>
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="PunchUsed2">
+		<DamnedSoulsEarned>20</DamnedSoulsEarned>
+		<OverrideTrophy>PunchUsed</OverrideTrophy>
+		<PunchUsed Target="All">10</PunchUsed>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="PunchUsed3">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<OverrideTrophy>PunchUsed2</OverrideTrophy>
+		<PunchUsed Target="All">20</PunchUsed>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="PunchUsed4">
+		<DamnedSoulsEarned>90</DamnedSoulsEarned>
+		<OverrideTrophy>PunchUsed3</OverrideTrophy>
+		<PunchUsed Target="All">40</PunchUsed>
+	</TrophyDefinition>
+
+   <TrophyDefinition Id="JumpOverWallUsed">
+      <DamnedSoulsEarned>10</DamnedSoulsEarned>
+      <JumpOverWallUsed Target="All">6</JumpOverWallUsed>
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="JumpOverWallUsed2">
+		<DamnedSoulsEarned>20</DamnedSoulsEarned>
+		<OverrideTrophy>JumpOverWallUsed</OverrideTrophy>
+		<JumpOverWallUsed Target="All">12</JumpOverWallUsed>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="JumpOverWallUsed3">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<OverrideTrophy>JumpOverWallUsed2</OverrideTrophy>
+		<JumpOverWallUsed Target="All">24</JumpOverWallUsed>
+	</TrophyDefinition>
+
+   <TrophyDefinition Id="StunStatusInflicted">
+      <DamnedSoulsEarned>10</DamnedSoulsEarned>
+      <StatusInflicted Target="All" Status="Stun">15</StatusInflicted>
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="StunStatusInflicted2">
+		<DamnedSoulsEarned>20</DamnedSoulsEarned>
+		<OverrideTrophy>StunStatusInflicted</OverrideTrophy>
+		<StatusInflicted Target="All" Status="Stun">30</StatusInflicted>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="StunStatusInflicted3">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<OverrideTrophy>StunStatusInflicted2</OverrideTrophy>
+		<StatusInflicted Target="All" Status="Stun">60</StatusInflicted>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="StunStatusInflicted4">
+		<DamnedSoulsEarned>90</DamnedSoulsEarned>
+		<OverrideTrophy>StunStatusInflicted3</OverrideTrophy>
+		<StatusInflicted Target="All" Status="Stun">120</StatusInflicted>
+	</TrophyDefinition>
+
+   <TrophyDefinition Id="AlterationStatusInflicted">
+      <DamnedSoulsEarned>10</DamnedSoulsEarned>
+      <StatusInflicted Target="One" Status="Debuff|Poison|Stun">15</StatusInflicted> <!--Changed for Perks Update-->
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="AlterationStatusInflicted2">
+		<DamnedSoulsEarned>20</DamnedSoulsEarned>
+		<OverrideTrophy>AlterationStatusInflicted</OverrideTrophy>
+		<StatusInflicted Target="One" Status="Debuff|Poison|Stun">30</StatusInflicted>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="AlterationStatusInflicted3">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<OverrideTrophy>AlterationStatusInflicted2</OverrideTrophy>
+		<StatusInflicted Target="One" Status="Debuff|Poison|Stun">60</StatusInflicted>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="AlterationStatusInflicted4">
+		<DamnedSoulsEarned>90</DamnedSoulsEarned>
+		<OverrideTrophy>AlterationStatusInflicted3</OverrideTrophy>
+		<StatusInflicted Target="One" Status="Debuff|Poison|Stun">120</StatusInflicted>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="GlobalAlterationStatusInflicted">
+		<DamnedSoulsEarned>20</DamnedSoulsEarned>
+		<StatusInflicted Target="All" Status="Debuff|Poison|Stun">50</StatusInflicted>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="GlobalAlterationStatusInflicted2">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<OverrideTrophy>GlobalAlterationStatusInflicted</OverrideTrophy>
+		<StatusInflicted Target="All" Status="Debuff|Poison|Stun">100</StatusInflicted>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="GlobalAlterationStatusInflicted3">
+		<DamnedSoulsEarned>90</DamnedSoulsEarned>
+		<OverrideTrophy>GlobalAlterationStatusInflicted2</OverrideTrophy>
+		<StatusInflicted Target="All" Status="Debuff|Poison|Stun">200</StatusInflicted>
+	</TrophyDefinition>
+
+   <TrophyDefinition Id="HealthRemainingAtMost" LostOnDefeat="true">
+      <DamnedSoulsEarned>20</DamnedSoulsEarned>
+      <HealthRemainingAtMost Target="One">50</HealthRemainingAtMost>
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="HealthRemainingAtMost2" LostOnDefeat="true">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<OverrideTrophy>HealthRemainingAtMost</OverrideTrophy>
+		<HealthRemainingAtMost Target="One">20</HealthRemainingAtMost>
+	</TrophyDefinition>
+
+   <TrophyDefinition Id="TilesMovedUsingSkills">
+      <DamnedSoulsEarned>10</DamnedSoulsEarned>
+      <TilesMovedUsingSkills Target="All">20</TilesMovedUsingSkills>
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="TilesMovedUsingSkills2">
+		<DamnedSoulsEarned>20</DamnedSoulsEarned>
+		<OverrideTrophy>TilesMovedUsingSkills</OverrideTrophy>
+		<TilesMovedUsingSkills Target="All">40</TilesMovedUsingSkills>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="TilesMovedUsingSkills3">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<OverrideTrophy>TilesMovedUsingSkills2</OverrideTrophy>
+		<TilesMovedUsingSkills Target="All">80</TilesMovedUsingSkills>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="TilesMovedUsingSkills4">
+		<DamnedSoulsEarned>90</DamnedSoulsEarned>
+		<OverrideTrophy>TilesMovedUsingSkills3</OverrideTrophy>
+		<TilesMovedUsingSkills Target="All">160</TilesMovedUsingSkills>
+	</TrophyDefinition>
+
+   <TrophyDefinition Id="TilesMovedBeforeMomentum">
+      <DamnedSoulsEarned>10</DamnedSoulsEarned>
+      <TilesMovedBeforeMomentum Target="All">5</TilesMovedBeforeMomentum>
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="TilesMovedBeforeMomentum2">
+		<DamnedSoulsEarned>20</DamnedSoulsEarned>
+		<OverrideTrophy>TilesMovedBeforeMomentum</OverrideTrophy>
+		<TilesMovedBeforeMomentum Target="All">10</TilesMovedBeforeMomentum>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="TilesMovedBeforeMomentum3">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<OverrideTrophy>TilesMovedBeforeMomentum2</OverrideTrophy>
+		<TilesMovedBeforeMomentum Target="All">20</TilesMovedBeforeMomentum>
+	</TrophyDefinition>
+
+   <TrophyDefinition Id="EnemiesDamagedByBoomer">
+      <DamnedSoulsEarned>20</DamnedSoulsEarned>
+      <EnemiesDamagedByBoomer>6</EnemiesDamagedByBoomer>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="ManaSpent">
+      <DamnedSoulsEarned>10</DamnedSoulsEarned>
+      <ManaSpent Target="One">20</ManaSpent> <!--Changed for Perks Update-->
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="ManaSpent2">
+		<DamnedSoulsEarned>20</DamnedSoulsEarned>
+		<ManaSpent Target="One">40</ManaSpent>
+		<OverrideTrophy>ManaSpent</OverrideTrophy>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="ManaSpent3">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<ManaSpent Target="One">80</ManaSpent>
+		<OverrideTrophy>ManaSpent2</OverrideTrophy>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="GlobalManaSpent">
+		<DamnedSoulsEarned>10</DamnedSoulsEarned>
+		<ManaSpent Target="All">40</ManaSpent>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="GlobalManaSpent2">
+		<DamnedSoulsEarned>20</DamnedSoulsEarned>
+		<ManaSpent Target="All">80</ManaSpent>
+		<OverrideTrophy>GlobalManaSpent</OverrideTrophy>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="GlobalManaSpent3">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<ManaSpent Target="All">160</ManaSpent>
+		<OverrideTrophy>GlobalManaSpent2</OverrideTrophy>
+	</TrophyDefinition>
+
+   <TrophyDefinition Id="HeroDead" LostOnDefeat="true">
+      <DamnedSoulsEarned>10</DamnedSoulsEarned>
+      <HeroDead>1</HeroDead>
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="HeroDead2" LostOnDefeat="true">
+		<DamnedSoulsEarned>20</DamnedSoulsEarned>
+		<OverrideTrophy>HeroDead</OverrideTrophy>
+		<HeroDead>2</HeroDead>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="HeroDead3" LostOnDefeat="true">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<OverrideTrophy>HeroDead2</OverrideTrophy>
+		<HeroDead>3</HeroDead>
+	</TrophyDefinition>
+
+   <TrophyDefinition Id="DodgesPerformed">
+      <DamnedSoulsEarned>10</DamnedSoulsEarned>
+      <DodgesPerformed Target="All">5</DodgesPerformed>
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="DodgesPerformed2">
+		<DamnedSoulsEarned>20</DamnedSoulsEarned>
+		<OverrideTrophy>DodgesPerformed</OverrideTrophy>
+		<DodgesPerformed Target="All">10</DodgesPerformed>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="DodgesPerformed3">
+		<DamnedSoulsEarned>40</DamnedSoulsEarned>
+		<OverrideTrophy>DodgesPerformed2</OverrideTrophy>
+		<DodgesPerformed Target="All">20</DodgesPerformed>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="DodgesPerformed4">
+		<DamnedSoulsEarned>90</DamnedSoulsEarned>
+		<OverrideTrophy>DodgesPerformed3</OverrideTrophy>
+		<DodgesPerformed Target="All">40</DodgesPerformed>
+	</TrophyDefinition>
+
+   <TrophyDefinition Id="NoDodgeTriggered">
+      <DamnedSoulsEarned>20</DamnedSoulsEarned>
+      <NoDodgeTriggered Target="All">20</NoDodgeTriggered>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="SurviveWithFewWalls" LostOnDefeat="true">
+      <DamnedSoulsEarned>45</DamnedSoulsEarned>
+      <SurviveWithFewWalls>10</SurviveWithFewWalls>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="EnemiesKilledFromWatchtower">
+      <DamnedSoulsEarned>10</DamnedSoulsEarned>
+      <EnemiesKilledFromWatchtower Target="All">20</EnemiesKilledFromWatchtower>
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="EnemiesKilledFromWatchtower2">
+		<DamnedSoulsEarned>20</DamnedSoulsEarned>
+		<OverrideTrophy>EnemiesKilledFromWatchtower</OverrideTrophy>
+		<EnemiesKilledFromWatchtower Target="All">40</EnemiesKilledFromWatchtower>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="EnemiesKilledFromWatchtower3">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<OverrideTrophy>EnemiesKilledFromWatchtower2</OverrideTrophy>
+		<EnemiesKilledFromWatchtower Target="All">80</EnemiesKilledFromWatchtower>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="EnemiesKilledFromWatchtower4">
+		<DamnedSoulsEarned>90</DamnedSoulsEarned>
+		<OverrideTrophy>EnemiesKilledFromWatchtower3</OverrideTrophy>
+		<EnemiesKilledFromWatchtower Target="All">160</EnemiesKilledFromWatchtower>
+	</TrophyDefinition>
+
+   <TrophyDefinition Id="EnemiesKilledWithoutAttack">
+      <DamnedSoulsEarned>20</DamnedSoulsEarned>
+      <EnemiesKilledWithoutAttack>15</EnemiesKilledWithoutAttack> <!--Changed for Perks Update-->
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="EnemiesKilledWithoutAttack2">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<OverrideTrophy>EnemiesKilledWithoutAttack</OverrideTrophy>
+		<EnemiesKilledWithoutAttack>30</EnemiesKilledWithoutAttack>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="EnemiesKilledWithoutAttack3">
+		<DamnedSoulsEarned>90</DamnedSoulsEarned>
+		<OverrideTrophy>EnemiesKilledWithoutAttack2</OverrideTrophy>
+		<EnemiesKilledWithoutAttack>60</EnemiesKilledWithoutAttack>
+	</TrophyDefinition>
+
+   <TrophyDefinition Id="EnemiesDebuffedSeveralTimesSingleTurn">
+      <DamnedSoulsEarned>20</DamnedSoulsEarned>
+      <EnemiesDebuffedSeveralTimesSingleTurn Target="One" NumberOfDebuffs="3">1</EnemiesDebuffedSeveralTimesSingleTurn> <!--Changed for Perks Update-->
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="BodyArmorBuffUsed">
+      <DamnedSoulsEarned>10</DamnedSoulsEarned>
+      <BodyArmorBuffUsed Target="One">6</BodyArmorBuffUsed>
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="BodyArmorBuffUsed2">
+		<DamnedSoulsEarned>20</DamnedSoulsEarned>
+		<OverrideTrophy>BodyArmorBuffUsed</OverrideTrophy>
+		<BodyArmorBuffUsed Target="One">12</BodyArmorBuffUsed>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="BodyArmorBuffUsed3">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<OverrideTrophy>BodyArmorBuffUsed2</OverrideTrophy>
+		<BodyArmorBuffUsed Target="One">24</BodyArmorBuffUsed>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="BodyArmorBuffUsed4">
+		<DamnedSoulsEarned>90</DamnedSoulsEarned>
+		<OverrideTrophy>BodyArmorBuffUse3</OverrideTrophy>
+		<BodyArmorBuffUsed Target="One">48</BodyArmorBuffUsed>
+	</TrophyDefinition>
+
+   <TrophyDefinition Id="SpeedyKilledWithoutDodging">
+      <DamnedSoulsEarned>20</DamnedSoulsEarned>
+      <SpeedyKilledWithoutDodging>3</SpeedyKilledWithoutDodging>
+   </TrophyDefinition>
+
+	<TrophyDefinition Id="CriticalsInflictedSingleTurn">
+		<DamnedSoulsEarned>10</DamnedSoulsEarned>
+		<CriticalsInflictedSingleTurn Target="One">4</CriticalsInflictedSingleTurn>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="CriticalsInflictedSingleTurn2">
+		<DamnedSoulsEarned>20</DamnedSoulsEarned>
+		<OverrideTrophy>CriticalsInflictedSingleTurn</OverrideTrophy>
+		<CriticalsInflictedSingleTurn Target="One">8</CriticalsInflictedSingleTurn>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="CriticalsInflictedSingleTurn3">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<OverrideTrophy>CriticalsInflictedSingleTurn2</OverrideTrophy>
+		<CriticalsInflictedSingleTurn Target="One">16</CriticalsInflictedSingleTurn>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="CriticalsInflictedSingleTurn4">
+		<DamnedSoulsEarned>90</DamnedSoulsEarned>
+		<OverrideTrophy>CriticalsInflictedSingleTurn3</OverrideTrophy>
+		<CriticalsInflictedSingleTurn Target="One">32</CriticalsInflictedSingleTurn>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="DebuffEnemy">
+		<DamnedSoulsEarned>10</DamnedSoulsEarned>
+		<StatusInflicted Status="Debuff" Target="All">20</StatusInflicted>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="DebuffEnemy2">
+		<DamnedSoulsEarned>20</DamnedSoulsEarned>
+		<OverrideTrophy>DebuffEnemy</OverrideTrophy>
+		<StatusInflicted Status="Debuff" Target="All">40</StatusInflicted>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="DebuffEnemy3">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<OverrideTrophy>DebuffEnemy2</OverrideTrophy>
+		<StatusInflicted Status="Debuff" Target="All">80</StatusInflicted>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="DebuffEnemy4">
+		<DamnedSoulsEarned>90</DamnedSoulsEarned>
+		<OverrideTrophy>DebuffEnemy3</OverrideTrophy>
+		<StatusInflicted Status="Debuff" Target="All">160</StatusInflicted>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="CatapultUsed">
+		<DamnedSoulsEarned>10</DamnedSoulsEarned>
+		<CatapultUsed>4</CatapultUsed>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="CatapultUsed2">
+		<DamnedSoulsEarned>20</DamnedSoulsEarned>
+		<OverrideTrophy>CatapultUsed</OverrideTrophy>
+		<CatapultUsed>8</CatapultUsed>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="CatapultUsed3">
+		<DamnedSoulsEarned>45</DamnedSoulsEarned>
+		<OverrideTrophy>CatapultUsed2</OverrideTrophy>
+		<CatapultUsed>12</CatapultUsed>
+	</TrophyDefinition>
+
+	<TrophyDefinition Id="CatapultUsed4">
+		<DamnedSoulsEarned>90</DamnedSoulsEarned>
+		<OverrideTrophy>CatapultUsed3</OverrideTrophy>
+		<CatapultUsed>16</CatapultUsed>
+	</TrophyDefinition>
+
+   <!-- Trophies set 4 -->
+
+   <!--<TrophyDefinition Id="DamageInflicted">
+      <DamnedSoulsEarned>50</DamnedSoulsEarned>
+      <DamageInflicted Target="One">150</DamageInflicted>
+   </TrophyDefinition>
+   
+   <TrophyDefinition Id="EnemiesKilledByPropagation">
+		<DamnedSoulsEarned>50</DamnedSoulsEarned>
+		<EnemiesKilledByPropagation Target="All">5</EnemiesKilledByPropagation>
+	</TrophyDefinition> 
+	
+	<TrophyDefinition Id="EnemiesKilledByIsolated">
+		<DamnedSoulsEarned>50</DamnedSoulsEarned>
+		<EnemiesKilledByIsolated Target="All">5</EnemiesKilledByIsolated>
+	</TrophyDefinition> 
+   
+   <TrophyDefinition Id="EnemiesKilledSingleAttack">
+      <DamnedSoulsEarned>50</DamnedSoulsEarned>
+      <EnemiesKilledSingleAttack Target="All">10</EnemiesKilledSingleAttack>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="BuildingsLost">
+      <DamnedSoulsEarned>50</DamnedSoulsEarned>
+      <BuildingsLost>2</BuildingsLost>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="ArmoredEnemiesDamagedByArmorShredding">
+      <DamnedSoulsEarned>50</DamnedSoulsEarned>
+      <ArmoredEnemiesDamagedByArmorShredding Target="All">30</ArmoredEnemiesDamagedByArmorShredding>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="DamageInflictedSingleAttack">
+      <DamnedSoulsEarned>50</DamnedSoulsEarned>
+      <DamageInflictedSingleAttack Target="One">500</DamageInflictedSingleAttack>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="GhostKilledWithoutDebuffing">
+      <DamnedSoulsEarned>50</DamnedSoulsEarned>
+      <GhostKilledWithoutDebuffing Target="All">3</GhostKilledWithoutDebuffing>
+   </TrophyDefinition>
+
+   <TrophyDefinition Id="FriendlyFire">
+      <DamnedSoulsEarned>50</DamnedSoulsEarned>
+      <FriendlyFire/>
+   </TrophyDefinition>-->
+
+</TrophiesDefinitions>

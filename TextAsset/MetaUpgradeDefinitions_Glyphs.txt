@@ -1,0 +1,1354 @@
+﻿<MetaUpgradeDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xsi:noNamespaceSchemaLocation="../MetaUpgradeDefinitions.xsd">
+
+
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <!-- HERO GLYPHS  -->
+   <!-- ███████████████████████████████████████████████████████████████ -->
+
+   <!--ATTRIBUTES-->
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroAttributeMoreAP" Price="15200">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsFinishedInCity LakeBurg" B="2"/>
+         </ConditionsGroup>
+         <ConditionsGroup>
+            <Hidden/>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockGlenwaldCity" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroAttributeMoreAP</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroAttributeMoreHealth2" Price="8700">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UpgradeHeroesHealth3" B="1"/>
+         </ConditionsGroup>
+         <ConditionsGroup>
+            <Hidden/> <!-- Unneeded gameplay-wise, but removes false positive errors-->
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UpgradeHeroesRegens2" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroAttributeMoreHealth2</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroAttributeMoreMana2" Price="8700">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UpgradeHeroesMana3" B="1"/>
+         </ConditionsGroup>
+         <ConditionsGroup>
+            <Hidden/> <!-- Unneeded gameplay-wise, but removes false positive errors-->
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UpgradeHeroesRegens2" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroAttributeMoreMana2</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroAttributeMoreMove2" Price="9400">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsFinishedInCity Glenwald" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroAttributeMoreMove2</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroAttributeMoreDamage" Price="500">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsFinishedCount" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroAttributeMoreDamage</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroAttributeMoreDamage2" Price="8700">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UpgradeHeroesOverallDamage3" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroAttributeMoreDamage2</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroAttributeMoreOpportunism" Price="4700">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockGlenwaldCity" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroAttributeMoreOpportunism</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroAttributeMoreIsolation" Price="4700">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockGlenwaldCity" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroAttributeMoreIsolation</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroAttributeMoreCritical" Price="800">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockGlyphHeroAttributeMoreDamage" B="1"/>
+         </ConditionsGroup>
+         <ConditionsGroup>
+            <Hidden/> <!-- Unneeded gameplay-wise, but removes false positive errors-->
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UpgradeHeroesOverallDamage2" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroAttributeMoreCritical</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroAttributeMoreResReduction" Price="800">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockGlyphHeroAttributeMoreDamage" B="1"/>
+         </ConditionsGroup>
+         <ConditionsGroup>
+            <Hidden/> <!-- Unneeded gameplay-wise, but removes false positive errors-->
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UpgradeHeroesOverallDamage2" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroAttributeMoreResReduction</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroAttributeMoreAccuracy" Price="800">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockGlyphHeroAttributeMoreDamage" B="1"/>
+         </ConditionsGroup>
+         <ConditionsGroup>
+            <Hidden/> <!-- Unneeded gameplay-wise, but removes false positive errors-->
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UpgradeHeroesOverallDamage2" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroAttributeMoreAccuracy</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroAttributeMoreArmor" Price="500">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsFinishedCount" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroAttributeMoreArmor</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroAttributeMoreBlock" Price="800">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockGlyphHeroAttributeMoreArmor" B="1"/>
+         </ConditionsGroup>
+         <ConditionsGroup>
+            <Hidden/> <!-- Unneeded gameplay-wise, but removes false positive errors-->
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UpgradeHeroesArmor2" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroAttributeMoreBlock</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroAttributeMoreResistance" Price="800">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockGlyphHeroAttributeMoreArmor" B="1"/>
+         </ConditionsGroup>
+         <ConditionsGroup>
+            <Hidden/> <!-- Unneeded gameplay-wise, but removes false positive errors-->
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UpgradeHeroesArmor2" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroAttributeMoreResistance</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroAttributeMoreDodge" Price="800">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockGlyphHeroAttributeMoreArmor" B="1"/>
+         </ConditionsGroup>
+         <ConditionsGroup>
+            <Hidden/> <!-- Unneeded gameplay-wise, but removes false positive errors-->
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UpgradeHeroesArmor2" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroAttributeMoreDodge</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroAttributeMoreReliability" Price="4700">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockGlenwaldCity" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroAttributeMoreReliability</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroAttributeMoreSkillRange" Price="9400">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsFinishedInCity Glenwald" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroAttributeMoreSkillRange</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+   
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroAttributeMoreExpGain" Price="15200">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UpgradeHeroesExpGain3" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroAttributeMoreExpGain</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroLevelupImprovedRarity" Price="16400">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UpgradeLevelupUncommonRarity4" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroLevelupImprovedRarity</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroLevelupMoreRerolls" Price="4300">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockElderlichtCity" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroLevelupMoreRerolls</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroPerkMorePoint" Price="16400">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsCompletedInCity LakeBurg" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroPerkMorePoint</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+   
+   
+   <!--PERK UNLOCKS-->
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroPerkNativeLeapFrog">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:GetDouble MaxTilesCrossedSingleTurn" B="13"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <ActivationConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:GetDouble MaxTilesCrossedSingleTurn" B="20"/>
+         </ConditionsGroup>
+      </ActivationConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroPerkNativeLeapFrog</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroPerkNativePotionThrow">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:GetDouble PotionsUsed" B="5"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <ActivationConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:GetDouble PotionsOnAllies" B="10"/>
+         </ConditionsGroup>
+      </ActivationConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroPerkNativePotionThrow</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroPerkNativeMartialPunch">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:GetDouble PunchKills" B="5"/>
+         </ConditionsGroup>
+         <ConditionsGroup>
+            <Hidden/>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsFinishedInCity Glenwald" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <ActivationConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:GetDouble PunchKills" B="15"/>
+         </ConditionsGroup>
+      </ActivationConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroPerkNativeMartialPunch</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroPerkNativeOverload">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <!--<ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:ItemsBoughtOrProducedOfCategory Usable" B="1"/>
+         </ConditionsGroup>-->
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:UsablesEquippedOfMinimumLevel 4" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <ActivationConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:UsablesEquippedOfMinimumLevel 5" B="4"/>
+         </ConditionsGroup>
+      </ActivationConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroPerkNativeOverload</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroSpecialPerkNativeDeathPrevention" Price="4000">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsFinishedCount" B="5"/>
+         </ConditionsGroup>
+         <ConditionsGroup>
+            <Hidden/>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockLakeburgCity" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroSpecialPerkNativeDeathPrevention</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroSpecialPerkNativeRetainAPMove">
+      <Categories>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:GetDouble MaxActionPointsOnHeroSingleTurn" B="8"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <ActivationConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:GetDouble MaxActionPointsOnHeroSingleTurn" B="12"/>
+         </ConditionsGroup>
+      </ActivationConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroSpecialPerkNativeRetainAPMove</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <!--OTHER HERO-CENTRIC GLYPHS-->
+   <MetaUpgradeDefinition Id="UnlockGlyphHeroGenerationHigherLevelGear" Price="9400">
+      <Categories>
+         <Category Value="Weapon"/>
+         <Category Value="Equipment"/>
+         <Category Value="Hero"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsFinishedInCity Glenwald" B="2"/>
+         </ConditionsGroup>
+         <ConditionsGroup>
+            <Hidden/>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockElderlichtCity" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HeroGenerationHigherLevelGear</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphAdditionalStartingHero">
+      <Categories>
+         <Category Value="City"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:GetDouble MaxHeroLevelReached" B="8"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <ActivationConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:GetDouble MaxHeroLevelReached" B="11"/>
+         </ConditionsGroup>
+      </ActivationConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>AdditionalStartingHero</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <!-- ECONOMY & PRODUCTION GLYPHS  -->
+   <!-- ███████████████████████████████████████████████████████████████ -->
+
+   <MetaUpgradeDefinition Id="UnlockGlyphWealthyHaven" Price="9400">
+      <Categories>
+         <Category Value="City"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockGlenwaldCity" B="1"/>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockGlyphWealthyHaven2" B="1"/>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockGlyphWealthyHaven3" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>WealthyHaven</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphWealthyHaven2" Price="1000">
+      <Categories>
+         <Category Value="City"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsFinishedCount" B="3"/>
+         </ConditionsGroup>
+         <ConditionsGroup>
+            <Hidden/>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockLakeburgCity" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>WealthyHaven2</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphWealthyHaven3" Price="1000">
+      <Categories>
+         <Category Value="City"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsFinishedCount" B="3"/>
+         </ConditionsGroup>
+         <ConditionsGroup>
+            <Hidden/>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockLakeburgCity" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>WealthyHaven3</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphShopKeepersBestFriend">
+      <Categories>
+         <Category Value="Building"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:GetDouble SoldItems" B="30"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <ActivationConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:GetDouble SoldItems" B="100"/>
+         </ConditionsGroup>
+      </ActivationConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ShopKeepersBestFriend</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemProdMoreReroll" Price="4700">
+      <Categories>
+         <Category Value="Weapon"/>
+         <Category Value="Equipment"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade AdditionalRerollReward1" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemProdMoreReroll</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemProdMoreChoices" Price="9400">
+      <Categories>
+         <Category Value="Weapon"/>
+         <Category Value="Equipment"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsFinishedInCity Glenwald" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemProdMoreChoices</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemBetterLevel" Price="16400">
+      <Categories>
+         <Category Value="Weapon"/>
+         <Category Value="Equipment"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsFinishedInCity Glenwald" B="2"/>
+         </ConditionsGroup>
+         <ConditionsGroup>
+            <Hidden/>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockElderlichtCity" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemBetterLevel</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemBetterRarity" Price="9400">
+      <Categories>
+         <Category Value="Weapon"/>
+         <Category Value="Equipment"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockEpicItems" B="1"/>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockGlenwaldCity" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemBetterRarity</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphHouseHigherBuildingLimit" Price="8700">
+      <Categories>
+         <Category Value="Building"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsFinishedInCity LakeBurg" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>HouseHigherBuildingLimit</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphProdBuildingHigherBuildingLimit" Price="9400">
+      <Categories>
+         <Category Value="Building"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsFinishedInCity Glenwald" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ProdBuildingHigherBuildingLimit</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+
+   <!--WEAPON FOCUS GLYPHS-->
+   <MetaUpgradeDefinition Id="UnlockGlyphItemWeaponMoreSword" Price="500">
+      <Categories>
+         <Category Value="Weapon"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockSwordVariations1" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemWeaponMoreSword</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemWeaponMoreAxe" Price="500">
+      <Categories>
+         <Category Value="Weapon"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockAxeVariations1" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemWeaponMoreAxe</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemWeaponMoreDagger" Price="500">
+      <Categories>
+         <Category Value="Weapon"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockDaggerVariations1" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemWeaponMoreDagger</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemWeaponMoreHammer" Price="500">
+      <Categories>
+         <Category Value="Weapon"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockHammerVariations1" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemWeaponMoreHammer</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemWeaponMore2HSword" Price="500">
+      <Categories>
+         <Category Value="Weapon"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade Unlock2HSwordVariations1" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemWeaponMore2HSword</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemWeaponMore2HAxe" Price="500">
+      <Categories>
+         <Category Value="Weapon"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade Unlock2HAxeVariations1" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemWeaponMore2HAxe</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemWeaponMore2HHammer" Price="500">
+      <Categories>
+         <Category Value="Weapon"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade Unlock2HHammerVariations1" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemWeaponMore2HHammer</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemWeaponMoreSpear" Price="500">
+      <Categories>
+         <Category Value="Weapon"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockSpearVariations1" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemWeaponMoreSpear</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemWeaponMoreMagicWand" Price="500">
+      <Categories>
+         <Category Value="Weapon"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockMagicWandVariations1" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemWeaponMoreMagicWand</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemWeaponMoreMagicOrb" Price="500">
+      <Categories>
+         <Category Value="Weapon"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockMagicOrbVariations1" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemWeaponMoreMagicOrb</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemWeaponMoreMagicScepter" Price="500">
+      <Categories>
+         <Category Value="Weapon"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockMagicScepterVariations1" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemWeaponMoreMagicScepter</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemWeaponMoreTomeOfMagic" Price="500">
+      <Categories>
+         <Category Value="Weapon"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockTomeOfMagicVariations1" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemWeaponMoreTomeOfMagic</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemWeaponMoreMagicStaff" Price="500">
+      <Categories>
+         <Category Value="Weapon"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockMagicStaffVariations1" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemWeaponMoreMagicStaff</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemWeaponMoreDruidicStaff" Price="500">
+      <Categories>
+         <Category Value="Weapon"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockDruidicStaffVariations1" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemWeaponMoreDruidicStaff</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemWeaponMoreHandCrossbow" Price="500">
+      <Categories>
+         <Category Value="Weapon"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockHandCrossbowVariations1" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemWeaponMoreHandCrossbow</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemWeaponMorePistol" Price="500">
+      <Categories>
+         <Category Value="Weapon"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockPistolVariations1" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemWeaponMorePistol</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemWeaponMoreCrossbow" Price="500">
+      <Categories>
+         <Category Value="Weapon"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockCrossbowVariations1" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemWeaponMoreCrossbow</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemWeaponMoreShortbow" Price="500">
+      <Categories>
+         <Category Value="Weapon"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockShortbowVariations1" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemWeaponMoreShortbow</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemWeaponMoreLongbow" Price="500">
+      <Categories>
+         <Category Value="Weapon"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockLongbowVariations1" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemWeaponMoreLongbow</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphItemWeaponMoreRifle" Price="500">
+      <Categories>
+         <Category Value="Weapon"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockRifleVariations1" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ItemWeaponMoreRifle</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+   
+   <!--SCAVENGING GLYPHS-->
+   <MetaUpgradeDefinition Id="UnlockGlyphBetterDebrisScavenging" Price="4300">
+      <Categories>
+         <Category Value="Building"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockLakeburgCity" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>BetterDebrisScavenging</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphDailyDiscountScavenging">
+      <Categories>
+         <Category Value="Building"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:GetDouble ScavengeWorkers" B="12"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <ActivationConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:GetDouble MaxScavengeWorkersSingleProd" B="12"/>
+         </ConditionsGroup>
+      </ActivationConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>DailyDiscountScavenging</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphPartialScavengeBonePilesOnDecay">
+      <Categories>
+         <Category Value="Building"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:ScavengedBonePilesCountOfId BonePileElite" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <ActivationConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:ScavengedBonePilesCountOfId BonePileElite" B="10"/>
+         </ConditionsGroup>
+      </ActivationConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>PartialScavengeBonePilesOnDecay</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphExplosiveBonePiles">
+      <Categories>
+         <Category Value="Building"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <ListAContainsAtLeastBAmountOfC A="CAMPAIGN:EnemiesKilledList" B="15" C="Boomer"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <ActivationConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:GetDouble BoomerDamage" B="20000"/>
+         </ConditionsGroup>
+      </ActivationConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ExplosiveBonePiles</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <!-- DEFENSE GLYPHS  -->
+   <!-- ███████████████████████████████████████████████████████████████ -->
+
+   <MetaUpgradeDefinition Id="UnlockGlyphDefensesMoreHealth" Price="1500">
+      <Categories>
+         <Category Value="Building"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:RunsFinishedCount" B="2"/>
+         </ConditionsGroup>
+         <ConditionsGroup>
+            <Hidden/>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockLakeburgCity" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>DefensesMoreHealth</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphDefensesMoreHealth2" Price="8700">
+      <Categories>
+         <Category Value="Building"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockLakeburgCity" B="1"/>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockStoneWalls" B="1"/>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockGlyphDefensesMoreHealth" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>DefensesMoreHealth2</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphDefensesMoreHealth3" Price="16400">
+      <Categories>
+         <Category Value="Building"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockElderlichtCity" B="1"/>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockGlyphDefensesMoreHealth2" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>DefensesMoreHealth3</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphDefensesMoreDamage" Price="2000">
+      <Categories>
+         <Category Value="Building"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockBallista" B="1"/>
+         </ConditionsGroup>
+         <ConditionsGroup>
+            <Hidden/>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockCatapult" B="1"/>
+         </ConditionsGroup>
+         <ConditionsGroup>
+            <Hidden/>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockSlowTrap" B="1"/>
+         </ConditionsGroup>
+         <ConditionsGroup>
+            <Hidden/>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockDamageTrap" B="1"/>
+         </ConditionsGroup>
+         <ConditionsGroup>
+            <Hidden/>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockStunTrap" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>DefensesMoreDamage</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphDefensesSpecializedTraps">
+      <Categories>
+         <Category Value="Building"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAEqualToB A="ENVIRONMENT:HasActivatedMetaUpgrade UnlockGlyphReusableTraps" B="1"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <ActivationConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:TrapsUsedCount" B="200"/>
+         </ConditionsGroup>
+      </ActivationConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>DefensesSpecializedTraps</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphDefensesSpecializedFiringDefenses">
+      <Categories>
+         <Category Value="Building"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="RUN:BuiltBuildingsOfCategory Turret" B="10"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <ActivationConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="RUN:BuiltBuildingsOfCategory Turret" B="30"/>
+         </ConditionsGroup>
+      </ActivationConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>DefensesSpecializedFiringDefenses</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphReusableTraps">
+      <Categories>
+         <Category Value="Building"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:TrapsUsedCount" B="20"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <ActivationConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:TrapsUsedCount" B="50"/>
+         </ConditionsGroup>
+      </ActivationConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>DefensesReusableTraps</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+
+   <!-- ███████████████████████████████████████████████████████████████ -->
+   <!-- MISC GLYPHS  -->
+   <!-- ███████████████████████████████████████████████████████████████ -->
+
+   <MetaUpgradeDefinition Id="UnlockGlyphThinnerFog">
+      <Categories>
+         <Category Value="City"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:MaxNightReachedInCity LakeBurg" B="4"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <ActivationConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:NightsWonWithMaxFog" B="3"/>
+         </ConditionsGroup>
+      </ActivationConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>ThinnerFog</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+
+   <MetaUpgradeDefinition Id="UnlockGlyphDamnedSoulsMultiplier2">
+      <Categories>
+         <Category Value="City"/>
+      </Categories>
+      <UnlockConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:ScavengedBonePilesCount" B="10"/>
+         </ConditionsGroup>
+      </UnlockConditions>
+      <ActivationConditions>
+         <ConditionsGroup>
+            <NumberAGreaterThanOrEqualToB A="CAMPAIGN:ScavengedBonePilesCount" B="50"/>
+         </ConditionsGroup>
+      </ActivationConditions>
+      <UpgradeEffects>
+         <UnlockGlyphs>
+            <GlyphId>DamnedSoulsMultiplier2</GlyphId>
+         </UnlockGlyphs>
+      </UpgradeEffects>
+   </MetaUpgradeDefinition>
+   
+   
+</MetaUpgradeDefinitions>

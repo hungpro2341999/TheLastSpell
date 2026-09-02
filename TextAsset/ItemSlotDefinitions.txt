@@ -1,0 +1,97 @@
+﻿<ItemSlotDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="ItemSlotDefinitions.xsd">
+
+   <ItemSlotDefinition Id="Usables">
+      <Categories>
+         <Category>Usable</Category>
+      </Categories>
+      <Hands>
+         <Hand>None</Hand>
+         <Hand>OneHand</Hand>
+         <Hand>TwoHands</Hand>
+         <Hand>OffHand</Hand>
+      </Hands>
+   </ItemSlotDefinition>
+
+   <ItemSlotDefinition Id="Body">
+      <Categories>
+         <Category>BodyArmor</Category>
+      </Categories>
+   </ItemSlotDefinition>
+
+   <ItemSlotDefinition Id="Foot">
+      <Categories>
+         <Category>Boots</Category>
+      </Categories>
+   </ItemSlotDefinition>
+
+   <ItemSlotDefinition Id="Head">
+      <Categories>
+         <Category>Helm</Category>
+      </Categories>
+   </ItemSlotDefinition>
+
+   <ItemSlotDefinition Id="RightHand">
+      <Categories>
+         <Category>Weapon</Category>
+      </Categories>
+      <Hands>
+         <Hand>OneHand</Hand>
+         <Hand>TwoHands</Hand>
+      </Hands>
+   </ItemSlotDefinition>
+
+   <ItemSlotDefinition Id="LeftHand">
+      <Categories>
+         <Category>Weapon</Category>
+         <Category>OffHand</Category>
+      </Categories>
+      <Hands>
+         <Hand>OffHand</Hand>
+      </Hands>
+   </ItemSlotDefinition>
+
+   <ItemSlotDefinition Id="Trinket">
+      <Categories>
+         <Category>Trinket</Category>
+      </Categories>
+   </ItemSlotDefinition>
+
+   <!-- Special item slot used by the inventory -->
+   <ItemSlotDefinition Id="Inventory">
+      <Categories>
+         <Category>All</Category>
+      </Categories>
+      <Hands>
+         <Hand>None</Hand>
+         <Hand>OneHand</Hand>
+         <Hand>TwoHands</Hand>
+         <Hand>OffHand</Hand>
+      </Hands>
+   </ItemSlotDefinition>
+
+   <ItemSlotDefinition Id="Shop">
+      <Categories>
+         <Category>All</Category>
+      </Categories>
+      <Hands>
+         <Hand>None</Hand>
+         <Hand>OneHand</Hand>
+         <Hand>TwoHands</Hand>
+         <Hand>OffHand</Hand>
+      </Hands>
+   </ItemSlotDefinition>
+
+   <ItemSlotDefinition Id="RewardItem">
+      <Categories>
+         <Category>All</Category>
+      </Categories>
+      <Hands>
+         <Hand>None</Hand>
+         <Hand>OneHand</Hand>
+         <Hand>TwoHands</Hand>
+         <Hand>OffHand</Hand>
+      </Hands>
+   </ItemSlotDefinition>
+
+</ItemSlotDefinitions>

@@ -1,0 +1,105 @@
+﻿<BarkDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="BarkDefinitions.xsd">
+
+    <!--Units-->
+    <BarkDefinition Id="PlayableUnitCriticAttack">
+        <Proba>15</Proba>
+        <Sentences Count="15"/>
+        <Sentences Count="8" RaceId="Dwarf"/>
+    </BarkDefinition>
+
+    <BarkDefinition Id="PlayableUnitKillAnEnemy">
+        <Proba>5</Proba>
+        <Sentences Count="26"/>
+        <Sentences Count="18" RaceId="Dwarf"/>
+	</BarkDefinition>
+
+    <BarkDefinition Id="PlayableUnitHit">
+        <Proba>5</Proba>
+        <Sentences Count="16"/>
+        <Sentences Count="12" RaceId="Dwarf"/>
+    </BarkDefinition>
+
+    <BarkDefinition Id="PlayableUnitLoseABigAmountofHealth">
+        <Proba>80</Proba>
+        <Sentences Count="10"/>
+        <Sentences Count="8" RaceId="Dwarf"/>
+    </BarkDefinition>
+
+    <BarkDefinition Id="ManyEnemyUnitSpawn">
+        <Proba>25</Proba>
+        <Sentences Count="17"/>
+        <Sentences Count="8" RaceId="Dwarf"/>
+    </BarkDefinition>
+
+    <BarkDefinition Id="PlayableUnitHitByPlayableUnit">
+        <Proba>80</Proba>
+        <Sentences Count="8"/>
+        <Sentences Count="4" RaceId="Dwarf"/>
+    </BarkDefinition>
+
+    <BarkDefinition Id="PlayableUnitAttackPlayableUnit">
+        <Proba>50</Proba>
+        <Sentences Count="7"/>
+       <Sentences Count="10" RaceId="Dwarf"/>
+    </BarkDefinition>
+
+    <BarkDefinition Id="DayCycleBeginning">
+        <Proba>25</Proba>
+        <Sentences Count="25"/>
+       <Sentences Count="11" RaceId="Dwarf"/>
+    </BarkDefinition>
+
+    <BarkDefinition Id="NightCycleBeginning">
+        <Proba>25</Proba>
+        <Sentences Count="24"/>
+       <Sentences Count="11" RaceId="Dwarf"/>
+    </BarkDefinition>
+
+    <BarkDefinition Id="PlayableUnitDeath">
+        <Proba>40</Proba>
+        <Sentences Count="14"/>
+       <Sentences Count="7" RaceId="Dwarf"/>
+    </BarkDefinition>
+
+   <BarkDefinition Id="PlayableUnitSelfDeath">
+      <Proba>100</Proba>
+      <Sentences Count="16"/>
+      <Sentences Count="5" RaceId="Dwarf"/>
+   </BarkDefinition>
+
+    <BarkDefinition Id="PlayableUnitsHaveKilledALot">
+        <Proba>10</Proba>
+        <Sentences Count="11"/>
+       <Sentences Count="6" RaceId="Dwarf"/>
+    </BarkDefinition>
+
+    <BarkDefinition Id="PlayableUnitsAlmostOutOfMana">
+        <Proba>50</Proba>
+        <Sentences Count="11"/>
+       <Sentences Count="3" RaceId="Dwarf"/>
+    </BarkDefinition>
+
+   <BarkDefinition Id="DawnStart">
+      <Proba>40</Proba>
+      <Sentences Count="5"/>
+      <Sentences Count="2" RaceId="Dwarf"/>
+   </BarkDefinition>
+   
+    <!--Buildings-->
+    <BarkDefinition Id="BuildingGaugeCompletion">
+        <Proba>25</Proba>
+        <Sentences Count="9"/>
+    </BarkDefinition>
+
+    <BarkDefinition Id="BuildingHit">
+        <Proba>20</Proba>
+        <Sentences Count="6"/>
+    </BarkDefinition>
+
+    <BarkDefinition Id="BuildingHasCriticalHealth">
+        <Proba>100</Proba>
+        <Sentences Count="4"/>
+    </BarkDefinition>
+   
+</BarkDefinitions>

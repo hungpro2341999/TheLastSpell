@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CutsceneDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="CutsceneDefinitions.xsd">
+   
+   <CutsceneDefinition Id="TestGenericCutscene">
+      <FocusTile X="25" Y="25"/>
+      <Zoom In="true"/>
+      <Wait>5</Wait>
+      <Zoom In="false"/>
+      <Wait>5</Wait>
+   </CutsceneDefinition>
+
+
+   <CutsceneDefinition Id="HarplingCutscene">
+      <FocusTile X="26" Y="14"/>
+      <PlaySound>
+         <Path>Sounds/SFX/Spawns SFXs/Harpy/SFX_Enemy_Harpling_Spawn-002</Path>
+         <Delay>0</Delay>
+      </PlaySound>
+      <Wait>0.5</Wait>
+      <Zoom In="true"/>
+      <Wait>1</Wait>
+      <Zoom In="false"/>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="SideHarplingCutscene">
+      <FocusTile X="28" Y="38"/>
+      <PlaySound>
+         <Path>Sounds/SFX/Spawns SFXs/Harpy/SFX_Enemy_Harpling_Spawn-004</Path>
+         <Delay>0</Delay>
+      </PlaySound>
+      <Wait>0.5</Wait>
+      <Zoom In="false"/>
+      <Wait>1</Wait>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="ThroneTowerBossEnd1stPhase">
+      <ToggleHUD Display="false"/>
+      <PlaySound>
+         <Path>Sounds/SFX/Spawns SFXs/Monarch/SFX_Enemy_ThroneTowerBoss_End1stPhase</Path>
+      </PlaySound>
+      <FocusTile X="56" Y="31"/>
+      <Zoom In="true"/>
+      <Wait>4</Wait>
+      <Zoom In="false"/>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="ThroneTowerBossEnd2ndPhase">
+      <ToggleHUD Display="false"/>
+      <PlaySound>
+         <Path>Sounds/SFX/Spawns SFXs/Monarch/SFX_Enemy_ThroneTowerBoss_End2ndPhase</Path>
+      </PlaySound>
+      <FocusTile X="56" Y="31"/>
+      <Zoom In="true"/>
+      <Wait>4</Wait>
+      <Zoom In="false"/>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="ThroneTowerBossEnd3rdPhase">
+      <ToggleHUD Display="false"/>
+      <PlaySound>
+         <Path>Sounds/SFX/Spawns SFXs/Monarch/SFX_Enemy_ThroneTowerBoss_End3rdPhase_Part01</Path>
+      </PlaySound>
+      <FocusTile X="56" Y="31"/>
+      <Zoom In="true"/>
+      <Wait>3</Wait>
+      <!-- Displays the BrokenThrone on LevelArt-->
+      <EvolutiveLevelArtSetStage Value="1"/>
+      <Wait>1</Wait>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="ThroneTowerBossEnd3rdPhasePart02">
+      <ToggleHUD Display="false"/>
+      <PlaySound>
+         <Path>Sounds/SFX/Spawns SFXs/Monarch/SFX_Enemy_ThroneTowerBoss_End3rdPhase_Part02</Path>
+      </PlaySound>
+      <FocusTile X="47" Y="31"/>
+      <Zoom In="true"/>
+      <Wait>4</Wait>
+      <Zoom In="false"/>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>
+   
+
+   <CutsceneDefinition Id="FocusMagicCircleCountdown1">
+      <Zoom In="true"/>
+      <FocusTile X="59" Y="33"/>
+      <Wait>1</Wait>
+      <PlayFX TileX="56" TileY="31" WaitForFXDuration="true">
+         <SpawnFXs TotalDuration="1.5">
+            <SpawnVisualEffect>
+               <Path>Enemy Boss/Monarch/CountDown/Countdown_CasterBefore</Path>
+               <Delay>0.2</Delay>
+               <SortingDepth>Before</SortingDepth>
+            </SpawnVisualEffect>
+
+            <SpawnVisualEffect>
+               <Path>Enemy Boss/Monarch/Scream/Scream</Path>
+               <SortingDepth>AboveAll</SortingDepth>
+               <Delay>0.2</Delay>
+            </SpawnVisualEffect>
+
+            <SoundEffect>
+               <Path>Monarch/SFX_Enemy_ThroneTowerBoss_Scream_01</Path>
+               <Delay>0.2</Delay>
+            </SoundEffect>
+         </SpawnFXs>
+      </PlayFX>
+      <FocusMagicCircle/>
+      <PlayFX TileX="30" TileY="30" WaitForFXDuration="true">
+         <SpawnFXs TotalDuration="1.79">
+            <SpawnVisualEffect>
+               <Path>Enemy Boss/Monarch/CountDown/CountdownThree_TargetBefore</Path>
+               <Delay>1.46</Delay>
+               <SortingDepth>Before</SortingDepth>
+            </SpawnVisualEffect>
+
+            <SpawnVisualEffect>
+               <Path>Enemy Boss/Monarch/CountDown/Countdown_TargetBehind</Path>
+               <Delay>0.79</Delay>
+               <SortingDepth>Behind</SortingDepth>
+            </SpawnVisualEffect>
+			
+            <SoundEffect>
+               <Path>Monarch/SFX_Enemy_Skill_ThroneTowerBoss_Countdown_01</Path>
+               <Delay>0.6</Delay>
+            </SoundEffect>
+         </SpawnFXs>
+      </PlayFX>
+      <!--<PlayRippleEffect/>-->
+      <Wait>2</Wait>
+      <Zoom In="false"/>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="FocusMagicCircleCountdown2">
+      <Zoom In="true"/>
+      <FocusTile X="59" Y="33"/>
+      <Wait>1</Wait>
+      <PlayFX TileX="56" TileY="31" WaitForFXDuration="true">
+         <SpawnFXs TotalDuration="1.5">
+            <SpawnVisualEffect>
+               <Path>Enemy Boss/Monarch/CountDown/Countdown_CasterBefore</Path>
+               <Delay>0.2</Delay>
+               <SortingDepth>Before</SortingDepth>
+            </SpawnVisualEffect>
+
+            <SpawnVisualEffect>
+               <Path>Enemy Boss/Monarch/Scream/Scream</Path>
+               <SortingDepth>AboveAll</SortingDepth>
+               <Delay>0.2</Delay>
+            </SpawnVisualEffect>
+
+            <SoundEffect>
+               <Path>Monarch/SFX_Enemy_ThroneTowerBoss_Scream_02</Path>
+               <Delay>0.2</Delay>
+            </SoundEffect>
+         </SpawnFXs>
+      </PlayFX>
+      <FocusMagicCircle/>
+      <PlayFX TileX="30" TileY="30" WaitForFXDuration="true">
+         <SpawnFXs TotalDuration="1.79">
+            <SpawnVisualEffect>
+               <Path>Enemy Boss/Monarch/CountDown/CountdownTwo_TargetBefore</Path>
+               <Delay>1.46</Delay>
+               <SortingDepth>Before</SortingDepth>
+            </SpawnVisualEffect>
+
+            <SpawnVisualEffect>
+               <Path>Enemy Boss/Monarch/CountDown/Countdown_TargetBehind</Path>
+               <Delay>0.79</Delay>
+               <SortingDepth>Behind</SortingDepth>
+            </SpawnVisualEffect>
+
+            <SoundEffect>
+               <Path>Monarch/SFX_Enemy_Skill_ThroneTowerBoss_Countdown_02</Path>
+               <Delay>0.6</Delay>
+            </SoundEffect>
+         </SpawnFXs>
+      </PlayFX>
+      <!--<PlayRippleEffect/>-->
+      <Wait>2</Wait>
+      <Zoom In="false"/>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="FocusMagicCircleCountdown3">
+      <Zoom In="true"/>
+      <FocusTile X="59" Y="33"/>
+      <Wait>1</Wait>
+      <PlayFX TileX="56" TileY="31" WaitForFXDuration="true">
+         <SpawnFXs TotalDuration="1.5">
+            <SpawnVisualEffect>
+               <Path>Enemy Boss/Monarch/CountDown/Countdown_CasterBefore</Path>
+               <Delay>0.2</Delay>
+               <SortingDepth>AboveAll</SortingDepth>
+            </SpawnVisualEffect>
+
+            <SpawnVisualEffect>
+               <Path>Enemy Boss/Monarch/Scream/Scream</Path>
+               <SortingDepth>AboveAll</SortingDepth>
+               <Delay>0.2</Delay>
+            </SpawnVisualEffect>
+
+            <SoundEffect>
+               <Path>Monarch/SFX_Enemy_ThroneTowerBoss_Scream_03</Path>
+               <Delay>0.2</Delay>
+            </SoundEffect>
+            
+         </SpawnFXs>
+      </PlayFX>
+      <FocusMagicCircle/>
+      <PlayFX TileX="30" TileY="30" WaitForFXDuration="true">
+         <SpawnFXs TotalDuration="1.79">
+            <SpawnVisualEffect>
+               <Path>Enemy Boss/Monarch/CountDown/CountdownOne_TargetBefore</Path>
+               <Delay>1.46</Delay>
+               <SortingDepth>Before</SortingDepth>
+            </SpawnVisualEffect>
+
+            <SpawnVisualEffect>
+               <Path>Enemy Boss/Monarch/CountDown/Countdown_TargetBehind</Path>
+               <Delay>0.79</Delay>
+               <SortingDepth>Behind</SortingDepth>
+            </SpawnVisualEffect>
+
+            <SoundEffect>
+               <Path>Monarch/SFX_Enemy_Skill_ThroneTowerBoss_Countdown_03</Path>
+               <Delay>0.6</Delay>
+            </SoundEffect>
+         </SpawnFXs>
+      </PlayFX>
+      <!--<PlayRippleEffect/>-->
+      <Wait>2</Wait>
+      <Zoom In="true"/>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="FocusMagicCircleCutscene">
+      <FocusMagicCircle/>
+      <Wait>1</Wait>
+      <Zoom In="false"/>
+   </CutsceneDefinition>
+   
+   <CutsceneDefinition Id="FocusDamnedBomb">
+      <ToggleHUD Display="false"/>
+      <Zoom In="true"/>
+      <Wait>1</Wait>
+      <Zoom In="false"/>
+      <Wait>1</Wait>
+      <Zoom In="true"/>
+      <FocusMagicCircle/>
+      <Wait>5</Wait>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>
+   
+   <CutsceneDefinition Id="TestThrone">
+      <EvolutiveLevelArtSetActiveCurrentStage Value="false"/>
+      <Wait>2</Wait>
+      <EvolutiveLevelArtSetStage Value="1"/>
+   </CutsceneDefinition>
+	
+	<!--Bark Boss Cutscenes-->
+	
+	<CutsceneDefinition Id="GildenbergBossBark1">
+      <ToggleHUD Display="false"/>
+      <Wait>0.5</Wait>
+		<FocusMagicCircle/>
+		<Zoom In="true"/>
+		<Bark BarkerType="MagicCircle">
+			<BarkDefinition Id="BossGildenberg1">
+				<Proba>100</Proba>
+				<Sentences Count="1"/>
+			</BarkDefinition>
+		</Bark>
+      <ToggleHUD Display="true"/>
+	</CutsceneDefinition>
+
+	<CutsceneDefinition Id="GildenbergBossBark2">
+      <ToggleHUD Display="false"/>
+      <Wait>0.5</Wait>
+		<FocusMagicCircle/>
+		<Zoom In="true"/>
+		<Bark BarkerType="MagicCircle">
+			<BarkDefinition Id="BossGildenberg2">
+				<Proba>100</Proba>
+				<Sentences Count="1"/>
+			</BarkDefinition>
+		</Bark>
+      <ToggleHUD Display="true"/>
+	</CutsceneDefinition>
+
+	<CutsceneDefinition Id="GildenbergBossBark3">
+      <ToggleHUD Display="false"/>
+      <Wait>0.5</Wait>
+		<FocusMagicCircle/>
+		<Zoom In="true"/>
+		<Bark BarkerType="MagicCircle">
+			<BarkDefinition Id="BossGildenberg3">
+				<Proba>100</Proba>
+				<Sentences Count="1"/>
+			</BarkDefinition>
+		</Bark>
+      <ToggleHUD Display="true"/>
+	</CutsceneDefinition>
+
+	<CutsceneDefinition Id="LakeburgBossBark1">
+      <ToggleHUD Display="false"/>
+      <Wait>0.8</Wait>
+		<FocusMagicCircle/>
+		<Zoom In="true"/>
+		<Bark BarkerType="MagicCircle">
+			<BarkDefinition Id="BossLakeburg1">
+				<Proba>100</Proba>
+				<Sentences Count="1"/>
+			</BarkDefinition>
+		</Bark>
+      <ToggleHUD Display="true"/>
+	</CutsceneDefinition>
+
+	<CutsceneDefinition Id="LakeburgBossBark2">
+      <ToggleHUD Display="false"/>
+      <Wait>0.5</Wait>
+		<FocusMagicCircle/>
+		<Zoom In="true"/>
+		<Bark BarkerType="MagicCircle">
+			<BarkDefinition Id="BossLakeburg2">
+				<Proba>100</Proba>
+				<Sentences Count="1"/>
+			</BarkDefinition>
+		</Bark>
+      <ToggleHUD Display="true"/>
+	</CutsceneDefinition>
+
+	<CutsceneDefinition Id="LakeburgBossBark3">
+      <ToggleHUD Display="false"/>
+      <Wait>0.8</Wait>
+		<FocusMagicCircle/>
+		<Zoom In="true"/>
+		<Bark BarkerType="MagicCircle">
+			<BarkDefinition Id="BossLakeburg3">
+				<Proba>100</Proba>
+				<Sentences Count="1"/>
+			</BarkDefinition>
+		</Bark>
+      <ToggleHUD Display="true"/>
+	</CutsceneDefinition>
+	
+	<CutsceneDefinition Id="GlenwaldBossBark1">
+      <ToggleHUD Display="false"/>
+      <Wait>0.5</Wait>
+		<FocusMagicCircle/>
+		<Zoom In="true"/>
+		<Bark BarkerType="MagicCircle">
+			<BarkDefinition Id="BossGlenwald1">
+				<Proba>100</Proba>
+				<Sentences Count="1"/>
+			</BarkDefinition>
+		</Bark>
+      <ToggleHUD Display="true"/>
+	</CutsceneDefinition>
+
+	<CutsceneDefinition Id="GlenwaldBossBark2">
+      <ToggleHUD Display="false"/>
+      <Wait>0.5</Wait>
+		<FocusMagicCircle/>
+		<Zoom In="true"/>
+		<Bark BarkerType="MagicCircle">
+			<BarkDefinition Id="BossGlenwald2">
+				<Proba>100</Proba>
+				<Sentences Count="1"/>
+			</BarkDefinition>
+		</Bark>
+      <ToggleHUD Display="true"/>
+	</CutsceneDefinition>
+
+	<CutsceneDefinition Id="GlenwaldBossBark3">
+      <ToggleHUD Display="false"/>
+      <Wait>0.5</Wait>
+		<FocusMagicCircle/>
+		<Zoom In="true"/>
+		<Bark BarkerType="MagicCircle">
+			<BarkDefinition Id="BossGlenwald3">
+				<Proba>100</Proba>
+				<Sentences Count="1"/>
+			</BarkDefinition>
+		</Bark>
+      <ToggleHUD Display="true"/>
+	</CutsceneDefinition>
+
+	<CutsceneDefinition Id="ElderlichtBossBark1">
+      <ToggleHUD Display="false"/>
+      <Wait>0.5</Wait>
+		<FocusMagicCircle/>
+		<Zoom In="true"/>
+		<Bark BarkerType="MagicCircle">
+			<BarkDefinition Id="BossElderlicht1">
+				<Proba>100</Proba>
+				<Sentences Count="1"/>
+			</BarkDefinition>
+		</Bark>
+      <ToggleHUD Display="true"/>
+	</CutsceneDefinition>
+
+	<CutsceneDefinition Id="ElderlichtBossBark2">
+      <ToggleHUD Display="false"/>
+      <Wait>0.5</Wait>
+		<FocusMagicCircle/>
+		<Zoom In="true"/>
+		<Bark BarkerType="MagicCircle">
+			<BarkDefinition Id="BossElderlicht2">
+				<Proba>100</Proba>
+				<Sentences Count="1"/>
+			</BarkDefinition>
+		</Bark>
+      <ToggleHUD Display="true"/>
+	</CutsceneDefinition>
+
+	<CutsceneDefinition Id="ElderlichtBossBark3">
+      <ToggleHUD Display="false"/>
+      <Wait>0.5</Wait>
+		<FocusMagicCircle/>
+		<Zoom In="true"/>
+		<Bark BarkerType="MagicCircle">
+			<BarkDefinition Id="BossElderlicht3">
+				<Proba>100</Proba>
+				<Sentences Count="1"/>
+			</BarkDefinition>
+		</Bark>
+      <ToggleHUD Display="true"/>
+	</CutsceneDefinition>
+
+   <CutsceneDefinition Id="GlintfeinBossBark_Mage1">
+      <ToggleHUD Display="false"/>
+      <Wait>3</Wait>
+      <FocusMagicCircle/>
+      <Zoom In="true"/>
+      <Bark BarkerType="MagicCircle">
+         <BarkDefinition Id="BossGlintfein_Mage1">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="GlintfeinBossBark_Mage2">
+      <ToggleHUD Display="false"/>
+      <Wait>0.5</Wait>
+      <FocusMagicCircle/>
+      <Zoom In="true"/>
+      <Bark BarkerType="MagicCircle">
+         <BarkDefinition Id="BossGlintfein_Mage2">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="GlintfeinBossBark_Mage3">
+      <ToggleHUD Display="false"/>
+      <Wait>0.5</Wait>
+      <FocusMagicCircle/>
+      <Zoom In="true"/>
+      <Bark BarkerType="MagicCircle">
+         <BarkDefinition Id="BossGlintfein_Mage3">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>
+
+   <!--<CutsceneDefinition Id="GlintfeinBossBark_DarkSchadenSpawn">
+      <ToggleHUD Display="false"/>
+      <Zoom In="true"/>
+      <Bark BarkerType="BossUnit" BarkerId="DarkSchaden" MoveCamera="Always">
+         <BarkDefinition Id="BossGlintfein_Schaden_NightBegin">
+            <Proba>100</Proba>
+            <Sentences Count="6"/>
+         </BarkDefinition>
+      </Bark>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>-->
+   
+   <!--<CutsceneDefinition Id="GlintfeinBossBark_LightFreudeSpawn">
+      <ToggleHUD Display="false"/>
+      <Zoom In="true"/>
+      <Bark BarkerType="BossUnit" BarkerId="LightFreude" MoveCamera="Always">
+         <BarkDefinition Id="BossGlintfein_Freude_NightBegin">
+            <Proba>100</Proba>
+            <Sentences Count="6"/>
+         </BarkDefinition>
+      </Bark>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>-->
+
+   <!--<CutsceneDefinition Id="GlintfeinBossBark_Schaden1">
+      <ToggleHUD Display="false"/>
+      <Zoom In="true"/>
+      <Bark BarkerType="BossUnit" BarkerId="SchadenBoss" MoveCamera="Always">
+         <BarkDefinition Id="BossGlintfein_Schaden_Phase1Spawn">
+            <Proba>100</Proba>
+            <Sentences Count="6"/>
+         </BarkDefinition>
+      </Bark>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>-->
+
+   <!--<CutsceneDefinition Id="GlintfeinBossBark_Freude1">
+      <ToggleHUD Display="false"/>
+      <Zoom In="true"/>
+      <Bark BarkerType="BossUnit" BarkerId="FreudeBoss" MoveCamera="Always">
+         <BarkDefinition Id="BossGlintfein_Freude_Phase1Spawn">
+            <Proba>100</Proba>
+            <Sentences Count="6"/>
+         </BarkDefinition>
+      </Bark>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>-->
+
+   <CutsceneDefinition Id="GlintfeinBossBark_Schaden2">
+      <ToggleHUD Display="false"/>
+      <Zoom In="true"/>
+      <Bark BarkerType="BossUnit" BarkerId="SchadenBoss_Weaponless" MoveCamera="Always">
+         <BarkDefinition Id="BossGlintfein_Schaden_Phase4Spawn">
+            <Proba>100</Proba>
+            <Sentences Count="3"/>
+         </BarkDefinition>
+      </Bark>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>
+
+   <CutsceneDefinition Id="GlintfeinBossBark_Freude2">
+      <ToggleHUD Display="false"/>
+      <Zoom In="true"/>
+      <Bark BarkerType="BossUnit" BarkerId="FreudeBoss_Weaponless" MoveCamera="Always">
+         <BarkDefinition Id="BossGlintfein_Freude_Phase4Spawn">
+            <Proba>100</Proba>
+            <Sentences Count="3"/>
+         </BarkDefinition>
+      </Bark>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>
+
+   <!--<CutsceneDefinition Id="GlintfeinBossBark_Schaden3">
+      <ToggleHUD Display="false"/>
+      <Zoom In="true"/>
+      <Bark BarkerType="BossUnit" BarkerId="SchadenBoss_Final" MoveCamera="Always">
+         <BarkDefinition Id="BossGlintfein_Schaden_Phase5Spawn">
+            <Proba>100</Proba>
+            <Sentences Count="5"/>
+         </BarkDefinition>
+      </Bark>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>-->
+
+   <!--<CutsceneDefinition Id="GlintfeinBossBark_Freude3">
+      <ToggleHUD Display="false"/>
+      <Zoom In="true"/>
+      <Bark BarkerType="BossUnit" BarkerId="FreudeBoss_Final" MoveCamera="Always">
+         <BarkDefinition Id="BossGlintfein_Freude_Phase5Spawn">
+            <Proba>100</Proba>
+            <Sentences Count="5"/>
+         </BarkDefinition>
+      </Bark>
+      <ToggleHUD Display="true"/>
+   </CutsceneDefinition>-->
+</CutsceneDefinitions>

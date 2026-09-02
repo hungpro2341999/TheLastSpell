@@ -1,0 +1,98 @@
+﻿<CutsceneDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="CutsceneDefinitions.xsd">
+
+	<CutsceneDefinition Id="GildenbergRedux">
+
+		<StopMagicCircleIdle/>
+      
+      <Wait>0.5</Wait>
+		<FocusMagicCircle ZoomIn="true"/>
+      <Wait>0.5</Wait>      
+      <StopMusic/>
+      <PlaySealAnticipation/>
+      <Wait>2</Wait>
+      		<Bark BarkerType="MagicCircle">
+			<BarkDefinition Id="Victory_GildenbergRedux_MagesPreExplosion0">
+				<Proba>100</Proba>
+				<Sentences Count="1"/>
+			</BarkDefinition>
+		</Bark>
+            
+		<Wait>4</Wait>
+      <LookAtCircle/>
+      
+		<Bark BarkerType="MagicCircle">
+			<LookAt>Barker</LookAt>
+			<BarkDefinition Id="Victory_GildenbergRedux_MagesPreExplosion1">
+				<Proba>100</Proba>
+				<Sentences Count="1"/>
+			</BarkDefinition>
+		</Bark>
+
+      <Wait>2</Wait>
+      <PlaySealDestruction/>
+
+      <Wait>6</Wait>
+
+      <PlaySound>
+         <Path>Sounds/Music/Sanctus</Path>
+         <Delay>0.5</Delay>
+      </PlaySound>
+
+      <PlayPillarsCutscene/>
+
+      <Wait>1.5</Wait>
+
+      <Bark BarkerType="Unit">
+			<LookAt>Barker</LookAt>
+			<BarkDefinition Id="Victory_GildenbergRedux_PlayableUnitPostExplosion0">
+				<Proba>100</Proba>
+				<Sentences Count="1"/>
+			</BarkDefinition>
+		</Bark>
+		<Bark BarkerType="Unit">
+			<LookAt>Barker</LookAt>
+			<BarkDefinition Id="Victory_GildenbergRedux_PlayableUnitPostExplosion1">
+				<Proba>100</Proba>
+				<Sentences Count="1"/>
+			</BarkDefinition>
+		</Bark>
+		<LookAtCircle/>
+		<Bark BarkerType="MagicCircle">
+			<BarkDefinition Id="Victory_GildenbergRedux_MagesPostExplosion0">
+				<Proba>100</Proba>
+				<Sentences Count="1"/>
+			</BarkDefinition>
+		</Bark>
+		<Bark BarkerType="Unit">
+			<LookAt>Barker</LookAt>
+			<BarkDefinition Id="Victory_GildenbergRedux_PlayableUnitPostExplosion2">
+				<Proba>100</Proba>
+				<Sentences Count="1"/>
+			</BarkDefinition>
+		</Bark>
+		<Bark BarkerType="Unit">
+			<LookAt>Barker</LookAt>
+			<BarkDefinition Id="Victory_GildenbergRedux_PlayableUnitPostExplosion3">
+				<Proba>100</Proba>
+				<Sentences Count="1"/>
+			</BarkDefinition>
+		</Bark>
+		<Bark BarkerType="Unit">
+			<LookAt>Barker</LookAt>
+			<BarkDefinition Id="Victory_GildenbergRedux_PlayableUnitPostExplosion4">
+				<Proba>100</Proba>
+				<Sentences Count="1"/>
+			</BarkDefinition>
+		</Bark>
+      <Bark BarkerType="Unit">
+         <LookAt>Barker</LookAt>
+         <BarkDefinition Id="Victory_GildenbergRedux_PlayableUnitPostExplosion5">
+            <Proba>100</Proba>
+            <Sentences Count="1"/>
+         </BarkDefinition>
+      </Bark>
+      <!--BLACK FADE (triggered automatically, nothing to specify here).-->
+	</CutsceneDefinition>
+
+</CutsceneDefinitions>
