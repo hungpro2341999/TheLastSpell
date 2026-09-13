@@ -6,8 +6,16 @@ using UnityEngine;
 
 namespace TheLastStand.Controller;
 
+/// <summary>
+/// Thành phần hỗ trợ tải Scene của Unity dựa trên loại màn chơi được chọn (Splash, MainMenu, Map, Level, MetaShop...).
+/// </summary>
 public class SceneByTypeLoader : SceneLoader
 {
+	#region Enums & Serialized Fields
+
+	/// <summary>
+	/// Định nghĩa các loại Scene trong trò chơi.
+	/// </summary>
 	public enum E_SceneType
 	{
 		None,
@@ -23,6 +31,13 @@ public class SceneByTypeLoader : SceneLoader
 	[SerializeField]
 	private E_SceneType levelType;
 
+	#endregion
+
+	#region Properties
+
+	/// <summary>
+	/// Tên Scene thực tế trong Unity tương ứng với loại Scene được thiết lập.
+	/// </summary>
 	public override string SceneName
 	{
 		get
@@ -47,4 +62,6 @@ public class SceneByTypeLoader : SceneLoader
 			}
 		}
 	}
+
+	#endregion
 }

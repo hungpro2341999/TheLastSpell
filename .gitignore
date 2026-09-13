@@ -1,0 +1,22 @@
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio & IDE cache / temporary files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.lscache
+
+## Editor directories
+.idea/
+.vscode/
+
+## Python cache
+__pycache__/
+*.py[cod]
+*$py.class

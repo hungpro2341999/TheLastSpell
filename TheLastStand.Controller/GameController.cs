@@ -38,22 +38,48 @@ using UnityEngine;
 
 namespace TheLastStand.Controller;
 
+/// <summary>
+/// Bộ điều khiển trung tâm của một ván chơi (In-Game Controller):
+/// 1. Điều phối chu kỳ Ngày / Đêm (Day / Night cycle) và các giai đoạn (Production, Deployment, Enemy Turn, Player Turn).
+/// 2. Điều khiển luồng kết thúc lượt (EndTurn), bắt đầu lượt (StartTurn) và tổng kết đêm (EndNightIfNeeded).
+/// 3. Quản lý chuyển đổi trạng thái của game (Game.E_State).
+/// 4. Xử lý logic kết thúc ván chơi (Game Over - Thắng / Thua / Hủy bỏ) và lưu/xóa file save.
+/// </summary>
 public class GameController
 {
+	#region Fields & Properties
+
+	/// <summary>Cờ khóa thao tác kết thúc lượt (ví dụ khi đang chạy cutscene hoặc quái đang chết).</summary>
 	public static bool LockEndTurn;
 
+	/// <summary>Model Game lưu trữ dữ liệu ván chơi hiện tại.</summary>
 	public Game Game { get; private set; }
 
+	#endregion
+
+	#region Constructors
+
+	/// <summary>Khởi tạo GameController cho một ván chơi mới tinh.</summary>
 	public GameController()
 	{
 		Game = new Game();
 	}
 
+	/// <summary>Khởi tạo GameController từ dữ liệu lưu (Save file đã được deserialize).</summary>
+	/// <param name="container">Dữ liệu serialization của game.</param>
 	public GameController(SerializedGame container)
 	{
 		Game = new Game(container);
 	}
 
+	#endregion
+
+	#region Application & Scene Navigation
+
+	/// <summary>
+	/// Thoát khỏi ván đấu và quay trở lại Menu chính (MainMenu).
+	/// </summary>
+	/// <param name="killRunSave">Nếu true sẽ xóa sạch file save của run hiện tại (khi thua hoặc bỏ cuộc).</param>
 	public static void GoBackToMainMenu(bool killRunSave = false)
 	{
 		TPSingleton<SoundManager>.Instance.TransitionToDefaultSnapshot(GameManager.AmbientSoundsFadeOutDuration);
@@ -69,6 +95,9 @@ public class GameController
 		ApplicationManager.Application.ApplicationController.SetState("LoadMainMenuFromGameState");
 	}
 
+	/// <summary>
+	/// Chuyển tới cửa hàng Meta (Oraculum Meta Shops) để nâng cấp vĩnh viễn bằng Soul.
+	/// </summary>
 	public static void GoToMetaShops()
 	{
 		ApplicationManager.Application.ApplicationQuitInOraculum = true;
@@ -76,6 +105,21 @@ public class GameController
 		ApplicationManager.Application.ApplicationController.SetState("MetaShops");
 	}
 
+	/// <summary>
+	/// Khởi động lại màn chơi hiện tại (Reload Game).
+	/// </summary>
+	public static void RestartLevel()
+	{
+		ApplicationManager.Application.ApplicationController.SetState("ReloadGame");
+	}
+
+	#endregion
+
+	#region State & Mode Validation
+
+	/// <summary>
+	/// Kiểm tra xem người chơi có thể thoát khỏi chế độ xây dựng (Construction Mode) hay không.
+	/// </summary>
 	public static bool CanExitConstructionMode()
 	{
 		if (TPSingleton<GameManager>.Instance.Game.Cycle != Game.E_Cycle.Day || TPSingleton<GameManager>.Instance.Game.DayTurn != Game.E_DayTurn.Production)
@@ -85,6 +129,10 @@ public class GameController
 		return TPSingleton<GameManager>.Instance.Game.State == Game.E_State.Construction;
 	}
 
+	/// <summary>
+	/// Kiểm tra xem người chơi có được phép ấn nút Kết thúc lượt (End Turn) không:
+	/// Đảm bảo không có quái vật nào đang trong animation chết và đang đúng phase của người chơi.
+	/// </summary>
 	public static bool CanEndPlayerTurn()
 	{
 		if (TPSingleton<GameManager>.Instance.Game.Cycle == Game.E_Cycle.Night && TPSingleton<GameManager>.Instance.Game.NightTurn != Game.E_NightTurn.PlayableUnits)
@@ -114,6 +162,9 @@ public class GameController
 		}
 	}
 
+	/// <summary>
+	/// Kiểm tra xem có thể mở bảng xây dựng theo một danh mục cụ thể hay không.
+	/// </summary>
 	public static bool CanOpenConstructionMode(BuildingDefinition.E_ConstructionCategory buildingCategory)
 	{
 		if (TPSingleton<GameManager>.Instance.Game.Cycle != Game.E_Cycle.Day || TPSingleton<GameManager>.Instance.Game.DayTurn != Game.E_DayTurn.Production)
@@ -128,159 +179,10 @@ public class GameController
 		return false;
 	}
 
-	public static bool EndNightIfNeeded()
-	{
-		if (TPSingleton<GameManager>.Instance.Game.IsNightEnd)
-		{
-			GameManager.ExileAllEnemies(countAsKills: false, resetSpawnWave: true);
-			TrophyManager.SetValueToTrophiesConditions<NightCompletedTrophyConditionController>(new object[2]
-			{
-				TPSingleton<GameManager>.Instance.Game.DayNumber,
-				TPSingleton<WorldMapCityManager>.Instance.SelectedCity.CityDefinition.Id
-			});
-			TrophyManager.SetValueToTrophiesConditions<NightCompletedXTurnsAfterSpawnEndConditionController>(new object[1] { TPSingleton<GameManager>.Instance.Game.CurrentNightHour - TPSingleton<TrophyManager>.Instance.SpawnWaveDuration });
-			TrophyManager.SetValueToTrophiesConditions<PerfectPanicTrophyConditionController>(new object[1] { PanicManager.Panic.Value });
-			for (int i = 0; i < TPSingleton<PlayableUnitManager>.Instance.PlayableUnits.Count; i++)
-			{
-				PlayableUnit playableUnit = TPSingleton<PlayableUnitManager>.Instance.PlayableUnits[i];
-				TrophyManager.SetValueToTrophiesConditions<HealthRemainingAtMostTrophyConditionController>(new object[2] { playableUnit.RandomId, playableUnit.Health });
-			}
-			DebugLogNightData();
-			TPSingleton<TrophyManager>.Instance.OnNightEnd(TPSingleton<GameManager>.Instance.Game.IsDefeat);
-			TPSingleton<AchievementManager>.Instance.HandleNightEnd();
-			TPSingleton<BuildingManager>.Instance.DestroyLightFogSpawners();
-			TPSingleton<BuildingManager>.Instance.ExtinguishBraziers();
-			if (TPSingleton<GameManager>.Instance.DayNumber != TPSingleton<WorldMapCityManager>.Instance.SelectedCity.CityDefinition.VictoryDaysCount)
-			{
-				TPSingleton<BuildingManager>.Instance.ComputeRandomBuildingsPositions();
-			}
-			ApplicationManager.Application.DaysPlayed++;
-			TPSingleton<GameManager>.Instance.Game.Cycle = Game.E_Cycle.Day;
-			TPSingleton<GameManager>.Instance.Game.DayTurn = Game.E_DayTurn.Production;
-			TPSingleton<GameManager>.Instance.Game.NightTurn = Game.E_NightTurn.Undefined;
-			TPSingleton<GameManager>.Instance.Game.LastNightLastHour = TPSingleton<GameManager>.Instance.Game.CurrentNightHour;
-			TPSingleton<GameManager>.Instance.Game.CurrentNightHour = 0;
-			UIManager.CloseAllOpenedPopups();
-			TPSingleton<SoundManager>.Instance.TransitionToNormalSnapshot(SoundManager.DayTransitionDuration);
-			if (PanicManager.Panic.IsAtMaxValue)
-			{
-				TPSingleton<AchievementManager>.Instance.UnlockAchievement(AchievementContainer.ACH_MAXIMUM_PANIC_NIGHT);
-			}
-			return true;
-		}
-		return false;
-	}
-
-	public static void EndTurn()
-	{
-		if (TPSingleton<GameManager>.Instance.Game.State == Game.E_State.GameOver)
-		{
-			TPSingleton<GameManager>.Instance.Log("Game is Over ! EndTurn is locked.", CLogLevel.DETAILED);
-		}
-		else
-		{
-			if (TPSingleton<CutsceneManager>.Instance.TutorialSequenceView.IsPlaying)
-			{
-				return;
-			}
-			PathfindingManager.Pathfinding.PathfindingController.ClearReachableTiles();
-			if (TPSingleton<GameManager>.Instance.Game.State == Game.E_State.Construction)
-			{
-				ConstructionManager.ExitConstructionMode();
-			}
-			if (TPSingleton<GameManager>.Instance.Game.State != Game.E_State.CutscenePlaying)
-			{
-				ACameraView.AllowUserPan = true;
-			}
-			TileObjectSelectionManager.DeselectAll();
-			TPSingleton<HUDJoystickNavigationManager>.Instance.ExitHUDNavigationMode();
-			TPSingleton<EffectTimeEventManager>.Instance.InvokeEvent(E_EffectTime.OnEndTurn);
-			PlayableUnitManager.EndTurn();
-			EnemyUnitManager.EndTurn();
-			BossManager.EndTurn();
-			switch (TPSingleton<GameManager>.Instance.Game.Cycle)
-			{
-			case Game.E_Cycle.Day:
-				BuildingManager.EndTurn();
-				switch (TPSingleton<GameManager>.Instance.Game.DayTurn)
-				{
-				case Game.E_DayTurn.Production:
-					TPSingleton<EffectTimeEventManager>.Instance.InvokeEvent(E_EffectTime.OnEndProductionTurn);
-					GameManager.TryToSaveAuto();
-					TPSingleton<GameManager>.Instance.Game.DayTurn = Game.E_DayTurn.Deployment;
-					TPSingleton<SoundManager>.Instance.TransitionToNormalSnapshot(SoundManager.NightTransitionDuration);
-					break;
-				case Game.E_DayTurn.Deployment:
-					foreach (PlayableUnit playableUnit in TPSingleton<PlayableUnitManager>.Instance.PlayableUnits)
-					{
-						playableUnit.PlayableUnitPerksController.ResetLockedPerksModulesData();
-					}
-					TPSingleton<EffectTimeEventManager>.Instance.InvokeEvent(E_EffectTime.OnEndDeploymentTurn);
-					GameManager.TryToSaveAuto();
-					TPSingleton<TrophyManager>.Instance.RenewTrophies();
-					TPSingleton<GameManager>.Instance.Game.Cycle = Game.E_Cycle.Night;
-					TPSingleton<GameManager>.Instance.Game.DayNumber++;
-					Analytics.GenerateMapDayData();
-					CameraView.CameraLutView.UpdateLutTextures();
-					TPSingleton<GameManager>.Instance.Game.DayTurn = Game.E_DayTurn.Undefined;
-					TPSingleton<GameManager>.Instance.Game.NightTurn = Game.E_NightTurn.EnemyUnits;
-					UIManager.HideInfoPanels();
-					foreach (PlayableUnit playableUnit2 in TPSingleton<PlayableUnitManager>.Instance.PlayableUnits)
-					{
-						playableUnit2.PlayableUnitController.FillArmor();
-					}
-					if (TPSingleton<GameManager>.Instance.Game.DayNumber == 2 && TPSingleton<WorldMapCityManager>.Instance.SelectedCity.CityDefinition.IsTutorialMap)
-					{
-						CutsceneManager.PlayCutscene(TPSingleton<CutsceneManager>.Instance.TutorialSequenceView, StartTurnCallback2);
-						return;
-					}
-					break;
-				}
-				break;
-			case Game.E_Cycle.Night:
-				BuildingManager.EndTurn();
-				switch (TPSingleton<GameManager>.Instance.Game.NightTurn)
-				{
-				case Game.E_NightTurn.PlayableUnits:
-					TPSingleton<EffectTimeEventManager>.Instance.InvokeEvent(E_EffectTime.OnEndNightTurnPlayable);
-					UIManager.HideInfoPanels();
-					TPSingleton<GameManager>.Instance.Game.NightTurn = Game.E_NightTurn.EnemyUnits;
-					if (TPSingleton<GameManager>.Instance.Game.DayNumber == 2 && TPSingleton<WorldMapCityManager>.Instance.SelectedCity.CityDefinition.IsTutorialMap)
-					{
-						CutsceneManager.PlayCutscene(TPSingleton<CutsceneManager>.Instance.TutorialSequenceView, StartTurnCallback);
-						return;
-					}
-					CameraView.CameraLutView.RefreshLut();
-					break;
-				case Game.E_NightTurn.EnemyUnits:
-					ApocalypseManager.CheckEnemyUnitTurnEnded();
-					TPSingleton<EffectTimeEventManager>.Instance.InvokeEvent(E_EffectTime.OnEndNightTurnEnemy);
-					if (TPSingleton<GameManager>.Instance.Game.State != Game.E_State.CutscenePlaying)
-					{
-						TPSingleton<GameManager>.Instance.Game.NightTurn = Game.E_NightTurn.PlayableUnits;
-					}
-					break;
-				}
-				EndNightIfNeeded();
-				break;
-			}
-			StartTurn();
-		}
-		static void StartTurnCallback()
-		{
-			StartTurn();
-		}
-		static void StartTurnCallback2()
-		{
-			StartTurn();
-		}
-	}
-
-	public static void RestartLevel()
-	{
-		ApplicationManager.Application.ApplicationController.SetState("ReloadGame");
-	}
-
+	/// <summary>
+	/// Thiết lập trạng thái trò chơi (Game.E_State) mới và thông báo tới tất cả các Manager liên quan.
+	/// </summary>
+	/// <param name="newState">Trạng thái Game mới.</param>
 	public static void SetState(Game.E_State newState)
 	{
 		Game.E_State state = TPSingleton<GameManager>.Instance.Game.State;
@@ -314,6 +216,15 @@ public class GameController
 		}
 	}
 
+	#endregion
+
+	#region Turn Management (Day & Night Cycle)
+
+	/// <summary>
+	/// Bắt đầu một lượt chơi mới (Turn Start):
+	/// Điều phối khởi động lượt cho Unit, Building, Boss, Trap, Turret, Fog, Panic, Inventory, SpawnWave...
+	/// </summary>
+	/// <param name="instant">Hiển thị tức thì không qua hiệu ứng.</param>
 	public static void StartTurn(bool instant = false)
 	{
 		TPSingleton<EffectTimeEventManager>.Instance.InvokeEvent(E_EffectTime.OnStartTurn);
@@ -332,6 +243,7 @@ public class GameController
 			switch (TPSingleton<GameManager>.Instance.Game.DayTurn)
 			{
 			case Game.E_DayTurn.Production:
+				// --- GIAI ĐOẠN SẢN XUẤT BAN NGÀY ---
 				TPSingleton<GameManager>.Instance.Log("[Day] Start Production turn", CLogLevel.MAJOR);
 				TPSingleton<EffectTimeEventManager>.Instance.InvokeEvent(E_EffectTime.OnStartProductionTurn);
 				TPSingleton<MetaConditionManager>.Instance.RefreshNightsReached(TPSingleton<GameManager>.Instance.Game.DayNumber);
@@ -364,6 +276,7 @@ public class GameController
 				TPSingleton<GameManager>.Instance.StartCoroutine(TPSingleton<GameManager>.Instance.WaitNewCycleTransition());
 				break;
 			case Game.E_DayTurn.Deployment:
+				// --- GIAI ĐOẠN DÀN QUÂN BAN NGÀY ---
 				TPSingleton<GameManager>.Instance.Log("[Day] Start Deployment turn", CLogLevel.MAJOR);
 				TPSingleton<EffectTimeEventManager>.Instance.InvokeEvent(E_EffectTime.OnStartDeploymentTurn);
 				TPSingleton<SoundManager>.Instance.ChangeMusic();
@@ -384,6 +297,7 @@ public class GameController
 			switch (TPSingleton<GameManager>.Instance.Game.NightTurn)
 			{
 			case Game.E_NightTurn.EnemyUnits:
+				// --- LƯỢT CỦA KẺ ĐỊCH VÀO BAN ĐÊM ---
 				TPSingleton<GameManager>.Instance.Log("[Night] Start Enemy turn", CLogLevel.MAJOR);
 				GameView.TopScreenPanel.UnitPortraitsPanel.Display(show: false);
 				TPSingleton<GameManager>.Instance.Game.CurrentNightHour++;
@@ -428,6 +342,7 @@ public class GameController
 				SoundManager.PlayAudioClip(GameManager.AudioSource, GameManager.NightEnemyPhaseAudioClip);
 				break;
 			case Game.E_NightTurn.PlayableUnits:
+				// --- LƯỢT CỦA NGƯỜI CHƠI VÀO BAN ĐÊM ---
 				TPSingleton<GameManager>.Instance.Log("[Night] Start Player turn", CLogLevel.MAJOR);
 				GameView.TopScreenPanel.UnitPortraitsPanel.Display(show: true);
 				PlayableUnitManager.StartTurn();
@@ -442,6 +357,7 @@ public class GameController
 			}
 			break;
 		}
+		// Gọi xử lý đầu lượt cho các hệ thống bổ trợ
 		PanicManager.StartTurn();
 		TPSingleton<FogManager>.Instance.StartTurn();
 		PlayableUnitManager.OnTurnStart();
@@ -455,10 +371,14 @@ public class GameController
 		GameView.TopScreenPanel.TurnPanel.Refresh();
 		TPSingleton<LightningSDKManager>.Instance.HandleGameCycleColor();
 		TPSingleton<SinkManager>.Instance.StartTurn();
+		
+		// Tự động lưu game khi bắt đầu lượt người chơi ban đêm
 		if (TPSingleton<GameManager>.Instance.Game.Cycle == Game.E_Cycle.Night && TPSingleton<GameManager>.Instance.Game.NightTurn == Game.E_NightTurn.PlayableUnits)
 		{
 			GameManager.TryToSaveAuto();
 		}
+		
+		// Kích hoạt hướng dẫn Tutorial nếu có
 		switch (TPSingleton<GameManager>.Instance.Game.Cycle)
 		{
 		case Game.E_Cycle.Day:
@@ -480,6 +400,10 @@ public class GameController
 		}
 	}
 
+	/// <summary>
+	/// Khởi động lượt chơi ngay sau khi tải lại game từ file Save (Save/Load).
+	/// </summary>
+	/// <param name="instant">Có áp dụng ngay không.</param>
 	public static void StartTurnOnLoad(bool instant = false)
 	{
 		CameraView.RefreshDayTimeEffects(instant, onLoad: true);
@@ -523,6 +447,185 @@ public class GameController
 		TPSingleton<LightningSDKManager>.Instance.HandleGameCycleColor();
 	}
 
+	/// <summary>
+	/// Kết thúc lượt hiện tại:
+	/// Xử lý chuyển giao giữa các Phase (Production -> Deployment -> Night Enemy -> Night Player),
+	/// hồi phục giáp cho Hero, lưu game tự động và kích hoạt lượt tiếp theo.
+	/// </summary>
+	public static void EndTurn()
+	{
+		if (TPSingleton<GameManager>.Instance.Game.State == Game.E_State.GameOver)
+		{
+			TPSingleton<GameManager>.Instance.Log("Game is Over ! EndTurn is locked.", CLogLevel.DETAILED);
+			return;
+		}
+		if (TPSingleton<CutsceneManager>.Instance.TutorialSequenceView.IsPlaying)
+		{
+			return;
+		}
+		PathfindingManager.Pathfinding.PathfindingController.ClearReachableTiles();
+		if (TPSingleton<GameManager>.Instance.Game.State == Game.E_State.Construction)
+		{
+			ConstructionManager.ExitConstructionMode();
+		}
+		if (TPSingleton<GameManager>.Instance.Game.State != Game.E_State.CutscenePlaying)
+		{
+			ACameraView.AllowUserPan = true;
+		}
+		TileObjectSelectionManager.DeselectAll();
+		TPSingleton<HUDJoystickNavigationManager>.Instance.ExitHUDNavigationMode();
+		TPSingleton<EffectTimeEventManager>.Instance.InvokeEvent(E_EffectTime.OnEndTurn);
+		PlayableUnitManager.EndTurn();
+		EnemyUnitManager.EndTurn();
+		BossManager.EndTurn();
+		
+		switch (TPSingleton<GameManager>.Instance.Game.Cycle)
+		{
+		case Game.E_Cycle.Day:
+			BuildingManager.EndTurn();
+			switch (TPSingleton<GameManager>.Instance.Game.DayTurn)
+			{
+			case Game.E_DayTurn.Production:
+				TPSingleton<EffectTimeEventManager>.Instance.InvokeEvent(E_EffectTime.OnEndProductionTurn);
+				GameManager.TryToSaveAuto();
+				TPSingleton<GameManager>.Instance.Game.DayTurn = Game.E_DayTurn.Deployment;
+				TPSingleton<SoundManager>.Instance.TransitionToNormalSnapshot(SoundManager.NightTransitionDuration);
+				break;
+			case Game.E_DayTurn.Deployment:
+				foreach (PlayableUnit playableUnit in TPSingleton<PlayableUnitManager>.Instance.PlayableUnits)
+				{
+					playableUnit.PlayableUnitPerksController.ResetLockedPerksModulesData();
+				}
+				TPSingleton<EffectTimeEventManager>.Instance.InvokeEvent(E_EffectTime.OnEndDeploymentTurn);
+				GameManager.TryToSaveAuto();
+				TPSingleton<TrophyManager>.Instance.RenewTrophies();
+				TPSingleton<GameManager>.Instance.Game.Cycle = Game.E_Cycle.Night;
+				TPSingleton<GameManager>.Instance.Game.DayNumber++;
+				Analytics.GenerateMapDayData();
+				CameraView.CameraLutView.UpdateLutTextures();
+				TPSingleton<GameManager>.Instance.Game.DayTurn = Game.E_DayTurn.Undefined;
+				TPSingleton<GameManager>.Instance.Game.NightTurn = Game.E_NightTurn.EnemyUnits;
+				UIManager.HideInfoPanels();
+				// Hồi đầy giáp cho toàn bộ Hero khi bắt đầu màn đêm
+				foreach (PlayableUnit playableUnit2 in TPSingleton<PlayableUnitManager>.Instance.PlayableUnits)
+				{
+					playableUnit2.PlayableUnitController.FillArmor();
+				}
+				if (TPSingleton<GameManager>.Instance.Game.DayNumber == 2 && TPSingleton<WorldMapCityManager>.Instance.SelectedCity.CityDefinition.IsTutorialMap)
+				{
+					CutsceneManager.PlayCutscene(TPSingleton<CutsceneManager>.Instance.TutorialSequenceView, StartTurnCallback2);
+					return;
+				}
+				break;
+			}
+			break;
+		case Game.E_Cycle.Night:
+			BuildingManager.EndTurn();
+			switch (TPSingleton<GameManager>.Instance.Game.NightTurn)
+			{
+			case Game.E_NightTurn.PlayableUnits:
+				TPSingleton<EffectTimeEventManager>.Instance.InvokeEvent(E_EffectTime.OnEndNightTurnPlayable);
+				UIManager.HideInfoPanels();
+				TPSingleton<GameManager>.Instance.Game.NightTurn = Game.E_NightTurn.EnemyUnits;
+				if (TPSingleton<GameManager>.Instance.Game.DayNumber == 2 && TPSingleton<WorldMapCityManager>.Instance.SelectedCity.CityDefinition.IsTutorialMap)
+				{
+					CutsceneManager.PlayCutscene(TPSingleton<CutsceneManager>.Instance.TutorialSequenceView, StartTurnCallback);
+					return;
+				}
+				CameraView.CameraLutView.RefreshLut();
+				break;
+			case Game.E_NightTurn.EnemyUnits:
+				ApocalypseManager.CheckEnemyUnitTurnEnded();
+				TPSingleton<EffectTimeEventManager>.Instance.InvokeEvent(E_EffectTime.OnEndNightTurnEnemy);
+				if (TPSingleton<GameManager>.Instance.Game.State != Game.E_State.CutscenePlaying)
+				{
+					TPSingleton<GameManager>.Instance.Game.NightTurn = Game.E_NightTurn.PlayableUnits;
+				}
+				break;
+			}
+			EndNightIfNeeded();
+			break;
+		}
+		StartTurn();
+		
+		static void StartTurnCallback()
+		{
+			StartTurn();
+		}
+		static void StartTurnCallback2()
+		{
+			StartTurn();
+		}
+	}
+
+	/// <summary>
+	/// Kiểm tra xem đêm phòng thủ đã hoàn tất chưa (hết giờ hoặc tiêu diệt toàn bộ đợt quái):
+	/// Nếu hoàn tất: trục xuất toàn bộ quái vật còn lại, cập nhật Trophy/Achievement, dập lửa/hủy cọc sương mù,
+	/// và chuyển sang chu kỳ Ban ngày (Day - Production).
+	/// </summary>
+	/// <returns>True nếu đêm kết thúc thành công, ngược lại False.</returns>
+	public static bool EndNightIfNeeded()
+	{
+		if (TPSingleton<GameManager>.Instance.Game.IsNightEnd)
+		{
+			// Trục xuất và quét sạch toàn bộ kẻ địch còn sót lại trên chiến trường
+			GameManager.ExileAllEnemies(countAsKills: false, resetSpawnWave: true);
+			
+			// Cập nhật điều kiện danh hiệu (Trophies)
+			TrophyManager.SetValueToTrophiesConditions<NightCompletedTrophyConditionController>(new object[2]
+			{
+				TPSingleton<GameManager>.Instance.Game.DayNumber,
+				TPSingleton<WorldMapCityManager>.Instance.SelectedCity.CityDefinition.Id
+			});
+			TrophyManager.SetValueToTrophiesConditions<NightCompletedXTurnsAfterSpawnEndConditionController>(new object[1] { TPSingleton<GameManager>.Instance.Game.CurrentNightHour - TPSingleton<TrophyManager>.Instance.SpawnWaveDuration });
+			TrophyManager.SetValueToTrophiesConditions<PerfectPanicTrophyConditionController>(new object[1] { PanicManager.Panic.Value });
+			for (int i = 0; i < TPSingleton<PlayableUnitManager>.Instance.PlayableUnits.Count; i++)
+			{
+				PlayableUnit playableUnit = TPSingleton<PlayableUnitManager>.Instance.PlayableUnits[i];
+				TrophyManager.SetValueToTrophiesConditions<HealthRemainingAtMostTrophyConditionController>(new object[2] { playableUnit.RandomId, playableUnit.Health });
+			}
+			
+			DebugLogNightData();
+			TPSingleton<TrophyManager>.Instance.OnNightEnd(TPSingleton<GameManager>.Instance.Game.IsDefeat);
+			TPSingleton<AchievementManager>.Instance.HandleNightEnd();
+			TPSingleton<BuildingManager>.Instance.DestroyLightFogSpawners();
+			TPSingleton<BuildingManager>.Instance.ExtinguishBraziers();
+			
+			if (TPSingleton<GameManager>.Instance.DayNumber != TPSingleton<WorldMapCityManager>.Instance.SelectedCity.CityDefinition.VictoryDaysCount)
+			{
+				TPSingleton<BuildingManager>.Instance.ComputeRandomBuildingsPositions();
+			}
+			
+			// Tăng số ngày đã sống sót và chuyển chu kỳ sang Ban ngày
+			ApplicationManager.Application.DaysPlayed++;
+			TPSingleton<GameManager>.Instance.Game.Cycle = Game.E_Cycle.Day;
+			TPSingleton<GameManager>.Instance.Game.DayTurn = Game.E_DayTurn.Production;
+			TPSingleton<GameManager>.Instance.Game.NightTurn = Game.E_NightTurn.Undefined;
+			TPSingleton<GameManager>.Instance.Game.LastNightLastHour = TPSingleton<GameManager>.Instance.Game.CurrentNightHour;
+			TPSingleton<GameManager>.Instance.Game.CurrentNightHour = 0;
+			
+			UIManager.CloseAllOpenedPopups();
+			TPSingleton<SoundManager>.Instance.TransitionToNormalSnapshot(SoundManager.DayTransitionDuration);
+			
+			if (PanicManager.Panic.IsAtMaxValue)
+			{
+				TPSingleton<AchievementManager>.Instance.UnlockAchievement(AchievementContainer.ACH_MAXIMUM_PANIC_NIGHT);
+			}
+			return true;
+		}
+		return false;
+	}
+
+	#endregion
+
+	#region Game Over & Run Finalization
+
+	/// <summary>
+	/// Kích hoạt kết thúc ván chơi (Game Over):
+	/// Phân xử nguyên nhân (Chiến thắng hoàn thành phong ấn, Thất bại vỡ nhà chính, hoặc Người chơi từ bỏ),
+	/// xóa file save run, cập nhật Meta/Thành tựu và hiển thị bảng GameOver hoặc chuyển về Oraculum.
+	/// </summary>
+	/// <param name="cause">Nguyên nhân kết thúc ván chơi.</param>
 	public static void TriggerGameOver(Game.E_GameOverCause cause)
 	{
 		if ((TPSingleton<WorldMapCityManager>.Instance.SelectedCity.CityDefinition.IsTutorialMap && cause == Game.E_GameOverCause.Abandon) || TPSingleton<CutsceneManager>.Instance.TutorialSequenceView.IsPlaying)
@@ -539,12 +642,17 @@ public class GameController
 		TPSingleton<WorldMapCityManager>.Instance.HandleGameOver(cause);
 		TPSingleton<GlyphManager>.Instance.HandleGameOver(cause);
 		SpawnWaveManager.LastPlayedSpawnWaveId = string.Empty;
+		
 		bool flag = cause == Game.E_GameOverCause.MagicSealsCompleted;
 		TPSingleton<MetaConditionManager>.Instance.IncreaseRunsCompleted(!flag);
 		TPSingleton<AchievementManager>.Instance.HandleGameOver(cause);
 		SettingsController.ToggleGameSpeed(isOn: false);
 		TPSingleton<GameManager>.Instance.Game.GameOverCause = cause;
+		
+		// Xóa file save run hiện tại
 		GameManager.EraseSave(SaveManager.CurrentProfileIndex);
+		
+		// Nếu người chơi tự bỏ cuộc hoặc đang trong Tutorial
 		if (cause == Game.E_GameOverCause.Abandon || TPSingleton<CutsceneManager>.Instance.TutorialSequenceView.IsPlaying)
 		{
 			ApplicationManager.Application.ApplicationQuitInOraculum = true;
@@ -552,9 +660,11 @@ public class GameController
 			ApplicationManager.Application.ApplicationController.SetState("MetaShops");
 			return;
 		}
+		
 		SaveManager.SaveApp();
 		SetState(Game.E_State.GameOver);
 		UIManager.CloseAllOpenedPopups();
+		
 		if (TPSingleton<WorldMapCityManager>.Instance.SelectedCity.CityDefinition.IsTutorialMap)
 		{
 			CanvasFadeManager.FadeIn(0.6f, TPSingleton<RetryTutorialPanel>.Instance.Canvas.sortingOrder - 1, Ease.Unset, null, TPSingleton<RetryTutorialPanel>.Instance.Open);
@@ -565,6 +675,13 @@ public class GameController
 		}
 	}
 
+	#endregion
+
+	#region Debug & Diagnostic Logging
+
+	/// <summary>
+	/// Xuất log thống kê chi tiết toàn bộ dữ liệu của đêm vừa kết thúc ra Console (Thời gian, Kills, Hero, Trang bị, Máu, Mana, Trophies).
+	/// </summary>
 	public static void DebugLogNightData()
 	{
 		string text = $"--- END OF NIGHT {TPSingleton<GameManager>.Instance.Game.DayNumber} ---";
@@ -611,4 +728,6 @@ public class GameController
 		text += TPSingleton<TrophyManager>.Instance.GetProgressionLog(!TPSingleton<GameManager>.Instance.Game.IsVictory);
 		TPSingleton<GameManager>.Instance.Log(text, CLogLevel.MAJOR);
 	}
+
+	#endregion
 }
