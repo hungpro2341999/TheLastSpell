@@ -4,23 +4,59 @@ using UnityEngine;
 
 namespace TheLastStand.Definition.Building;
 
+/// <summary>
+/// Định nghĩa cho Vòng Tròn Phép Thuật (Magic Circle) - mục tiêu bảo vệ cốt lõi trong cốt truyện và lối chơi của The Last Spell.
+/// Quản lý số lượng Pháp sư (Mages), ô chứa pháp sư (Mage Slots), và các Ấn phong ấn (Seals).
+/// Kế thừa từ BuildingDefinition.
+/// </summary>
 public class MagicCircleDefinition : BuildingDefinition
 {
+	#region Properties
+
+	/// <summary>
+	/// Số lượng Pháp sư ban đầu làm lễ trong Vòng Tròn Phép.
+	/// </summary>
 	public int MageCountInit { get; set; }
 
+	/// <summary>
+	/// Số vị trí (slot) Pháp sư ban đầu khả dụng.
+	/// </summary>
 	public int MageSlotInit { get; set; }
 
+	/// <summary>
+	/// Số vị trí (slot) Pháp sư tối đa.
+	/// </summary>
 	public int MageSlotMax { get; set; }
 
+	/// <summary>
+	/// Số lượng Ấn phong ấn đang mở ban đầu.
+	/// </summary>
 	public int OpenSealsInit { get; set; }
 
+	/// <summary>
+	/// Số lượng Ấn phong ấn cần hoàn thành để kết thúc màn chơi/thắng trận.
+	/// </summary>
 	public int SealsToClose { get; set; }
 
+	#endregion
+
+	#region Constructors
+
+	/// <summary>
+	/// Khởi tạo định nghĩa Vòng Tròn Phép từ dữ liệu XML.
+	/// </summary>
 	public MagicCircleDefinition(XContainer container)
 		: base(container)
 	{
 	}
 
+	#endregion
+
+	#region Overridden Methods
+
+	/// <summary>
+	/// Đọc và giải mã dữ liệu XML (Deserialize) cho các thuộc tính của Vòng Tròn Phép (Magic Circle Settings).
+	/// </summary>
 	public override void Deserialize(XContainer container)
 	{
 		base.Deserialize(container);
@@ -92,4 +128,7 @@ public class MagicCircleDefinition : BuildingDefinition
 			SealsToClose = result5;
 		}
 	}
+
+	#endregion
 }
+

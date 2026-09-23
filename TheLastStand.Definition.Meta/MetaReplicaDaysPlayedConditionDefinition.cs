@@ -3,6 +3,9 @@ using UnityEngine;
 
 namespace TheLastStand.Definition.Meta;
 
+/// <summary>
+/// Điều kiện câu thoại Meta: Yêu cầu số ngày/đêm đã chơi trong game (DaysPlayed).
+/// </summary>
 public class MetaReplicaDaysPlayedConditionDefinition : MetaReplicaConditionDefinition
 {
 	public class Constants
@@ -10,6 +13,9 @@ public class MetaReplicaDaysPlayedConditionDefinition : MetaReplicaConditionDefi
 		public const string Name = "DaysPlayed";
 	}
 
+	/// <summary>
+	/// Số ngày yêu cầu đã trải qua để thỏa mãn điều kiện.
+	/// </summary>
 	public int DaysCount { get; private set; }
 
 	public MetaReplicaDaysPlayedConditionDefinition(XContainer container)

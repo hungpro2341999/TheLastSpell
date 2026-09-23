@@ -3,12 +3,22 @@ using UnityEngine;
 
 namespace TheLastStand.Definition.Meta;
 
+/// <summary>
+/// Định nghĩa hiệu ứng Meta: Tinh chỉnh tham số đặc điểm tướng (TraitsParameters).
+/// <para>Điều chỉnh điểm tổng đặc điểm khởi đầu và giới hạn khoảng điểm (Min/Max boundaries) cho tướng.</para>
+/// </summary>
 public class TraitsParametersMetaEffectDefinition : MetaEffectDefinition
 {
 	public const string Name = "TraitsParameters";
 
+	/// <summary>
+	/// Giá trị điều chỉnh tổng điểm Trait khởi đầu của tướng.
+	/// </summary>
 	public int StartTraitTotalPointsModifier;
 
+	/// <summary>
+	/// Khoảng giới hạn điểm Trait [Min (x), Max (y)] của tướng được điều chỉnh.
+	/// </summary>
 	public Vector2Int UnitTraitPointsBoundariesModifiers = Vector2Int.zero;
 
 	public TraitsParametersMetaEffectDefinition(XContainer xContainer)

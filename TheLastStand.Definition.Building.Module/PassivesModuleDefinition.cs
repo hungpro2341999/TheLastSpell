@@ -12,8 +12,13 @@ namespace TheLastStand.Definition.Building.Module;
 
 public class PassivesModuleDefinition : BuildingModuleDefinition
 {
+	#region Fields & Properties
 	private List<BuildingPassiveDefinition> buildingPassiveDefinitions;
 
+	/// <summary>
+	/// Danh sách các định nghĩa nội tại/bị động (BuildingPassiveDefinition) của công trình
+	/// (có tính đến chỉnh sửa từ GlyphManager nếu có).
+	/// </summary>
 	public List<BuildingPassiveDefinition> BuildingPassiveDefinitions
 	{
 		get
@@ -26,13 +31,26 @@ public class PassivesModuleDefinition : BuildingModuleDefinition
 		}
 	}
 
+	/// <summary>
+	/// Cho biết công trình có hiệu ứng bị động kích hoạt khi tử trận (OnDeath) hay không.
+	/// </summary>
 	public bool HasOnDeathEffect { get; private set; }
+	#endregion
 
+	#region Initialization
+	/// <summary>
+	/// Khởi tạo định nghĩa module bị động của công trình.
+	/// </summary>
 	public PassivesModuleDefinition(BuildingDefinition buildingDefinition, XContainer passivesDefinition)
 		: base(buildingDefinition, passivesDefinition)
 	{
 	}
+	#endregion
 
+	#region Deserialization
+	/// <summary>
+	/// Đọc danh sách các ID nội tại từ XML và tra cứu từ BuildingDatabase.
+	/// </summary>
 	public override void Deserialize(XContainer container)
 	{
 		if (!(container is XElement xElement))
@@ -54,4 +72,5 @@ public class PassivesModuleDefinition : BuildingModuleDefinition
 		}
 		HasOnDeathEffect = buildingPassiveDefinitions.Any((BuildingPassiveDefinition x) => x.HasOnDeathEffect);
 	}
+	#endregion
 }

@@ -5,8 +5,15 @@ using UnityEngine;
 
 namespace TheLastStand.Definition.Meta;
 
+/// <summary>
+/// Định nghĩa danh sách các điều kiện dẫn chuyện/kịch bản (Meta Narration Conditions).
+/// <para>Chứa tập hợp các điều kiện như số ngày đã chơi (DaysPlayed), câu thoại đã dùng (UsedReplica), hoặc nâng cấp Meta đã mở khóa (MetaUpgradeUnlocked).</para>
+/// </summary>
 public class MetaNarrationConditionsDefinition : TheLastStand.Framework.Serialization.Definition
 {
+	/// <summary>
+	/// Danh sách các điều kiện cụ thể cần thỏa mãn.
+	/// </summary>
 	public List<MetaReplicaConditionDefinition> Conditions { get; private set; }
 
 	public MetaNarrationConditionsDefinition(XContainer container)
@@ -14,6 +21,9 @@ public class MetaNarrationConditionsDefinition : TheLastStand.Framework.Serializ
 	{
 	}
 
+	/// <summary>
+	/// Giải tuần tự hóa các loại điều kiện thoại từ XML.
+	/// </summary>
 	public override void Deserialize(XContainer container)
 	{
 		XElement obj = container as XElement;

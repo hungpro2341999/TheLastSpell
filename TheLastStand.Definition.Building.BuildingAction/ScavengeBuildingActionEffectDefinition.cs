@@ -9,18 +9,33 @@ using UnityEngine;
 
 namespace TheLastStand.Definition.Building.BuildingAction;
 
+/// <summary>
+/// Định nghĩa hiệu ứng hành động dọn dẹp/bới rác/thu gom tàn tích (Scavenge Effect).
+/// Mang lại Vàng, Vật liệu, Linh hồn bị nguyền rủa (Damned Souls), trang bị hoặc sát thương lên công trình sau khi dọn dẹp.
+/// </summary>
 public class ScavengeBuildingActionEffectDefinition : BuildingActionEffectDefinition
 {
+	#region Fields & Properties
+
 	private int gainDamnedSouls;
 
 	private int gainGold;
 
 	private int gainMaterials;
 
+	/// <summary>
+	/// Danh sách định nghĩa tạo trang bị/vật phẩm khi dọn dẹp tàn tích.
+	/// </summary>
 	public List<CreateItemDefinition> CreateItemDefinitions { get; } = new List<CreateItemDefinition>();
 
+	/// <summary>
+	/// Sát thương gây ra lên công trình sau mỗi lần dọn dẹp/thu gom tàn tích.
+	/// </summary>
 	public int Damage { get; private set; }
 
+	/// <summary>
+	/// Số Vàng nhận được (đã tính bonus từ Glyph).
+	/// </summary>
 	public int GainGold
 	{
 		get
@@ -35,6 +50,9 @@ public class ScavengeBuildingActionEffectDefinition : BuildingActionEffectDefini
 		}
 	}
 
+	/// <summary>
+	/// Số Linh hồn bị nguyền rủa nhận được (đã tính bonus từ Apocalypse & Glyph).
+	/// </summary>
 	public int GainDamnedSouls
 	{
 		get
@@ -50,6 +68,9 @@ public class ScavengeBuildingActionEffectDefinition : BuildingActionEffectDefini
 		}
 	}
 
+	/// <summary>
+	/// Số Vật liệu nhận được (đã tính bonus từ Glyph).
+	/// </summary>
 	public int GainMaterials
 	{
 		get
@@ -64,11 +85,25 @@ public class ScavengeBuildingActionEffectDefinition : BuildingActionEffectDefini
 		}
 	}
 
+	#endregion
+
+	#region Constructors
+
+	/// <summary>
+	/// Khởi tạo định nghĩa hiệu ứng dọn dẹp tàn tích từ dữ liệu XML.
+	/// </summary>
 	public ScavengeBuildingActionEffectDefinition(XContainer xContainer, BuildingActionDefinition buildingActionDefinitionContainer)
 		: base(xContainer, buildingActionDefinitionContainer)
 	{
 	}
 
+	#endregion
+
+	#region Overridden Methods
+
+	/// <summary>
+	/// Giải mã dữ liệu XML (Deserialize) cho phần thưởng tài nguyên, vật phẩm và sát thương dọn dẹp.
+	/// </summary>
 	public override void Deserialize(XContainer xContainer)
 	{
 		XElement xElement = xContainer as XElement;
@@ -121,4 +156,7 @@ public class ScavengeBuildingActionEffectDefinition : BuildingActionEffectDefini
 			Damage = result4;
 		}
 	}
+
+	#endregion
 }
+

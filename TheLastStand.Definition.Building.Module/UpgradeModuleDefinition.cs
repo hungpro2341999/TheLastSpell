@@ -9,15 +9,32 @@ namespace TheLastStand.Definition.Building.Module;
 
 public class UpgradeModuleDefinition : BuildingModuleDefinition
 {
+	#region Properties
+	/// <summary>
+	/// Danh sách các định nghĩa nâng cấp (BuildingUpgradeDefinition) có sẵn cho công trình.
+	/// </summary>
 	public List<BuildingUpgradeDefinition> BuildingUpgradeDefinitions { get; private set; }
 
+	/// <summary>
+	/// ID của công trình tiền thân mà công trình hiện tại là bản nâng cấp từ đó.
+	/// </summary>
 	public string UpgradeOf { get; set; }
+	#endregion
 
+	#region Initialization
+	/// <summary>
+	/// Khởi tạo định nghĩa module nâng cấp của công trình.
+	/// </summary>
 	public UpgradeModuleDefinition(BuildingDefinition buildingDefinition, XContainer upgradeDefinition)
 		: base(buildingDefinition, upgradeDefinition)
 	{
 	}
+	#endregion
 
+	#region Upgrade Hierarchy
+	/// <summary>
+	/// Truy ngược cây nâng cấp để lấy danh sách tất cả các ID công trình tiền thân cấp thấp hơn.
+	/// </summary>
 	public List<string> GetPreviousUpgrades()
 	{
 		List<string> list = new List<string>();
@@ -29,7 +46,12 @@ public class UpgradeModuleDefinition : BuildingModuleDefinition
 		}
 		return list;
 	}
+	#endregion
 
+	#region Deserialization
+	/// <summary>
+	/// Đọc thông tin công trình gốc (UpgradeOf) và danh sách các BuildingUpgradeDefinition từ XML.
+	/// </summary>
 	public override void Deserialize(XContainer container)
 	{
 		if (!(container is XElement xElement))
@@ -68,4 +90,5 @@ public class UpgradeModuleDefinition : BuildingModuleDefinition
 			break;
 		}
 	}
+	#endregion
 }

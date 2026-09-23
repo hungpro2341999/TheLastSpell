@@ -25,6 +25,16 @@ using TheLastStand.Model.Unit.Enemy;
 
 namespace TheLastStand.Controller.Skill.SkillAction;
 
+/// <summary>
+/// Bộ điều khiển cho hành vi kỹ năng Triệu hồi quái vật (Spawn Skill Action).
+/// <para>Chịu trách nhiệm thực thi các kỹ năng gọi quái (thường dùng bởi Boss, quái tinh anh hoặc hiệu ứng môi trường):</para>
+/// <list type="bullet">
+///   <item><description>Triệu hồi quái vật theo số lượng cố định (EnemiesByAmount).</description></item>
+///   <item><description>Triệu hồi quái vật ngẫu nhiên theo bảng trọng số (EnemiesByWeight, RandomEnemies).</description></item>
+///   <item><description>Tìm ô đất hợp lệ có gắn cờ TileFlagTag hoặc phá hủy công trình cản trở để sinh quái.</description></item>
+///   <item><description>Phân bổ quái triệu hồi theo khu vực (Sector) cho Boss.</description></item>
+/// </list>
+/// </summary>
 public class SpawnSkillActionController : SkillActionController
 {
 	public SpawnSkillAction SpawnSkillAction => base.SkillAction as SpawnSkillAction;
@@ -35,6 +45,9 @@ public class SpawnSkillActionController : SkillActionController
 		base.SkillAction.SkillActionExecution = new SpawnSkillActionExecutionController(base.SkillAction.Skill).SkillActionExecution;
 	}
 
+	/// <summary>
+	/// Kiểm tra kỹ năng triệu hồi có được phép phá hủy công trình đang chiếm giữ ô đất hay không.
+	/// </summary>
 	public bool CanDestroyBuilding(TheLastStand.Model.Building.Building building)
 	{
 		if (building == null)
@@ -44,6 +57,9 @@ public class SpawnSkillActionController : SkillActionController
 		return SpawnSkillAction.SpawnSkillActionDefinition.BuildingIdsToDestroy.Contains(building.Id);
 	}
 
+	/// <summary>
+	/// Tính toán trước loại quái vật sẽ được sinh ra theo trọng số.
+	/// </summary>
 	public void ComputeUnitsToSpawn()
 	{
 		if (!SpawnSkillAction.ComputedUnitsToSpawn)
@@ -61,6 +77,9 @@ public class SpawnSkillActionController : SkillActionController
 		return false;
 	}
 
+	/// <summary>
+	/// Kiểm tra unit trên ô mục tiêu có bị tác động (ví dụ: bị hạ gục ngay bởi hiệu ứng Kill khi quái trồi lên).
+	/// </summary>
 	public override bool IsUnitAffected(Tile targetTile)
 	{
 		TheLastStand.Model.Unit.Unit unit = targetTile.Unit;
@@ -79,6 +98,9 @@ public class SpawnSkillActionController : SkillActionController
 		SpawnSkillAction.UnitToSpawnByWeight = null;
 	}
 
+	/// <summary>
+	/// Xác thực ô mục tiêu ứng viên có thể dùng để sinh quái vật hay không.
+	/// </summary>
 	public bool ValidateCandidateTargetTile(Tile candidateTargetTile)
 	{
 		if (SpawnSkillAction.SpawnSkillActionDefinition.IsByAmount)
@@ -97,15 +119,22 @@ public class SpawnSkillActionController : SkillActionController
 		return false;
 	}
 
+	/// <summary>
+	/// Thực thi hành động triệu hồi quái lên ô mục tiêu.
+	/// </summary>
 	protected override SkillActionResultDatas ApplyActionOnTile(Tile targetTile, ISkillCaster caster)
 	{
 		SkillActionResultDatas resultData = new SkillActionResultDatas();
 		bool flag = IsUnitAffected(targetTile);
 		IsBuildingAffected(targetTile);
+
+		// Nếu kỹ năng có hiệu ứng Kill, tiêu diệt đơn vị hiện tại trên ô trước khi triệu hồi
 		if (flag && SpawnSkillAction.TryGetFirstEffect<KillSkillEffectDefinition>("Kill", out var effect))
 		{
 			ApplySkillEffectKill(caster, targetTile.Unit, effect, resultData);
 		}
+
+		// Triệu hồi theo số lượng hoặc theo trọng số
 		if (SpawnSkillAction.SpawnSkillActionDefinition.IsByAmount)
 		{
 			SpawnEnemiesByAmount(caster, ref resultData);
@@ -115,6 +144,7 @@ public class SpawnSkillActionController : SkillActionController
 		{
 			SpawnAnEnemyByWeight(targetTile, ref resultData);
 		}
+
 		if (caster is BattleModule battleModule && battleModule.BuildingParent.IsCrystal && flag)
 		{
 			TPSingleton<AchievementManager>.Instance.HandleCrystalCorruptedEnemy();
@@ -127,6 +157,9 @@ public class SpawnSkillActionController : SkillActionController
 		return new SkillActionResultDatas();
 	}
 
+	/// <summary>
+	/// Chọn loại quái vật ngẫu nhiên dựa trên bảng trọng số Weight trong cấu hình XML.
+	/// </summary>
 	private Tuple<string, UnitCreationSettings> ComputeEnemyToSpawnByWeight()
 	{
 		string item = string.Empty;
@@ -147,6 +180,9 @@ public class SpawnSkillActionController : SkillActionController
 		return new Tuple<string, UnitCreationSettings>(item, unitCreationSettings ?? new UnitCreationSettings());
 	}
 
+	/// <summary>
+	/// Tìm ô đất hợp lệ trên bản đồ để sinh quái vật theo cờ TileFlagTag hoặc lấy ô mục tiêu chỉ định.
+	/// </summary>
 	private Tile GetSpawnTile(EnemySpawnData enemySpawnData, SkillActionResultDatas resultData)
 	{
 		UnitTemplateDefinition unitTemplateDefinition = EnemyUnitDatabase.EliteEnemyUnitTemplateDefinitions.GetValueOrDefault(enemySpawnData.Id) ?? EnemyUnitDatabase.EnemyUnitTemplateDefinitions[enemySpawnData.Id];
@@ -159,6 +195,7 @@ public class SpawnSkillActionController : SkillActionController
 			return base.SkillAction.SkillActionExecution.TargetTiles[0].Tile;
 		}
 		return TileMapManager.GetRandomSpawnableTileWithFlag(enemySpawnData.TileFlag, unitTemplateDefinition, ValidatePredicate);
+		
 		bool ValidatePredicate(Tile tile)
 		{
 			if (CanDestroyBuilding(tile.Building))
@@ -169,6 +206,9 @@ public class SpawnSkillActionController : SkillActionController
 		}
 	}
 
+	/// <summary>
+	/// Triệu hồi ngẫu nhiên các loại quái vật theo số lượng cấu hình.
+	/// </summary>
 	private void SpawnRandomEnemiesByAmount(ISkillCaster caster, ref SkillActionResultDatas resultData)
 	{
 		int count = SpawnSkillAction.SpawnSkillActionDefinition.RandomEnemies.Count;
@@ -203,6 +243,9 @@ public class SpawnSkillActionController : SkillActionController
 		}
 	}
 
+	/// <summary>
+	/// Triệu hồi các nhóm quái vật cố định theo danh sách EnemiesByAmount.
+	/// </summary>
 	private void SpawnEnemiesByAmount(ISkillCaster caster, ref SkillActionResultDatas resultData)
 	{
 		if (SpawnSkillAction.SpawnSkillActionDefinition.EnemiesByAmount.Count == 0)
@@ -225,6 +268,9 @@ public class SpawnSkillActionController : SkillActionController
 		}
 	}
 
+	/// <summary>
+	/// Triệu hồi 1 quái vật duy nhất tại ô mục tiêu theo trọng số.
+	/// </summary>
 	private void SpawnAnEnemyByWeight(Tile targetTile, ref SkillActionResultDatas resultData)
 	{
 		if (SpawnSkillAction.SpawnSkillActionDefinition.EnemiesByWeight.Count == 0)
@@ -243,6 +289,9 @@ public class SpawnSkillActionController : SkillActionController
 		}
 	}
 
+	/// <summary>
+	/// Khởi tạo quái vật tại ô chỉ định và ghi nhận vào hệ thống quản lý Sector nếu Caster là Boss.
+	/// </summary>
 	private void SpawnEnemy(EnemySpawnData enemySpawnData, Tile tile, ISkillCaster caster, ref SkillActionResultDatas resultData)
 	{
 		if (tile == null)
@@ -254,6 +303,7 @@ public class SpawnSkillActionController : SkillActionController
 		{
 			BuildingManager.DestroyBuilding(tile);
 		}
+		// Nếu Caster là Boss, gom quái theo từng Sector bản đồ
 		if (caster is BossUnit { IsDeathRattling: false })
 		{
 			int sectorIndexForTile = TPSingleton<SectorManager>.Instance.GetSectorIndexForTile(tile);

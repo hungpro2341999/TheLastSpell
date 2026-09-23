@@ -11,15 +11,37 @@ using UnityEngine;
 
 namespace TheLastStand.Controller.Building.BuildingUpgrade;
 
+/// <summary>
+/// Controller xử lý hiệu ứng nâng cấp hoán đổi (thay thế) hành động của công trình (Swap Action) từ OldActionId sang NewActionId.
+/// </summary>
 public class SwapActionController : BuildingUpgradeEffectController
 {
+	#region Properties
+
+	/// <summary>
+	/// Model dữ liệu nâng cấp hoán đổi hành động.
+	/// </summary>
 	public SwapAction SwapAction => base.BuildingUpgradeEffect as SwapAction;
 
+	#endregion
+
+	#region Constructors
+
+	/// <summary>
+	/// Khởi tạo controller nâng cấp hoán đổi hành động.
+	/// </summary>
 	public SwapActionController(SwapActionDefinition definition, TheLastStand.Model.Building.BuildingUpgrade.BuildingUpgrade buildingUpgrade)
 	{
 		base.BuildingUpgradeEffect = new SwapAction(definition, this, buildingUpgrade);
 	}
 
+	#endregion
+
+	#region Overridden Methods
+
+	/// <summary>
+	/// Tìm hành động cũ (OldActionId) trong ProductionModule của công trình và thay thế bằng hành động mới (NewActionId), duy trì số lượt dùng còn lại.
+	/// </summary>
 	public override void TriggerEffect(bool onLoad = false)
 	{
 		int num = 0;
@@ -47,4 +69,7 @@ public class SwapActionController : BuildingUpgradeEffectController
 			TPSingleton<BuildingManager>.Instance.LogError("SwapActionController was not able to find an existing building action with the Id " + SwapAction.SwapActionDefinition.OldActionId + " => Abort upgrade effect", CLogLevel.MAJOR);
 		}
 	}
+
+	#endregion
 }
+

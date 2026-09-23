@@ -11,14 +11,51 @@ using UnityEngine;
 
 namespace TheLastStand.Definition.Item;
 
+/// <summary>
+/// Bản thiết kế (blueprint) cho 1 loại Affix bonus trên vật phẩm.
+/// Affix là thuộc tính bonus ngẫu nhiên được thêm vào item khi sinh (ví dụ: "+3 PhysicalDamage").
+/// 
+/// Cấu trúc dữ liệu:
+/// - 1 AffixDefinition có NHIỀU LeveledAffixDefinition (level 1-10).
+/// - Mỗi level cho stat modifier khác nhau (level cao = bonus lớn hơn).
+/// - Affix chỉ xuất hiện trên item có Category phù hợp và item level trong [LevelMin, LevelMax].
+/// - EpicStatModifiers: bonus thêm khi affix được đánh dấu là Epic.
+/// 
+/// Ví dụ XML:
+/// <code>
+/// &lt;Affix Id="AffixPhysDmg" MaxOccurrences="2" Droppable="true"&gt;
+///   &lt;ItemLevel Min="0" Max="10"/&gt;
+///   &lt;ItemCategories&gt;
+///     &lt;ItemCategory Weight="100"&gt;MeleeWeapon&lt;/ItemCategory&gt;
+///     &lt;ItemCategory Weight="50"&gt;RangeWeapon&lt;/ItemCategory&gt;
+///   &lt;/ItemCategories&gt;
+///   &lt;Levels&gt;
+///     &lt;Level Id="1"&gt;&lt;Modifier Stat="PhysicalDamage"&gt;2&lt;/Modifier&gt;&lt;/Level&gt;
+///     &lt;Level Id="2"&gt;&lt;Modifier Stat="PhysicalDamage"&gt;4&lt;/Modifier&gt;&lt;/Level&gt;
+///   &lt;/Levels&gt;
+///   &lt;EpicBonus&gt;&lt;Modifier Stat="PhysicalDamage"&gt;3&lt;/Modifier&gt;&lt;/EpicBonus&gt;
+/// &lt;/Affix&gt;
+/// </code>
+/// </summary>
 public class AffixDefinition : TheLastStand.Framework.Serialization.Definition
 {
+	/// <summary>
+	/// Định nghĩa Affix theo level cụ thể.
+	/// Mỗi level chứa danh sách stat modifiers riêng.
+	/// Ví dụ: Level 1 → +2 PhysicalDamage, Level 3 → +6 PhysicalDamage.
+	/// </summary>
 	public class LeveledAffixDefinition : TheLastStand.Framework.Serialization.Definition
 	{
+		/// <summary>AffixDefinition cha chứa LeveledAffixDefinition này.</summary>
 		public AffixDefinition AffixDefinition { get; private set; }
 
+		/// <summary>Level của Affix (1-10). Level cao → stat modifier mạnh hơn.</summary>
 		public int Level { get; private set; }
 
+		/// <summary>
+		/// Danh sách stat modifiers ở level này.
+		/// Ví dụ: { PhysicalDamage: 4.0, CriticalHitChance: 2.0 }
+		/// </summary>
 		public Dictionary<UnitStatDefinition.E_Stat, float> StatModifiers { get; private set; } = new Dictionary<UnitStatDefinition.E_Stat, float>(UnitStatDefinition.SharedStatComparer);
 
 		public LeveledAffixDefinition(AffixDefinition affixDefinition, XContainer container)
@@ -27,6 +64,10 @@ public class AffixDefinition : TheLastStand.Framework.Serialization.Definition
 			AffixDefinition = affixDefinition;
 		}
 
+		/// <summary>
+		/// Đọc level + danh sách Modifier từ XML.
+		/// Validate: Level phải là int trong [1, 10].
+		/// </summary>
 		public override void Deserialize(XContainer container)
 		{
 			XElement xElement = container as XElement;
@@ -42,6 +83,7 @@ public class AffixDefinition : TheLastStand.Framework.Serialization.Definition
 				return;
 			}
 			Level = result;
+			// Đọc từng Modifier: Stat attribute → key, value → float
 			foreach (XElement item in xElement.Elements("Modifier"))
 			{
 				if (item.IsNullOrEmpty())
@@ -62,22 +104,46 @@ public class AffixDefinition : TheLastStand.Framework.Serialization.Definition
 		}
 	}
 
+	/// <summary>
+	/// Affix có thể xuất hiện ngẫu nhiên trên item drop không.
+	/// false = chỉ dùng cho item cố định (quest reward, debug...).
+	/// </summary>
 	public bool Droppable { get; private set; } = true;
 
+	/// <summary>
+	/// Stat bonus THÊM khi affix được đánh dấu là Epic.
+	/// Cộng dồn lên trên StatModifiers thông thường.
+	/// </summary>
 	public Dictionary<UnitStatDefinition.E_Stat, float> EpicStatModifiers { get; private set; } = new Dictionary<UnitStatDefinition.E_Stat, float>(UnitStatDefinition.SharedStatComparer);
 
+	/// <summary>ID duy nhất của Affix. Ví dụ: "AffixPhysDmg", "AffixCritChance".</summary>
 	public string Id { get; private set; }
 
+	/// <summary>
+	/// Category item nào có thể nhận Affix này + weight (tỉ lệ) tương ứng.
+	/// Ví dụ: { MeleeWeapon: 100, RangeWeapon: 50 } → MeleeWeapon có tỉ lệ gấp đôi.
+	/// </summary>
 	public Dictionary<ItemDefinition.E_Category, float> ItemCategoriesWithWeight { get; private set; } = new Dictionary<ItemDefinition.E_Category, float>(ItemDefinition.SharedCategoryComparer);
 
+	/// <summary>
+	/// Danh sách định nghĩa Affix theo level.
+	/// Key = level (1-10), Value = LeveledAffixDefinition chứa stat modifiers.
+	/// </summary>
 	public Dictionary<int, LeveledAffixDefinition> LevelDefinitions { get; private set; } = new Dictionary<int, LeveledAffixDefinition>();
 
+	/// <summary>Item level TỐI ĐA mà Affix này có thể xuất hiện.</summary>
 	public int LevelMax { get; private set; }
 
+	/// <summary>Item level TỐI THIỂU mà Affix này có thể xuất hiện.</summary>
 	public int LevelMin { get; private set; }
 
+	/// <summary>
+	/// Số lần tối đa Affix này có thể xuất hiện trên 1 item.
+	/// -1 = không giới hạn. Dùng để tránh trùng lặp quá nhiều.
+	/// </summary>
 	public int MaxOccurrences { get; private set; } = -1;
 
+	/// <summary>Tổng weight của tất cả categories. Dùng để tính xác suất tương đối.</summary>
 	public float TotalCategoryWeight { get; private set; }
 
 	public AffixDefinition(XContainer container)
@@ -85,9 +151,14 @@ public class AffixDefinition : TheLastStand.Framework.Serialization.Definition
 	{
 	}
 
+	/// <summary>
+	/// Đọc toàn bộ AffixDefinition từ XML.
+	/// Thứ tự: Id → MaxOccurrences → Droppable → ItemLevel[Min,Max] → ItemCategories → Levels → EpicBonus.
+	/// </summary>
 	public override void Deserialize(XContainer container)
 	{
 		XElement xElement = container as XElement;
+		// 1. Đọc Id
 		XAttribute xAttribute = xElement.Attribute("Id");
 		if (xAttribute.IsNullOrEmpty())
 		{
@@ -95,6 +166,7 @@ public class AffixDefinition : TheLastStand.Framework.Serialization.Definition
 			return;
 		}
 		Id = xAttribute.Value;
+		// 2. Đọc MaxOccurrences (optional, default = -1 = vô hạn)
 		XAttribute xAttribute2 = xElement.Attribute("MaxOccurrences");
 		if (xAttribute2 != null)
 		{
@@ -107,6 +179,7 @@ public class AffixDefinition : TheLastStand.Framework.Serialization.Definition
 				CLoggerManager.Log("Could not parse MaxOccurrences attribute into an int : " + xAttribute2.Value + ".", LogType.Error, CLogLevel.MAJOR, forcePrintInUnity: true, "AffixDefinition");
 			}
 		}
+		// 3. Đọc Droppable (optional, default = true)
 		XAttribute xAttribute3 = xElement.Attribute("Droppable");
 		if (xAttribute3 != null)
 		{
@@ -117,6 +190,7 @@ public class AffixDefinition : TheLastStand.Framework.Serialization.Definition
 			}
 			Droppable = result2;
 		}
+		// 4. Đọc ItemLevel range [Min, Max] - affix chỉ xuất hiện trên item trong khoảng này
 		XElement xElement2 = xElement.Element("ItemLevel");
 		if (xElement2 == null)
 		{
@@ -147,6 +221,7 @@ public class AffixDefinition : TheLastStand.Framework.Serialization.Definition
 			return;
 		}
 		LevelMax = result4;
+		// 5. Đọc ItemCategories - category nào dùng được + weight
 		XElement xElement3 = xElement.Element("ItemCategories");
 		if (xElement3 == null)
 		{
@@ -184,6 +259,7 @@ public class AffixDefinition : TheLastStand.Framework.Serialization.Definition
 			ItemCategoriesWithWeight.Add(result5, result6);
 			TotalCategoryWeight += result6;
 		}
+		// 6. Đọc Levels - định nghĩa stat modifiers theo từng Affix level
 		XElement xElement4 = xElement.Element("Levels");
 		if (xElement4 == null)
 		{
@@ -195,6 +271,7 @@ public class AffixDefinition : TheLastStand.Framework.Serialization.Definition
 			LeveledAffixDefinition leveledAffixDefinition = new LeveledAffixDefinition(this, item2);
 			LevelDefinitions.Add(leveledAffixDefinition.Level, leveledAffixDefinition);
 		}
+		// 7. Đọc EpicBonus - stat bonus thêm khi Affix là Epic
 		XElement xElement5 = xElement.Element("EpicBonus");
 		if (xElement5.IsNullOrEmpty())
 		{

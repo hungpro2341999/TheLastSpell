@@ -11,15 +11,37 @@ using TheLastStand.Model.Building.BuildingUpgrade;
 
 namespace TheLastStand.Controller.Building.BuildingUpgrade;
 
+/// <summary>
+/// Controller xử lý hiệu ứng nâng cấp mở khóa một hành động mới (Unlock Action) cho ProductionModule của công trình.
+/// </summary>
 public class UnlockActionController : BuildingUpgradeEffectController
 {
+	#region Properties
+
+	/// <summary>
+	/// Model dữ liệu nâng cấp mở khóa hành động.
+	/// </summary>
 	public UnlockAction UnlockAction => base.BuildingUpgradeEffect as UnlockAction;
 
+	#endregion
+
+	#region Constructors
+
+	/// <summary>
+	/// Khởi tạo controller nâng cấp mở khóa hành động.
+	/// </summary>
 	public UnlockActionController(UnlockActionDefinition definition, TheLastStand.Model.Building.BuildingUpgrade.BuildingUpgrade buildingUpgrade)
 	{
 		base.BuildingUpgradeEffect = new UnlockAction(definition, this, buildingUpgrade);
 	}
 
+	#endregion
+
+	#region Overridden Methods
+
+	/// <summary>
+	/// Tạo hành động công trình mới (NewActionId) và thêm vào danh sách BuildingActions trong ProductionModule của công trình.
+	/// </summary>
 	public override void TriggerEffect(bool onLoad = false)
 	{
 		BuildingActionDefinition buildingActionDefinition = null;
@@ -41,4 +63,7 @@ public class UnlockActionController : BuildingUpgradeEffectController
 			TPSingleton<BuildingManager>.Instance.LogError("BuildingActionDefinition " + UnlockAction.UnlockActionDefinition.NewActionId + " not found", CLogLevel.MAJOR);
 		}
 	}
+
+	#endregion
 }
+

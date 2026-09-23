@@ -23,6 +23,17 @@ using TheLastStand.Model.Unit.Perk;
 
 namespace TheLastStand.Controller.Skill.SkillAction;
 
+/// <summary>
+/// Bộ điều khiển cho các hành vi kỹ năng đa dụng / hỗ trợ (Generic Skill Action Controller).
+/// <para>Xử lý các kỹ năng không phải là đòn tấn công gây sát thương thuần túy, bao gồm:</para>
+/// <list type="bullet">
+///   <item><description>Hồi phục Máu, Mana, Giáp cho bản thân hoặc đồng đội.</description></item>
+///   <item><description>Áp dụng các trạng thái Buff/Debuff lên mục tiêu.</description></item>
+///   <item><description>Cơ chế Propagation (hiệu ứng nảy chuyền sang các mục tiêu kế cận).</description></item>
+///   <item><description>Dập tắt lửa chậu than ma thuật (ExtinguishBrazier).</description></item>
+///   <item><description>Sử dụng bình thuốc (Potion) và ghi nhận thành tích/tiến trình chiến dịch.</description></item>
+/// </list>
+/// </summary>
 public class GenericSkillActionController : SkillActionController
 {
 	private GenericSkillAction GenericSkillAction => base.SkillAction as GenericSkillAction;
@@ -33,6 +44,9 @@ public class GenericSkillActionController : SkillActionController
 		base.SkillAction.SkillActionExecution = new GenericSkillActionExecutionController(base.SkillAction.Skill).SkillActionExecution;
 	}
 
+	/// <summary>
+	/// Kiểm tra công trình có bị ảnh hưởng hay không (ví dụ: dập tắt chậu than Brazier).
+	/// </summary>
 	public override bool IsBuildingAffected(Tile targetTile)
 	{
 		if (base.SkillAction.HasEffect("ExtinguishBrazier"))
@@ -42,6 +56,9 @@ public class GenericSkillActionController : SkillActionController
 		return false;
 	}
 
+	/// <summary>
+	/// Kiểm tra đơn vị Unit trên ô mục tiêu có nhận tác động từ kỹ năng hay không.
+	/// </summary>
 	public override bool IsUnitAffected(Tile targetTile)
 	{
 		TheLastStand.Model.Unit.Unit unit = targetTile.Unit;
@@ -52,6 +69,9 @@ public class GenericSkillActionController : SkillActionController
 		return false;
 	}
 
+	/// <summary>
+	/// Áp dụng các hiệu ứng kỹ năng hỗ trợ lên ô mục tiêu.
+	/// </summary>
 	protected override SkillActionResultDatas ApplyActionOnTile(Tile targetTile, ISkillCaster caster)
 	{
 		SkillActionResultDatas skillActionResultDatas = new SkillActionResultDatas();
@@ -61,6 +81,8 @@ public class GenericSkillActionController : SkillActionController
 		skillActionResultDatas.AddAffectedUnit(unit);
 		List<SkillEffectDefinition> list = null;
 		Dictionary<string, List<SkillEffectDefinition>> allEffects = base.SkillAction.GetAllEffects();
+		
+		// Áp dụng danh sách hiệu ứng thông thường (Buff/Debuff, hồi phục...)
 		if (allEffects.Count > 0)
 		{
 			list = new List<SkillEffectDefinition>();
@@ -70,9 +92,11 @@ public class GenericSkillActionController : SkillActionController
 			}
 			ApplySkillEffectsOnTile(targetTile, caster, skillActionResultDatas, list, flag, hitsBuilding);
 		}
+
 		if (flag)
 		{
 			TheLastStand.Model.Unit.Unit unit2 = targetTile.Unit;
+			// Xử lý cơ chế Propagation (nảy lan sang các mục tiêu liền kề)
 			if (unit2 != null && unit2.Health > 0f && GenericSkillAction.TryGetFirstEffect<PropagationSkillEffectDefinition>("Propagation", out var effect))
 			{
 				Tile tile = targetTile;
@@ -81,6 +105,7 @@ public class GenericSkillActionController : SkillActionController
 				int num2 = 0;
 				while (num2 < num)
 				{
+					// Lấy các ô kề bên (cho phép đường chéo nếu Perk hỗ trợ)
 					List<Tile> enumerable = ((!(base.SkillAction.Skill.Owner is PlayableUnit playableUnit) || !playableUnit.AllowDiagonalPropagation(base.SkillAction.PerkDataContainer)) ? tile.GetAdjacentTiles() : tile.GetAdjacentTilesWithDiagonals());
 					IEnumerable<Tile> enumerable2 = RandomManager.Shuffle(this, enumerable);
 					bool flag2 = false;
@@ -112,6 +137,8 @@ public class GenericSkillActionController : SkillActionController
 					}
 				}
 			}
+
+			// Ghi nhận thành tích và tiến trình khi sử dụng bình thuốc (Potion)
 			if (GenericSkillAction.Skill.SkillContainer is TheLastStand.Model.Item.Item item && item.ItemDefinition.Category == ItemDefinition.E_Category.Potion && targetTile.GetDamageable() is PlayableUnit)
 			{
 				TPSingleton<MetaConditionManager>.Instance.IncreaseDoubleValue(MetaConditionSpecificContext.E_ValueCategory.PotionsUsed, 1.0);
@@ -127,6 +154,9 @@ public class GenericSkillActionController : SkillActionController
 		return skillActionResultDatas;
 	}
 
+	/// <summary>
+	/// Áp dụng hiệu ứng phụ lên các ô xung quanh (Surrounding Effects).
+	/// </summary>
 	protected override SkillActionResultDatas ApplyActionOnSurroundingTile(Tile targetTile, ISkillCaster caster)
 	{
 		SkillActionResultDatas skillActionResultDatas = new SkillActionResultDatas();
@@ -141,6 +171,9 @@ public class GenericSkillActionController : SkillActionController
 		return skillActionResultDatas;
 	}
 
+	/// <summary>
+	/// Áp dụng danh sách hiệu ứng lên ô và kích hoạt các sự kiện OnHitTaken của Perk.
+	/// </summary>
 	protected override void ApplySkillEffectsOnTile(Tile targetTile, ISkillCaster caster, SkillActionResultDatas resultDatas, List<SkillEffectDefinition> skillEffectDefinitions, bool hitsUnit, bool hitsBuilding, bool forceApply = false)
 	{
 		base.ApplySkillEffectsOnTile(targetTile, caster, resultDatas, skillEffectDefinitions, hitsUnit, hitsBuilding, forceApply);

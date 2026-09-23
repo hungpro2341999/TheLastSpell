@@ -6,8 +6,13 @@ using UnityEngine;
 
 namespace TheLastStand.Definition.Building.BuildingAction;
 
+/// <summary>
+/// Định nghĩa hiệu ứng hành động công trình nâng cấp chỉ số (Upgrade Stat Effect) cho tướng/đơn vị (Máu tối đa, Mana tối đa, Điểm hành động, Điểm di chuyển, v.v.).
+/// </summary>
 public class UpgradeStatBuildingActionEffectDefinition : BuildingActionEffectDefinition
 {
+	#region Constants
+
 	public static class Constants
 	{
 		public const string GainHealthMax = "GainHealthMax";
@@ -15,12 +20,28 @@ public class UpgradeStatBuildingActionEffectDefinition : BuildingActionEffectDef
 		public const string GainManaMax = "GainManaMax";
 	}
 
+	#endregion
+
+	#region Properties
+
+	/// <summary>
+	/// Chỉ số của tướng (E_Stat) được tăng điểm từ hành động này.
+	/// </summary>
 	public UnitStatDefinition.E_Stat Stat { get; private set; }
 
+	/// <summary>
+	/// Giá trị chỉ số thưởng cộng thêm.
+	/// </summary>
 	public int Bonus { get; private set; }
 
+	/// <summary>
+	/// Phạm vi mục tiêu nhận thưởng chỉ số (Tất cả tướng hay 1 tướng).
+	/// </summary>
 	public E_BuildingActionTargeting BuildingActionTargeting { get; private set; }
 
+	/// <summary>
+	/// ID biểu tượng ước tính hiệu ứng nâng cấp chỉ số tương ứng trên giao diện UI.
+	/// </summary>
 	public override string ActionEstimationIconId => Stat switch
 	{
 		UnitStatDefinition.E_Stat.HealthTotal => "GainHealthMax", 
@@ -30,11 +51,25 @@ public class UpgradeStatBuildingActionEffectDefinition : BuildingActionEffectDef
 		_ => Stat.ToString(), 
 	};
 
+	#endregion
+
+	#region Constructors
+
+	/// <summary>
+	/// Khởi tạo định nghĩa hiệu ứng nâng cấp chỉ số từ dữ liệu XML.
+	/// </summary>
 	public UpgradeStatBuildingActionEffectDefinition(XContainer xContainer, BuildingActionDefinition buildingActionDefinitionContainer)
 		: base(xContainer, buildingActionDefinitionContainer)
 	{
 	}
 
+	#endregion
+
+	#region Overridden Methods
+
+	/// <summary>
+	/// Giải mã dữ liệu XML (Deserialize) cho loại chỉ số, điểm thưởng và mục tiêu tác động.
+	/// </summary>
 	public override void Deserialize(XContainer container)
 	{
 		if (container is XElement xElement)
@@ -89,4 +124,7 @@ public class UpgradeStatBuildingActionEffectDefinition : BuildingActionEffectDef
 			CLoggerManager.Log("UpgradeStat doesn't have a XElement", LogType.Error);
 		}
 	}
+
+	#endregion
 }
+

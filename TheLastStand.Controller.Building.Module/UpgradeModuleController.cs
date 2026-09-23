@@ -14,26 +14,36 @@ namespace TheLastStand.Controller.Building.Module;
 
 public class UpgradeModuleController : BuildingModuleController
 {
+	#region Properties
+	/// <summary>
+	/// Model nâng cấp (UpgradeModule) của công trình.
+	/// </summary>
 	public UpgradeModule UpgradeModule { get; }
+	#endregion
 
+	#region Initialization & Factory
+	/// <summary>
+	/// Khởi tạo Controller quản lý việc nâng cấp công trình.
+	/// </summary>
 	public UpgradeModuleController(BuildingController buildingControllerParent, UpgradeModuleDefinition upgradeModuleDefinition)
 		: base(buildingControllerParent, upgradeModuleDefinition)
 	{
 		UpgradeModule = base.BuildingModule as UpgradeModule;
 	}
 
-	public void OnDeath()
+	/// <summary>
+	/// Khởi tạo Model UpgradeModule tương ứng.
+	/// </summary>
+	protected override BuildingModule CreateModel(TheLastStand.Model.Building.Building building, BuildingModuleDefinition buildingModuleDefinition)
 	{
-		if (UpgradeModule.BuildingGlobalUpgrades == null)
-		{
-			return;
-		}
-		foreach (BuildingGlobalUpgrade buildingGlobalUpgrade in UpgradeModule.BuildingGlobalUpgrades)
-		{
-			buildingGlobalUpgrade.BuildingUpgradeLevel.BuildingGlobalUpgrades.Remove(buildingGlobalUpgrade);
-		}
+		return new UpgradeModule(building, buildingModuleDefinition as UpgradeModuleDefinition, this);
 	}
+	#endregion
 
+	#region Upgrade Creation & Life Cycle
+	/// <summary>
+	/// Khởi tạo danh sách nâng cấp cá nhân và nâng cấp toàn cục (Global Upgrades) cho công trình.
+	/// </summary>
 	public void CreateUpgrades()
 	{
 		if (UpgradeModule.UpgradeModuleDefinition.BuildingUpgradeDefinitions == null)
@@ -56,6 +66,26 @@ public class UpgradeModuleController : BuildingModuleController
 		}
 	}
 
+	/// <summary>
+	/// Hủy bỏ các hiệu ứng nâng cấp toàn cục khi công trình bị phá hủy.
+	/// </summary>
+	public void OnDeath()
+	{
+		if (UpgradeModule.BuildingGlobalUpgrades == null)
+		{
+			return;
+		}
+		foreach (BuildingGlobalUpgrade buildingGlobalUpgrade in UpgradeModule.BuildingGlobalUpgrades)
+		{
+			buildingGlobalUpgrade.BuildingUpgradeLevel.BuildingGlobalUpgrades.Remove(buildingGlobalUpgrade);
+		}
+	}
+	#endregion
+
+	#region Serialization / Deserialization
+	/// <summary>
+	/// Giải mã và phục hồi trạng thái các nâng cấp cá nhân từ file Save.
+	/// </summary>
 	public void DeserializeUpgrades(List<SerializedUpgrade> upgradesElement)
 	{
 		UpgradeModule.BuildingUpgrades = new List<TheLastStand.Model.Building.BuildingUpgrade.BuildingUpgrade>();
@@ -76,6 +106,9 @@ public class UpgradeModuleController : BuildingModuleController
 		}
 	}
 
+	/// <summary>
+	/// Giải mã và phục hồi trạng thái các nâng cấp toàn cục (Global Upgrades) từ file Save.
+	/// </summary>
 	public void DeserializeGlobalUpgrades(List<SerializedGlobalUpgrade> upgradesElement)
 	{
 		UpgradeModule.BuildingGlobalUpgrades = new List<BuildingGlobalUpgrade>();
@@ -95,9 +128,5 @@ public class UpgradeModuleController : BuildingModuleController
 			}
 		}
 	}
-
-	protected override BuildingModule CreateModel(TheLastStand.Model.Building.Building building, BuildingModuleDefinition buildingModuleDefinition)
-	{
-		return new UpgradeModule(building, buildingModuleDefinition as UpgradeModuleDefinition, this);
-	}
+	#endregion
 }

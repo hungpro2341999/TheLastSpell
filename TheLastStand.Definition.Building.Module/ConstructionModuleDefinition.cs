@@ -16,48 +16,110 @@ namespace TheLastStand.Definition.Building.Module;
 
 public class ConstructionModuleDefinition : BuildingModuleDefinition
 {
+	#region Properties
+	/// <summary>
+	/// Giới hạn số lượng xây dựng mặc định của công trình trong thành phố (-1 là vô hạn).
+	/// </summary>
 	public int NativeBuildLimit { get; private set; } = -1;
 
+	/// <summary>
+	/// ID nhóm giới hạn xây dựng chung (BuildLimitGroup).
+	/// </summary>
 	public string BuildLimitGroupId { get; private set; } = string.Empty;
 
+	/// <summary>
+	/// Tốc độ khung hình (FPS) cho hoạt ảnh xây dựng công trình.
+	/// </summary>
 	public int ConstructionAnimationFrameRate { get; private set; }
 
+	/// <summary>
+	/// Khung hình phát sóng xung kích (Shockwave) khi hoàn thành xây dựng.
+	/// </summary>
 	public int ConstructionAnimationShockwaveFrame { get; private set; }
 
+	/// <summary>
+	/// Kiểu hoạt ảnh khi công trình được xây dựng (Instantaneous hoặc Animated).
+	/// </summary>
 	public BuildingDefinition.E_ConstructionAnimationType ConstructionAnimationType { get; private set; } = BuildingDefinition.E_ConstructionAnimationType.Instantaneous;
 
+	/// <summary>
+	/// Kiểu hoạt ảnh khi công trình bị phá hủy/tháo dỡ.
+	/// </summary>
 	public BuildingDefinition.E_ConstructionAnimationType DestructionAnimationType { get; private set; } = BuildingDefinition.E_ConstructionAnimationType.Instantaneous;
 
+	/// <summary>
+	/// Danh sách các loại địa hình (GroundCategory) cho phép xây dựng công trình lên đó.
+	/// </summary>
 	public List<GroundDefinition.E_GroundCategory> GroundCategories { get; private set; }
 
+	/// <summary>
+	/// Cho biết công trình có thể mua bằng Vàng hoặc Vật liệu hay không.
+	/// </summary>
 	public bool IsBuyable { get; private set; }
 
+	/// <summary>
+	/// Cho biết công trình có thể bị tháo dỡ/phá bỏ hay không.
+	/// </summary>
 	public bool IsDemolishable { get; private set; }
 
+	/// <summary>
+	/// Cho biết công trình có thể được sửa chữa khi hỏng hóc hay không.
+	/// </summary>
 	public bool IsRepairable { get; private set; }
 
+	/// <summary>
+	/// Chi phí Vàng xây dựng ban đầu.
+	/// </summary>
 	public int NativeGoldCost { get; private set; }
 
+	/// <summary>
+	/// Chi phí Vật liệu (Materials) xây dựng ban đầu.
+	/// </summary>
 	public int NativeMaterialsCost { get; private set; }
 
+	/// <summary>
+	/// Loại thể tích chiếm giữ/ảnh hưởng các ô xung quanh (OccupationVolumeType).
+	/// </summary>
 	public BuildingDefinition.E_OccupationVolumeType OccupationVolumeType { get; private set; } = BuildingDefinition.E_OccupationVolumeType.Adjacent;
 
+	/// <summary>
+	/// Có hiển thị hiệu ứng phản hồi trên ô tile khi xây dựng hay không.
+	/// </summary>
 	public bool ShouldDisplayConstructionTileFeedback { get; private set; }
 
+	/// <summary>
+	/// Phát âm thanh khi xây dựng hay không.
+	/// </summary>
 	public bool PlayConstructionSound { get; private set; }
 
+	/// <summary>
+	/// Phát âm thanh khi công trình bị phá hủy hay không.
+	/// </summary>
 	public bool PlayDestructionSound { get; private set; }
+	#endregion
 
+	#region Initialization
+	/// <summary>
+	/// Khởi tạo định nghĩa module xây dựng của công trình.
+	/// </summary>
 	public ConstructionModuleDefinition(BuildingDefinition buildingDefinition, XContainer constructionDefinition)
 		: base(buildingDefinition, constructionDefinition)
 	{
 	}
+	#endregion
 
+	#region Build Limit Logic
+	/// <summary>
+	/// Kiểm tra xem công trình có bị giới hạn số lượng xây dựng hay không.
+	/// </summary>
 	public bool IsUnlimited(bool useDefault = false)
 	{
 		return GetBuildLimit(useDefault) < 0;
 	}
 
+	/// <summary>
+	/// Tính toán giới hạn số lượng công trình tối đa có thể xây (bao gồm bonus từ Meta Upgrades và Glyphs).
+	/// </summary>
 	public int GetBuildLimit(bool useDefault = false)
 	{
 		if (BuildingDatabase.BuildingLimitGroupDefinitions.TryGetValue(BuildLimitGroupId, out var value))
@@ -86,6 +148,9 @@ public class ConstructionModuleDefinition : BuildingModuleDefinition
 		return NativeBuildLimit + num;
 	}
 
+	/// <summary>
+	/// Lấy chuỗi tooltip dịch thuật hiển thị giới hạn xây dựng công trình hiện tại.
+	/// </summary>
 	public string GetLocalizedBuildLimit(bool useDefaultValues = false)
 	{
 		if (BuildingDatabase.BuildingLimitGroupDefinitions.TryGetValue(BuildLimitGroupId, out var value))
@@ -102,7 +167,12 @@ public class ConstructionModuleDefinition : BuildingModuleDefinition
 		}
 		return Localizer.Format("ConstructionPanel_BuildLimitTooltip", GetBuildLimit(useDefaultValues), (!useDefaultValues) ? TPSingleton<ConstructionManager>.Instance.GetBuildingCount(this) : 0);
 	}
+	#endregion
 
+	#region Deserialization
+	/// <summary>
+	/// Đọc các thông số chi phí (Vàng/Vật liệu), giới hạn xây, địa hình và hiệu ứng hoạt ảnh từ XML.
+	/// </summary>
 	public override void Deserialize(XContainer container)
 	{
 		if (!(container is XElement xElement))
@@ -263,4 +333,5 @@ public class ConstructionModuleDefinition : BuildingModuleDefinition
 		PlayConstructionSound = xElement.Element("MuteConstructionSound") == null;
 		PlayDestructionSound = xElement.Element("MuteDestructionSound") == null;
 	}
+	#endregion
 }

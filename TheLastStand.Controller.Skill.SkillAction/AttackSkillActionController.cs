@@ -35,6 +35,17 @@ using UnityEngine;
 
 namespace TheLastStand.Controller.Skill.SkillAction;
 
+/// <summary>
+/// Bộ điều khiển cho các hành vi kỹ năng Tấn công gây sát thương (Attack Skill Action Controller).
+/// <para>Chịu trách nhiệm toàn bộ các phép tính toán chiến đấu cốt lõi của game:</para>
+/// <list type="bullet">
+///   <item><description>Tính sát thương cơ bản (BaseDamageRange), sát thương Caster (CasterDamageRange), sát thương cuối cùng (FinalDamageRange).</description></item>
+///   <item><description>Tính các hệ số nhân đặc trưng: Momentum (đà chạy), Isolated (kẻ địch đứng cô lập), Opportunistic (tận dụng trạng thái xấu).</description></item>
+///   <item><description>Kiểm tra tỉ lệ né đòn (Dodge), đỡ đòn (Block), bạo kích (Critical).</description></item>
+///   <item><description>Phân bổ sát thương vào Giáp (Armor) và Máu (Health), xử lý Xuyên giáp (ArmorPiercing) và Phá giáp (ArmorShredding).</description></item>
+///   <item><description>Xử lý sát thương nảy truyền (Propagation) và ghi nhận thành tích, thống kê chiến đấu.</description></item>
+/// </list>
+/// </summary>
 public class AttackSkillActionController : SkillActionController
 {
 	private AttackSkillAction AttackSkillAction => base.SkillAction as AttackSkillAction;
@@ -45,6 +56,10 @@ public class AttackSkillActionController : SkillActionController
 		base.SkillAction.SkillActionExecution = new AttackSkillActionExecutionController(base.SkillAction.Skill).SkillActionExecution;
 	}
 
+	/// <summary>
+	/// Tính toán tỉ lệ phần trăm sát thương thưởng thêm theo cơ chế Momentum (đà di chuyển).
+	/// <para>Số ô tướng đã di chuyển trong turn nhân với sát thương thưởng trên mỗi ô (tối đa +400%).</para>
+	/// </summary>
 	public static float ComputeMomentumPercentage(ISkillCaster caster, MomentumEffectDefinition momentumEffect, PerkDataContainer perkDataContainer = null)
 	{
 		if (momentumEffect == null || !(caster is PlayableUnit playableUnit))
@@ -302,6 +317,10 @@ public class AttackSkillActionController : SkillActionController
 		return false;
 	}
 
+	/// <summary>
+	/// Phân bổ tổng sát thương đòn đánh thành sát thương trừ vào Giáp (ArmorDamage) và sát thương trừ vào Máu (HealthDamage).
+	/// <para>Trừ khi có thuộc tính Xuyên giáp (ArmorPiercing), sát thương sẽ ưu tiên trừ cạn Giáp trước (có tính hệ số Phá giáp ArmorShredding), lượng dư còn lại mới trừ vào Máu.</para>
+	/// </summary>
 	public void SplitDamageBetweenArmorAndHealth(IDamageable target, AttackSkillActionExecutionTileData attackData, float armorShreddingBonus = 0f, bool ignoreSkillEffects = false)
 	{
 		SplitDamageBetweenArmorAndHealth(target, attackData.TotalDamage, out var armorDamage, out var healthDamage, armorShreddingBonus, ignoreSkillEffects);
@@ -309,6 +328,9 @@ public class AttackSkillActionController : SkillActionController
 		attackData.HealthDamage = healthDamage;
 	}
 
+	/// <summary>
+	/// Thuật toán chi tiết phân bổ sát thương vào Giáp và Máu.
+	/// </summary>
 	public void SplitDamageBetweenArmorAndHealth(IDamageable target, float attackDamage, out float armorDamage, out float healthDamage, float armorShreddingBonus = 0f, bool ignoreSkillEffects = false)
 	{
 		if (ignoreSkillEffects || !base.SkillAction.HasEffect("ArmorPiercing"))

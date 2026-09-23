@@ -7,6 +7,10 @@ using TheLastStand.Model.TileMap;
 
 namespace TheLastStand.Controller.Skill.SkillAction;
 
+/// <summary>
+/// Bộ điều khiển cho hành động Bỏ lượt (Skip Turn Skill Action).
+/// <para>Dùng khi nhân vật chủ động chọn bỏ lượt hoặc không thực hiện thêm hành động nào.</para>
+/// </summary>
 public class SkipTurnSkillActionController : SkillActionController
 {
 	public SkipTurnSkillActionController(SkillActionDefinition skillActionDefinition, TheLastStand.Model.Skill.Skill skill)

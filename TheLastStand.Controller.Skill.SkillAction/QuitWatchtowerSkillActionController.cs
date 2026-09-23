@@ -10,6 +10,10 @@ using TheLastStand.Model.Unit;
 
 namespace TheLastStand.Controller.Skill.SkillAction;
 
+/// <summary>
+/// Bộ điều khiển cho hành động Rời khỏi tháp canh (Quit Watchtower Skill Action).
+/// <para>Di chuyển tướng từ trên đỉnh tháp canh trở lại ô mặt đất xung quanh.</para>
+/// </summary>
 public class QuitWatchtowerSkillActionController : SkillActionController
 {
 	public QuitWatchtowerSkillActionController(SkillActionDefinition skillActionDefinition, TheLastStand.Model.Skill.Skill skill)
@@ -32,6 +36,9 @@ public class QuitWatchtowerSkillActionController : SkillActionController
 		return false;
 	}
 
+	/// <summary>
+	/// Đưa tướng xuống ô mặt đất đích và làm mới hiển thị tháp canh.
+	/// </summary>
 	protected override SkillActionResultDatas ApplyActionOnTile(Tile targetTile, ISkillCaster caster)
 	{
 		PlayableUnit playableUnit = caster as PlayableUnit;

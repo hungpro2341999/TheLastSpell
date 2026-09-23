@@ -10,23 +10,52 @@ namespace TheLastStand.Definition.Building.Module;
 
 public class BattleModuleDefinition : BuildingModuleDefinition
 {
+	#region Properties
+	/// <summary>
+	/// Định nghĩa hành vi AI (Behavior) của công trình khi tham chiến.
+	/// </summary>
 	public BehaviorDefinition Behavior { get; private set; }
 
+	/// <summary>
+	/// Danh sách ID nhóm kỹ năng mục tiêu hiển thị.
+	/// </summary>
 	public List<string> GoalsSkillsToDisplayGroupIds { get; } = new List<string>();
 
+	/// <summary>
+	/// Cho biết công trình có trạng thái bị vô hiệu hóa (Disabled State) khi hết lượt đạn hay không.
+	/// </summary>
 	public bool HasDisabledState { get; private set; }
 
+	/// <summary>
+	/// Số lần sử dụng tối đa đối với loại công trình cạm bẫy.
+	/// </summary>
 	public int MaximumTrapCharges { get; private set; }
 
+	/// <summary>
+	/// Danh sách kỹ năng của công trình kèm số lượt sử dụng trong đêm.
+	/// </summary>
 	public Dictionary<string, int> Skills { get; } = new Dictionary<string, int>();
 
+	/// <summary>
+	/// Danh sách các cấp độ tiến trình kỹ năng (SkillProgression).
+	/// </summary>
 	public List<SkillProgression> SkillProgressions { get; protected set; } = new List<SkillProgression>();
+	#endregion
 
+	#region Initialization
+	/// <summary>
+	/// Khởi tạo định nghĩa module chiến đấu từ XML.
+	/// </summary>
 	public BattleModuleDefinition(BuildingDefinition buildingDefinition, XContainer battleDefinition)
 		: base(buildingDefinition, battleDefinition)
 	{
 	}
+	#endregion
 
+	#region Deserialization
+	/// <summary>
+	/// Đọc dữ liệu định nghĩa module chiến đấu từ phần tử XML.
+	/// </summary>
 	public override void Deserialize(XContainer container)
 	{
 		if (!(container is XElement xElement))
@@ -102,4 +131,5 @@ public class BattleModuleDefinition : BuildingModuleDefinition
 			HasDisabledState = result3;
 		}
 	}
+	#endregion
 }

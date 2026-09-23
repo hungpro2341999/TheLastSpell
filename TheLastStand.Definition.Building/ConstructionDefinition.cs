@@ -8,17 +8,42 @@ using UnityEngine;
 
 namespace TheLastStand.Definition.Building;
 
+/// <summary>
+/// Định nghĩa quy tắc sửa chữa và thiết lập xây dựng chung (Construction Definition).
+/// </summary>
 public class ConstructionDefinition : TheLastStand.Framework.Serialization.Definition
 {
+	#region Properties
+
+	/// <summary>
+	/// Tỷ lệ chi phí sửa chữa so với chi phí xây dựng gốc.
+	/// </summary>
 	public float RepairCostRatio { get; private set; }
 
+	/// <summary>
+	/// Từ điển chứa danh sách các nút danh mục sửa chữa công trình.
+	/// </summary>
 	public Dictionary<string, List<BuildingDefinition.E_BuildingCategory>> RepairCategoryButtons { get; } = new Dictionary<string, List<BuildingDefinition.E_BuildingCategory>>();
 
+	#endregion
+
+	#region Constructors
+
+	/// <summary>
+	/// Khởi tạo định nghĩa xây dựng/sửa chữa từ dữ liệu XML.
+	/// </summary>
 	public ConstructionDefinition(XContainer container)
 		: base(container)
 	{
 	}
 
+	#endregion
+
+	#region Overridden Methods
+
+	/// <summary>
+	/// Đọc và giải mã dữ liệu XML (Deserialize) cho cấu hình sửa chữa và danh mục nút bấm.
+	/// </summary>
 	public override void Deserialize(XContainer container)
 	{
 		XElement xElement = container as XElement;
@@ -52,4 +77,7 @@ public class ConstructionDefinition : TheLastStand.Framework.Serialization.Defin
 			RepairCategoryButtons.Add(xAttribute.Value, list);
 		}
 	}
+
+	#endregion
 }
+

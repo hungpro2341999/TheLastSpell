@@ -10,27 +10,62 @@ namespace TheLastStand.Definition.Building.Module;
 
 public class BlueprintModuleDefinition : BuildingModuleDefinition, ITileObjectDefinition
 {
+	#region Properties
+	/// <summary>
+	/// Cho biết công trình có cản trở đơn vị bay (flying units) hay không.
+	/// </summary>
 	public bool BlockFlying { get; private set; }
 
+	/// <summary>
+	/// Phân loại công trình (Phòng thủ, Sản xuất, hoặc Không xác định).
+	/// </summary>
 	public BuildingDefinition.E_BuildingCategory Category { get; private set; }
 
+	/// <summary>
+	/// Độ lệch vị trí hiển thị HUD công trình.
+	/// </summary>
 	public Vector2 HUDOffset { get; private set; }
 
+	/// <summary>
+	/// Tọa độ gốc X của công trình trên lưới chiếm ô.
+	/// </summary>
 	public int OriginX { get; private set; }
 
+	/// <summary>
+	/// Tọa độ gốc Y của công trình trên lưới chiếm ô.
+	/// </summary>
 	public int OriginY { get; private set; }
 
+	/// <summary>
+	/// Loại bóng của công trình.
+	/// </summary>
 	public string ShadowType { get; private set; } = "TilingShadow";
 
+	/// <summary>
+	/// Loại đường đi/vỉa hè xung quanh công trình.
+	/// </summary>
 	public string SidewalkType { get; private set; } = "Sidewalk";
 
+	/// <summary>
+	/// Ma trận các ô tile biểu diễn quyền truy cập của đơn vị (UnitAccess).
+	/// </summary>
 	public List<List<Tile.E_UnitAccess>> Tiles { get; private set; }
+	#endregion
 
+	#region Initialization
+	/// <summary>
+	/// Khởi tạo định nghĩa module bản vẽ chiếm ô của công trình.
+	/// </summary>
 	public BlueprintModuleDefinition(BuildingDefinition buildingDefinition, XContainer blueprintDefinition)
 		: base(buildingDefinition, blueprintDefinition)
 	{
 	}
+	#endregion
 
+	#region Deserialization
+	/// <summary>
+	/// Đọc dữ liệu ma trận ô chiếm giữ, danh mục công trình, loại bóng và tọa độ offset từ XML.
+	/// </summary>
 	public override void Deserialize(XContainer container)
 	{
 		if (!(container is XElement xElement))
@@ -69,7 +104,6 @@ public class BlueprintModuleDefinition : BuildingModuleDefinition, ITileObjectDe
 		}
 		else
 		{
-			Category = ((BuildingDefinition.ConstructionModuleDefinition.NativeMaterialsCost > 0) ? BuildingDefinition.E_BuildingCategory.Defensive : ((BuildingDefinition.ConstructionModuleDefinition.NativeGoldCost > 0) ? BuildingDefinition.E_BuildingCategory.Production : BuildingDefinition.E_BuildingCategory.None));
 		}
 		XElement xElement3 = xElement.Element("ShadowType");
 		if (xElement3 != null)
@@ -99,4 +133,5 @@ public class BlueprintModuleDefinition : BuildingModuleDefinition, ITileObjectDe
 		}
 		BlockFlying = xElement.Element("BlockFlying") != null;
 	}
+	#endregion
 }

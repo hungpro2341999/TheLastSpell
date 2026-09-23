@@ -11,6 +11,10 @@ using TheLastStand.View.Building;
 
 namespace TheLastStand.Controller.Skill.SkillAction;
 
+/// <summary>
+/// Bộ điều khiển cho hành động Trèo vào tháp canh (Go Into Watchtower Skill Action).
+/// <para>Chuyển vị trí tướng từ mặt đất lên đỉnh tháp canh, mở khóa tầm bắn xa và góc nhìn bao quát hơn.</para>
+/// </summary>
 public class GoIntoWatchtowerSkillActionController : SkillActionController
 {
 	public GoIntoWatchtowerSkillActionController(SkillActionDefinition skillActionDefinition, TheLastStand.Model.Skill.Skill skill)
@@ -33,15 +37,20 @@ public class GoIntoWatchtowerSkillActionController : SkillActionController
 		return false;
 	}
 
+	/// <summary>
+	/// Di chuyển tướng vào ô của tháp canh và cập nhật hiển thị đồ họa.
+	/// </summary>
 	protected override SkillActionResultDatas ApplyActionOnTile(Tile targetTile, ISkillCaster caster)
 	{
 		PlayableUnit playableUnit = caster as PlayableUnit;
 		playableUnit.PlayableUnitController.LookAt(targetTile, caster.OriginTile);
+		// Giải phóng ô đứng cũ
 		playableUnit.OriginTile.Unit = null;
 		if (playableUnit.OriginTile.Building != null && !(playableUnit.OriginTile.Building.BuildingView is WatchtowerView))
 		{
 			TPSingleton<TileMapManager>.Instance.TileMap.TileMapView.DisplayBuilding(playableUnit.OriginTile.Building, playableUnit.OriginTile.Building.OriginTile);
 		}
+		// Gán ô đứng mới là tháp canh
 		playableUnit.OriginTile = targetTile;
 		targetTile.Unit = playableUnit;
 		playableUnit.PlayableUnitView.UpdatePosition();

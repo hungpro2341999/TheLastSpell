@@ -12,22 +12,42 @@ namespace TheLastStand.Definition.Building.Module;
 
 public class ProductionModuleDefinition : BuildingModuleDefinition
 {
+	#region Constants & Properties
 	public static class Constants
 	{
 		public const int LevelDefaultValue = 1;
 	}
 
+	/// <summary>
+	/// Danh sách các định nghĩa hành động sản xuất (BuildingActionDefinition) của công trình.
+	/// </summary>
 	public List<BuildingActionDefinition> BuildingActionDefinitions { get; private set; }
 
+	/// <summary>
+	/// Định nghĩa hiệu ứng thanh điểm sản xuất (BuildingGaugeEffectDefinition).
+	/// </summary>
 	public BuildingGaugeEffectDefinition BuildingGaugeEffectDefinition { get; private set; }
 
+	/// <summary>
+	/// Cấp độ sản xuất mặc định của công trình.
+	/// </summary>
 	public int Level { get; private set; } = 1;
+	#endregion
 
+	#region Initialization
+	/// <summary>
+	/// Khởi tạo định nghĩa module sản xuất của công trình.
+	/// </summary>
 	public ProductionModuleDefinition(BuildingDefinition buildingDefinition, XContainer productionDefinition)
 		: base(buildingDefinition, productionDefinition)
 	{
 	}
+	#endregion
 
+	#region Deserialization
+	/// <summary>
+	/// Đọc thông tin cấp độ, hiệu ứng GaugeEffect và danh sách các BuildingAction từ XML.
+	/// </summary>
 	public override void Deserialize(XContainer container)
 	{
 		if (!(container is XElement xElement))
@@ -103,4 +123,5 @@ public class ProductionModuleDefinition : BuildingModuleDefinition
 			break;
 		}
 	}
+	#endregion
 }

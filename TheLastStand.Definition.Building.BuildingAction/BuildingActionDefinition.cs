@@ -12,8 +12,14 @@ using UnityEngine;
 
 namespace TheLastStand.Definition.Building.BuildingAction;
 
+/// <summary>
+/// Định nghĩa cho một hành động của công trình (Building Action).
+/// Quản lý thông tin về chi phí công nhân (WorkersCost), số lần dùng tối đa mỗi lượt (UsesPerTurnCount), các giai đoạn cho phép sử dụng (PhaseStates) và danh sách các hiệu ứng đi kèm (ActionEffects).
+/// </summary>
 public class BuildingActionDefinition : TheLastStand.Framework.Serialization.Definition
 {
+	#region Constants
+
 	public static class Constants
 	{
 		public static class Ids
@@ -40,24 +46,55 @@ public class BuildingActionDefinition : TheLastStand.Framework.Serialization.Def
 		}
 	}
 
+	#endregion
+
+	#region Fields & Properties
+
 	private int workersCost;
 
+	/// <summary>
+	/// Danh sách các định nghĩa hiệu ứng hành động đi kèm.
+	/// </summary>
 	public List<BuildingActionEffectDefinition> BuildingActionEffectDefinition { get; private set; }
 
+	/// <summary>
+	/// Định nghĩa hiệu ứng kỹ năng / thị giác (CastFx) khi thi triển hành động.
+	/// </summary>
 	public CastFxDefinition CastFxDefinition { get; private set; }
 
+	/// <summary>
+	/// Cờ đánh dấu hành động này có chứa hiệu ứng đẩy lùi sương mù (RepelFog) hay không.
+	/// </summary>
 	public bool ContainsRepelFogEffect { get; private set; }
 
+	/// <summary>
+	/// Mã ID định danh duy nhất của hành động.
+	/// </summary>
 	public string Id { get; private set; }
 
+	/// <summary>
+	/// Mô tả cốt truyện (Lore) của hành động.
+	/// </summary>
 	public string LoreDescription => string.Empty;
 
+	/// <summary>
+	/// Trạng thái cho phép sử dụng hành động theo từng giai đoạn (Production, Deployment, Night).
+	/// </summary>
 	public PhaseStates PhaseStates { get; } = new PhaseStates(PhaseStates.E_PhaseState.Available, PhaseStates.E_PhaseState.Available, PhaseStates.E_PhaseState.Available);
 
+	/// <summary>
+	/// Tên hiển thị của hành động (đã qua bản cục hóa - Localized).
+	/// </summary>
 	public string Name => Localizer.Get("BuildingActionName_" + Id);
 
+	/// <summary>
+	/// Số lần sử dụng tối đa của hành động trong mỗi lượt (-1 là không giới hạn).
+	/// </summary>
 	public int UsesPerTurnCount { get; private set; } = -1;
 
+	/// <summary>
+	/// Chi phí công nhân (Workers) cần thiết để thực hiện hành động này.
+	/// </summary>
 	public int WorkersCost
 	{
 		get
@@ -74,23 +111,50 @@ public class BuildingActionDefinition : TheLastStand.Framework.Serialization.Def
 		}
 	}
 
+	/// <summary>
+	/// Biểu thức công thức tính toán chi phí công nhân động (Node expression).
+	/// </summary>
 	public Node WorkersExpression { get; private set; }
 
+	#endregion
+
+	#region Constructors
+
+	/// <summary>
+	/// Khởi tạo định nghĩa hành động công trình từ dữ liệu XML container.
+	/// </summary>
 	public BuildingActionDefinition(XContainer container)
 		: base(container)
 	{
 	}
 
+	#endregion
+
+	#region Public Methods
+
+	/// <summary>
+	/// Lấy chuỗi mô tả bản cục hóa của hành động kèm theo các tham số giá trị.
+	/// </summary>
 	public string GetDescription(int unitsThreshold = -1, int productionValue = 0)
 	{
 		return Localizer.Format("BuildingActionDescription_" + Id, GetArguments(unitsThreshold, productionValue));
 	}
 
+	/// <summary>
+	/// Tạo bản sao (Clone) của đối tượng định nghĩa hành động.
+	/// </summary>
 	public virtual BuildingActionDefinition Clone()
 	{
 		return MemberwiseClone() as BuildingActionDefinition;
 	}
 
+	#endregion
+
+	#region Overridden Methods
+
+	/// <summary>
+	/// Đọc và giải mã dữ liệu XML (Deserialize) cấu hình hành động công trình và các hiệu ứng đi kèm.
+	/// </summary>
 	public override void Deserialize(XContainer container)
 	{
 		XElement xElement = container as XElement;
@@ -192,6 +256,10 @@ public class BuildingActionDefinition : TheLastStand.Framework.Serialization.Def
 		}
 	}
 
+	#endregion
+
+	#region Protected & Private Methods
+
 	protected object[] GetArguments(int unitsThreshold = -1, int productionValue = 0)
 	{
 		List<object> list = new List<object>();
@@ -254,4 +322,7 @@ public class BuildingActionDefinition : TheLastStand.Framework.Serialization.Def
 	{
 		return (unitsThreshold > 0) ? (fillGaugeBuildingActionEffectDefinition.Amount / unitsThreshold * productionValue) : 0;
 	}
+
+	#endregion
 }
+

@@ -8,17 +8,43 @@ using UnityEngine;
 
 namespace TheLastStand.Definition.Building;
 
+/// <summary>
+/// Định nghĩa quy tắc sinh công trình ngẫu nhiên theo ngày (Random Buildings Per Day).
+/// Ánh xạ từng ngày (DayNumber) với một tập hợp các hướng sinh công trình và trọng số ngẫu nhiên (Weight).
+/// </summary>
 public class RandomBuildingsPerDayDefinition : TheLastStand.Framework.Serialization.Definition
 {
+	#region Properties
+
+	/// <summary>
+	/// Mã ID định danh quy tắc sinh công trình theo ngày.
+	/// </summary>
 	public string Id { get; private set; }
 
+	/// <summary>
+	/// Từ điển lưu cấu hình sinh công trình: Số ngày -> (Hướng sinh -> Trọng số xuất hiện).
+	/// </summary>
 	public Dictionary<int, Dictionary<RandomBuildingsDirectionsDefinition, int>> RandomBuildingsPerDayDefinitions { get; } = new Dictionary<int, Dictionary<RandomBuildingsDirectionsDefinition, int>>();
 
+	#endregion
+
+	#region Constructors
+
+	/// <summary>
+	/// Khởi tạo định nghĩa sinh công trình theo ngày từ dữ liệu XML.
+	/// </summary>
 	public RandomBuildingsPerDayDefinition(XContainer container, Dictionary<string, string> tokenVariables = null)
 		: base(container, tokenVariables)
 	{
 	}
 
+	#endregion
+
+	#region Overridden Methods
+
+	/// <summary>
+	/// Đọc và giải mã dữ liệu XML (Deserialize) cho quy tắc sinh công trình ngẫu nhiên theo ngày.
+	/// </summary>
 	public override void Deserialize(XContainer container)
 	{
 		XElement obj = container as XElement;
@@ -57,4 +83,7 @@ public class RandomBuildingsPerDayDefinition : TheLastStand.Framework.Serializat
 			RandomBuildingsPerDayDefinitions.Add(result, dictionary);
 		}
 	}
+
+	#endregion
 }
+

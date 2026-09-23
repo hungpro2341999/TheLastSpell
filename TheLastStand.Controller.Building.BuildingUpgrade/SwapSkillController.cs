@@ -15,15 +15,37 @@ using TheLastStand.Model.Unit.Enemy;
 
 namespace TheLastStand.Controller.Building.BuildingUpgrade;
 
+/// <summary>
+/// Controller xử lý hiệu ứng nâng cấp hoán đổi (thay thế) kỹ năng công trình (Swap Skill) từ OldSkillId sang NewSkillId trong BattleModule.
+/// </summary>
 public class SwapSkillController : BuildingUpgradeEffectController
 {
+	#region Properties
+
+	/// <summary>
+	/// Model dữ liệu nâng cấp hoán đổi kỹ năng.
+	/// </summary>
 	public SwapSkill SwapSkill => base.BuildingUpgradeEffect as SwapSkill;
 
+	#endregion
+
+	#region Constructors
+
+	/// <summary>
+	/// Khởi tạo controller nâng cấp hoán đổi kỹ năng.
+	/// </summary>
 	public SwapSkillController(SwapSkillDefinition definition, TheLastStand.Model.Building.BuildingUpgrade.BuildingUpgrade buildingUpgrade)
 	{
 		base.BuildingUpgradeEffect = new SwapSkill(definition, this, buildingUpgrade);
 	}
 
+	#endregion
+
+	#region Overridden Methods
+
+	/// <summary>
+	/// Tìm và thay thế kỹ năng cũ bằng kỹ năng mới trong danh sách Skills/Goals của BattleModule, đồng thời cập nhật giao diện HUD phòng thủ nếu cần.
+	/// </summary>
 	public override void TriggerEffect(bool onLoad = false)
 	{
 		if (!SkillDatabase.SkillDefinitions.TryGetValue(SwapSkill.SwapSkillDefinition.NewSkillId, out var value))
@@ -76,4 +98,7 @@ public class SwapSkillController : BuildingUpgradeEffectController
 			building.BuildingView.HandledDefensesHUD.DisplayHandledDefensesUses(state: true);
 		}
 	}
+
+	#endregion
 }
+

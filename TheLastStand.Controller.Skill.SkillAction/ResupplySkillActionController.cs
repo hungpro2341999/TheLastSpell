@@ -18,6 +18,15 @@ using UnityEngine;
 
 namespace TheLastStand.Controller.Skill.SkillAction;
 
+/// <summary>
+/// Bộ điều khiển cho các hành vi kỹ năng Tiếp tế &amp; Nạp lại (Resupply Skill Action).
+/// <para>Chịu trách nhiệm thực hiện các hành động hỗ trợ tiếp tế:</para>
+/// <list type="bullet">
+///   <item><description>Hồi phục số lượt sử dụng kỹ năng (UsesPerTurn) cho Tướng đồng minh.</description></item>
+///   <item><description>Nạp thêm số lần bắn (OverallUses) cho các công trình phòng thủ (Tháp bắn tên, máy bắn đá...).</description></item>
+///   <item><description>Nạp lại số lượt kích hoạt (Trap Charges) và sửa chữa bẫy phòng thủ.</description></item>
+/// </list>
+/// </summary>
 public class ResupplySkillActionController : SkillActionController
 {
 	public ResupplySkillAction ResupplySkillAction => base.SkillAction as ResupplySkillAction;
@@ -29,6 +38,9 @@ public class ResupplySkillActionController : SkillActionController
 		ResupplySkillAction.ResupplySkillActionExecution.ResupplySkillActionDefinition = ResupplySkillAction.ResupplySkillActionDefinition;
 	}
 
+	/// <summary>
+	/// Kiểm tra công trình trên ô mục tiêu có đủ điều kiện để được tiếp tế hay không (phải còn sống và có BattleModule).
+	/// </summary>
 	public override bool IsBuildingAffected(Tile targetTile)
 	{
 		if (targetTile.Building != null && targetTile.CanAffectThroughFog(base.SkillAction.SkillActionExecution.Caster) && targetTile.Building.DamageableModule != null && !targetTile.Building.DamageableModule.IsDead)
@@ -38,6 +50,9 @@ public class ResupplySkillActionController : SkillActionController
 		return false;
 	}
 
+	/// <summary>
+	/// Kiểm tra đơn vị Unit trên ô mục tiêu có đủ điều kiện để tiếp tế hay không (còn sống và nhìn thấy qua sương mù).
+	/// </summary>
 	public override bool IsUnitAffected(Tile targetTile)
 	{
 		if (targetTile.Unit != null && targetTile.CanAffectThroughFog(base.SkillAction.SkillActionExecution.Caster))
@@ -52,6 +67,9 @@ public class ResupplySkillActionController : SkillActionController
 		return ApplyActionOnTile(targetTile, caster);
 	}
 
+	/// <summary>
+	/// Áp dụng hiệu ứng tiếp tế lên ô mục tiêu (cho cả Công trình và Tướng nếu có).
+	/// </summary>
 	protected override SkillActionResultDatas ApplyActionOnTile(Tile targetTile, ISkillCaster caster)
 	{
 		SkillActionResultDatas skillActionResultDatas = new SkillActionResultDatas();
@@ -70,8 +88,12 @@ public class ResupplySkillActionController : SkillActionController
 		return skillActionResultDatas;
 	}
 
+	/// <summary>
+	/// Xử lý tiếp tế cho Công trình: hồi số lượt bắn tổng thể hoặc nạp lại số lượt bẫy.
+	/// </summary>
 	private void ApplyResupplySkillBuildingsEffect(SkillActionResultDatas resultDatas, TheLastStand.Model.Building.Building targetBuilding)
 	{
+		// Tiếp tế số lượt dùng tổng thể (ResupplyOverallUses) cho các vũ khí công trình
 		if (base.SkillAction.TryGetEffects("ResupplyOverallUses", out List<SkillEffectDefinition> effects, onlyNative: false))
 		{
 			foreach (SkillEffectDefinition item in effects)
@@ -100,6 +122,8 @@ public class ResupplySkillActionController : SkillActionController
 			}
 			resultDatas.AddAffectedBuilding(targetBuilding);
 		}
+
+		// Tiếp tế số lượt bẫy (ResupplyCharges) cho bẫy phòng thủ
 		if (!base.SkillAction.TryGetEffects("ResupplyCharges", out List<SkillEffectDefinition> effects2, onlyNative: false))
 		{
 			return;
@@ -123,6 +147,9 @@ public class ResupplySkillActionController : SkillActionController
 		resultDatas.AddAffectedBuilding(targetBuilding);
 	}
 
+	/// <summary>
+	/// Xử lý tiếp tế cho Tướng: tăng lại số lần sử dụng chiêu thức trong lượt (UsesPerTurnRemaining) của các vũ khí đang trang bị.
+	/// </summary>
 	private void ApplyResupplySkillsSkillEffect(SkillActionResultDatas resultDatas, TheLastStand.Model.Unit.Unit targetUnit)
 	{
 		if (!base.SkillAction.TryGetEffects("ResupplySkills", out List<SkillEffectDefinition> effects, onlyNative: false))
@@ -136,11 +163,13 @@ public class ResupplySkillActionController : SkillActionController
 			{
 				continue;
 			}
+			// Tìm các kỹ năng vũ khí đang bị thiếu lượt dùng trong turn
 			List<TheLastStand.Model.Skill.Skill> list = playableUnit.PlayableUnitController.GetSkillsFromSlotType(ItemSlotDefinition.E_ItemSlotId.WeaponSlot, getBaseAndReplacementSkills: true).FindAll((TheLastStand.Model.Skill.Skill x) => x.UsesPerTurnRemaining < x.UsesPerTurn);
 			if (list.Count != 0)
 			{
 				for (int num = 0; num < list.Count; num++)
 				{
+					// Không tự tiếp tế lại cho chính kỹ năng tiếp tế này
 					if (list[num] != base.SkillAction.Skill)
 					{
 						list[num].SetUsesPerTurnRemaining(Mathf.Min(list[num].UsesPerTurnRemaining + resupplySkillsSkillEffectDefinition.Amount, list[num].UsesPerTurn));

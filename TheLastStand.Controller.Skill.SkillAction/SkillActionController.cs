@@ -39,10 +39,30 @@ using UnityEngine;
 
 namespace TheLastStand.Controller.Skill.SkillAction;
 
+/// <summary>
+/// Lớp cơ sở trừu tượng cho tất cả các bộ điều khiển hành vi kỹ năng (Skill Action Controller).
+/// <para>Đóng vai trò trung gian thực thi hiệu ứng của chiêu thức lên các ô mục tiêu, bao gồm:</para>
+/// <list type="bullet">
+///   <item><description>Duyệt các ô bị ảnh hưởng trực tiếp (affectedTiles) và ô xung quanh (surroundingTiles).</description></item>
+///   <item><description>Áp dụng các trạng thái Status (Poison, Stun, Contagion, Buff/Debuff...).</description></item>
+///   <item><description>Tính toán chi phí tài nguyên thực tế (AP, MP, Mana, Health, UsesPerTurn) sau khi tính các bổ trợ từ Perk và Trang bị.</description></item>
+///   <item><description>Quản lý dữ liệu ngữ cảnh cho hệ thống Perk (PerkDataContainer).</description></item>
+/// </list>
+/// </summary>
 public abstract class SkillActionController
 {
+	/// <summary>
+	/// Tham chiếu tới đối tượng dữ liệu Model của SkillAction.
+	/// </summary>
 	public TheLastStand.Model.Skill.SkillAction.SkillAction SkillAction { get; protected set; }
 
+	/// <summary>
+	/// Áp dụng toàn bộ hiệu ứng của kỹ năng lên danh sách ô bị ảnh hưởng và ô xung quanh.
+	/// </summary>
+	/// <param name="caster">Đối tượng thi triển kỹ năng.</param>
+	/// <param name="affectedTiles">Danh sách các ô thuộc vùng ảnh hưởng chính.</param>
+	/// <param name="surroundingTiles">Danh sách các ô thuộc vùng ảnh hưởng phụ xung quanh.</param>
+	/// <returns>Danh sách kết quả thực thi trên từng mục tiêu.</returns>
 	public virtual List<SkillActionResultDatas> ApplyEffect(ISkillCaster caster, List<Tile> affectedTiles, List<Tile> surroundingTiles)
 	{
 		AttackSkillAction attackSkillAction = SkillAction as AttackSkillAction;
@@ -126,12 +146,18 @@ public abstract class SkillActionController
 		return list;
 	}
 
+	/// <summary>
+	/// Đảm bảo container dữ liệu Perk (PerkDataContainer) có đầy đủ dữ liệu mục tiêu, sát thương và trạng thái trước khi bắn sự kiện.
+	/// </summary>
 	public void EnsurePerkData(Tile targetTile = null, IDamageable targetDamageable = null, AttackSkillActionExecutionTileData attackData = null, bool? isTriggeredByPerk = null, TheLastStand.Model.Status.Status.E_StatusType targetUnitPreviousStatuses = TheLastStand.Model.Status.Status.E_StatusType.None, TheLastStand.Model.Status.Status statusApplied = null)
 	{
 		TheLastStand.Model.Status.Status.E_StatusType valueOrDefault = ((targetUnitPreviousStatuses != TheLastStand.Model.Status.Status.E_StatusType.None) ? new TheLastStand.Model.Status.Status.E_StatusType?(targetUnitPreviousStatuses) : SkillAction.PerkDataContainer?.TargetUnitPreviousStatuses).GetValueOrDefault();
 		ResetPerkData(targetTile ?? SkillAction.PerkDataContainer?.TargetTile, targetDamageable ?? SkillAction.PerkDataContainer?.TargetDamageable, attackData ?? SkillAction.PerkDataContainer?.AttackData, isTriggeredByPerk ?? SkillAction.PerkDataContainer?.IsTriggeredByPerk, valueOrDefault, statusApplied ?? SkillAction.PerkDataContainer?.StatusApplied, SkillAction.PerkDataContainer?.AllAttackData);
 	}
 
+	/// <summary>
+	/// Khởi tạo hoặc làm mới đối tượng PerkDataContainer với các thông số truyền vào.
+	/// </summary>
 	public void ResetPerkData(Tile targetTile = null, IDamageable targetDamageable = null, AttackSkillActionExecutionTileData attackData = null, bool? isTriggeredByPerk = null, TheLastStand.Model.Status.Status.E_StatusType targetUnitPreviousStatuses = TheLastStand.Model.Status.Status.E_StatusType.None, TheLastStand.Model.Status.Status statusApplied = null, HashSet<AttackSkillActionExecutionTileData> allAttackData = null)
 	{
 		SkillAction.PerkDataContainer = new PerkDataContainer
@@ -161,8 +187,14 @@ public abstract class SkillActionController
 		return false;
 	}
 
+	/// <summary>
+	/// Kiểm tra công trình trên ô mục tiêu có nhận tác động từ kỹ năng hay không.
+	/// </summary>
 	public abstract bool IsBuildingAffected(Tile targetTile);
 
+	/// <summary>
+	/// Kiểm tra đơn vị Unit trên ô mục tiêu có nhận tác động từ kỹ năng hay không.
+	/// </summary>
 	public abstract bool IsUnitAffected(Tile targetTile);
 
 	public virtual void Reset()
@@ -170,10 +202,19 @@ public abstract class SkillActionController
 		ResetPerkData(SkillAction.PerkDataContainer.TargetTile);
 	}
 
+	/// <summary>
+	/// Phương thức trừu tượng áp dụng hành vi kỹ năng lên ô mục tiêu chính.
+	/// </summary>
 	protected abstract SkillActionResultDatas ApplyActionOnTile(Tile targetTile, ISkillCaster caster);
 
+	/// <summary>
+	/// Phương thức trừu tượng áp dụng hành vi kỹ năng lên ô xung quanh.
+	/// </summary>
 	protected abstract SkillActionResultDatas ApplyActionOnSurroundingTile(Tile targetTile, ISkillCaster caster);
 
+	/// <summary>
+	/// Áp dụng hiệu ứng CasterEffect lên chính bản thân chủ thể thi triển.
+	/// </summary>
 	protected virtual SkillActionResultDatas ApplyActionOnCaster(ISkillCaster caster)
 	{
 		SkillActionResultDatas skillActionResultDatas = new SkillActionResultDatas();
