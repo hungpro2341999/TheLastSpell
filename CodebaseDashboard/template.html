@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Last Spell · Codebase Atlas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="masthead">
+      <div class="mark" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="masthead-copy">
+        <h1>Bản đồ mã nguồn</h1>
+        <p>The Last Spell <span aria-hidden="true">/</span> xem cấu trúc, mức kết nối và nơi thay đổi có thể lan rộng</p>
+      </div>
+      <div class="stamp" id="stamp"></div>
+    </header>
+
+    <section class="overview" aria-label="Tổng quan độ phức tạp">
+      <div class="hero-measure"><span class="measure-caption">Liên kết giữa script</span><strong id="totalEdges">—</strong><span class="measure-note" id="densityText"></span></div>
+      <div class="measure-grid">
+        <div><span>Script</span><strong id="totalScripts">—</strong></div>
+        <div><span>Module</span><strong id="totalModules">—</strong></div>
+        <div><span>Liên kết vượt module</span><strong id="crossEdges">—</strong></div>
+      </div>
+      <p class="overview-explain" id="overviewExplain"></p>
+    </section>
+
+    <div class="section-head">
+      <div><h2>Cấu trúc giữa các module</h2><p>Hàng là nơi sử dụng, cột là nơi được sử dụng. Ô đậm hơn có nhiều liên kết script hơn.</p></div>
+      <button id="clearModule" class="text-button" hidden>Bỏ lọc module</button>
+    </div>
+    <section class="architecture">
+      <div class="matrix-wrap" role="region" aria-label="Ma trận phụ thuộc module" tabindex="0"><table id="moduleMatrix"></table></div>
+      <aside class="module-detail" id="moduleDetail" aria-live="polite"></aside>
+    </section>
+
+    <div class="section-head inspector-head">
+      <div><h2>Quan hệ của từng script</h2><p>Chọn một script để xem kế thừa, triển khai interface và hai chiều phụ thuộc. Bấm “Khai báo” hoặc “Xem mã” để xem bằng chứng.</p></div>
+    </div>
+    <section class="inspector">
+      <div class="script-finder">
+        <label for="scriptSearch">Tìm script theo tên hoặc đường dẫn</label>
+        <input id="scriptSearch" type="search" placeholder="Ví dụ: BossPhaseActionController" autocomplete="off">
+        <div class="finder-meta" id="finderMeta"></div>
+        <div class="script-results" id="scriptResults" role="listbox" aria-label="Danh sách script"></div>
+      </div>
+      <div class="relationship-view" id="relationshipView" aria-live="polite"></div>
+    </section>
+
+    <footer><p>Số liệu là phép phân tích tĩnh gần đúng: C# dựa trên kiểu/namespace nội bộ và khai báo lớp/interface, Python dựa trên import, Batch dựa trên đường dẫn script. Kiểu ngoài project hoặc tên trùng chưa phân giải được đánh dấu riêng.</p><p>Chạy lại <code>py -3 tools\codebase_dashboard.py</code> để cập nhật.</p></footer>
+  </div>
+
+  <dialog id="referenceDialog" class="reference-dialog" aria-labelledby="referenceTitle">
+    <div class="dialog-head"><h2 id="referenceTitle">Tham chiếu trong mã</h2><button id="closeDialog" aria-label="Đóng">×</button></div>
+    <div id="referenceBody"></div>
+  </dialog>
+  <script id="reportData" type="application/json">__DATA__</script>
+  <script src="app.js" defer></script>
+</body>
+</html>
